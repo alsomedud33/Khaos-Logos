@@ -1,0 +1,2 @@
+@PointClass base(receiver) = Teleporter : "Invisible Character Teleporter" [
+]

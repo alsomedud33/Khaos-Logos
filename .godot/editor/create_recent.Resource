@@ -1,0 +1,4 @@
+StandardMaterial3D
+QodotFGDSolidClass
+QodotFGDFile
+QodotFGDPointClass

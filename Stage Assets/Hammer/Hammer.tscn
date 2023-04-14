@@ -1,0 +1,136 @@
+[gd_scene load_steps=14 format=3 uid="uid://b5vasd3tfdcwo"]
+
+[ext_resource type="Script" path="res://Stage Assets/Hammer/Hammer_Params.gd" id="1_goeo3"]
+[ext_resource type="Script" path="res://Stage Assets/Hammer/Hammer Area.gd" id="2_cgwxj"]
+[ext_resource type="ArrayMesh" uid="uid://b2mdrk8tgh3vn" path="res://Stage Assets/Hammer/Boost_Torus004.res" id="2_shwlv"]
+[ext_resource type="Animation" uid="uid://bc4shnkr0qgy8" path="res://Stage Assets/Hammer/Boost.res" id="3_ldgac"]
+[ext_resource type="Animation" uid="uid://43ymx7kgbcs4" path="res://Stage Assets/Hammer/Rotate.res" id="4_fgepr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aiac7"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_v3vr8"]
+emission_shape = 6
+emission_ring_axis = Vector3(0, 0, 1)
+emission_ring_height = 1.0
+emission_ring_radius = 1.0
+emission_ring_inner_radius = 0.0
+particle_flag_align_y = true
+direction = Vector3(0, 0, 10)
+spread = 0.0
+gravity = Vector3(0, 0, 0)
+initial_velocity_min = 15.87
+initial_velocity_max = 16.37
+linear_accel_max = 13.0
+scale_min = 0.05
+scale_max = 0.19
+
+[sub_resource type="BoxMesh" id="BoxMesh_mr3a7"]
+size = Vector3(1, 10, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hkf53"]
+size = Vector3(1.694, 1.617, 2)
+
+[sub_resource type="Animation" id="Animation_315hc"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BoostTorus004:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1ejms"]
+_data = {
+"Boost": ExtResource("3_ldgac"),
+"RESET": SubResource("Animation_315hc"),
+"Rotate": ExtResource("4_fgepr")
+}
+
+[sub_resource type="Animation" id="Animation_1us1a"]
+resource_name = "Rotate"
+length = 2.5
+loop_mode = 1
+tracks/0/type = "rotation_3d"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BoostTorus005")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107, 0.0333333, 1, 0.707106, -0.000988401, -0.000988401, 0.707106, 0.0666667, 1, 0.707098, -0.0034694, -0.0034694, 0.707098, 0.1, 1, 0.707067, -0.0074633, -0.0074633, 0.707067, 0.133333, 1, 0.706987, -0.0129978, -0.0129978, 0.706987, 0.166667, 1, 0.706821, -0.0201076, -0.0201076, 0.706821, 0.2, 1, 0.706495, -0.0294228, -0.0294228, 0.706494, 0.233333, 1, 0.705946, -0.040501, -0.040501, 0.705946, 0.266667, 1, 0.705085, -0.05344, -0.05344, 0.705085, 0.3, 1, 0.703795, -0.0683537, -0.0683537, 0.703795, 0.333333, 1, 0.701935, -0.0853694, -0.0853694, 0.701934, 0.366667, 1, 0.699181, -0.105577, -0.105577, 0.699181, 0.4, 1, 0.695322, -0.128561, -0.128561, 0.695321, 0.433333, 1, 0.689976, -0.154705, -0.154705, 0.689976, 0.466667, 1, 0.682613, -0.184499, -0.184499, 0.682613, 0.5, 1, 0.672498, -0.218508, -0.218508, 0.672499, 0.533333, 1, 0.657269, -0.260763, -0.260763, 0.657269, 0.566667, 1, 0.633765, -0.313594, -0.313594, 0.633765, 0.6, 1, 0.577049, -0.408675, -0.408675, 0.577048, 0.666667, 1, 0.341132, -0.619378, -0.619378, 0.341132, 0.7, 1, 0.285451, -0.64693, -0.64693, 0.285451, 0.733333, 1, 0.239756, -0.665219, -0.66522, 0.239756, 0.766667, 1, 0.201567, -0.677769, -0.677769, 0.201567, 0.8, 1, 0.168866, -0.686647, -0.686647, 0.168866, 0.833333, 1, 0.140478, -0.693012, -0.693012, 0.140478, 0.866667, 1, 0.116606, -0.697426, -0.697426, 0.116606, 0.9, 1, 0.0954831, -0.70063, -0.70063, 0.0954831, 0.933333, 1, 0.0768671, -0.702916, -0.702916, 0.0768671, 0.966667, 1, 0.0605435, -0.70451, -0.70451, 0.0605435, 1, 1, 0.0463309, -0.705587, -0.705587, 0.0463309, 1.03333, 1, 0.0346681, -0.706257, -0.706256, 0.0346681, 1.06667, 1, 0.0247656, -0.706673, -0.706673, 0.0247656, 1.1, 1, 0.0165527, -0.706913, -0.706913, 0.0165527, 1.13333, 1, 0.00996769, -0.707037, -0.707037, 0.00996769, 1.16667, 1, 0.00495851, -0.707089, -0.707089, 0.00495851, 1.2, 1, 0.00198001, -0.707104, -0.707104, 0.00198001, 1.23333, 1, 0.000494068, -0.707107, -0.707107, 0.000494068, 1.26667, 1, 0.000494335, 0.707107, 0.707107, 0.000494335, 1.3, 1, 0.00198026, 0.707104, 0.707104, 0.00198026, 1.33333, 1, 0.00495876, 0.707089, 0.707089, 0.00495876, 1.36667, 1, 0.00996801, 0.707036, 0.707037, 0.00996801, 1.4, 1, 0.016553, 0.706913, 0.706913, 0.016553, 1.43333, 1, 0.0247659, 0.706673, 0.706673, 0.0247659, 1.46667, 1, 0.0346684, 0.706256, 0.706256, 0.0346684, 1.5, 1, 0.0463312, 0.705587, 0.705587, 0.0463312, 1.53333, 1, 0.0605437, 0.70451, 0.70451, 0.0605438, 1.56667, 1, 0.0768673, 0.702916, 0.702916, 0.0768673, 1.6, 1, 0.0954833, 0.70063, 0.70063, 0.0954833, 1.63333, 1, 0.116607, 0.697426, 0.697426, 0.116607, 1.66667, 1, 0.140478, 0.693012, 0.693012, 0.140478, 1.7, 1, 0.168867, 0.686647, 0.686647, 0.168867, 1.73333, 1, 0.201567, 0.677769, 0.677769, 0.201567, 1.76667, 1, 0.239757, 0.665219, 0.665219, 0.239757, 1.8, 1, 0.285451, 0.64693, 0.64693, 0.285451, 1.83333, 1, 0.341133, 0.619378, 0.619378, 0.341133, 1.86667, 1, 0.471024, 0.527387, 0.527387, 0.471024, 1.9, 1, 0.577049, 0.408674, 0.408674, 0.577049, 1.93333, 1, 0.633766, 0.313594, 0.313594, 0.633765, 1.96667, 1, 0.657269, 0.260763, 0.260763, 0.657269, 2, 1, 0.672499, 0.218508, 0.218508, 0.672499, 2.03333, 1, 0.682613, 0.184499, 0.184499, 0.682613, 2.06667, 1, 0.689976, 0.154705, 0.154705, 0.689976, 2.1, 1, 0.695322, 0.128561, 0.128561, 0.695321, 2.13333, 1, 0.699181, 0.105577, 0.105577, 0.699181, 2.16667, 1, 0.701935, 0.0853692, 0.0853692, 0.701935, 2.2, 1, 0.703795, 0.0683534, 0.0683534, 0.703795, 2.23333, 1, 0.705085, 0.0534398, 0.0534398, 0.705085, 2.26667, 1, 0.705946, 0.0405008, 0.0405008, 0.705946, 2.3, 1, 0.706494, 0.0294226, 0.0294226, 0.706494, 2.33333, 1, 0.706821, 0.0201073, 0.0201073, 0.706821, 2.36667, 1, 0.706987, 0.0129975, 0.0129975, 0.706987, 2.4, 1, 0.707068, 0.00746302, 0.00746302, 0.707067, 2.43333, 1, 0.707098, 0.00346911, 0.00346911, 0.707098, 2.46667, 1, 0.707106, 0.000988093, 0.000988093, 0.707106, 2.5, 1, 0.707107, -2.30405e-07, -2.30405e-07, 0.707107)
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_d6t46"]
+_data = {
+"Boost": ExtResource("3_ldgac"),
+"Rotate": SubResource("Animation_1us1a")
+}
+
+[node name="Hammer" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+script = ExtResource("1_goeo3")
+
+[node name="BoostTorus004" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.99427, -0.0123256, -0.106185, -0.106015, 0.0137105, -0.99427, 0.0137109, 0.99983, 0.0123252, 0, 0, 0)
+mesh = ExtResource("2_shwlv")
+
+[node name="BoostTorus005" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.792392, 3.32543e-10, 0.110066, 0.110066, -4.81112e-09, -0.792392, 3.32543e-10, 0.8, -4.81112e-09, -0.002, -0.002, -2.5)
+mesh = ExtResource("2_shwlv")
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
+material_override = SubResource("StandardMaterial3D_aiac7")
+cast_shadow = 0
+fixed_fps = 60
+process_material = SubResource("ParticleProcessMaterial_v3vr8")
+draw_pass_1 = SubResource("BoxMesh_mr3a7")
+
+[node name="Hammer Area" type="Area3D" parent="."]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("2_cgwxj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Hammer Area"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+shape = SubResource("BoxShape3D_hkf53")
+
+[node name="Marker3D" type="Marker3D" parent="Hammer Area"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="RayCast3D" type="RayCast3D" parent="Hammer Area"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+debug_shape_thickness = 5
+
+[node name="Startup" type="Timer" parent="."]
+unique_name_in_owner = true
+process_callback = 0
+one_shot = true
+
+[node name="Finish" type="Timer" parent="."]
+unique_name_in_owner = true
+process_callback = 0
+one_shot = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+autoplay = "Rotate"
+libraries = {
+"": SubResource("AnimationLibrary_1ejms")
+}
+next/Boost = &"Rotate"
+blend_times = [&"Boost", &"Rotate", 5.0]
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="."]
+autoplay = "Rotate"
+libraries = {
+"": SubResource("AnimationLibrary_d6t46")
+}
+
+[connection signal="body_entered" from="Hammer Area" to="Hammer Area" method="_on_Hammer_body_entered"]
+[connection signal="timeout" from="Startup" to="Hammer Area" method="_on_startup_timeout"]
+[connection signal="timeout" from="Finish" to="Hammer Area" method="_on_finish_timeout"]

@@ -1,0 +1,128 @@
+[gd_scene load_steps=13 format=3 uid="uid://b2i1obwma0iqb"]
+
+[ext_resource type="Script" path="res://Objects/Projectile/Rocket.gd" id="1_ne0pv"]
+[ext_resource type="Texture2D" uid="uid://edv4t8r3nwb5" path="res://textures/Prototype_Textures/PNG/Red/texture_01.png" id="2_lwnmr"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_lnb3e"]
+radius = 0.16
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u87mp"]
+albedo_texture = ExtResource("2_lwnmr")
+uv1_triplanar = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_qbv1s"]
+
+[sub_resource type="Gradient" id="Gradient_khlxb"]
+interpolation_mode = 1
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_8lpru"]
+gradient = SubResource("Gradient_khlxb")
+width = 32
+height = 128
+fill = 1
+fill_from = Vector2(0.5, 0.483)
+fill_to = Vector2(1, 0.504274)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e1bol"]
+cull_mode = 2
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 1, 1, 0.384314)
+albedo_texture = SubResource("GradientTexture2D_8lpru")
+refraction_enabled = true
+refraction_scale = -0.25
+uv1_triplanar_sharpness = 20.8044
+texture_filter = 0
+disable_receive_shadows = true
+billboard_mode = 3
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+point_size = 6.0
+use_particle_trails = true
+
+[sub_resource type="Gradient" id="Gradient_xnooe"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0, 0.5, 1)
+colors = PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_pxwpx"]
+gradient = SubResource("Gradient_xnooe")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_1h432"]
+lifetime_randomness = 0.5
+emission_shape = 6
+emission_ring_axis = Vector3(10, 0, 1)
+emission_ring_height = 1.0
+emission_ring_radius = 1.0
+emission_ring_inner_radius = 1.0
+direction = Vector3(1, 10, 0)
+radial_accel_min = -100.0
+radial_accel_max = -100.0
+tangential_accel_min = -2.46
+tangential_accel_max = 32.18
+damping_max = 11.62
+angle_min = 90.0
+angle_max = 362.2
+scale_min = 0.0
+scale_max = 0.1
+color = Color(0.482353, 0.270588, 1, 1)
+color_ramp = SubResource("GradientTexture1D_pxwpx")
+hue_variation_min = -0.1
+hue_variation_max = 0.1
+
+[sub_resource type="RibbonTrailMesh" id="RibbonTrailMesh_evhea"]
+shape = 0
+size = 0.1
+sections = 4
+section_length = 0.001
+section_segments = 2
+
+[node name="Rocket" type="CharacterBody3D"]
+collision_layer = 0
+collision_mask = 33
+motion_mode = 1
+script = ExtResource("1_ne0pv")
+speed = 25
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_lnb3e")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+transform = Transform3D(0.346164, 0, 0, 0, 0.290504, 0, 0, 0, 0.876048, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_u87mp")
+mesh = SubResource("BoxMesh_qbv1s")
+
+[node name="BlackHole" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.76159)
+visible = false
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="BlackHole"]
+material_override = SubResource("StandardMaterial3D_e1bol")
+cast_shadow = 0
+amount = 250
+speed_scale = 3.0
+fixed_fps = 60
+trail_enabled = true
+trail_lifetime = 0.14
+process_material = SubResource("ParticleProcessMaterial_1h432")
+draw_pass_1 = SubResource("RibbonTrailMesh_evhea")
+
+[node name="GPUParticles3D2" type="GPUParticles3D" parent="BlackHole"]
+visible = false
+material_override = SubResource("StandardMaterial3D_e1bol")
+emitting = false
+amount = 256
+lifetime = 2.0
+speed_scale = 3.0
+randomness = 1.0
+fixed_fps = 60
+trail_enabled = true
+trail_lifetime = 0.2
+process_material = SubResource("ParticleProcessMaterial_1h432")
+draw_pass_1 = SubResource("RibbonTrailMesh_evhea")
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

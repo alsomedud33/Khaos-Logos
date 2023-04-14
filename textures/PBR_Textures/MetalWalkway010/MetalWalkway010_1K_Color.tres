@@ -1,0 +1,24 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://kndt4iv0nqmd"]
+
+[ext_resource type="Texture2D" uid="uid://c4ywnksta14hr" path="res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Displacement.jpg" id="1_mdeb4"]
+[ext_resource type="Texture2D" uid="uid://cerge78a8k235" path="res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color.jpg" id="2_x576l"]
+
+[resource]
+transparency = 2
+alpha_scissor_threshold = 0.4
+alpha_antialiasing_mode = 2
+alpha_antialiasing_edge = 0.5
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_mdeb4")
+albedo_texture_msdf = true
+heightmap_scale = -0.357
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_flip_binormal = true
+heightmap_texture = ExtResource("1_mdeb4")
+detail_enabled = true
+detail_albedo = ExtResource("2_x576l")
+msdf_pixel_range = 10.0
+msdf_outline_size = 5.0

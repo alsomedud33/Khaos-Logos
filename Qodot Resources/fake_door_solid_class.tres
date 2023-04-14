@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="QodotFGDSolidClass" load_steps=4 format=3 uid="uid://b6jj3q55o7kd"]
+
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd" id="1_7yp32"]
+[ext_resource type="Resource" uid="uid://ccdjpf5j25aua" path="res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres" id="1_54ap5"]
+[ext_resource type="Script" path="res://fake_door.gd" id="2_v4fbf"]
+
+[resource]
+script = ExtResource("1_7yp32")
+spawn = "----------------------------------------------------------------"
+spawn_type = 2
+visual_build = "----------------------------------------------------------------"
+build_visuals = true
+collision_build = "----------------------------------------------------------------"
+collision_shape_type = 1
+scripting = "----------------------------------------------------------------"
+script_class = ExtResource("2_v4fbf")
+class_options = "----------------------------------------------------------------"
+classname = "FakeDoor_Door"
+description = "A fake door that disappears when triggered"
+qodot_internal = false
+base_classes = Array[Resource]([ExtResource("1_54ap5")])
+class_properties = {
+"speed": 1.0
+}
+class_property_descriptions = {}
+meta_properties = {
+"color": Color(0.8, 0.8, 0.8, 1),
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_options = "----------------------------------------------------------------"
+node_class = "StaticBody"
+transient_node = false

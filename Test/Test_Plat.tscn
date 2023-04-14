@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://cdgfflanbrm24"]
+
+[ext_resource type="Texture2D" uid="uid://cb31lbffhnven" path="res://textures/Prototype_Textures/PNG/Orange/texture_01.png" id="1_o4ku7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cecq7"]
+size = Vector3(10, 1, 10)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ebxhv"]
+albedo_texture = ExtResource("1_o4ku7")
+uv1_scale = Vector3(0.1, 0.1, 0.1)
+uv1_triplanar = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_baxsq"]
+size = Vector3(10, 1, 10)
+
+[node name="StaticBody3D" type="StaticBody3D"]
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_cecq7")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+material_override = SubResource("StandardMaterial3D_ebxhv")
+mesh = SubResource("BoxMesh_baxsq")
+skeleton = NodePath("../..")

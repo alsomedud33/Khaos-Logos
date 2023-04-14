@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TrenchBroomGameConfigFolder" load_steps=6 format=3 uid="uid://borr8hvmqphes"]
+
+[ext_resource type="Resource" uid="uid://cj11aqydei5bh" path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://b2k2iutnsgjfy" path="res://addons/qodot/icon.png" id="2"]
+[ext_resource type="Resource" uid="uid://0iewo8o8paid" path="res://Qodot Resources/custom_fgd.tres" id="2_qlhj4"]
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_game_config_folder.gd" id="3"]
+[ext_resource type="Resource" uid="uid://bfccniysop476" path="res://addons/qodot/game_definitions/trenchbroom/qodot_trenchbroom_config_file.tres" id="4"]
+
+[resource]
+script = ExtResource("3")
+export_file = false
+trenchbroom_games_folder = "G:\\TrenchBroom\\games"
+game_name = "Khaos Logos"
+icon = ExtResource("2")
+game_config_file = ExtResource("4")
+fgd_files = Array[Resource]([ExtResource("1"), ExtResource("2_qlhj4")])

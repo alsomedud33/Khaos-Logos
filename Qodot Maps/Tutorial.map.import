@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://6tmtw12knh78"
+path="res://.godot/imported/Tutorial.map-9fb82f12b707210251cf6ef9b948f4b0.tres"
+
+[deps]
+
+source_file="res://Qodot Maps/Tutorial.map"
+dest_files=["res://.godot/imported/Tutorial.map-9fb82f12b707210251cf6ef9b948f4b0.tres"]
+
+[params]
+

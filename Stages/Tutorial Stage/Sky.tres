@@ -1,0 +1,35 @@
+[gd_resource type="Environment" load_steps=3 format=3 uid="uid://0iow7oprjtgg"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ff1sj"]
+sky_top_color = Color(1, 0.792157, 0.745098, 1)
+sky_horizon_color = Color(0.75, 0.698039, 0.686275, 1)
+ground_bottom_color = Color(0, 0, 0, 1)
+ground_horizon_color = Color(0.75, 0.698039, 0.686275, 1)
+
+[sub_resource type="Sky" id="Sky_fuqbo"]
+sky_material = SubResource("ProceduralSkyMaterial_ff1sj")
+
+[resource]
+background_mode = 2
+sky = SubResource("Sky_fuqbo")
+sky_rotation = Vector3(-0.66148, -0.179769, 0)
+ambient_light_source = 3
+ambient_light_sky_contribution = 0.45
+ssao_enabled = true
+sdfgi_bounce_feedback = 1.99
+sdfgi_min_cell_size = 17.1234
+sdfgi_cascade0_distance = 1095.9
+sdfgi_max_distance = 17534.4
+glow_enabled = true
+fog_enabled = true
+fog_light_color = Color(0.517647, 0.552941, 0.607843, 1)
+fog_density = 0.05
+fog_height = -43.0
+fog_height_density = 0.512
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.03
+volumetric_fog_emission = Color(0.517647, 0.552941, 0.607843, 1)
+volumetric_fog_emission_energy = 0.01
+volumetric_fog_ambient_inject = 0.34
+adjustment_enabled = true
+adjustment_contrast = 1.5

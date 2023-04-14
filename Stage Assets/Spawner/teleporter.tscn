@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2owhe8f2k6r0"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_xxh3v"]
+
+[node name="Teleporter" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+layers = 2
+mesh = SubResource("SphereMesh_xxh3v")

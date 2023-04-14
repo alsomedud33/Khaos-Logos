@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="QodotFGDPointClass" load_steps=5 format=3 uid="uid://cq7e0f0ewffn5"]
+
+[ext_resource type="Resource" uid="uid://ccdjpf5j25aua" path="res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres" id="1_qyphd"]
+[ext_resource type="PackedScene" uid="uid://b2owhe8f2k6r0" path="res://Stage Assets/Spawner/teleporter.tscn" id="1_vx1v4"]
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd" id="2_4mg8e"]
+[ext_resource type="Script" path="res://Stage Assets/Spawner/teleporter.gd" id="3_3p2kq"]
+
+[resource]
+script = ExtResource("2_4mg8e")
+scene = "----------------------------------------------------------------"
+scene_file = ExtResource("1_vx1v4")
+scripting = "----------------------------------------------------------------"
+script_class = ExtResource("3_3p2kq")
+class_options = "----------------------------------------------------------------"
+classname = "Teleporter"
+description = "Invisible Character Teleporter"
+qodot_internal = false
+base_classes = Array[Resource]([ExtResource("1_qyphd")])
+class_properties = {}
+class_property_descriptions = {}
+meta_properties = {}
+node_options = "----------------------------------------------------------------"
+node_class = ""
+transient_node = false

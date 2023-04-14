@@ -1,0 +1,212 @@
+[gd_scene load_steps=15 format=3 uid="uid://b722xkel63mtf"]
+
+[ext_resource type="Script" path="res://Enemies/Test_BossFight/Test_BossFight.gd" id="1_re7jw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_eq5wk"]
+size = Vector3(5, 5, 5)
+
+[sub_resource type="BoxMesh" id="BoxMesh_yug4c"]
+size = Vector3(5, 5, 5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dmcny"]
+transparency = 1
+cull_mode = 2
+albedo_color = Color(1, 0, 0, 0.498039)
+
+[sub_resource type="BoxMesh" id="BoxMesh_yewjv"]
+size = Vector3(22, 16.972, 33)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k1cse"]
+size = Vector3(10, 10, 10)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0du3t"]
+albedo_color = Color(0.592157, 0.0941176, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ak265"]
+size = Vector3(2.5, 1.5, 1.5)
+
+[sub_resource type="SphereMesh" id="SphereMesh_obeyj"]
+radius = 0.1
+height = 0.2
+
+[sub_resource type="Animation" id="Animation_0oh3y"]
+resource_name = "Appear"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Pivot/MeshInstance3D:visibility_range_begin")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [100.0, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MeshInstance3D:visibility_range_begin")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [100.0, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_kteyp"]
+resource_name = "Dissapear"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MeshInstance3D:visibility_range_begin")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 100.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Pivot/MeshInstance3D:visibility_range_begin")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 100.0]
+}
+
+[sub_resource type="Animation" id="Animation_ylij8"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MeshInstance3D:visibility_range_begin")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Pivot/MeshInstance3D:visibility_range_begin")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_8wbi2"]
+_data = {
+"Appear": SubResource("Animation_0oh3y"),
+"Dissapear": SubResource("Animation_kteyp"),
+"RESET": SubResource("Animation_ylij8")
+}
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_oedip"]
+size = Vector3(5, 1, 5)
+
+[node name="Test_BossFight" type="CharacterBody3D" groups=["Enemy"]]
+collision_layer = 32
+script = ExtResource("1_re7jw")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_eq5wk")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+visibility_range_begin_margin = 50.0
+visibility_range_fade_mode = 1
+mesh = SubResource("BoxMesh_yug4c")
+
+[node name="Search_Range" type="MeshInstance3D" parent="."]
+unique_name_in_owner = true
+top_level = true
+material_override = SubResource("StandardMaterial3D_dmcny")
+mesh = SubResource("BoxMesh_yewjv")
+
+[node name="Search_Range_Area" type="Area3D" parent="."]
+unique_name_in_owner = true
+top_level = true
+collision_mask = 34
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Search_Range_Area"]
+shape = SubResource("BoxShape3D_k1cse")
+
+[node name="Pivot" type="Node3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, -1.11759e-08, 4.47035e-08, -8.88178e-16, 0.9809, -0.194514, -8.9407e-08, 0.194514, 0.9809, 0, 0.513199, 0)
+
+[node name="RayCast3D" type="RayCast3D" parent="Pivot"]
+unique_name_in_owner = true
+transform = Transform3D(-1, 0, -8.74228e-08, -5.32907e-15, 1, 0, 8.74228e-08, 0, -1, 0, 1.57277, -2.35083)
+target_position = Vector3(0, 0, 50)
+collision_mask = 3
+collide_with_areas = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, -7.45058e-08, 1, 0, 1.55252, -3.76628)
+material_override = SubResource("StandardMaterial3D_0du3t")
+visibility_range_begin_margin = 50.0
+visibility_range_fade_mode = 1
+mesh = SubResource("BoxMesh_ak265")
+skeleton = NodePath("../..")
+
+[node name="Wall_Detect" type="RayCast3D" parent="Pivot"]
+unique_name_in_owner = true
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 8.74228e-08, -0.000228047, 0)
+target_position = Vector3(0, 0, 1)
+debug_shape_custom_color = Color(0.0313726, 0.494118, 0, 1)
+debug_shape_thickness = 5
+
+[node name="Target" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.509802, -2)
+top_level = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Target"]
+mesh = SubResource("SphereMesh_obeyj")
+
+[node name="GroundCheck" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.32, 0)
+target_position = Vector3(0, -1.3, 0)
+hit_from_inside = true
+collide_with_areas = true
+debug_shape_custom_color = Color(0.360784, 0, 1, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+libraries = {
+"": SubResource("AnimationLibrary_8wbi2")
+}
+
+[node name="GroundCheck2" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.32, 0)
+target_position = Vector3(0, -1.3, 0)
+hit_from_inside = true
+collide_with_areas = true
+debug_shape_custom_color = Color(0.360784, 0, 1, 1)
+
+[node name="AttackRange" type="Area3D" parent="."]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AttackRange"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+shape = SubResource("BoxShape3D_oedip")
+
+[connection signal="body_entered" from="Search_Range_Area" to="." method="_on_search_range_area_body_entered"]
+[connection signal="body_exited" from="Search_Range_Area" to="." method="_on_search_range_area_body_exited"]
+[connection signal="body_entered" from="AttackRange" to="." method="_on_attack_range_body_entered"]

@@ -1,0 +1,100 @@
+[gd_scene load_steps=9 format=3 uid="uid://cupcg43ka42cr"]
+
+[ext_resource type="Script" path="res://Enemies/Test Enemy/Test_Enemy.gd" id="1_ooycy"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8aw33"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ps7u"]
+albedo_color = Color(0.211765, 0.211765, 0.211765, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_dw8cy"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_atqhm"]
+size = Vector3(0.7, 0.5, 0.3)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_r36yc"]
+radius = 10.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_maafm"]
+albedo_color = Color(1, 0.411765, 0.984314, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_1phpw"]
+radius = 0.1
+height = 0.2
+
+[node name="Test_Enemy" type="CharacterBody3D" groups=["Enemy"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+collision_layer = 2
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+script = ExtResource("1_ooycy")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_8aw33")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_2ps7u")
+mesh = SubResource("CapsuleMesh_dw8cy")
+
+[node name="Pivot" type="Node3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.513199, 0)
+
+[node name="RayCast3D" type="RayCast3D" parent="Pivot"]
+unique_name_in_owner = true
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+target_position = Vector3(0, 0, 1000)
+collision_mask = 3
+collide_with_areas = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0202538, -0.41545)
+mesh = SubResource("BoxMesh_atqhm")
+skeleton = NodePath("../..")
+
+[node name="Wall_Detect" type="RayCast3D" parent="Pivot"]
+unique_name_in_owner = true
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 8.74228e-08, -0.000228047, 0)
+target_position = Vector3(0, 0, 1)
+debug_shape_custom_color = Color(0.0313726, 0.494118, 0, 1)
+debug_shape_thickness = 5
+
+[node name="GroundCheck" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.32, 0)
+target_position = Vector3(0, -1.3, 0)
+hit_from_inside = true
+collide_with_areas = true
+debug_shape_custom_color = Color(0.360784, 0, 1, 1)
+
+[node name="SightRange" type="Area3D" parent="." groups=["Enemy"]]
+collision_mask = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SightRange"]
+shape = SubResource("SphereShape3D_r36yc")
+
+[node name="AttackRange" type="Area3D" parent="."]
+collision_mask = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AttackRange"]
+shape = SubResource("SphereShape3D_r36yc")
+disabled = true
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1.8, 0, 0, 0, 1, 0, -0.287495, -0.41545)
+material_override = SubResource("StandardMaterial3D_maafm")
+mesh = SubResource("BoxMesh_atqhm")
+
+[node name="Target" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.509802, -2)
+top_level = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Target"]
+mesh = SubResource("SphereMesh_1phpw")
+
+[node name="SearchPointCheck" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.501322, 0)
+top_level = true
+target_position = Vector3(0, 0, 1)
+collision_mask = 15
+
+[connection signal="body_entered" from="SightRange" to="." method="_on_area_3d_body_entered"]

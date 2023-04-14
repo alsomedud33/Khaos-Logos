@@ -1,0 +1,328 @@
+[gd_scene load_steps=25 format=3 uid="uid://cmsiohqyfcbt4"]
+
+[ext_resource type="Script" path="res://Objects/Projectile/Explosion_Hitbox.gd" id="1_06rud"]
+[ext_resource type="Shader" uid="uid://b8xvviwuymbs0" path="res://Objects/Projectile/Explosion_Hitbox.tres" id="2_8v4x0"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_c6ux0"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_0c8cc"]
+radius = 1.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_xqrv7"]
+radius = 1.0
+height = 2.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iphit"]
+albedo_color = Color(0.501961, 0, 0, 1)
+
+[sub_resource type="Gradient" id="Gradient_q0fj3"]
+offsets = PackedFloat32Array(0.611842, 0.805921)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_o4su3"]
+gradient = SubResource("Gradient_q0fj3")
+fill = 1
+fill_from = Vector2(0.5, 0.508547)
+fill_to = Vector2(1, 0.495726)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gycvv"]
+transparency = 1
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 2
+vertex_color_use_as_albedo = true
+albedo_texture = SubResource("GradientTexture2D_o4su3")
+roughness = 0.0
+emission_enabled = true
+emission = Color(0, 0, 0.592157, 1)
+emission_energy_multiplier = 14.18
+rim = 0.06
+rim_tint = 0.0
+refraction_scale = 0.91
+disable_receive_shadows = true
+use_particle_trails = true
+
+[sub_resource type="Gradient" id="Gradient_5eah7"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0, 0.476974, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_8fi5a"]
+gradient = SubResource("Gradient_5eah7")
+
+[sub_resource type="Curve" id="Curve_e1qmo"]
+min_value = -1.0
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, -1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_c32dp"]
+curve = SubResource("Curve_e1qmo")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_uscky"]
+emission_shape = 6
+emission_ring_axis = Vector3(0, 0, 1)
+emission_ring_height = 1.0
+emission_ring_radius = 1.0
+emission_ring_inner_radius = 0.0
+particle_flag_align_y = true
+particle_flag_rotate_y = true
+direction = Vector3(1, 1, 1)
+spread = 180.0
+initial_velocity_max = 5.0
+linear_accel_min = -100.0
+linear_accel_max = 100.0
+radial_accel_min = -100.0
+radial_accel_max = -73.18
+tangential_accel_min = 2.24
+tangential_accel_max = 12.3
+damping_min = 79.33
+damping_max = 79.33
+angle_min = 90.0
+angle_max = 548.5
+scale_min = 0.5
+scale_max = 1.5
+color = Color(0.482353, 0.270588, 1, 1)
+color_ramp = SubResource("GradientTexture1D_8fi5a")
+hue_variation_min = 0.09
+hue_variation_max = 0.27
+hue_variation_curve = SubResource("CurveTexture_c32dp")
+sub_emitter_mode = 3
+sub_emitter_amount_at_collision = 1
+
+[sub_resource type="Curve" id="Curve_sv5gr"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.454545), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="RibbonTrailMesh" id="RibbonTrailMesh_js1v5"]
+resource_local_to_scene = true
+shape = 0
+size = 0.2
+sections = 2
+section_segments = 13
+curve = SubResource("Curve_sv5gr")
+
+[sub_resource type="Gradient" id="Gradient_2pp1n"]
+offsets = PackedFloat32Array(0, 0.00657895, 0.0756579, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1, 0, 0.872797, 0.813828, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_sarq6"]
+gradient = SubResource("Gradient_2pp1n")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mdgy0"]
+resource_local_to_scene = true
+render_priority = 1
+shader = ExtResource("2_8v4x0")
+shader_parameter/Texture2DParameter = SubResource("GradientTexture1D_sarq6")
+
+[sub_resource type="SphereMesh" id="SphereMesh_ma1fs"]
+resource_local_to_scene = true
+radius = 1.0
+height = 2.0
+
+[sub_resource type="Animation" id="Animation_wd8bv"]
+resource_name = "Despawn"
+length = 0.2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Core:mesh:radius")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.001]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Core:mesh:height")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [2.0, 0.001]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("GPUParticles3D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.001, 0.001, 0.001)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("GPUParticles3D:speed_scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_yamv3"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Core:mesh:radius")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Core:mesh:height")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [2.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("GPUParticles3D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("GPUParticles3D:speed_scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [2.0]
+}
+
+[sub_resource type="Animation" id="Animation_e616w"]
+resource_name = "Spawn"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Core:mesh:radius")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.001, 1.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Core:mesh:height")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.001, 2.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("GPUParticles3D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(21.112, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(2, 2, 2)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_rsgaa"]
+_data = {
+"Despawn": SubResource("Animation_wd8bv"),
+"RESET": SubResource("Animation_yamv3"),
+"Spawn": SubResource("Animation_e616w")
+}
+
+[node name="Explosion_Hitbox" type="Area3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+collision_layer = 8
+collision_mask = 34
+script = ExtResource("1_06rud")
+y_explode_ratio = 1.0
+
+[node name="StaticBody3D" type="CharacterBody3D" parent="."]
+collision_layer = 16
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("SphereShape3D_c6ux0")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_0c8cc")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+visible = false
+mesh = SubResource("SphereMesh_xqrv7")
+surface_material_override/0 = SubResource("StandardMaterial3D_iphit")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Explosion" type="Node3D" parent="."]
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="Explosion"]
+transform = Transform3D(0.001, 0, 0, 0, 0.001, 0, 0, 0, 0.001, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_gycvv")
+cast_shadow = 0
+lod_bias = 0.001
+amount = 250
+sub_emitter = NodePath(".")
+speed_scale = 0.0
+fixed_fps = 60
+visibility_aabb = AABB(-0.499427, -0.45769, -0.499323, 0.998854, 0.91538, 0.998645)
+trail_enabled = true
+process_material = SubResource("ParticleProcessMaterial_uscky")
+draw_pass_1 = SubResource("RibbonTrailMesh_js1v5")
+
+[node name="Core" type="MeshInstance3D" parent="Explosion"]
+material_override = SubResource("ShaderMaterial_mdgy0")
+cast_shadow = 0
+mesh = SubResource("SphereMesh_ma1fs")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Explosion"]
+autoplay = "Spawn"
+reset_on_save = false
+playback_process_mode = 0
+libraries = {
+"": SubResource("AnimationLibrary_rsgaa")
+}
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="animation_finished" from="Explosion/AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

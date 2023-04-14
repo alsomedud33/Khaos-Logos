@@ -1,0 +1,17 @@
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\bin\Debug\Khaos Logos.deps.json
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\bin\Debug\Khaos Logos.runtimeconfig.json
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\bin\Debug\Khaos Logos.dll
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\bin\Debug\Khaos Logos.pdb
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\bin\Debug\GodotSharp.dll
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\Khaos Logos.csproj.AssemblyReference.cache
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\Khaos Logos.GeneratedMSBuildEditorConfig.editorconfig
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\Khaos Logos.AssemblyInfoInputs.cache
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\Khaos Logos.AssemblyInfo.cs
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\Khaos Logos.csproj.CoreCompileInputs.cache
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\Khaos Logos.csproj.CopyComplete
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\Khaos Logos.dll
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\refint\Khaos Logos.dll
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\Khaos Logos.pdb
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\Khaos Logos.genruntimeconfig.cache
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\Debug\ref\Khaos Logos.dll

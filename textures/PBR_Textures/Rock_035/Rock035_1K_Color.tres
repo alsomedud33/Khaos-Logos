@@ -1,0 +1,23 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://bxe4byfhp6ngi"]
+
+[ext_resource type="Texture2D" uid="uid://c7rar1jajdnpb" path="res://textures/PBR_Textures/Rock_035/Rock035_1K_Color.jpg" id="1_w3f2w"]
+[ext_resource type="Texture2D" uid="uid://hpdu42moip2q" path="res://textures/PBR_Textures/Rock_035/Rock035_1K_AmbientOcclusion.jpg" id="2_5k8xc"]
+[ext_resource type="Texture2D" uid="uid://b3klv48u1mpro" path="res://textures/PBR_Textures/Rock_035/Rock035_1K_Roughness.jpg" id="2_ur6ep"]
+[ext_resource type="Texture2D" uid="uid://8hqyrw5qs8qj" path="res://textures/PBR_Textures/Rock_035/Rock035_1K_NormalGL.jpg" id="2_yluo5"]
+[ext_resource type="Texture2D" uid="uid://bxyiavbpnplmp" path="res://textures/PBR_Textures/Rock_035/Rock035_1K_Displacement.jpg" id="3_3grkh"]
+
+[resource]
+transparency = 1
+depth_draw_mode = 1
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_w3f2w")
+roughness_texture = ExtResource("2_ur6ep")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("2_yluo5")
+ao_enabled = true
+ao_texture = ExtResource("2_5k8xc")
+heightmap_enabled = true
+heightmap_scale = 15.944
+heightmap_texture = ExtResource("3_3grkh")
+backlight = Color(1, 1, 1, 1)

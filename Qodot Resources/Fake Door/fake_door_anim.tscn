@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmsas5tfh18cd"]
+
+[ext_resource type="AnimationLibrary" uid="uid://b3nc8d4078f0c" path="res://Qodot Resources/Fake Door/DissapearLib.res" id="1_jawem"]
+
+[node name="AnimationPlayer" type="AnimationPlayer"]
+root_node = NodePath(".")
+reset_on_save = false
+libraries = {
+"DissapearLib": ExtResource("1_jawem")
+}

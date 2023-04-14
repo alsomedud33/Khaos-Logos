@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://rhssjygrp81x"]
+
+[ext_resource type="Texture2D" uid="uid://d0r17vshrv5v3" path="res://textures/PBR_Textures/Orange_Tile.jpg" id="1_ifp2h"]
+
+[resource]
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.992157, 0.74902, 0.607843, 1)
+albedo_texture = ExtResource("1_ifp2h")
+distance_fade_mode = 2
+distance_fade_min_distance = 5.0
+distance_fade_max_distance = 15.0
