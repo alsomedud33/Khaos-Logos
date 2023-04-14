@@ -118,6 +118,8 @@ func _physics_process(delta):
 		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	match state:
 		GROUND:
+			if anim.current_animation != "Sway_Rocket":
+				anim.play("Sway_Rocket")
 			#print (is_on_floor())
 			if is_on_floor() == false:
 				change_state(AIR)
@@ -154,6 +156,8 @@ func _physics_process(delta):
 					self.velocity.z *= 1#0.9
 				change_state(GROUND)
 		CROUCH:
+			if anim.current_animation != "Sway_Rocket":
+				anim.play("Sway_Rocket")
 			#print ()
 			if Input.is_action_pressed("crouch") == false:
 				Normal()
@@ -207,8 +211,10 @@ func _physics_process(delta):
 func Ammunition():
 	%Current_Ammo.text = str(current_ammo)
 	%Total_Ammo.text = str(max_ammo)
+	if current_ammo == 0 and !is_on_floor():
+		anim.play("Idle_Rocket")
 	if state == GROUND or state == CROUCH:
-		if current_ammo != max_ammo and %Reload_Cooldown.is_stopped():
+		if current_ammo <= max_ammo and %Reload_Cooldown.is_stopped():
 			%Reload_Cooldown.start(cooldown)
 			current_ammo = max_ammo
 	if state == AIR or state == CROUCH_AIR:

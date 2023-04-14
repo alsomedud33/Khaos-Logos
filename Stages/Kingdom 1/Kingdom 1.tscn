@@ -713,6 +713,7 @@ on the ground."
 font = SubResource("SystemFont_pvasl")
 
 [node name="Rocket Capsule" parent="." instance=ExtResource("15_bgv03")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 76.5379, -32.2269, -121.281)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 76.5379, -31.2269, -121.281)
+respawn = false
 
 [connection signal="trigger" from="QodotMap/entity_2_trigger" to="QodotMap/entity_1_Teleporter" method="use"]
