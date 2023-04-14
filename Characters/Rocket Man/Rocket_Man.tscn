@@ -76,48 +76,6 @@ bind/5/pose = Transform3D(-5.9181e-08, 6.96229, 1.97227e-06, -6.95715, 9.63896e-
 
 [sub_resource type="ImmediateMesh" id="ImmediateMesh_wtdhh"]
 
-[sub_resource type="Animation" id="Animation_y5efl"]
-resource_name = "Sway_Rocket"
-length = 0.9
-loop_mode = 1
-step = 0.05
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Pivot/RocketLauncher2:rotation")
-tracks/0/interp = 2
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.3, 0.55, 0.8),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 0,
-"values": [Vector3(0, 0, 0), Vector3(-0.0733038, 0, 0), Vector3(-0.0558505, 0, 0), Vector3(0, 0, 0)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Pivot/ArmIK Left:position")
-tracks/1/interp = 2
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.25, 0.3, 0.4, 0.8, 0.9),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
-"update": 0,
-"values": [Vector3(-0.987418, -0.640088, 0.969786), Vector3(-0.854497, -0.594542, 0.835344), Vector3(-0.987, -0.557, 0.97), Vector3(-0.987, -0.557, 0.97), Vector3(-0.987418, -0.640088, 0.969786), Vector3(-0.987418, -0.640088, 0.969786)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Pivot/ArmIK Left:rotation")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.3, 0.4),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 0,
-"values": [Vector3(-0.0242324, 0.380542, 1.90257), Vector3(0.312414, 0.380482, 1.90241), Vector3(0.312414, 0.380482, 1.90241)]
-}
-
 [sub_resource type="Animation" id="Animation_2lplv"]
 length = 0.001
 tracks/0/type = "value"
@@ -197,6 +155,48 @@ tracks/2/keys = {
 "values": [Vector3(-0.987418, -0.640088, 0.969786), Vector3(-0.690015, -0.288624, 0.65952), Vector3(-0.690015, -0.288624, 0.65952), Vector3(-0.987418, -0.640088, 0.969786)]
 }
 
+[sub_resource type="Animation" id="Animation_y5efl"]
+resource_name = "Sway_Rocket"
+length = 0.9
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Pivot/RocketLauncher2:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.55, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.0733038, 0, 0), Vector3(-0.0558505, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Pivot/ArmIK Left:position")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.3, 0.4, 0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-0.987418, -0.640088, 0.969786), Vector3(-0.854497, -0.594542, 0.835344), Vector3(-0.987, -0.557, 0.97), Vector3(-0.987, -0.557, 0.97), Vector3(-0.987418, -0.640088, 0.969786), Vector3(-0.987418, -0.640088, 0.969786)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Pivot/ArmIK Left:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(-0.0242324, 0.380542, 1.90257), Vector3(0.312414, 0.380482, 1.90241), Vector3(0.312414, 0.380482, 1.90241)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_itih0"]
 _data = {
 "RESET": SubResource("Animation_2lplv"),
@@ -269,7 +269,7 @@ skeleton = NodePath("")
 transform = Transform3D(-0.039783, 0, -0.999208, 0, 1, 0, 0.999208, 0, -0.039783, -1.42279, -0.540369, -0.315031)
 
 [node name="ArmIK Left" type="Marker3D" parent="Pivot"]
-transform = Transform3D(-0.310931, -0.874898, 0.371315, 0.945187, -0.325628, 0.02423, 0.0997117, 0.358496, 0.928191, -0.987418, -0.640088, 0.969786)
+transform = Transform3D(-0.310928, -0.874899, 0.371315, 0.945188, -0.325625, 0.02423, 0.0997104, 0.358496, 0.928191, -0.987418, -0.640088, 0.969786)
 
 [node name="Skeleton3D" type="Skeleton3D" parent="Pivot"]
 transform = Transform3D(0.319, 0, 0, 0, 0.173, 0, 0, 0, 0.295, -0.06, -1.436, -0.091)
@@ -347,10 +347,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.32, 0)
 hit_from_inside = true
 debug_shape_custom_color = Color(0.360784, 0, 1, 1)
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(960, 540)
-texture = ExtResource("5_echs7")
-
 [node name="Rocket_Cooldown" type="Timer" parent="."]
 unique_name_in_owner = true
 process_callback = 0
@@ -368,8 +364,24 @@ grow_vertical = 2
 [node name="SubViewport" type="SubViewport" parent="WeaponsCam/SubViewportContainer"]
 transparent_bg = true
 handle_input_locally = false
-size = Vector2i(1920, 1080)
+size = Vector2i(2560, 1440)
 render_target_update_mode = 4
+
+[node name="Control" type="Control" parent="WeaponsCam/SubViewportContainer/SubViewport"]
+texture_filter = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Crosshair" type="Sprite2D" parent="WeaponsCam/SubViewportContainer/SubViewport/Control"]
+top_level = true
+texture_filter = 6
+position = Vector2(1280, 720)
+texture = ExtResource("5_echs7")
 
 [node name="Weapons Cam" type="Camera3D" parent="WeaponsCam/SubViewportContainer/SubViewport"]
 unique_name_in_owner = true
@@ -387,18 +399,49 @@ next/Shoot_Rocket = &"Sway_Rocket"
 
 [node name="MarginContainer" type="CanvasLayer" parent="."]
 
-[node name="Total_Ammo" type="Label" parent="MarginContainer"]
+[node name="Current_Ammo" type="Label" parent="MarginContainer"]
 anchors_preset = -1
-anchor_left = 0.6
-anchor_top = 0.8
-anchor_right = 0.660547
-anchor_bottom = 0.871528
+anchor_left = 0.825
+anchor_top = 0.844444
+anchor_right = 0.885547
+anchor_bottom = 0.915972
 size_flags_horizontal = 8
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 30
 theme_override_fonts/font = SubResource("FontVariation_4x0om")
 theme_override_font_sizes/font_size = 70
-text = "04"
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Slash2" type="Label" parent="MarginContainer"]
+anchors_preset = -1
+anchor_left = 0.85
+anchor_top = 0.834722
+anchor_right = 0.910547
+anchor_bottom = 0.90625
+size_flags_horizontal = 8
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 30
+theme_override_fonts/font = SubResource("FontVariation_4x0om")
+theme_override_font_sizes/font_size = 70
+text = "|"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Total_Ammo" type="Label" parent="MarginContainer"]
+anchors_preset = -1
+anchor_left = 0.875
+anchor_top = 0.844444
+anchor_right = 0.935547
+anchor_bottom = 0.915972
+size_flags_horizontal = 8
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 30
+theme_override_fonts/font = SubResource("FontVariation_4x0om")
+theme_override_font_sizes/font_size = 70
+text = "1"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true

@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 
-@onready var explosion = preload("res://Test/Explosion_Hitbox.tscn")
+@onready var explosion = preload("res://Objects/Projectile/Explosion_Hitbox.tscn")
 @onready var main = get_tree().current_scene
 
 @export var speed:int = 20

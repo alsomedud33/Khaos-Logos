@@ -1,6 +1,9 @@
-NinePatchRect
+Control
 PanelContainer
+Panel
 MarginContainer
+Container
+NinePatchRect
 HBoxContainer
 VBoxContainer
 CanvasLayer
@@ -27,7 +30,3 @@ GPUParticles3D
 Sprite2D
 Sprite3D
 StaticBody3D
-Telepoorter
-RigidBody3D
-DirectionalLight3D
-Area2D

@@ -8,8 +8,8 @@ var mouse_sensitivity:float = .1
 @onready var ground_check = $GroundCheck
 @onready var raycast = %RayCast3D
 @onready var anim = %"Weapon Animations"
-@onready var explosion = preload("res://Test/Explosion_Hitbox.tscn")
-@onready var rocket = preload("res://Test/Rocket.tscn")
+@onready var explosion = preload("res://Objects/Projectile/Explosion_Hitbox.tscn")
+@onready var rocket = preload("res://Objects/Projectile/Rocket.tscn")
 
 #Movement Variables
 @export var max_speed: float = 6 # Meters per second
@@ -92,6 +92,7 @@ func _physics_process(delta):
 			change_state(CROUCH)
 			Crouching(delta)
 	if Input.is_action_pressed("shoot_1") and %Rocket_Cooldown.is_stopped():
+		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 		#velocity += transform.basis.z * jump_impulse
 		%Rocket_Cooldown.start(cooldown)
 		anim.play("Shoot_Rocket")
@@ -108,6 +109,8 @@ func _physics_process(delta):
 			rocket_instance.rotation_degrees = Vector3(-$Pivot.rotation_degrees.x+1, self.rotation_degrees.y+182,0)
 		get_tree().current_scene.call_deferred("add_child",rocket_instance)
 		move_and_slide()
+	if Input.is_action_pressed("ui_cancel"):
+		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	match state:
 		GROUND:
 			#print (is_on_floor())

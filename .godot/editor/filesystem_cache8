@@ -1,5 +1,5 @@
 0d4cae9517764b26c3c14c1af44c76ff
-::res://::1681418746
+::res://::1681479955
 export_presets.cfg::TextFile::-1::1680274345::0::1::::<><>::
 fake_door.gd::GDScript::-1::1680040831::0::1::::<>StaticBody3D<>::
 icon.svg::CompressedTexture2D::6266338796732326602::1679338952::1679405070::1::::<><>::
@@ -202,10 +202,15 @@ Test_BossFight.gd::GDScript::-1::1680285318::0::1::::<>CharacterBody3D<>::
 Test_BossFight.tscn::PackedScene::4689882843489308651::1680393518::0::1::::<><>::res://Enemies/Test_BossFight/Test_BossFight.gd
 ::res://HUD/::1681390602
 Crosshair_reticle.png::CompressedTexture2D::4693587492947595697::1645383775::1681390602::1::::<><>::
-::res://Objects/::1681420280
-::res://Objects/Projectile/::1681420280
+::res://Objects/::1681420453
+::res://Objects/Capsules/::1681420477
+Rocket_Capsule.tscn::PackedScene::6145969232593194267::1681420477::0::1::::<><>::
+::res://Objects/Projectile/::1681420299
+Explosion_Hitbox.gd::GDScript::-1::1680281183::0::1::::<>Area3D<>::
+Explosion_Hitbox.tres::VisualShader::4751446225725395425::1681399607::0::1::::<><>::
 Explosion_Hitbox.tscn::PackedScene::6207442870457207257::1681420297::0::1::::<><>::res://Test/Explosion_Hitbox.gd<>uid://b8xvviwuymbs0
-Rocket.tscn::PackedScene::7591038614646445188::1681420297::0::1::::<><>::res://Test/Rocket.gd<>uid://edv4t8r3nwb5
+Rocket.gd::GDScript::-1::1681412019::0::1::::<>CharacterBody3D<>::
+Rocket.tscn::PackedScene::4299638213934315017::1681420299::0::1::::<><>::res://Objects/Projectile/Rocket.gd<>uid://edv4t8r3nwb5
 ::res://Objects/Weapons/::1681399618
 ::res://Objects/Weapons/Rocket Launcher/::1681412740
 Rocket Launcher2.obj::Mesh::3990987487715865794::1681403993::1681403997::1::::<><>::uid://i0qcax4cvbx1
@@ -356,12 +361,7 @@ Tutorial.tscn::PackedScene::4805311692234064170::1681417741::0::1::::<><>::res:/
 Sky2.tres::Environment::452054818742888414::1681399607::0::1::::<><>::
 Sky.tres::Environment::1772127141427017430::1679913827::0::1::::<><>::
 tutorial_stage.tscn::PackedScene::1825019688487940131::1681412740::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://bwpvncrn5yjae<>uid://go8joac0gcn3<>uid://cj11aqydei5bh<>uid://c3j78g5si5uyw<>uid://degvovww8o726<>uid://cmdhwpj1nqmh3<>uid://edv4t8r3nwb5<>uid://b20fwqk63guk8<>uid://cb31lbffhnven<>uid://dswb4a241m5qk<>uid://bmxl4s6mkuqky<>uid://ro1r3amxw6q5<>uid://5c46boyirtjp<>uid://ci5bktsqcux4r<>uid://dkvvkm2eoq7x<>res://Scritpts/button.gd<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>res://Scritpts/mover.gd<>uid://b2owhe8f2k6r0<>res://Scritpts/trigger.gd<>res://Stage Assets/Spawner/teleporter.gd<>res://fake_door.gd<>uid://cupcg43ka42cr
-::res://Test/::1681420228
-Explosion_Hitbox.gd::GDScript::-1::1680281183::0::1::::<>Area3D<>::
-Explosion_Hitbox.tres::VisualShader::4751446225725395425::1681399607::0::1::::<><>::
-Explosion_Hitbox.tscn::PackedScene::6207442870457207257::1680393518::0::1::::<><>::res://Test/Explosion_Hitbox.gd<>uid://b8xvviwuymbs0
-Rocket.gd::GDScript::-1::1681412019::0::1::::<>CharacterBody3D<>::
-Rocket.tscn::PackedScene::7591038614646445188::1681420228::0::1::::<><>::res://Test/Rocket.gd<>uid://edv4t8r3nwb5
+::res://Test/::1681420297
 Test Stage.tscn::PackedScene::-1::1680098186::0::1::::<><>::uid://cdgfflanbrm24<>uid://bwpvncrn5yjae<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh<>res://Scritpts/button.gd<>res://Scritpts/mover.gd
 Test_Plat.tscn::PackedScene::4996107257107546139::1680086707::0::1::::<><>::uid://cb31lbffhnven
 ::res://textures/::1680088190
