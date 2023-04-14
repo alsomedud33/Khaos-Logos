@@ -1,3 +1,8 @@
+AnimationPlayer
+Timer
+MeshInstance3D
+CollisionShape3D
+Area3D
 ShapeCast3D
 Control
 PanelContainer
@@ -9,7 +14,6 @@ HBoxContainer
 VBoxContainer
 CanvasLayer
 Label
-AnimationPlayer
 Skeleton3D
 Marker3D
 SkeletonIK3D
@@ -18,16 +22,11 @@ SubViewport
 SubViewportContainer
 Label3D
 QodotMap
-CollisionShape3D
-Area3D
-MeshInstance3D
 CharacterBody3D
 OmniLight3D
 SpotLight3D
 Node3D
-Timer
 RayCast3D
 GPUParticles3D
 Sprite2D
 Sprite3D
-StaticBody3D

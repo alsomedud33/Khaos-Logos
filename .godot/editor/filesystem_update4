@@ -1,4 +1,5 @@
-res://Stages/Kingdom 1/Kingdom 1.tscn
+res://Characters/Rocket Man/Rocket_Man.tscn
+res://Objects/Projectile/Explosion_Hitbox.tres
 res://addons/qodot/game_definitions/fgd/point_classes/signal_point_class.tres
 res://addons/qodot/game_definitions/fgd/solid_classes/trigger_solid_class.tres
 res://addons/qodot/game_definitions/fgd/point_classes/receiver_point_class.tres
@@ -12,7 +13,7 @@ res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Color.tres
 res://textures/PBR_Textures/Red_Tile.tres
 res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color.tres
 res://Stage Assets/Hammer/Boost_Torus004.res
-res://Characters/Rocket Man/Rocket_Man.tscn
-res://Objects/Projectile/Explosion_Hitbox.tres
+res://Stages/Kingdom 1/Kingdom 1.tscn
+res://Objects/Capsules/Rocket_Capsule.tscn
+res://Objects/Capsules/Rocket_Capsule.gd
 res://Characters/Rocket Man/Rocket_Man.gd
-res://Objects/Projectile/Rocket.gd

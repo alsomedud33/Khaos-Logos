@@ -1,4 +1,4 @@
-[gd_scene load_steps=102 format=3 uid="uid://cadfnps80celt"]
+[gd_scene load_steps=103 format=3 uid="uid://cadfnps80celt"]
 
 [ext_resource type="Texture2D" uid="uid://bllihi6ryo2p6" path="res://Stage Assets/Skybox/environment.png" id="1_crp8r"]
 [ext_resource type="Script" path="res://addons/qodot/src/nodes/qodot_map.gd" id="2_dnupm"]
@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://b5vasd3tfdcwo" path="res://Stage Assets/Hammer/Hammer.tscn" id="11_vrqg1"]
 [ext_resource type="Script" path="res://Stage Assets/Spawner/teleporter.gd" id="12_i01ij"]
 [ext_resource type="Script" path="res://Scritpts/trigger.gd" id="13_i852j"]
+[ext_resource type="PackedScene" uid="uid://cttfhk6crbhg2" path="res://Objects/Capsules/Rocket_Capsule.tscn" id="15_bgv03"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_gxxna"]
 sky_top_color = Color(0, 0, 0, 1)
@@ -710,5 +711,8 @@ billboard = 2
 text = "Ammo refills after landing
 on the ground."
 font = SubResource("SystemFont_pvasl")
+
+[node name="Rocket Capsule" parent="." instance=ExtResource("15_bgv03")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 76.5379, -32.2269, -121.281)
 
 [connection signal="trigger" from="QodotMap/entity_2_trigger" to="QodotMap/entity_1_Teleporter" method="use"]

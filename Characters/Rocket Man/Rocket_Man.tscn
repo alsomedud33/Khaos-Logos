@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://bcoelkpf6exsv"]
+[gd_scene load_steps=23 format=3 uid="uid://bcoelkpf6exsv"]
 
 [ext_resource type="Script" path="res://Characters/Rocket Man/Rocket_Man.gd" id="1_i0jmb"]
 [ext_resource type="Texture2D" uid="uid://i0qcax4cvbx1" path="res://Objects/Weapons/Rocket Launcher/Rocket Launcher.png" id="3_on6gw"]
@@ -207,6 +207,8 @@ _data = {
 [sub_resource type="FontVariation" id="FontVariation_4x0om"]
 base_font = ExtResource("7_3f25b")
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_ouaf1"]
+
 [node name="RocketMan" type="CharacterBody3D" groups=["Player"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 collision_layer = 2
@@ -216,7 +218,6 @@ floor_constant_speed = true
 floor_block_on_wall = false
 safe_margin = 0.015
 script = ExtResource("1_i0jmb")
-max_ammo = 1
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_oahi1")
@@ -393,7 +394,7 @@ texture = ExtResource("5_echs7")
 unique_name_in_owner = true
 transform = Transform3D(-1, 0, 1.50996e-07, 0, 1, 0, -1.50996e-07, 0, -1, 0, 1.64001, 0)
 cull_mask = 4
-fov = 90.0
+fov = 80.0
 
 [node name="Weapon Animations" type="AnimationPlayer" parent="."]
 unique_name_in_owner = true
@@ -453,3 +454,7 @@ text = "0"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
+
+[node name="ShapeCast3D" type="ShapeCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+shape = SubResource("BoxShape3D_ouaf1")
