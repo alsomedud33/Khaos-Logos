@@ -216,6 +216,7 @@ floor_constant_speed = true
 floor_block_on_wall = false
 safe_margin = 0.015
 script = ExtResource("1_i0jmb")
+max_ammo = 1
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_oahi1")
@@ -352,6 +353,11 @@ unique_name_in_owner = true
 process_callback = 0
 one_shot = true
 
+[node name="Reload_Cooldown" type="Timer" parent="."]
+unique_name_in_owner = true
+process_callback = 0
+one_shot = true
+
 [node name="WeaponsCam" type="CanvasLayer" parent="."]
 
 [node name="SubViewportContainer" type="SubViewportContainer" parent="WeaponsCam"]
@@ -400,6 +406,7 @@ next/Shoot_Rocket = &"Sway_Rocket"
 [node name="MarginContainer" type="CanvasLayer" parent="."]
 
 [node name="Current_Ammo" type="Label" parent="MarginContainer"]
+unique_name_in_owner = true
 anchors_preset = -1
 anchor_left = 0.825
 anchor_top = 0.844444
@@ -410,7 +417,7 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 30
 theme_override_fonts/font = SubResource("FontVariation_4x0om")
 theme_override_font_sizes/font_size = 70
-text = "1"
+text = "0"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
@@ -431,6 +438,7 @@ horizontal_alignment = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="Total_Ammo" type="Label" parent="MarginContainer"]
+unique_name_in_owner = true
 anchors_preset = -1
 anchor_left = 0.875
 anchor_top = 0.844444
@@ -441,7 +449,7 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 30
 theme_override_fonts/font = SubResource("FontVariation_4x0om")
 theme_override_font_sizes/font_size = 70
-text = "1"
+text = "0"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true

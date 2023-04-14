@@ -1,5 +1,5 @@
 extends CharacterBody3D
-
+#Player Variables
 var mouse_sensitivity:float = .1
 
 
@@ -22,7 +22,7 @@ var mouse_sensitivity:float = .1
 @export var fast_air_angle:float = 20
 @export var slow_air_angle:float = 45
 
-#Combat Variables
+#Movement Variables 2
 @export var cooldown = 0.8
 var wishdir:Vector3 = Vector3.ZERO
 var accelerate_return: Vector3 = Vector3.ZERO
@@ -33,6 +33,9 @@ var wish_jump:bool = false
 var auto_jump: bool = true # Auto bunnyhopping
 var nextVelocity: Vector3 = Vector3.ZERO
 
+#Ammo Variables
+@export var max_ammo:int = 0
+@export var current_ammo:int = 0
 
 func _input(event: InputEvent) -> void:
 	# Camera rotation
@@ -71,6 +74,7 @@ func _process(delta):
 func _physics_process(delta):
 	$CollisionShape3D2.global_rotation = Vector3.ZERO
 	queue_jump()
+	Ammunition()
 	var forward_input: float = Input.get_action_strength("move_forward") - Input.get_action_strength("move_back")
 	var strafe_input: float = Input.get_action_strength("move_left") - Input.get_action_strength("move_right")
 	wishdir = Vector3(strafe_input, 0, forward_input).rotated(Vector3.UP, self.global_transform.basis.get_euler().y).normalized() 
@@ -91,7 +95,8 @@ func _physics_process(delta):
 		elif is_on_floor() == true:
 			change_state(CROUCH)
 			Crouching(delta)
-	if Input.is_action_pressed("shoot_1") and %Rocket_Cooldown.is_stopped():
+	if Input.is_action_pressed("shoot_1") and %Rocket_Cooldown.is_stopped() and current_ammo > 0:
+		current_ammo -= 1
 		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 		#velocity += transform.basis.z * jump_impulse
 		%Rocket_Cooldown.start(cooldown)
@@ -198,6 +203,19 @@ func _physics_process(delta):
 		FROZEN:
 			pass
 
+
+func Ammunition():
+	%Current_Ammo.text = str(current_ammo)
+	%Total_Ammo.text = str(max_ammo)
+	if state == GROUND or state == CROUCH:
+		if current_ammo != max_ammo and %Reload_Cooldown.is_stopped():
+			%Reload_Cooldown.start(cooldown)
+			current_ammo = max_ammo
+	if state == AIR or state == CROUCH_AIR:
+		current_ammo = clampi(current_ammo,0, current_ammo)
+	
+
+#Crouching Functions
 func Normal():
 	slow_air_angle = deg_to_rad(45)
 	fast_air_angle = deg_to_rad(20)
@@ -234,6 +252,8 @@ func Crouching(delta):
 func reset_jump_impulse():
 	print("finsihed tween")
 	jump_impulse = 7
+
+#Movement Functions
 # This is where we calculate the speed to add to current velocity
 func accelerate(wish_dir: Vector3, input_velocity: Vector3, accels: float, maxspeed: float, delta: float)-> Vector3:
 	# Current speed is calculated by projecting our velocity onto wishdir.
