@@ -62,6 +62,7 @@ func update_properties():
 	light_node.set_param(Light3D.PARAM_ATTENUATION, attenuation)
 	light_node.set_shadow(true)
 	light_node.set_bake_mode(Light3D.BAKE_STATIC)
+	light_node.light_specular = 0
 	
 	var light_color = Color.WHITE
 	if '_color' in properties:

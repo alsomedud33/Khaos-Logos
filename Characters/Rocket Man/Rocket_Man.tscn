@@ -76,6 +76,47 @@ bind/5/pose = Transform3D(-5.9181e-08, 6.96229, 1.97227e-06, -6.95715, 9.63896e-
 
 [sub_resource type="ImmediateMesh" id="ImmediateMesh_wtdhh"]
 
+[sub_resource type="Animation" id="Animation_uhk0f"]
+resource_name = "Idle_Rocket"
+length = 1.9
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Pivot/RocketLauncher2:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.6, 0.9, 1.2, 1.5, 1.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 2,
+"values": [Vector3(0.504581, -0.45001, -0.0139571), Vector3(0.466049, -0.458133, 0.00682428), Vector3(0.504581, -0.45001, -0.0139571), Vector3(0.466049, -0.458133, 0.00682428), Vector3(0.504581, -0.45001, -0.0139571), Vector3(0.466049, -0.458133, 0.00682428), Vector3(0.504581, -0.45001, -0.0139571)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Pivot/ArmIK Left:position")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.95, 1.6, 1.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 2,
+"values": [Vector3(0.799608, -0.61209, 0.758279), Vector3(0.799608, -0.484905, 0.758279), Vector3(0.799608, -0.484905, 0.758279), Vector3(0.799608, -0.484905, 0.758279), Vector3(0.799608, -0.61209, 0.758279)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Pivot/ArmIK Left:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.95, 1.6, 1.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 2,
+"values": [Vector3(0.025675, 1.93815, 1.76977), Vector3(0.215044, 1.88812, 1.26588), Vector3(0.215044, 1.88812, 1.26588), Vector3(0.215044, 1.88812, 1.26588), Vector3(0.025675, 1.93815, 1.76977)]
+}
+
 [sub_resource type="Animation" id="Animation_2lplv"]
 length = 0.001
 tracks/0/type = "value"
@@ -196,47 +237,6 @@ tracks/2/keys = {
 "values": [Vector3(-0.0242324, 0.380542, 1.90257), Vector3(0.312414, 0.380482, 1.90241), Vector3(0.312414, 0.380482, 1.90241)]
 }
 
-[sub_resource type="Animation" id="Animation_uhk0f"]
-resource_name = "Idle_Rocket"
-length = 1.9
-step = 0.05
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Pivot/RocketLauncher2:rotation")
-tracks/0/interp = 2
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.3, 0.6, 0.9, 1.2, 1.5, 1.8),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
-"update": 2,
-"values": [Vector3(0.504581, -0.45001, -0.0139571), Vector3(0.466049, -0.458133, 0.00682428), Vector3(0.504581, -0.45001, -0.0139571), Vector3(0.466049, -0.458133, 0.00682428), Vector3(0.504581, -0.45001, -0.0139571), Vector3(0.466049, -0.458133, 0.00682428), Vector3(0.504581, -0.45001, -0.0139571)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Pivot/ArmIK Left:position")
-tracks/1/interp = 2
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.3, 0.95, 1.6, 1.9),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
-"update": 2,
-"values": [Vector3(0.799608, -0.61209, 0.758279), Vector3(0.799608, -0.484905, 0.758279), Vector3(0.799608, -0.484905, 0.758279), Vector3(0.799608, -0.484905, 0.758279), Vector3(0.799608, -0.61209, 0.758279)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Pivot/ArmIK Left:rotation")
-tracks/2/interp = 2
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.3, 0.95, 1.6, 1.9),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
-"update": 2,
-"values": [Vector3(0.025675, 1.93815, 1.76977), Vector3(0.215044, 1.88812, 1.26588), Vector3(0.215044, 1.88812, 1.26588), Vector3(0.215044, 1.88812, 1.26588), Vector3(0.025675, 1.93815, 1.76977)]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_itih0"]
 _data = {
 "Idle_Rocket": SubResource("Animation_uhk0f"),
@@ -251,7 +251,7 @@ base_font = ExtResource("7_3f25b")
 [sub_resource type="BoxShape3D" id="BoxShape3D_ouaf1"]
 
 [node name="RocketMan" type="CharacterBody3D" groups=["Player"]]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 1, 0)
 collision_layer = 2
 collision_mask = 9
 floor_stop_on_slope = false

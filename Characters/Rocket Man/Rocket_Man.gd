@@ -32,6 +32,7 @@ var terminal_velocity: float = gravity * -5
 var wish_jump:bool = false
 var auto_jump: bool = true # Auto bunnyhopping
 var nextVelocity: Vector3 = Vector3.ZERO
+var crouching:bool = false
 
 #Ammo Variables
 @export var max_ammo:int = 0
@@ -118,7 +119,7 @@ func _physics_process(delta):
 		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	match state:
 		GROUND:
-			if anim.current_animation != "Sway_Rocket":
+			if anim.current_animation != "Shoot_Rocket":
 				anim.play("Sway_Rocket")
 			#print (is_on_floor())
 			if is_on_floor() == false:
@@ -223,6 +224,7 @@ func Ammunition():
 
 #Crouching Functions
 func Normal():
+	crouching = false
 	slow_air_angle = deg_to_rad(45)
 	fast_air_angle = deg_to_rad(20)
 	jump_impulse = 7
@@ -240,6 +242,7 @@ func Normal():
 	$CollisionShape3D2.position = Vector3(0,0,0)
 	
 func Crouching(delta):
+	crouching = true
 	slow_air_angle = deg_to_rad(10)#deg_to_rad(20)
 	fast_air_angle = deg_to_rad(0)
 	max_speed = 2

@@ -1,8 +1,10 @@
+CollisionShape3D
+Area3D
+SpotLight3D
+QodotMap
 AnimationPlayer
 Timer
 MeshInstance3D
-CollisionShape3D
-Area3D
 ShapeCast3D
 Control
 PanelContainer
@@ -21,10 +23,8 @@ Camera3D
 SubViewport
 SubViewportContainer
 Label3D
-QodotMap
 CharacterBody3D
 OmniLight3D
-SpotLight3D
 Node3D
 RayCast3D
 GPUParticles3D
