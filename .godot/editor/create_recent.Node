@@ -1,3 +1,4 @@
+OmniLight3D
 CollisionShape3D
 Area3D
 SpotLight3D
@@ -24,7 +25,6 @@ SubViewport
 SubViewportContainer
 Label3D
 CharacterBody3D
-OmniLight3D
 Node3D
 RayCast3D
 GPUParticles3D

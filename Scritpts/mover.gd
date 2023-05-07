@@ -36,7 +36,7 @@ func _ready() -> void:
 	base_transform = transform
 	target_transform = base_transform
 
-func use() -> void:
+func use(body) -> void:
 	play_motion()
 
 func play_motion() -> void:

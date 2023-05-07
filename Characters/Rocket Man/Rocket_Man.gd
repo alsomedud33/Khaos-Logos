@@ -212,7 +212,7 @@ func _physics_process(delta):
 func Ammunition():
 	%Current_Ammo.text = str(current_ammo)
 	%Total_Ammo.text = str(max_ammo)
-	if current_ammo == 0 and !is_on_floor():
+	if current_ammo == 0 and !is_on_floor() and anim.current_animation != "Shoot_Rocket":
 		anim.play("Idle_Rocket")
 	if state == GROUND or state == CROUCH:
 		if current_ammo <= max_ammo and %Reload_Cooldown.is_stopped():

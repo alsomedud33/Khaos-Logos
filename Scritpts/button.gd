@@ -103,11 +103,11 @@ func press() -> void:
 
 func emit_trigger() -> void:
 	await get_tree().create_timer(trigger_signal_delay).timeout
-	trigger.emit()
+	trigger.emit("Placeholder")
 
 func emit_pressed() -> void:
 	await get_tree().create_timer(press_signal_delay).timeout
-	pressed.emit()
+	pressed.emit("Placeholder")
 
 func release() -> void:
 	if not is_pressed:

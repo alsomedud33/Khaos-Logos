@@ -1,9 +1,9 @@
 class_name LiquidLayer
 extends Area
 
-export(float) var buoyancy_factor = 10.0
-export(float) var lateral_damping_factor = 0.0
-export(float) var vertical_damping_factor = 0.0
+@export var buoyancy_factor:float = 10.0
+@export var lateral_damping_factor:float = 0.0
+@export var vertical_damping_factor:float = 0.0
 
 var buoyancy_dict := {}
 

@@ -31,6 +31,9 @@ sky_material = SubResource("ProceduralSkyMaterial_gxxna")
 [sub_resource type="Environment" id="Environment_1xxp7"]
 background_mode = 2
 sky = SubResource("Sky_kp45j")
+glow_enabled = true
+glow_intensity = 2.29
+glow_bloom = 1.0
 fog_enabled = true
 fog_light_color = Color(0.0431373, 0.0509804, 0.141176, 1)
 fog_density = 0.0174
@@ -1463,6 +1466,7 @@ spot_angle_attenuation = 8.28207
 
 [node name="Change_Scene" type="Area3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 137.598, 512.897, -94.5136)
+collision_mask = 2
 script = ExtResource("16_gmwic")
 scene = "res://Maps/Kingdom 2/Kingdom 2.tscn"
 
