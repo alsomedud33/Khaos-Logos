@@ -31,3 +31,5 @@ res://Maps/Kingdom 1/Slide Panel.gd
 res://Maps/Kingdom 1/Panels/Slide Jump Panel.gd
 res://Maps/Kingdom 1/Panels/Rocket Jump Panel.gd
 res://Maps/Kingdom 1/Panels/Slide Panel.gd
+res://addons/qodot/game_definitions/trenchbroom/brush_tags/trigger_tag.tres
+res://Scritpts/trigger.gd
