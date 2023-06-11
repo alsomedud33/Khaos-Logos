@@ -190,9 +190,9 @@ skip.png::CompressedTexture2D::3013576122456084822::1679601676::1679601679::1:::
 Arms.glb::PackedScene::7977148829687961047::1651416049::1681413267::1::::<><>::uid://biyqk1xbklqd4
 Arms_Xh6tFa1w.png::CompressedTexture2D::2998467229914962203::1681413267::1681413267::1::::<><>::
 start_ik.gd::GDScript::-1::1681414037::0::1::::<>SkeletonIK3D<>::
-::res://Characters/Rocket Man/::1686487388
+::res://Characters/Rocket Man/::1686490778
 Rocket_Man.gd::GDScript::-1::1686485382::0::1::::<>CharacterBody3D<>::
-Rocket_Man.tscn::PackedScene::2555962719904378053::1686487388::0::1::::<><>::res://Characters/Rocket Man/Rocket_Man.gd<>uid://i0qcax4cvbx1<>uid://bw4i8l3vi3neg<>uid://b74ux2rkgccyj<>uid://biyqk1xbklqd4<>uid://dnuj3h0fi2df1<>res://Characters/Arms/start_ik.gd
+Rocket_Man.tscn::PackedScene::2555962719904378053::1686490778::0::1::::<><>::res://Characters/Rocket Man/Rocket_Man.gd<>uid://i0qcax4cvbx1<>uid://bw4i8l3vi3neg<>uid://b74ux2rkgccyj<>uid://biyqk1xbklqd4<>uid://dnuj3h0fi2df1<>res://Characters/Arms/start_ik.gd
 ::res://Enemies/::1680264807
 ::res://Enemies/Test Enemy/::1680393518
 Test_Enemy.gd::GDScript::-1::1680281010::0::1::::<>CharacterBody3D<>::
@@ -203,28 +203,28 @@ Test_BossFight.tscn::PackedScene::4689882843489308651::1680393518::0::1::::<><>:
 ::res://HUD/::1681390602
 Crosshair_reticle.png::CompressedTexture2D::4693587492947595697::1645383775::1681390602::1::::<><>::
 ::res://Maps/::1686351893
-::res://Maps/Hub/::1686487388
-Hub.tscn::PackedScene::4877693868451968723::1686487388::0::1::::<><>::uid://bcmnnw4d6ssae<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh<>uid://bia2t2fqvxndp<>uid://bxe4byfhp6ngi<>uid://bcoelkpf6exsv<>uid://qxwuvpl242lv<>uid://3ssqnubu1es<>uid://o5s8hbdpfb2n<>uid://dr08r43d2xin7<>uid://0jl8r3k5fxe6<>uid://dpbhtv5erycmf
-::res://Maps/Kingdom 1/::1686487388
+::res://Maps/Hub/::1686490779
+Hub.tscn::PackedScene::4877693868451968723::1686490779::0::1::::<><>::uid://bcmnnw4d6ssae<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh<>uid://bia2t2fqvxndp<>uid://bxe4byfhp6ngi<>uid://bcoelkpf6exsv<>uid://qxwuvpl242lv<>uid://3ssqnubu1es<>uid://o5s8hbdpfb2n<>uid://dr08r43d2xin7<>uid://0jl8r3k5fxe6<>uid://dpbhtv5erycmf
+::res://Maps/Kingdom 1/::1686490778
 Change_Scene.gd::GDScript::-1::1683454628::0::1::::<>Area3D<>::
-Kingdom 1.tscn::PackedScene::4779362118122570073::1686487388::0::1::::<><>::uid://bllihi6ryo2p6<>uid://bcoelkpf6exsv<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh<>uid://bxe4byfhp6ngi<>uid://c2moapnl1jbq7<>uid://c2fpqqhor2y4s<>uid://kndt4iv0nqmd<>uid://g6vqn6m8aedr<>uid://cn61f2yxyw3mx<>uid://b2owhe8f2k6r0<>res://Stage Assets/Spawner/teleporter.gd<>res://Scritpts/trigger.gd<>uid://b5vasd3tfdcwo<>uid://cttfhk6crbhg2<>res://Maps/Kingdom 1/Panels/Slide Panel.gd<>res://Maps/Kingdom 1/Change_Scene.gd<>res://Video Clips/Slide Tutorial3.ogv<>res://Video Clips/Slide Jump Tutorial.ogv<>res://Video Clips/Rocket Jump.ogv<>res://Video Clips/VideoStreamPlayer.gd<>res://Maps/Kingdom 1/Panels/Slide Jump Panel.gd<>res://Maps/Kingdom 1/Panels/Rocket Jump Panel.gd
+Kingdom 1.tscn::PackedScene::4779362118122570073::1686490778::0::1::::<><>::uid://bllihi6ryo2p6<>uid://bcoelkpf6exsv<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh<>uid://bxe4byfhp6ngi<>uid://c2moapnl1jbq7<>uid://c2fpqqhor2y4s<>uid://kndt4iv0nqmd<>uid://g6vqn6m8aedr<>uid://cn61f2yxyw3mx<>uid://b2owhe8f2k6r0<>res://Stage Assets/Spawner/teleporter.gd<>res://Scritpts/trigger.gd<>uid://b5vasd3tfdcwo<>uid://cttfhk6crbhg2<>res://Maps/Kingdom 1/Panels/Slide Panel.gd<>res://Maps/Kingdom 1/Change_Scene.gd<>res://Video Clips/Slide Tutorial3.ogv<>res://Video Clips/Slide Jump Tutorial.ogv<>res://Video Clips/Rocket Jump.ogv<>res://Video Clips/VideoStreamPlayer.gd<>res://Maps/Kingdom 1/Panels/Slide Jump Panel.gd<>res://Maps/Kingdom 1/Panels/Rocket Jump Panel.gd
 ::res://Maps/Kingdom 1/Panels/::1686487090
 Rocket Jump Panel.gd::GDScript::-1::1686487090::0::1::::<>MeshInstance3D<>::
 Slide Jump Panel.gd::GDScript::-1::1686487046::0::1::::<>MeshInstance3D<>::
 Slide Panel.gd::GDScript::-1::1686486970::0::1::::<>MeshInstance3D<>::
-::res://Maps/Kingdom 2/::1686487753
-Kingdom 2.tscn::PackedScene::5062618763704333873::1686487753::0::1::::<><>::uid://bllihi6ryo2p6<>uid://bcoelkpf6exsv<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh<>uid://c2moapnl1jbq7<>res://Scritpts/trigger.gd<>uid://kndt4iv0nqmd<>uid://cn61f2yxyw3mx<>uid://b2owhe8f2k6r0<>uid://bxe4byfhp6ngi<>res://Stage Assets/Spawner/teleporter.gd<>uid://bcv0ikyd4bufq<>uid://bia2t2fqvxndp<>uid://qxwuvpl242lv<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>res://Scritpts/button.gd<>res://Scritpts/wall.gd<>uid://g6vqn6m8aedr<>res://Scritpts/mover.gd<>uid://3ssqnubu1es<>uid://c2fpqqhor2y4s<>uid://rhssjygrp81x<>uid://dayfowaiaqp7o<>res://Maps/Kingdom 1/Panels/Slide Panel.gd<>res://Maps/Kingdom 1/Change_Scene.gd
-::res://Maps/Stage 1/::1686487388
+::res://Maps/Kingdom 2/::1686490778
+Kingdom 2.tscn::PackedScene::5062618763704333873::1686490778::0::1::::<><>::uid://bllihi6ryo2p6<>uid://bcoelkpf6exsv<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh<>uid://c2moapnl1jbq7<>res://Scritpts/trigger.gd<>uid://kndt4iv0nqmd<>uid://cn61f2yxyw3mx<>uid://b2owhe8f2k6r0<>uid://bxe4byfhp6ngi<>res://Stage Assets/Spawner/teleporter.gd<>uid://bcv0ikyd4bufq<>uid://bia2t2fqvxndp<>uid://qxwuvpl242lv<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>res://Scritpts/button.gd<>res://Scritpts/wall.gd<>uid://g6vqn6m8aedr<>res://Scritpts/mover.gd<>uid://3ssqnubu1es<>uid://c2fpqqhor2y4s<>uid://rhssjygrp81x<>uid://dayfowaiaqp7o<>res://Maps/Kingdom 1/Panels/Slide Panel.gd<>res://Maps/Kingdom 1/Change_Scene.gd<>res://Video Clips/RJ Strafe Left.ogv<>res://Video Clips/RJ Strafe Right.ogv
+::res://Maps/Stage 1/::1686490779
 Stage_1 Environment.tres::Environment::7427863260509286248::1686478873::0::1::::<><>::uid://bllihi6ryo2p6
-Tutorial.tscn::PackedScene::5496867671610604133::1686487388::0::1::::<><>::uid://bcoelkpf6exsv<>uid://dd3d28ap2h8eu<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh<>uid://bxe4byfhp6ngi<>uid://c2fpqqhor2y4s<>uid://kndt4iv0nqmd<>uid://cn61f2yxyw3mx<>uid://bcv0ikyd4bufq<>uid://c2moapnl1jbq7<>uid://rhssjygrp81x<>uid://qxwuvpl242lv<>uid://b2owhe8f2k6r0<>res://Stage Assets/Spawner/teleporter.gd<>res://Scritpts/trigger.gd<>res://Scritpts/wall.gd<>uid://g6vqn6m8aedr<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>uid://cb31lbffhnven<>res://Scritpts/mover.gd<>uid://3ssqnubu1es<>res://Scritpts/button.gd<>uid://bia2t2fqvxndp
+Tutorial.tscn::PackedScene::5496867671610604133::1686490779::0::1::::<><>::uid://bcoelkpf6exsv<>uid://dd3d28ap2h8eu<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh<>uid://bxe4byfhp6ngi<>uid://c2fpqqhor2y4s<>uid://kndt4iv0nqmd<>uid://cn61f2yxyw3mx<>uid://bcv0ikyd4bufq<>uid://c2moapnl1jbq7<>uid://rhssjygrp81x<>uid://qxwuvpl242lv<>uid://b2owhe8f2k6r0<>res://Stage Assets/Spawner/teleporter.gd<>res://Scritpts/trigger.gd<>res://Scritpts/wall.gd<>uid://g6vqn6m8aedr<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>uid://cb31lbffhnven<>res://Scritpts/mover.gd<>uid://3ssqnubu1es<>res://Scritpts/button.gd<>uid://bia2t2fqvxndp
 ::res://Maps/Tutorial Stage/::1681852305
 Sky2.tres::Environment::452054818742888414::1681852305::0::1::::<><>::
 Sky.tres::Environment::1772127141427017430::1679913827::0::1::::<><>::
 tutorial_stage.tscn::PackedScene::-1::1681839025::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>res://Characters/Rocket_Man.tscn<>uid://go8joac0gcn3<>uid://cj11aqydei5bh<>uid://c3j78g5si5uyw<>uid://degvovww8o726<>uid://cmdhwpj1nqmh3<>uid://edv4t8r3nwb5<>uid://b20fwqk63guk8<>uid://cb31lbffhnven<>uid://dswb4a241m5qk<>uid://bmxl4s6mkuqky<>uid://ro1r3amxw6q5<>uid://5c46boyirtjp<>uid://ci5bktsqcux4r<>uid://dkvvkm2eoq7x<>res://Scritpts/button.gd<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>res://Scritpts/mover.gd<>uid://b2owhe8f2k6r0<>res://Scritpts/trigger.gd<>res://Stage Assets/Spawner/teleporter.gd<>res://fake_door.gd<>uid://cupcg43ka42cr
 ::res://Objects/::1681420453
-::res://Objects/Capsules/::1686487388
+::res://Objects/Capsules/::1686490779
 Rocket_Capsule.gd::GDScript::-1::1681501251::0::1::::<>MeshInstance3D<>::
-Rocket_Capsule.tscn::PackedScene::6145969232593194267::1686487388::0::1::::<><>::res://Objects/Capsules/Rocket_Capsule.gd
+Rocket_Capsule.tscn::PackedScene::6145969232593194267::1686490779::0::1::::<><>::res://Objects/Capsules/Rocket_Capsule.gd
 ::res://Objects/Projectile/::1686478873
 Explosion_Hitbox.gd::GDScript::-1::1680281183::0::1::::<>Area3D<>::
 Explosion_Hitbox.tres::VisualShader::4751446225725395425::1686478873::0::1::::<><>::
@@ -237,7 +237,7 @@ Rocket Launcher2.obj::Mesh::3990987487715865794::1681403993::1681403997::1::::<>
 Rocket Launcher.obj::PackedScene::6618491457376963503::1645216635::1681399618::1::::<><>::
 Rocket Launcher.png::CompressedTexture2D::614095273279455572::1645216635::1681399618::1::::<><>::
 rocket_launcher.tscn::PackedScene::4196034657963907538::1681412740::0::1::::<><>::uid://i0qcax4cvbx1
-::res://Qodot Maps/::1686410409
+::res://Qodot Maps/::1686490770
 E1M5.MAP::Resource::829215504343263063::841834880::1679677878::1::::<><>::
 Hub World.map::Resource::7993104602621322991::1686405205::1686405206::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
 Stage 1.map::Resource::3974402900401035392::1683468103::1681867383::1::::<><>::
@@ -245,8 +245,8 @@ Test.map::Resource::7053277462487014365::1679623827::1679623830::1::::<><>::
 Tutorial Stage.map::Resource::7812903028738425667::1680040282::1680040284::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
 Tutorial.map::Resource::2215841061022788197::1679671945::1679631024::1::::<><>::
 World 1.map::Resource::7307351713100933646::1686351182::1686351185::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.map::Resource::8652048466495728329::1686487882::1686487885::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-::res://Qodot Maps/autosave/::1686410294
+World 2.map::Resource::8652048466495728329::1686490823::1686490825::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+::res://Qodot Maps/autosave/::1686490770
 Hub World.1.map::Resource::4788175234771957471::1686351966::1686351977::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
 Hub World.2.map::Resource::4261556222209192752::1686353025::1686353497::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
 Hub World.3.map::Resource::2283842164234484327::1686387531::1686388562::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
@@ -394,6 +394,7 @@ World 2.27.map::Resource::6785117405465180620::1683466649::1683466747::1::::<><>
 World 2.28.map::Resource::8120683424059989262::1686385013::1686385048::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
 World 2.29.map::Resource::7597837524978541556::1686386655::1686386913::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
 World 2.30.map::Resource::6101444344867237029::1686410199::1686410294::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.31.map::Resource::4036165071496531823::1686490703::1686490770::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
 ::res://Qodot Resources/::1686478873
 custom_fgd.tres::Resource/Resource::1771519055406493979::1679758857::0::1::::<><>::uid://cq7e0f0ewffn5<>uid://dxp37dladbquv<>res://addons/qodot/game_definitions/fgd/solid_classes/group_solid_class.tres<>uid://b8aisardk4k4u<>res://addons/qodot/game_definitions/fgd/solid_classes/illusionary_solid_class.tres<>uid://c5o31v30rw7v5<>uid://ccwosedfa8v8d<>res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_file.gd<>uid://b6jj3q55o7kd
 fake_door_solid_class.tres::Resource/Resource::134748575868342759::1680098047::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>uid://ccdjpf5j25aua<>res://fake_door.gd
@@ -739,7 +740,9 @@ texture_13.png::CompressedTexture2D::7914048684541735325::1586304886::1679753410
 tf2build.ttf::FontFile::8113601435141649032::1254496742::1681418754::1::::<><>::
 tf2professor.ttf::FontFile::4500334698552097770::1275831120::1681418754::1::::<><>::
 TF2secondary.ttf::FontFile::3917063111838367612::1201794870::1681418754::1::::<><>::
-::res://Video Clips/::1686486749
+::res://Video Clips/::1686488891
+RJ Strafe Left.ogv::VideoStreamTheora::-1::1686488433::0::1::::<><>::
+RJ Strafe Right.ogv::VideoStreamTheora::-1::1686488830::0::1::::<><>::
 Rocket Jump.ogv::VideoStreamTheora::-1::1686485625::0::1::::<><>::
 Slide Jump Tutorial.ogv::VideoStreamTheora::-1::1686484537::0::1::::<><>::
 Slide Tutorial3.ogv::VideoStreamTheora::-1::1686482581::0::1::::<><>::

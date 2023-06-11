@@ -2622,6 +2622,54 @@
 }
 // entity 20
 {
+"classname" "trigger"
+"target" "01"
+"bhop" "1"
+"mask" "2"
+// brush 0
+{
+( -1887.5 -284 258 ) ( -1887.5 -284 259 ) ( -1887.5 -285 258 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 172.33398 533.334 0 0.03 0.03
+( -1903.5 -284 258 ) ( -1904.5 -284 258 ) ( -1903.5 -284 259 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color -918.0039 533.334 0 0.03 0.03
+( -1839.5 -220 242 ) ( -1840.5 -220 242 ) ( -1839.5 -221 242 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color -918.0039 -172.33398 0 0.03 0.03
+( -1903.5 -284 243 ) ( -1903.5 -285 243 ) ( -1904.5 -284 243 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color -918.0039 -172.33398 0 0.03 0.03
+( -1839.5 -236 194 ) ( -1839.5 -236 195 ) ( -1840.5 -236 194 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color -918.0039 533.334 0 0.03 0.03
+( -1839.5 -220 194 ) ( -1839.5 -221 194 ) ( -1839.5 -220 195 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 172.33398 533.334 0 0.03 0.03
+}
+}
+// entity 21
+{
+"classname" "trigger"
+"target" "01"
+"bhop" "1"
+"mask" "2"
+// brush 0
+{
+( -1999.5 -284 258 ) ( -1999.5 -284 259 ) ( -1999.5 -285 258 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 172.33398 533.334 0 0.03 0.03
+( -2015.5 -284 258 ) ( -2016.5 -284 258 ) ( -2015.5 -284 259 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color -256.67188 533.334 0 0.03 0.03
+( -1951.5 -220 242 ) ( -1952.5 -220 242 ) ( -1951.5 -221 242 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color -256.67188 -172.33398 0 0.03 0.03
+( -2015.5 -284 243 ) ( -2015.5 -285 243 ) ( -2016.5 -284 243 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color -256.67188 -172.33398 0 0.03 0.03
+( -1951.5 -236 194 ) ( -1951.5 -236 195 ) ( -1952.5 -236 194 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color -256.67188 533.334 0 0.03 0.03
+( -1951.5 -220 194 ) ( -1951.5 -221 194 ) ( -1951.5 -220 195 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 172.33398 533.334 0 0.03 0.03
+}
+}
+// entity 22
+{
+"classname" "trigger"
+"target" "01"
+"bhop" "1"
+"mask" "2"
+// brush 0
+{
+( -2103.5 -284 258 ) ( -2103.5 -284 259 ) ( -2103.5 -285 258 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 172.33398 533.334 0 0.03 0.03
+( -2119.5 -284 258 ) ( -2120.5 -284 258 ) ( -2119.5 -284 259 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 138 533.334 0 0.03 0.03
+( -2055.5 -220 242 ) ( -2056.5 -220 242 ) ( -2055.5 -221 242 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 138 -172.33398 0 0.03 0.03
+( -2119.5 -284 243 ) ( -2119.5 -285 243 ) ( -2120.5 -284 243 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 138 -172.33398 0 0.03 0.03
+( -2055.5 -236 194 ) ( -2055.5 -236 195 ) ( -2056.5 -236 194 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 138 533.334 0 0.03 0.03
+( -2055.5 -220 194 ) ( -2055.5 -221 194 ) ( -2055.5 -220 195 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 172.33398 533.334 0 0.03 0.03
+}
+}
+// entity 23
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "room 2"
@@ -3028,7 +3076,7 @@
 ( -987 -441 402.0681372553868 ) ( -987 -425 402.0681372553868 ) ( -987 -425 178.06813725538677 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 0 0 0.03 0.03
 }
 }
-// entity 21
+// entity 24
 {
 "classname" "button"
 "axis" "0 0 -1"
@@ -3047,7 +3095,7 @@
 ( -1507 -185 266.0681372553868 ) ( -1507 -185 267.0681372553868 ) ( -1507 -184 266.0681372553868 ) PBR_Textures/Red_Tile 0 0 0 0.03 0.03
 }
 }
-// entity 22
+// entity 25
 {
 "classname" "wall"
 "layer" "4"
@@ -3063,7 +3111,7 @@
 ( -1000 -421 586.0681372553868 ) ( -1000 -420 586.0681372553868 ) ( -1000 -421 585.0681372553868 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 0 0 0 0.06 0.06
 }
 }
-// entity 23
+// entity 26
 {
 "classname" "mover"
 "translation" "0 -15 0"
@@ -3079,7 +3127,7 @@
 ( -1515 -209 250.06813725538677 ) ( -1515 -209 251.06813725538677 ) ( -1515 -208 250.06813725538677 ) PBR_Textures/SheetMetal003/SheetMetal003_1K_Metalness 0 0 0 0.03 0.03
 }
 }
-// entity 24
+// entity 27
 {
 "classname" "light"
 "origin" "-1169 -226 551.068"
@@ -3088,14 +3136,14 @@
 "light" "900"
 "_tb_layer" "1"
 }
-// entity 25
+// entity 28
 {
 "classname" "Teleporter"
 "origin" "-1016 -264 264"
 "targetname" "room 2"
 "_tb_layer" "1"
 }
-// entity 26
+// entity 29
 {
 "classname" "light"
 "origin" "-1208 -289 392"
@@ -3103,7 +3151,7 @@
 "mangle" "0 0 0"
 "_tb_layer" "1"
 }
-// entity 27
+// entity 30
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -3148,7 +3196,7 @@
 }
 // brush 4
 {
-( -2059.5 -296 197 ) ( -2059.5 -296 198 ) ( -2059.5 -297 197 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
+( -2176 -296 197 ) ( -2176 -296 198 ) ( -2176 -297 197 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 ( -1915.5 -400 197 ) ( -1916.5 -400 197 ) ( -1915.5 -400 198 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 ( -1787.5 -232 196 ) ( -1788.5 -232 196 ) ( -1787.5 -233 196 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 ( -1915.5 -296 197 ) ( -1915.5 -297 197 ) ( -1916.5 -296 197 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
@@ -3157,7 +3205,7 @@
 }
 // brush 5
 {
-( -2059.5 -296 195 ) ( -2059.5 -296 196 ) ( -2059.5 -297 195 ) PBR_Textures/Red_Tile 240 0 90 0.0612 0.0612
+( -2176 -296 195 ) ( -2176 -296 196 ) ( -2176 -297 195 ) PBR_Textures/Red_Tile 240 0 90 0.0612 0.0612
 ( -1915.5 -400 195 ) ( -1916.5 -400 195 ) ( -1915.5 -400 196 ) PBR_Textures/Red_Tile 240 0 90 0.0612 0.0612
 ( -1787.5 -232 194 ) ( -1788.5 -232 194 ) ( -1787.5 -233 194 ) PBR_Textures/Red_Tile 240 0 90 0.0612 0.0612
 ( -1915.5 -296 195 ) ( -1915.5 -297 195 ) ( -1916.5 -296 195 ) PBR_Textures/Red_Tile 240 0 90 0.0612 0.0612
@@ -3171,7 +3219,7 @@
 ( -1979.5 -200 241 ) ( -1980.5 -200 241 ) ( -1979.5 -201 241 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 0.06 0.06
 ( -2043.5 -392 242 ) ( -2043.5 -393 242 ) ( -2044.5 -392 242 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 0.06 0.06
 ( -1979.5 -128 178 ) ( -1979.5 -128 179 ) ( -1980.5 -128 178 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 0.06 0.06
-( -2011.5 -200 178 ) ( -2011.5 -201 178 ) ( -2011.5 -200 179 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 0.06 0.06
+( -2112 -200 178 ) ( -2112 -201 178 ) ( -2112 -200 179 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 0.06 0.06
 }
 // brush 7
 {
@@ -3180,7 +3228,7 @@
 ( -2011.5 -168 239 ) ( -2012.5 -168 239 ) ( -2011.5 -169 239 ) PBR_Textures/Blue_Tile 0 0 0 0.06 0.06
 ( -2075.5 -360 240 ) ( -2075.5 -361 240 ) ( -2076.5 -360 240 ) PBR_Textures/Blue_Tile 0 0 0 0.06 0.06
 ( -2011.5 -128 176 ) ( -2011.5 -128 177 ) ( -2012.5 -128 176 ) PBR_Textures/Blue_Tile 0 0 0 0.06 0.06
-( -2011.5 -168 176 ) ( -2011.5 -169 176 ) ( -2011.5 -168 177 ) PBR_Textures/Blue_Tile 0 0 0 0.06 0.06
+( -2112 -168 176 ) ( -2112 -169 176 ) ( -2112 -168 177 ) PBR_Textures/Blue_Tile 0 0 0 0.06 0.06
 }
 // brush 8
 {
@@ -3198,7 +3246,7 @@
 ( -2011.5 -164 175 ) ( -2012.5 -164 175 ) ( -2011.5 -165 175 ) PBR_Textures/Facade_019B/Facade019B_1K_Color 0 -450 90 0.0612 0.0612
 ( -2075.5 -356 239 ) ( -2075.5 -357 239 ) ( -2076.5 -356 239 ) PBR_Textures/Facade_019B/Facade019B_1K_Color 0 -450 90 0.0612 0.0612
 ( -2011.5 -128 175 ) ( -2011.5 -128 176 ) ( -2012.5 -128 175 ) PBR_Textures/Facade_019B/Facade019B_1K_Color 0 -450 90 0.0612 0.0612
-( -2011.5 -164 175 ) ( -2011.5 -165 175 ) ( -2011.5 -164 176 ) PBR_Textures/Facade_019B/Facade019B_1K_Color 0 -450 90 0.0612 0.0612
+( -2112 -164 175 ) ( -2112 -165 175 ) ( -2112 -164 176 ) PBR_Textures/Facade_019B/Facade019B_1K_Color 0 -450 90 0.0612 0.0612
 }
 // brush 10
 {
@@ -3461,8 +3509,35 @@
 ( -2072 1712 256 ) ( -2071 1712 256 ) ( -2072 1712 257 ) PBR_Textures/Facade_019B/Facade019B_1K_Color -40 0 0 0.12 0.12
 ( -2168 1664 240 ) ( -2168 1664 241 ) ( -2168 1665 240 ) PBR_Textures/Facade_019B/Facade019B_1K_Color -40 0 0 0.12 0.12
 }
+// brush 39
+{
+( -1887.5 -284 242 ) ( -1887.5 -284 243 ) ( -1887.5 -285 242 ) PBR_Textures/Orange_Tile 172.33398 0 0 0.03 0.03
+( -1903.5 -284 242 ) ( -1904.5 -284 242 ) ( -1903.5 -284 243 ) PBR_Textures/Orange_Tile 98.99609 0 0 0.03 0.03
+( -1839.5 -220 226 ) ( -1840.5 -220 226 ) ( -1839.5 -221 226 ) PBR_Textures/Orange_Tile 98.99609 -172.33398 0 0.03 0.03
+( -1903.5 -284 242 ) ( -1903.5 -285 242 ) ( -1904.5 -284 242 ) PBR_Textures/Orange_Tile 98.99609 -172.33398 0 0.03 0.03
+( -1839.5 -236 178 ) ( -1839.5 -236 179 ) ( -1840.5 -236 178 ) PBR_Textures/Orange_Tile 98.99609 0 0 0.03 0.03
+( -1839.5 -220 178 ) ( -1839.5 -221 178 ) ( -1839.5 -220 179 ) PBR_Textures/Orange_Tile 172.33398 0 0 0.03 0.03
 }
-// entity 28
+// brush 40
+{
+( -2103.5 -284 242 ) ( -2103.5 -284 243 ) ( -2103.5 -285 242 ) PBR_Textures/Orange_Tile 172.33398 0 0 0.03 0.03
+( -2119.5 -284 242 ) ( -2120.5 -284 242 ) ( -2119.5 -284 243 ) PBR_Textures/Orange_Tile 138 0 0 0.03 0.03
+( -2055.5 -220 226 ) ( -2056.5 -220 226 ) ( -2055.5 -221 226 ) PBR_Textures/Orange_Tile 138 -172.33398 0 0.03 0.03
+( -2119.5 -284 242 ) ( -2119.5 -285 242 ) ( -2120.5 -284 242 ) PBR_Textures/Orange_Tile 138 -172.33398 0 0.03 0.03
+( -2055.5 -236 178 ) ( -2055.5 -236 179 ) ( -2056.5 -236 178 ) PBR_Textures/Orange_Tile 138 0 0 0.03 0.03
+( -2055.5 -220 178 ) ( -2055.5 -221 178 ) ( -2055.5 -220 179 ) PBR_Textures/Orange_Tile 172.33398 0 0 0.03 0.03
+}
+// brush 41
+{
+( -1999.5 -284 242 ) ( -1999.5 -284 243 ) ( -1999.5 -285 242 ) PBR_Textures/Orange_Tile 172.33398 0 0 0.03 0.03
+( -2015.5 -284 242 ) ( -2016.5 -284 242 ) ( -2015.5 -284 243 ) PBR_Textures/Orange_Tile -259.67188 0 0 0.03 0.03
+( -1951.5 -220 226 ) ( -1952.5 -220 226 ) ( -1951.5 -221 226 ) PBR_Textures/Orange_Tile -259.67188 -172.33398 0 0.03 0.03
+( -2015.5 -284 242 ) ( -2015.5 -285 242 ) ( -2016.5 -284 242 ) PBR_Textures/Orange_Tile -259.67188 -172.33398 0 0.03 0.03
+( -1951.5 -236 178 ) ( -1951.5 -236 179 ) ( -1952.5 -236 178 ) PBR_Textures/Orange_Tile -259.67188 0 0 0.03 0.03
+( -1951.5 -220 178 ) ( -1951.5 -221 178 ) ( -1951.5 -220 179 ) PBR_Textures/Orange_Tile 172.33398 0 0 0.03 0.03
+}
+}
+// entity 31
 {
 "classname" "wall"
 "layer" "4"
@@ -3478,7 +3553,7 @@
 ( -2395.5 316 466 ) ( -2395.5 317 466 ) ( -2395.5 316 465 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 0 0 0 0.06 0.06
 }
 }
-// entity 29
+// entity 32
 {
 "classname" "trigger"
 "bhop" "1"
@@ -3495,7 +3570,7 @@
 ( -2203.5 1242 242 ) ( -2203.5 1241 242 ) ( -2203.5 1242 243 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
 }
 }
-// entity 30
+// entity 33
 {
 "classname" "wall"
 "layer" "4"
@@ -3511,7 +3586,7 @@
 ( -2202.5 -168 242 ) ( -2202.5 -169 242 ) ( -2202.5 -168 243 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 0 0 0 0.06 0.06
 }
 }
-// entity 31
+// entity 34
 {
 "classname" "trigger"
 "mask" "2"
@@ -3591,7 +3666,7 @@
 ( -2235.5 -16 242 ) ( -2235.5 -17 242 ) ( -2235.5 -16 243 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 0 0 0 1 1
 }
 }
-// entity 32
+// entity 35
 {
 "classname" "wall"
 "layer" "4"
@@ -3607,7 +3682,7 @@
 ( -1547.5 -356 242 ) ( -1547.5 -356 243 ) ( -1547.5 -355 242 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 0 0 0 0.06 0.06
 }
 }
-// entity 33
+// entity 36
 {
 "classname" "trigger"
 "mask" "2"
@@ -3615,7 +3690,7 @@
 "_tb_layer" "2"
 // brush 0
 {
-( -2059.5 -296 212 ) ( -2059.5 -296 213 ) ( -2059.5 -297 212 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
+( -2176 -296 212 ) ( -2176 -296 213 ) ( -2176 -297 212 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 ( -1915.5 -400 212 ) ( -1916.5 -400 212 ) ( -1915.5 -400 213 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 ( -1787.5 -232 211 ) ( -1788.5 -232 211 ) ( -1787.5 -233 211 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 ( -1915.5 -296 212 ) ( -1915.5 -297 212 ) ( -1916.5 -296 212 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
@@ -3623,7 +3698,7 @@
 ( -1787.5 -232 148 ) ( -1787.5 -233 148 ) ( -1787.5 -232 149 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 }
 }
-// entity 34
+// entity 37
 {
 "classname" "wall"
 "layer" "4"
@@ -3639,7 +3714,7 @@
 ( -1547.5 -160 242 ) ( -1547.5 -160 243 ) ( -1547.5 -159 242 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 0 0 0 0.06 0.06
 }
 }
-// entity 35
+// entity 38
 {
 "classname" "trigger"
 "mask" "2"
@@ -3655,7 +3730,7 @@
 ( -2171.5 760 166 ) ( -2171.5 759 166 ) ( -2171.5 760 167 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 }
 }
-// entity 36
+// entity 39
 {
 "classname" "wall"
 "layer" "4"
@@ -3671,7 +3746,7 @@
 ( -1564 -448 594 ) ( -1564 -432 722 ) ( -1564 -432 594 ) PBR_Textures/SheetMetal001/SheetMetal001_1K_Color 0 0 0 0.06 0.06
 }
 }
-// entity 37
+// entity 40
 {
 "classname" "trigger"
 "mask" "2"
@@ -3687,7 +3762,7 @@
 ( -2171.5 -8 166 ) ( -2171.5 -9 166 ) ( -2171.5 -8 167 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 }
 }
-// entity 38
+// entity 41
 {
 "classname" "Teleporter"
 "origin" "-1712.5 -257 274"
@@ -3695,7 +3770,7 @@
 "angle" "180"
 "_tb_layer" "2"
 }
-// entity 39
+// entity 42
 {
 "classname" "Teleporter"
 "origin" "-2291.5 -232 282"
@@ -3703,7 +3778,7 @@
 "angle" "180"
 "_tb_layer" "2"
 }
-// entity 40
+// entity 43
 {
 "classname" "light"
 "origin" "-1779.5 -264 570"
@@ -3712,7 +3787,7 @@
 "light" "900"
 "_tb_layer" "2"
 }
-// entity 41
+// entity 44
 {
 "classname" "Teleporter"
 "origin" "-2317.5 805 282"
@@ -3720,7 +3795,7 @@
 "angle" "180"
 "_tb_layer" "2"
 }
-// entity 42
+// entity 45
 {
 "classname" "trigger"
 "mask" "2"
@@ -3736,7 +3811,7 @@
 ( -2176 1708 256 ) ( -2176 1708 257 ) ( -2176 1709 256 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 0 0 0 0.12 0.12
 }
 }
-// entity 43
+// entity 46
 {
 "classname" "light"
 "origin" "-1768 -268 440"
@@ -3744,7 +3819,7 @@
 "mangle" "0 0 0"
 "_tb_layer" "2"
 }
-// entity 44
+// entity 47
 {
 "classname" "light"
 "origin" "-2216 -252 440"
@@ -3752,7 +3827,7 @@
 "mangle" "0 0 0"
 "_tb_layer" "2"
 }
-// entity 45
+// entity 48
 {
 "classname" "light"
 "origin" "-2312 788 440"
@@ -3760,7 +3835,7 @@
 "mangle" "0 0 0"
 "_tb_layer" "2"
 }
-// entity 46
+// entity 49
 {
 "classname" "light"
 "origin" "-2296 1588 440"
@@ -3768,7 +3843,7 @@
 "mangle" "0 0 0"
 "_tb_layer" "2"
 }
-// entity 47
+// entity 50
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -4376,7 +4451,7 @@
 ( 560 5584 1704 ) ( 560 5712 1696 ) ( 560 5584 1696 ) PBR_Textures/Wood067/Wood067_1K_Color 0 0 0 0.12 0.12
 }
 }
-// entity 48
+// entity 51
 {
 "classname" "trigger"
 "mask" "2"
@@ -4392,21 +4467,21 @@
 ( -636 2393 2079 ) ( -636 2393 2080 ) ( -636 2394 2079 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 }
 }
-// entity 49
+// entity 52
 {
 "classname" "Teleporter"
 "origin" "-1027 2158 2356"
 "targetname" "surf01"
 "_tb_layer" "3"
 }
-// entity 50
+// entity 53
 {
 "classname" "Teleporter"
 "origin" "-664 3208 2108"
 "targetname" "surf02"
 "_tb_layer" "3"
 }
-// entity 51
+// entity 54
 {
 "classname" "trigger"
 "mask" "2"
@@ -4422,7 +4497,7 @@
 ( 1280 3311.75 1413.0955223880596 ) ( 1280 3311.75 1414.0955223880596 ) ( 1280 3312.75 1413.0955223880596 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 }
 }
-// entity 52
+// entity 55
 {
 "classname" "trigger"
 "mask" "2"
@@ -4438,7 +4513,7 @@
 ( 1408 4847.75 1273 ) ( 1408 4847.75 1274 ) ( 1408 4848.75 1273 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 }
 }
-// entity 53
+// entity 56
 {
 "classname" "trigger"
 "mask" "2"
@@ -4454,7 +4529,7 @@
 ( 1280 3311.75 1413.0955223880596 ) ( 1280 3311.75 1414.0955223880596 ) ( 1280 3312.75 1413.0955223880596 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 240 0 90 0.0612 0.0612
 }
 }
-// entity 54
+// entity 57
 {
 "classname" "trigger"
 "bhop" "1"
@@ -4471,7 +4546,7 @@
 ( 944 4704 1340 ) ( 944 4704 1341 ) ( 944 4705 1340 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 0 0 0 0.06 0.06
 }
 }
-// entity 55
+// entity 58
 {
 "classname" "trigger"
 "mask" "2"
