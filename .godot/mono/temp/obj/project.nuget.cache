@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+3Dc2QdBe84VNXBCbYi1rQHGoqMtODojtM3eXzfqt5SdVJNRJs7E1vLCCzCQrenqvs72OP0d0bU8k62Huez70g==",
+  "dgSpecHash": "WJGLGqDuSNBKYGeFHfP2s8x94W3u6z2tzoELaxv7MbEKayqakyHcSUVARey3b2qDIJKMGZu1CxKWOuGDnyy5IQ==",
   "success": true,
   "projectFilePath": "G:\\Godot 4.0 Stuff\\Khaos Logos\\Khaos Logos.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alsom\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.1\\godot.sourcegenerators.4.0.1.nupkg.sha512",
-    "C:\\Users\\alsom\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.1\\godotsharp.4.0.1.nupkg.sha512",
-    "C:\\Users\\alsom\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharpeditor\\4.0.1\\godotsharpeditor.4.0.1.nupkg.sha512",
+    "C:\\Users\\alsom\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.3\\godot.sourcegenerators.4.0.3.nupkg.sha512",
+    "C:\\Users\\alsom\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.3\\godotsharp.4.0.3.nupkg.sha512",
+    "C:\\Users\\alsom\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharpeditor\\4.0.3\\godotsharpeditor.4.0.3.nupkg.sha512",
     "C:\\Users\\alsom\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
     "C:\\Users\\alsom\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
     "C:\\Users\\alsom\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512"

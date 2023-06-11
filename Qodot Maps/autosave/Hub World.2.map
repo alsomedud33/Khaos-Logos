@@ -1,0 +1,16 @@
+// Game: Khaos Logos
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/PBR_Textures/Facade_019B;textures/PBR_Textures/GlazedTerracotta;textures/PBR_Textures/MetalWalkway010;textures/PBR_Textures/Metal_Plate_006;textures/PBR_Textures/Rock_035;textures/PBR_Textures/SheetMetal001;textures/PBR_Textures/SheetMetal003;textures/PBR_Textures/Wood067;textures/PBR_Textures/Wood071;textures/PBR_Textures/WoodFloor020;textures/PBR_Textures/WoodSiding007;textures/Prototype_Textures;textures/Prototype_Textures/PNG;textures/Prototype_Textures/PNG/Dark;textures/Prototype_Textures/PNG/Green;textures/Prototype_Textures/PNG/Light;textures/Prototype_Textures/PNG/Orange;textures/Prototype_Textures/PNG/Purple;textures/Prototype_Textures/PNG/Red"
+// brush 0
+{
+( 0 -448 -160 ) ( 0 -441 -160 ) ( 0 -448 -154 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( -448 -448 -160 ) ( -448 -448 -154 ) ( -441 -448 -160 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( -448 -448 0 ) ( -441 -448 0 ) ( -448 -441 0 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 448 448 64 ) ( 448 455 64 ) ( 455 448 64 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 448 448 32 ) ( 455 448 32 ) ( 448 448 38 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 448 448 32 ) ( 448 448 38 ) ( 448 455 32 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+}
+}

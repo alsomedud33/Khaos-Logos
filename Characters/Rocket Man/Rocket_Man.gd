@@ -71,7 +71,34 @@ var crouch_jump_counter =0
 
 func _process(delta):
 	%"Weapons Cam".global_transform = $Pivot/Camera3D.global_transform
-
+	if Input.is_action_pressed("move_forward"):
+		%mv_W.visible = true
+	else:
+		%mv_W.visible = false
+	if Input.is_action_pressed("move_back"):
+		%mv_S.visible = true
+	else:
+		%mv_S.visible = false
+	if Input.is_action_pressed("move_right"):
+		%mv_D.visible = true
+	else:
+		%mv_D.visible = false
+	if Input.is_action_pressed("move_left"):
+		%mv_A.visible = true
+	else:
+		%mv_A.visible = false
+	if Input.is_action_pressed("crouch"):
+		%mv_CROUCH.visible = true
+	else:
+		%mv_CROUCH.visible = false
+	if Input.is_action_pressed("jump"):
+		%mv_JUMP.visible = true
+	else:
+		%mv_JUMP.visible = false
+	if Input.is_action_pressed("shoot_1"):
+		%mv_SHOOT.visible = true
+	else:
+		%mv_SHOOT.visible = false
 func _physics_process(delta):
 	$CollisionShape3D2.global_rotation = Vector3.ZERO
 	queue_jump()

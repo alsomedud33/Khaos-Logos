@@ -499,6 +499,128 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
+[node name="mv_W" type="Label" parent="MarginContainer"]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.177778
+anchor_right = 0.2
+anchor_bottom = 0.222222
+offset_top = 832.0
+offset_bottom = 842.0
+theme_override_fonts/font = ExtResource("7_3f25b")
+theme_override_font_sizes/font_size = 70
+text = "W"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="mv_S" type="Label" parent="MarginContainer"]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.177778
+anchor_right = 0.2
+anchor_bottom = 0.222222
+offset_top = 896.0
+offset_bottom = 906.0
+theme_override_fonts/font = ExtResource("7_3f25b")
+theme_override_font_sizes/font_size = 70
+text = "s"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="mv_D" type="Label" parent="MarginContainer"]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.177778
+anchor_right = 0.2
+anchor_bottom = 0.222222
+offset_left = 128.0
+offset_top = 896.0
+offset_right = 128.0
+offset_bottom = 906.0
+theme_override_fonts/font = ExtResource("7_3f25b")
+theme_override_font_sizes/font_size = 70
+text = "d"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="mv_A" type="Label" parent="MarginContainer"]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.177778
+anchor_right = 0.2
+anchor_bottom = 0.222222
+offset_left = -128.0
+offset_top = 896.0
+offset_right = -128.0
+offset_bottom = 906.0
+theme_override_fonts/font = ExtResource("7_3f25b")
+theme_override_font_sizes/font_size = 70
+text = "a"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="mv_CROUCH" type="Label" parent="MarginContainer"]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.177778
+anchor_right = 0.2
+anchor_bottom = 0.222222
+offset_left = -256.0
+offset_top = 960.0
+offset_right = -219.0
+offset_bottom = 970.0
+theme_override_fonts/font = ExtResource("7_3f25b")
+theme_override_font_sizes/font_size = 50
+text = "crouch"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="mv_JUMP" type="Label" parent="MarginContainer"]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.177778
+anchor_right = 0.2
+anchor_bottom = 0.222222
+offset_left = 256.0
+offset_top = 960.0
+offset_right = 293.0
+offset_bottom = 970.0
+theme_override_fonts/font = ExtResource("7_3f25b")
+theme_override_font_sizes/font_size = 60
+text = "Jump"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="mv_SHOOT" type="Label" parent="MarginContainer"]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.177778
+anchor_right = 0.2
+anchor_bottom = 0.222222
+offset_left = 256.0
+offset_top = 832.0
+offset_right = 293.0
+offset_bottom = 842.0
+theme_override_fonts/font = ExtResource("7_3f25b")
+theme_override_font_sizes/font_size = 60
+text = "shoot"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
 [node name="ShapeCast3D" type="ShapeCast3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
 shape = SubResource("BoxShape3D_ouaf1")

@@ -1,0 +1,16 @@
+// Game: Khaos Logos
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/PBR_Textures/Facade_019B;textures/PBR_Textures/GlazedTerracotta;textures/PBR_Textures/MetalWalkway010;textures/PBR_Textures/Metal_Plate_006;textures/PBR_Textures/Rock_035;textures/PBR_Textures/SheetMetal001;textures/PBR_Textures/SheetMetal003;textures/PBR_Textures/Wood067;textures/PBR_Textures/Wood071;textures/PBR_Textures/WoodFloor020;textures/PBR_Textures/WoodSiding007;textures/Prototype_Textures;textures/Prototype_Textures/PNG;textures/Prototype_Textures/PNG/Dark;textures/Prototype_Textures/PNG/Green;textures/Prototype_Textures/PNG/Light;textures/Prototype_Textures/PNG/Orange;textures/Prototype_Textures/PNG/Purple;textures/Prototype_Textures/PNG/Red"
+// brush 0
+{
+( -1088 -1088 -160 ) ( -1088 -1071 -160 ) ( -1088 -1088 -154 ) __TB_empty 0 0 0 1 1
+( -1088 -1088 -160 ) ( -1088 -1088 -154 ) ( -1071 -1088 -160 ) __TB_empty 0 0 0 1 1
+( -1088 -1088 0 ) ( -1071 -1088 0 ) ( -1088 -1071 0 ) __TB_empty 0 0 0 1 1
+( 1088 1088 64 ) ( 1088 1105 64 ) ( 1105 1088 64 ) __TB_empty 0 0 0 1 1
+( 1088 1088 32 ) ( 1105 1088 32 ) ( 1088 1088 38 ) __TB_empty 0 0 0 1 1
+( 1088 1088 32 ) ( 1088 1088 38 ) ( 1088 1105 32 ) __TB_empty 0 0 0 1 1
+}
+}

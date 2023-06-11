@@ -1,0 +1,52 @@
+// Game: Khaos Logos
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/PBR_Textures/Facade_019B;textures/PBR_Textures/GlazedTerracotta;textures/PBR_Textures/MetalWalkway010;textures/PBR_Textures/Metal_Plate_006;textures/PBR_Textures/Rock_035;textures/PBR_Textures/SheetMetal001;textures/PBR_Textures/SheetMetal003;textures/PBR_Textures/Wood067;textures/PBR_Textures/Wood071;textures/PBR_Textures/WoodFloor020;textures/PBR_Textures/WoodSiding007;textures/Prototype_Textures;textures/Prototype_Textures/PNG;textures/Prototype_Textures/PNG/Dark;textures/Prototype_Textures/PNG/Green;textures/Prototype_Textures/PNG/Light;textures/Prototype_Textures/PNG/Orange;textures/Prototype_Textures/PNG/Purple;textures/Prototype_Textures/PNG/Red"
+// brush 0
+{
+( -64 -448 -160 ) ( -64 -441 -160 ) ( -64 -448 -154 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( -448 -128 -160 ) ( -448 -128 -154 ) ( -441 -128 -160 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( -448 -448 0 ) ( -441 -448 0 ) ( -448 -441 0 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 448 448 64 ) ( 448 455 64 ) ( 455 448 64 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 448 128 32 ) ( 455 128 32 ) ( 448 128 38 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 320 448 32 ) ( 320 448 38 ) ( 320 455 32 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+}
+// brush 1
+{
+( 160 64 64 ) ( 160 65 64 ) ( 160 64 65 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 128 64 64 ) ( 128 64 65 ) ( 129 64 64 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 128 64 64 ) ( 129 64 64 ) ( 128 65 64 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 256 128 192 ) ( 256 129 192 ) ( 257 128 192 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 256 128 128 ) ( 257 128 128 ) ( 256 128 129 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 224 128 128 ) ( 224 128 129 ) ( 224 129 128 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+}
+// brush 2
+{
+( 256 -64 64 ) ( 256 -63 64 ) ( 256 -64 65 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 256 -32 64 ) ( 256 -32 65 ) ( 257 -32 64 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 256 -64 64 ) ( 257 -64 64 ) ( 256 -63 64 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 320 64 192 ) ( 320 65 192 ) ( 321 64 192 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 320 32 128 ) ( 321 32 128 ) ( 320 32 129 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 320 64 128 ) ( 320 64 129 ) ( 320 65 128 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+}
+// brush 3
+{
+( 160 -128 64 ) ( 160 -127 64 ) ( 160 -128 65 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 128 -128 64 ) ( 128 -128 65 ) ( 129 -128 64 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 128 -128 64 ) ( 129 -128 64 ) ( 128 -127 64 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 256 -64 192 ) ( 256 -63 192 ) ( 257 -64 192 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 256 -64 128 ) ( 257 -64 128 ) ( 256 -64 129 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 224 -64 128 ) ( 224 -64 129 ) ( 224 -63 128 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+}
+// brush 4
+{
+( -320 -448 -160 ) ( -320 -441 -160 ) ( -320 -448 -154 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( -448 -64 -160 ) ( -448 -64 -154 ) ( -441 -64 -160 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( -448 -448 0 ) ( -441 -448 0 ) ( -448 -441 0 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 448 448 64 ) ( 448 455 64 ) ( 455 448 64 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( 448 64 32 ) ( 455 64 32 ) ( 448 64 38 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+( -64 -448 -160 ) ( -64 -448 -154 ) ( -64 -441 -160 ) PBR_Textures/Rock_035/Rock035_1K_Color 0 0 0 1 1
+}
+}
