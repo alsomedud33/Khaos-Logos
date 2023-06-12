@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://co8cjrhrso6hk"]
+[gd_scene load_steps=4 format=3 uid="uid://co8cjrhrso6hk"]
 
 [ext_resource type="FontFile" uid="uid://dnuj3h0fi2df1" path="res://UI/tf2build.ttf" id="1_c1uql"]
 [ext_resource type="Script" path="res://Titlescreen/TitleScreen.gd" id="1_ii0g4"]
+[ext_resource type="PackedScene" uid="uid://cmmx1i38xeq0v" path="res://Titlescreen/Shifting_Shader.tscn" id="2_ek2qf"]
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
@@ -13,6 +14,7 @@ grow_vertical = 2
 script = ExtResource("1_ii0g4")
 
 [node name="ColorRect" type="ColorRect" parent="."]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -20,6 +22,9 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.721569, 0.294118, 0.266667, 1)
+
+[node name="Shifting Shader" parent="." instance=ExtResource("2_ek2qf")]
+layout_mode = 1
 
 [node name="Rocket" type="Label" parent="."]
 layout_mode = 0
@@ -71,10 +76,11 @@ flat = true
 
 [node name="Settings" type="Button" parent="."]
 layout_mode = 0
-offset_left = 176.0
-offset_top = 896.0
-offset_right = 758.0
-offset_bottom = 1024.0
+anchor_left = 0.06875
+anchor_top = 0.622222
+anchor_right = 0.296094
+anchor_bottom = 0.711111
+offset_top = -6.10352e-05
 focus_mode = 0
 theme_override_colors/font_color = Color(0.694118, 0.698039, 0.733333, 1)
 theme_override_colors/font_outline_color = Color(0.145098, 0.145098, 0.164706, 1)
@@ -83,13 +89,14 @@ theme_override_fonts/font = ExtResource("1_c1uql")
 theme_override_font_sizes/font_size = 120
 text = "settings"
 flat = true
+metadata/_edit_use_anchors_ = true
 
 [node name="Exit" type="Button" parent="."]
 layout_mode = 0
-offset_left = 344.0
-offset_top = 1304.0
-offset_right = 583.0
-offset_bottom = 1412.0
+anchor_left = 0.134375
+anchor_top = 0.905556
+anchor_right = 0.227734
+anchor_bottom = 0.980556
 focus_mode = 0
 theme_override_colors/font_color = Color(0.694118, 0.698039, 0.733333, 1)
 theme_override_colors/font_outline_color = Color(0.145098, 0.145098, 0.164706, 1)
@@ -98,6 +105,7 @@ theme_override_fonts/font = ExtResource("1_c1uql")
 theme_override_font_sizes/font_size = 100
 text = "exit"
 flat = true
+metadata/_edit_use_anchors_ = true
 
 [connection signal="pressed" from="New Game" to="." method="_on_new_game_pressed"]
 [connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]

@@ -197,7 +197,7 @@
 {
 ( -384 -448 -160 ) ( -384 -441 -160 ) ( -384 -448 -154 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 -104 90 0.06 0.06
 ( -448 -128 -160 ) ( -448 -128 -154 ) ( -441 -128 -160 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 -104 90 0.06 0.06
-( 448 448 256 ) ( 455 448 256 ) ( 448 455 256 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 -104 0 0.5 0.06
+( 448 448 256 ) ( 455 448 256 ) ( 448 455 256 ) PBR_Textures/Tree_bark/albedo 0 -104 0 0.5 0.06
 ( 448 448 320 ) ( 448 455 320 ) ( 455 448 320 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 -104 90 0.06 0.06
 ( 448 128 32 ) ( 455 128 32 ) ( 448 128 38 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 -104 90 0.06 0.06
 ( -64 -448 -160 ) ( -64 -448 -154 ) ( -64 -441 -160 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo -6 -110 0 0.16 0.16

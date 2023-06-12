@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Khaos Logos"
-run/main_scene="res://Maps/Kingdom 1/Kingdom 1.tscn"
+run/main_scene="res://Titlescreen/TitleScreen.tscn"
 config/features=PackedStringArray("4.0", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
