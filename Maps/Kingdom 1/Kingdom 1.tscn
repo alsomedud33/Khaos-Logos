@@ -1,5 +1,6 @@
-[gd_scene load_steps=197 format=3 uid="uid://cadfnps80celt"]
+[gd_scene load_steps=198 format=3 uid="uid://cadfnps80celt"]
 
+[ext_resource type="Script" path="res://Maps/Kingdom 1/Kingdom 1.gd" id="1_f6rys"]
 [ext_resource type="Texture2D" uid="uid://bllihi6ryo2p6" path="res://Stage Assets/Skybox/environment.png" id="1_p2n4c"]
 [ext_resource type="PackedScene" uid="uid://bcoelkpf6exsv" path="res://Characters/Rocket Man/Rocket_Man.tscn" id="2_5crs6"]
 [ext_resource type="Script" path="res://addons/qodot/src/nodes/qodot_map.gd" id="3_b808c"]
@@ -702,6 +703,7 @@ func _on_finished():
 size = Vector3(18, 1, 18)
 
 [node name="Kingdom 1" type="Node3D"]
+script = ExtResource("1_f6rys")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866025, -0.277422, 0.415977, 0, 0.831954, 0.554844, -0.5, 0.480509, -0.720493, 0, 0, 0)

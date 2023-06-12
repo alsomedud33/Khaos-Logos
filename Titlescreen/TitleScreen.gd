@@ -12,4 +12,6 @@ func _on_exit_pressed():
 
 
 func _on_new_game_pressed():
+	Transitions.fade_in()
+	await Transitions.anim.animation_finished
 	get_tree().change_scene_to_packed(load('res://Maps/Kingdom 1/Kingdom 1.tscn'))

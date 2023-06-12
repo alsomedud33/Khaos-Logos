@@ -1,6 +1,8 @@
+ColorRect
+AnimationPlayer
+CanvasLayer
 Button
 Label
-ColorRect
 SpotLight3D
 Sprite3D
 CollisionShape3D
@@ -13,7 +15,6 @@ SubViewportContainer
 MeshInstance3D
 QodotMap
 OmniLight3D
-AnimationPlayer
 Timer
 ShapeCast3D
 PanelContainer
@@ -23,7 +24,6 @@ Container
 NinePatchRect
 HBoxContainer
 VBoxContainer
-CanvasLayer
 Skeleton3D
 Marker3D
 SkeletonIK3D
