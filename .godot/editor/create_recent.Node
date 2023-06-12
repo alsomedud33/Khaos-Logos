@@ -1,8 +1,10 @@
+Button
+Label
+ColorRect
+SpotLight3D
 Sprite3D
 CollisionShape3D
 Area3D
-Label
-ColorRect
 VideoStreamPlayer
 Control
 SubViewport
@@ -11,7 +13,6 @@ SubViewportContainer
 MeshInstance3D
 QodotMap
 OmniLight3D
-SpotLight3D
 AnimationPlayer
 Timer
 ShapeCast3D
@@ -29,5 +30,3 @@ SkeletonIK3D
 Camera3D
 Label3D
 CharacterBody3D
-Node3D
-RayCast3D

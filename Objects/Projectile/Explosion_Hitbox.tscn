@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://cmsiohqyfcbt4"]
+[gd_scene load_steps=25 format=3 uid="uid://cuo6xa2agfl8d"]
 
 [ext_resource type="Script" path="res://Objects/Projectile/Explosion_Hitbox.gd" id="1_06rud"]
 [ext_resource type="Shader" uid="uid://b8xvviwuymbs0" path="res://Objects/Projectile/Explosion_Hitbox.tres" id="2_8v4x0"]

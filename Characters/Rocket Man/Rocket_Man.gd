@@ -170,14 +170,15 @@ func _physics_process(delta):
 				move_ground(get_real_velocity(), delta)
 		AIR:
 			vertical_velocity = get_real_velocity().y
-			
+			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
+				vertical_velocity = absf(vertical_velocity) * -1
 			if vertical_velocity >= terminal_velocity:
 				vertical_velocity -= gravity * delta #if vertical_velocity >= terminal_velocity else 0 # Stop adding to vertical velocity once terminal velocity is reached
 			else:
 				vertical_velocity = terminal_velocity
 			move_air(get_real_velocity(), delta)
-			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
-				vertical_velocity = absf(vertical_velocity) * -1
+#			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
+#				vertical_velocity = absf(vertical_velocity) * -1
 			if is_on_floor():
 				if wish_jump:
 					self.velocity.x *= 1#0.9
@@ -224,14 +225,15 @@ func _physics_process(delta):
 				print("CROUCH")
 				change_state(CROUCH)
 			vertical_velocity = get_real_velocity().y
-			
+			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
+				vertical_velocity = absf(vertical_velocity) * -1
 			if vertical_velocity >= terminal_velocity:
 				vertical_velocity -= gravity * delta #if vertical_velocity >= terminal_velocity else 0 # Stop adding to vertical velocity once terminal velocity is reached
 			else:
 				vertical_velocity = terminal_velocity
 			move_air(get_real_velocity(), delta)
-			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
-				vertical_velocity = absf(vertical_velocity) * -1
+#			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
+#				vertical_velocity = absf(vertical_velocity) * -1
 		FROZEN:
 			pass
 

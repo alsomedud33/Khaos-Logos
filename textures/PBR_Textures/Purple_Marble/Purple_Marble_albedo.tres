@@ -1,0 +1,25 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://gnffci8perhg"]
+
+[ext_resource type="Texture2D" uid="uid://cca58f3ls63xr" path="res://textures/PBR_Textures/Purple_Marble/Purple_Marble_albedo.png" id="1_wwrxh"]
+[ext_resource type="Texture2D" uid="uid://cmq7dimwq15s0" path="res://textures/PBR_Textures/Purple_Marble/displacement.png" id="2_c2vxq"]
+[ext_resource type="Texture2D" uid="uid://c72mx1t0weiyt" path="res://textures/PBR_Textures/Purple_Marble/normals.png" id="3_xi3h6"]
+[ext_resource type="Texture2D" uid="uid://dao8kywvxym71" path="res://textures/PBR_Textures/Purple_Marble/roughness.png" id="4_mqcny"]
+
+[resource]
+albedo_texture = ExtResource("1_wwrxh")
+roughness = 0.0
+roughness_texture = ExtResource("4_mqcny")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.84
+emission_operator = 1
+emission_texture = ExtResource("1_wwrxh")
+normal_enabled = true
+normal_scale = 3.68
+normal_texture = ExtResource("3_xi3h6")
+heightmap_enabled = true
+heightmap_scale = -10.897
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_c2vxq")

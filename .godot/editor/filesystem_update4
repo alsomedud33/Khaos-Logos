@@ -1,4 +1,4 @@
-res://Maps/Hub/Hub.tscn
+res://Titlescreen/TitleScreen.tscn
 res://Objects/Projectile/Explosion_Hitbox.tres
 res://addons/qodot/game_definitions/fgd/point_classes/signal_point_class.tres
 res://addons/qodot/game_definitions/fgd/solid_classes/trigger_solid_class.tres
@@ -8,6 +8,7 @@ res://addons/qodot/game_definitions/fgd/solid_classes/wall_solid_class.tres
 res://Qodot Resources/teleporter_point_class.tres
 res://addons/qodot/game_definitions/fgd/qodot_fgd.tres
 res://textures/PBR_Textures/Rock_035/Rock035_1K_Color.tres
+res://textures/PBR_Textures/Purple_Marble/Purple_Marble_albedo.tres
 res://textures/PBR_Textures/Blue_Tile.tres
 res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color.tres
 res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Color.tres
@@ -25,11 +26,8 @@ res://Maps/Kingdom 2/Kingdom 2.tscn
 res://Characters/Rocket Man/Rocket_Man.tscn
 res://Objects/Capsules/Rocket_Capsule.tscn
 res://Maps/Stage 1/Tutorial.tscn
-res://Video Clips/VideoStreamPlayer.gd
-res://Characters/Rocket Man/Rocket_Man.gd
-res://Maps/Kingdom 1/Slide Panel.gd
-res://Maps/Kingdom 1/Panels/Slide Jump Panel.gd
-res://Maps/Kingdom 1/Panels/Rocket Jump Panel.gd
-res://Maps/Kingdom 1/Panels/Slide Panel.gd
-res://addons/qodot/game_definitions/trenchbroom/brush_tags/trigger_tag.tres
-res://Scritpts/trigger.gd
+res://Maps/Hub/Hub.tscn
+res://Objects/Projectile/Explosion_Hitbox.tscn
+res://Objects/Projectile/Rocket.tscn
+res://Titlescreen/TitleScreen.gd
+res://Maps/Kingdom 1/Change_Scene.gd

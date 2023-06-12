@@ -1,0 +1,5 @@
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\ExportRelease\win-x64\Khaos Logos.csproj.AssemblyReference.cache
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\ExportRelease\win-x64\Khaos Logos.GeneratedMSBuildEditorConfig.editorconfig
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\ExportRelease\win-x64\Khaos Logos.AssemblyInfoInputs.cache
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\ExportRelease\win-x64\Khaos Logos.AssemblyInfo.cs
+G:\Godot 4.0 Stuff\Khaos Logos\.godot\mono\temp\obj\ExportRelease\win-x64\Khaos Logos.csproj.CoreCompileInputs.cache

@@ -407,3 +407,16 @@
 ( 384 -44 64 ) ( 384 -44 65 ) ( 384 -43 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1536 348 0 0.06 0.06
 }
 }
+// entity 1
+{
+"classname" "trigger"
+// brush 0
+{
+( -70 42 388 ) ( -70 43 388 ) ( -70 42 389 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
+( -70 -170 388 ) ( -70 -170 389 ) ( -69 -170 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
+( -70 42 388 ) ( -69 42 388 ) ( -70 43 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
+( 324 175 389 ) ( 324 176 389 ) ( 325 175 389 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
+( 324 175 389 ) ( 325 175 389 ) ( 324 175 390 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
+( 324 175 389 ) ( 324 175 390 ) ( 324 176 389 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
+}
+}
