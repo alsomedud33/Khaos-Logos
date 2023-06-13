@@ -1221,6 +1221,7 @@ shape = SubResource("ConvexPolygonShape3D_m0f3q")
 
 [node name="entity_3_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.28125, 5, 56.5)
+collision_layer = 8
 script = ExtResource("16_5vy7b")
 properties = {
 "classname": "wall",
@@ -1237,6 +1238,7 @@ shape = SubResource("ConvexPolygonShape3D_w4baq")
 
 [node name="entity_4_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.53125, 5, 50.5)
+collision_layer = 8
 script = ExtResource("16_5vy7b")
 properties = {
 "classname": "wall",
@@ -1253,6 +1255,7 @@ shape = SubResource("ConvexPolygonShape3D_tfnwd")
 
 [node name="entity_5_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.375, 1, 83.0313)
+collision_layer = 8
 script = ExtResource("16_5vy7b")
 properties = {
 "classname": "wall",
@@ -1269,6 +1272,7 @@ shape = SubResource("ConvexPolygonShape3D_t64vu")
 
 [node name="entity_6_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -61.25, 1, 70.9688)
+collision_layer = 8
 script = ExtResource("16_5vy7b")
 properties = {
 "classname": "wall",
@@ -1403,6 +1407,7 @@ spot_angle = 50.0
 
 [node name="entity_12_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65.625, 21.9688, 59.5156)
+collision_layer = 8
 script = ExtResource("16_5vy7b")
 properties = {
 "classname": "wall",
@@ -1671,6 +1676,7 @@ shape = SubResource("ConvexPolygonShape3D_pa3tg")
 
 [node name="entity_20_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.875, 21.9688, 13.375)
+collision_layer = 8
 script = ExtResource("16_5vy7b")
 properties = {
 "_tb_layer": "1",

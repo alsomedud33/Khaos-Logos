@@ -1,4 +1,4 @@
-[gd_scene load_steps=517 format=3 uid="uid://ceemudvu4bt3v"]
+[gd_scene load_steps=518 format=3 uid="uid://ceemudvu4bt3v"]
 
 [ext_resource type="Texture2D" uid="uid://bllihi6ryo2p6" path="res://Stage Assets/Skybox/environment.png" id="1_ndk88"]
 [ext_resource type="PackedScene" uid="uid://bcoelkpf6exsv" path="res://Characters/Rocket Man/Rocket_Man.tscn" id="2_n5yof"]
@@ -33,6 +33,7 @@
 [ext_resource type="VideoStream" path="res://Video Clips/surf.ogv" id="28_sxq8k"]
 [ext_resource type="VideoStream" path="res://Video Clips/surf+Slide_Bhop.ogv" id="29_635ol"]
 [ext_resource type="PackedScene" path="res://Objects/BHOP Boots/Shoes.glb" id="33_oimoh"]
+[ext_resource type="Script" path="res://Objects/BHOP Boots/BHOP Boots.gd" id="33_whe5c"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_jtj8y"]
 sky_top_color = Color(0, 0, 0, 1)
@@ -2037,6 +2038,7 @@ environment = SubResource("Environment_oyc6r")
 [node name="RocketMan" parent="." instance=ExtResource("2_n5yof")]
 unique_name_in_owner = true
 transform = Transform3D(-1.5, 0, -2.26494e-07, 0, 1.5, 0, 2.26494e-07, 0, -1.5, 3, 3, 3)
+auto_jump = false
 max_ammo = 1
 
 [node name="QodotMap" type="Node3D" parent="."]
@@ -4671,16 +4673,18 @@ shape = SubResource("BoxShape3D_2gbse")
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
 
-[node name="Area3D" type="Area3D" parent="."]
+[node name="BHOP Boots" type="Area3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.5358, 13.9378, -72)
+collision_mask = 2
+script = ExtResource("33_whe5c")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BHOP Boots"]
 shape = SubResource("BoxShape3D_3df8c")
 
-[node name="Shoes" parent="Area3D" instance=ExtResource("33_oimoh")]
+[node name="Shoes" parent="BHOP Boots" instance=ExtResource("33_oimoh")]
 transform = Transform3D(-1.31134e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.31134e-08, 0, 0, 0)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Area3D"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BHOP Boots"]
 autoplay = "Rotate"
 libraries = {
 "": SubResource("AnimationLibrary_qquof")
@@ -4718,3 +4722,4 @@ libraries = {
 [connection signal="finished" from="Surf Panel/SubViewport/Control/VideoStreamPlayer" to="Surf Panel/SubViewport/Control/VideoStreamPlayer" method="_on_finished"]
 [connection signal="finished" from="Surf Slide BHOP/SubViewport/Control/VideoStreamPlayer" to="Surf Slide BHOP/SubViewport/Control/VideoStreamPlayer" method="_on_finished"]
 [connection signal="body_entered" from="Change_Scene" to="Change_Scene" method="_on_body_entered"]
+[connection signal="body_entered" from="BHOP Boots" to="BHOP Boots" method="_on_body_entered"]

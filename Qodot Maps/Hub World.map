@@ -406,6 +406,69 @@
 ( 308 128 384 ) ( 320 136 512 ) ( 320 136 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
 ( 320 96 64 ) ( 320 96 65 ) ( 320 97 64 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
 }
+// brush 43
+{
+( 60 196 68 ) ( 60 196 69 ) ( 60 195 68 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1583.9949 348 180 0.06 -0.06
+( 60 196 68 ) ( 59 196 68 ) ( 60 196 69 ) PBR_Textures/Rust_Panel/rust-panel-albedo -226.66663 348 180 0.06 -0.06
+( 96 256 64 ) ( 95 256 64 ) ( 96 255 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -226.66663 -1699.9949 180 0.06 0.06
+( 60 196 256 ) ( 60 195 256 ) ( 59 196 256 ) PBR_Textures/Rust_Panel/rust-panel-albedo -226.66663 -1699.9949 180 0.06 0.06
+( 96 256 64 ) ( 96 256 65 ) ( 95 256 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -226.66663 348 180 0.06 -0.06
+( 112 256 64 ) ( 112 255 64 ) ( 112 256 65 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1583.9949 348 180 0.06 -0.06
+}
+// brush 44
+{
+( 108 256 64 ) ( 108 256 65 ) ( 108 255 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1583.9949 348 180 0.06 -0.06
+( 56 200 68 ) ( 55 200 68 ) ( 56 200 69 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -293.33325 348 180 0.06 -0.06
+( 92 256 68 ) ( 91 256 68 ) ( 92 255 68 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -293.33325 -1699.9949 180 0.06 0.06
+( 56 196 252 ) ( 56 195 252 ) ( 55 196 252 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -293.33325 -1699.9949 180 0.06 0.06
+( 92 252 64 ) ( 92 252 65 ) ( 91 252 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -293.33325 348 180 0.06 -0.06
+( 116 256 64 ) ( 116 255 64 ) ( 116 256 65 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1583.9949 348 180 0.06 -0.06
+}
+// brush 45
+{
+( 140 256 64 ) ( 140 256 65 ) ( 140 255 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1583.9949 348 180 0.06 -0.06
+( 88 200 68 ) ( 87 200 68 ) ( 88 200 69 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 240.00024 348 180 0.06 -0.06
+( 124 256 68 ) ( 123 256 68 ) ( 124 255 68 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 240.00024 -1699.9949 180 0.06 0.06
+( 88 196 252 ) ( 88 195 252 ) ( 87 196 252 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 240.00024 -1699.9949 180 0.06 0.06
+( 124 252 64 ) ( 124 252 65 ) ( 123 252 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 240.00024 348 180 0.06 -0.06
+( 148 256 64 ) ( 148 255 64 ) ( 148 256 65 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1583.9949 348 180 0.06 -0.06
+}
+// brush 46
+{
+( 144 196 68 ) ( 144 196 69 ) ( 144 195 68 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1583.9949 348 180 0.06 -0.06
+( 136 196 68 ) ( 135 196 68 ) ( 136 196 69 ) PBR_Textures/Rust_Panel/rust-panel-albedo -426.6665 348 180 0.06 -0.06
+( 172 256 64 ) ( 171 256 64 ) ( 172 255 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -426.6665 -1699.9949 180 0.06 0.06
+( 136 196 256 ) ( 136 195 256 ) ( 135 196 256 ) PBR_Textures/Rust_Panel/rust-panel-albedo -426.6665 -1699.9949 180 0.06 0.06
+( 172 256 64 ) ( 172 256 65 ) ( 171 256 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -426.6665 348 180 0.06 -0.06
+( 196 256 64 ) ( 196 255 64 ) ( 196 256 65 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1583.9949 348 180 0.06 -0.06
+}
+// brush 47
+{
+( 120 188 268 ) ( 120 189 268 ) ( 120 188 269 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -4 0 0 1 1
+( 120 188 268 ) ( 120 188 269 ) ( 121 188 268 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 0 0 1 1
+( 120 188 268 ) ( 121 188 268 ) ( 120 189 268 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 4 0 1 1
+( 128 192 272 ) ( 128 193 272 ) ( 129 192 272 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 4 0 1 1
+( 128 192 272 ) ( 129 192 272 ) ( 128 192 273 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 0 0 1 1
+( 132 192 272 ) ( 132 192 273 ) ( 132 193 272 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -4 0 0 1 1
+}
+// brush 48
+{
+( 124 188 272 ) ( 124 189 272 ) ( 124 188 273 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -4 0 0 1 1
+( 124 188 272 ) ( 124 188 273 ) ( 125 188 272 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 0 0 1 1
+( 124 188 272 ) ( 125 188 272 ) ( 124 189 272 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 4 0 1 1
+( 128 192 292 ) ( 128 193 292 ) ( 129 192 292 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 4 0 1 1
+( 128 192 276 ) ( 129 192 276 ) ( 128 192 277 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 0 0 1 1
+( 128 192 276 ) ( 128 192 277 ) ( 128 193 276 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -4 0 0 1 1
+}
+// brush 49
+{
+( 120 188 288 ) ( 120 189 288 ) ( 120 188 289 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -4 0 0 1 1
+( 120 188 288 ) ( 120 188 289 ) ( 121 188 288 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 0 0 1 1
+( 120 188 288 ) ( 121 188 288 ) ( 120 189 288 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 4 0 1 1
+( 124 192 292 ) ( 124 193 292 ) ( 125 192 292 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 4 0 1 1
+( 124 192 292 ) ( 125 192 292 ) ( 124 192 293 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 0 0 1 1
+( 124 192 292 ) ( 124 192 293 ) ( 124 193 292 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -4 0 0 1 1
+}
 }
 // entity 1
 {
