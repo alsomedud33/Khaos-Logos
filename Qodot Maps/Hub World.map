@@ -270,6 +270,132 @@
 }
 // brush 28
 {
+( -64 160 384 ) ( -64 192 320 ) ( -64 256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 320 160 384 ) ( 320 192 320 ) ( -64 192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 320 192 320 ) ( 320 256 320 ) ( -64 256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -64 256 388 ) ( 320 256 388 ) ( 320 160 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 320 256 320 ) ( 320 256 384 ) ( -64 256 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 320 160 384 ) ( 320 256 384 ) ( 320 256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+}
+// brush 29
+{
+( 320 192 320 ) ( 284 192 384 ) ( 284 -192 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 284 -192 384 ) ( 384 -192 384 ) ( 384 -192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 384 -192 320 ) ( 384 192 320 ) ( 320 192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 284 192 388 ) ( 384 192 388 ) ( 384 -192 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 384 192 320 ) ( 384 192 384 ) ( 284 192 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 384 -192 384 ) ( 384 192 384 ) ( 384 192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+}
+// brush 30
+{
+( -64 -160 384 ) ( -64 -256 384 ) ( -64 -256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -64 -256 384 ) ( 320 -256 384 ) ( 320 -256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 320 -256 320 ) ( 320 -192 320 ) ( -64 -192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -64 -160 388 ) ( 320 -160 388 ) ( 320 -256 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 320 -192 320 ) ( 320 -160 384 ) ( -64 -160 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( 320 -256 384 ) ( 320 -160 384 ) ( 320 -192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+}
+// brush 31
+{
+( -128 256 384 ) ( -128 128 384 ) ( -128 128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -128 128 384 ) ( -28 128 384 ) ( -64 128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -64 128 320 ) ( -64 256 320 ) ( -128 256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -128 256 388 ) ( -28 256 388 ) ( -28 128 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -64 256 320 ) ( -28 256 384 ) ( -128 256 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -28 128 384 ) ( -28 256 384 ) ( -64 256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+}
+// brush 32
+{
+( -384 128 384 ) ( -384 -128 384 ) ( -384 -128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -384 -128 384 ) ( -28 -128 384 ) ( -64 -128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -64 -128 320 ) ( -64 128 320 ) ( -384 128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -384 128 388 ) ( -28 128 388 ) ( -28 -128 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -64 128 320 ) ( -28 128 384 ) ( -384 128 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -28 -128 384 ) ( -28 128 384 ) ( -64 128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+}
+// brush 33
+{
+( -128 -128 384 ) ( -128 -256 384 ) ( -128 -256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -128 -256 384 ) ( -28 -256 384 ) ( -64 -256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -64 -256 320 ) ( -64 -128 320 ) ( -128 -128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -128 -128 388 ) ( -28 -128 388 ) ( -28 -256 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -64 -128 320 ) ( -28 -128 384 ) ( -128 -128 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+( -28 -256 384 ) ( -28 -128 384 ) ( -64 -128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
+}
+// brush 34
+{
+( 144 -256 64 ) ( 144 -255 64 ) ( 144 -256 65 ) PBR_Textures/Rust_Panel/rust-panel-albedo -464.00024 348 0 0.06 0.06
+( 160 -256 64 ) ( 160 -256 65 ) ( 161 -256 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -397.3335 348 0 0.06 0.06
+( 160 -256 64 ) ( 161 -256 64 ) ( 160 -255 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -397.3335 348.00024 0 0.06 0.06
+( 196 -196 256 ) ( 196 -195 256 ) ( 197 -196 256 ) PBR_Textures/Rust_Panel/rust-panel-albedo -397.3335 348.00024 0 0.06 0.06
+( 196 -196 68 ) ( 197 -196 68 ) ( 196 -196 69 ) PBR_Textures/Rust_Panel/rust-panel-albedo -397.3335 348 0 0.06 0.06
+( 196 -196 68 ) ( 196 -196 69 ) ( 196 -195 68 ) PBR_Textures/Rust_Panel/rust-panel-albedo -464.00024 348 0 0.06 0.06
+}
+// brush 35
+{
+( 60 -256 64 ) ( 60 -255 64 ) ( 60 -256 65 ) PBR_Textures/Rust_Panel/rust-panel-albedo -464.00024 348 0 0.06 0.06
+( 84 -256 64 ) ( 84 -256 65 ) ( 85 -256 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -597.3334 348 0 0.06 0.06
+( 84 -256 64 ) ( 85 -256 64 ) ( 84 -255 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -597.3334 348.00024 0 0.06 0.06
+( 120 -196 256 ) ( 120 -195 256 ) ( 121 -196 256 ) PBR_Textures/Rust_Panel/rust-panel-albedo -597.3334 348.00024 0 0.06 0.06
+( 120 -196 68 ) ( 121 -196 68 ) ( 120 -196 69 ) PBR_Textures/Rust_Panel/rust-panel-albedo -597.3334 348 0 0.06 0.06
+( 112 -196 68 ) ( 112 -196 69 ) ( 112 -195 68 ) PBR_Textures/Rust_Panel/rust-panel-albedo -464.00024 348 0 0.06 0.06
+}
+// brush 36
+{
+( 140 -256 64 ) ( 140 -255 64 ) ( 140 -256 65 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464.00024 348 0 0.06 0.06
+( 164 -252 64 ) ( 164 -252 65 ) ( 165 -252 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464 348 0 0.06 0.06
+( 164 -256 68 ) ( 165 -256 68 ) ( 164 -255 68 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464 348.00024 0 0.06 0.06
+( 200 -196 252 ) ( 200 -195 252 ) ( 201 -196 252 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464 348.00024 0 0.06 0.06
+( 200 -200 68 ) ( 201 -200 68 ) ( 200 -200 69 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464 348 0 0.06 0.06
+( 148 -256 64 ) ( 148 -256 65 ) ( 148 -255 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464.00024 348 0 0.06 0.06
+}
+// brush 37
+{
+( 108 -256 64 ) ( 108 -255 64 ) ( 108 -256 65 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464.00024 348 0 0.06 0.06
+( 132 -252 64 ) ( 132 -252 65 ) ( 133 -252 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 69.33325 348 0 0.06 0.06
+( 132 -256 68 ) ( 133 -256 68 ) ( 132 -255 68 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 69.33325 348.00024 0 0.06 0.06
+( 168 -196 252 ) ( 168 -195 252 ) ( 169 -196 252 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 69.33325 348.00024 0 0.06 0.06
+( 168 -200 68 ) ( 169 -200 68 ) ( 168 -200 69 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 69.33325 348 0 0.06 0.06
+( 116 -256 64 ) ( 116 -256 65 ) ( 116 -255 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464.00024 348 0 0.06 0.06
+}
+// brush 38
+{
+( 324 68 68 ) ( 324 69 68 ) ( 324 68 69 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1736 348 0 0.06 0.06
+( 384 16 64 ) ( 383 16 64 ) ( 384 16 65 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1669.333 348 180 0.06 -0.06
+( 384 32 64 ) ( 384 33 64 ) ( 383 32 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1736 -1785.333 90 0.06 0.06
+( 324 68 256 ) ( 323 68 256 ) ( 324 69 256 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1736 -1785.333 90 0.06 0.06
+( 324 68 68 ) ( 324 68 69 ) ( 323 68 68 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1669.333 348 180 0.06 -0.06
+( 384 32 64 ) ( 384 32 65 ) ( 384 33 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1736 348 0 0.06 0.06
+}
+// brush 39
+{
+( 328 72 68 ) ( 328 73 68 ) ( 328 72 69 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.3335 348 0 0.06 0.06
+( 384 12 64 ) ( 383 12 64 ) ( 384 12 65 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.333 348 180 0.06 -0.06
+( 384 36 68 ) ( 384 37 68 ) ( 383 36 68 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.3335 -1785.333 90 0.06 0.06
+( 324 72 252 ) ( 323 72 252 ) ( 324 73 252 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.3335 -1785.333 90 0.06 0.06
+( 384 20 64 ) ( 384 20 65 ) ( 383 20 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.333 348 180 0.06 -0.06
+( 380 36 64 ) ( 380 36 65 ) ( 380 37 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.3335 348 0 0.06 0.06
+}
+// brush 40
+{
+( 328 40 68 ) ( 328 41 68 ) ( 328 40 69 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 154.66684 348 0 0.06 0.06
+( 384 -20 64 ) ( 383 -20 64 ) ( 384 -20 65 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.333 348 180 0.06 -0.06
+( 384 4 68 ) ( 384 5 68 ) ( 383 4 68 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 154.66684 -1785.333 90 0.06 0.06
+( 324 40 252 ) ( 323 40 252 ) ( 324 41 252 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 154.66684 -1785.333 90 0.06 0.06
+( 384 -12 64 ) ( 384 -12 65 ) ( 383 -12 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.333 348 180 0.06 -0.06
+( 380 4 64 ) ( 380 4 65 ) ( 380 5 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 154.66684 348 0 0.06 0.06
+}
+// brush 41
+{
+( 324 -8 68 ) ( 324 -7 68 ) ( 324 -8 69 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1536 348 0 0.06 0.06
+( 384 -68 64 ) ( 383 -68 64 ) ( 384 -68 65 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1669.333 348 180 0.06 -0.06
+( 384 -44 64 ) ( 384 -43 64 ) ( 383 -44 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1536 -1785.333 90 0.06 0.06
+( 324 -8 256 ) ( 323 -8 256 ) ( 324 -7 256 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1536 -1785.333 90 0.06 0.06
+( 324 -16 68 ) ( 324 -16 69 ) ( 323 -16 68 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1669.333 348 180 0.06 -0.06
+( 384 -44 64 ) ( 384 -44 65 ) ( 384 -43 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1536 348 0 0.06 0.06
+}
+// brush 42
+{
 ( 256 224 128 ) ( 256 225 128 ) ( 256 224 129 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
 ( 256 160 384 ) ( 284 128 512 ) ( 284 128 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
 ( 256 180 384 ) ( 268 192 384 ) ( 268 192 512 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
@@ -280,143 +406,19 @@
 ( 308 128 384 ) ( 320 136 512 ) ( 320 136 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
 ( 320 96 64 ) ( 320 96 65 ) ( 320 97 64 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
 }
-// brush 29
-{
-( -64 160 384 ) ( -64 192 320 ) ( -64 256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 320 160 384 ) ( 320 192 320 ) ( -64 192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 320 192 320 ) ( 320 256 320 ) ( -64 256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -64 256 388 ) ( 320 256 388 ) ( 320 160 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 320 256 320 ) ( 320 256 384 ) ( -64 256 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 320 160 384 ) ( 320 256 384 ) ( 320 256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-}
-// brush 30
-{
-( 320 192 320 ) ( 284 192 384 ) ( 284 -192 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 284 -192 384 ) ( 384 -192 384 ) ( 384 -192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 384 -192 320 ) ( 384 192 320 ) ( 320 192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 284 192 388 ) ( 384 192 388 ) ( 384 -192 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 384 192 320 ) ( 384 192 384 ) ( 284 192 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 384 -192 384 ) ( 384 192 384 ) ( 384 192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-}
-// brush 31
-{
-( -64 -160 384 ) ( -64 -256 384 ) ( -64 -256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -64 -256 384 ) ( 320 -256 384 ) ( 320 -256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 320 -256 320 ) ( 320 -192 320 ) ( -64 -192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -64 -160 388 ) ( 320 -160 388 ) ( 320 -256 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 320 -192 320 ) ( 320 -160 384 ) ( -64 -160 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( 320 -256 384 ) ( 320 -160 384 ) ( 320 -192 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-}
-// brush 32
-{
-( -128 256 384 ) ( -128 128 384 ) ( -128 128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -128 128 384 ) ( -28 128 384 ) ( -64 128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -64 128 320 ) ( -64 256 320 ) ( -128 256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -128 256 388 ) ( -28 256 388 ) ( -28 128 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -64 256 320 ) ( -28 256 384 ) ( -128 256 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -28 128 384 ) ( -28 256 384 ) ( -64 256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-}
-// brush 33
-{
-( -384 128 384 ) ( -384 -128 384 ) ( -384 -128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -384 -128 384 ) ( -28 -128 384 ) ( -64 -128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -64 -128 320 ) ( -64 128 320 ) ( -384 128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -384 128 388 ) ( -28 128 388 ) ( -28 -128 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -64 128 320 ) ( -28 128 384 ) ( -384 128 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -28 -128 384 ) ( -28 128 384 ) ( -64 128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-}
-// brush 34
-{
-( -128 -128 384 ) ( -128 -256 384 ) ( -128 -256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -128 -256 384 ) ( -28 -256 384 ) ( -64 -256 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -64 -256 320 ) ( -64 -128 320 ) ( -128 -128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -128 -128 388 ) ( -28 -128 388 ) ( -28 -256 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -64 -128 320 ) ( -28 -128 384 ) ( -128 -128 384 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-( -28 -256 384 ) ( -28 -128 384 ) ( -64 -128 320 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 90 0.06 0.06
-}
-// brush 35
-{
-( 144 -256 64 ) ( 144 -255 64 ) ( 144 -256 65 ) PBR_Textures/Rust_Panel/rust-panel-albedo -464.00024 348 0 0.06 0.06
-( 160 -256 64 ) ( 160 -256 65 ) ( 161 -256 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -397.3335 348 0 0.06 0.06
-( 160 -256 64 ) ( 161 -256 64 ) ( 160 -255 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -397.3335 348.00024 0 0.06 0.06
-( 196 -196 256 ) ( 196 -195 256 ) ( 197 -196 256 ) PBR_Textures/Rust_Panel/rust-panel-albedo -397.3335 348.00024 0 0.06 0.06
-( 196 -196 68 ) ( 197 -196 68 ) ( 196 -196 69 ) PBR_Textures/Rust_Panel/rust-panel-albedo -397.3335 348 0 0.06 0.06
-( 196 -196 68 ) ( 196 -196 69 ) ( 196 -195 68 ) PBR_Textures/Rust_Panel/rust-panel-albedo -464.00024 348 0 0.06 0.06
-}
-// brush 36
-{
-( 60 -256 64 ) ( 60 -255 64 ) ( 60 -256 65 ) PBR_Textures/Rust_Panel/rust-panel-albedo -464.00024 348 0 0.06 0.06
-( 84 -256 64 ) ( 84 -256 65 ) ( 85 -256 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -597.3334 348 0 0.06 0.06
-( 84 -256 64 ) ( 85 -256 64 ) ( 84 -255 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo -597.3334 348.00024 0 0.06 0.06
-( 120 -196 256 ) ( 120 -195 256 ) ( 121 -196 256 ) PBR_Textures/Rust_Panel/rust-panel-albedo -597.3334 348.00024 0 0.06 0.06
-( 120 -196 68 ) ( 121 -196 68 ) ( 120 -196 69 ) PBR_Textures/Rust_Panel/rust-panel-albedo -597.3334 348 0 0.06 0.06
-( 112 -196 68 ) ( 112 -196 69 ) ( 112 -195 68 ) PBR_Textures/Rust_Panel/rust-panel-albedo -464.00024 348 0 0.06 0.06
-}
-// brush 37
-{
-( 140 -256 64 ) ( 140 -255 64 ) ( 140 -256 65 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464.00024 348 0 0.06 0.06
-( 164 -252 64 ) ( 164 -252 65 ) ( 165 -252 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464 348 0 0.06 0.06
-( 164 -256 68 ) ( 165 -256 68 ) ( 164 -255 68 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464 348.00024 0 0.06 0.06
-( 200 -196 252 ) ( 200 -195 252 ) ( 201 -196 252 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464 348.00024 0 0.06 0.06
-( 200 -200 68 ) ( 201 -200 68 ) ( 200 -200 69 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464 348 0 0.06 0.06
-( 148 -256 64 ) ( 148 -256 65 ) ( 148 -255 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464.00024 348 0 0.06 0.06
-}
-// brush 38
-{
-( 108 -256 64 ) ( 108 -255 64 ) ( 108 -256 65 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464.00024 348 0 0.06 0.06
-( 132 -252 64 ) ( 132 -252 65 ) ( 133 -252 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 69.33325 348 0 0.06 0.06
-( 132 -256 68 ) ( 133 -256 68 ) ( 132 -255 68 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 69.33325 348.00024 0 0.06 0.06
-( 168 -196 252 ) ( 168 -195 252 ) ( 169 -196 252 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 69.33325 348.00024 0 0.06 0.06
-( 168 -200 68 ) ( 169 -200 68 ) ( 168 -200 69 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 69.33325 348 0 0.06 0.06
-( 116 -256 64 ) ( 116 -256 65 ) ( 116 -255 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo -464.00024 348 0 0.06 0.06
-}
-// brush 39
-{
-( 324 68 68 ) ( 324 69 68 ) ( 324 68 69 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1736 348 0 0.06 0.06
-( 384 16 64 ) ( 383 16 64 ) ( 384 16 65 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1669.333 348 180 0.06 -0.06
-( 384 32 64 ) ( 384 33 64 ) ( 383 32 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1736 -1785.333 90 0.06 0.06
-( 324 68 256 ) ( 323 68 256 ) ( 324 69 256 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1736 -1785.333 90 0.06 0.06
-( 324 68 68 ) ( 324 68 69 ) ( 323 68 68 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1669.333 348 180 0.06 -0.06
-( 384 32 64 ) ( 384 32 65 ) ( 384 33 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1736 348 0 0.06 0.06
-}
-// brush 40
-{
-( 328 72 68 ) ( 328 73 68 ) ( 328 72 69 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.3335 348 0 0.06 0.06
-( 384 12 64 ) ( 383 12 64 ) ( 384 12 65 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.333 348 180 0.06 -0.06
-( 384 36 68 ) ( 384 37 68 ) ( 383 36 68 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.3335 -1785.333 90 0.06 0.06
-( 324 72 252 ) ( 323 72 252 ) ( 324 73 252 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.3335 -1785.333 90 0.06 0.06
-( 384 20 64 ) ( 384 20 65 ) ( 383 20 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.333 348 180 0.06 -0.06
-( 380 36 64 ) ( 380 36 65 ) ( 380 37 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.3335 348 0 0.06 0.06
-}
-// brush 41
-{
-( 328 40 68 ) ( 328 41 68 ) ( 328 40 69 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 154.66684 348 0 0.06 0.06
-( 384 -20 64 ) ( 383 -20 64 ) ( 384 -20 65 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.333 348 180 0.06 -0.06
-( 384 4 68 ) ( 384 5 68 ) ( 383 4 68 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 154.66684 -1785.333 90 0.06 0.06
-( 324 40 252 ) ( 323 40 252 ) ( 324 41 252 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 154.66684 -1785.333 90 0.06 0.06
-( 384 -12 64 ) ( 384 -12 65 ) ( 383 -12 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 1669.333 348 180 0.06 -0.06
-( 380 4 64 ) ( 380 4 65 ) ( 380 5 64 ) PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo 154.66684 348 0 0.06 0.06
-}
-// brush 42
-{
-( 324 -8 68 ) ( 324 -7 68 ) ( 324 -8 69 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1536 348 0 0.06 0.06
-( 384 -68 64 ) ( 383 -68 64 ) ( 384 -68 65 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1669.333 348 180 0.06 -0.06
-( 384 -44 64 ) ( 384 -43 64 ) ( 383 -44 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1536 -1785.333 90 0.06 0.06
-( 324 -8 256 ) ( 323 -8 256 ) ( 324 -7 256 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1536 -1785.333 90 0.06 0.06
-( 324 -16 68 ) ( 324 -16 69 ) ( 323 -16 68 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1669.333 348 180 0.06 -0.06
-( 384 -44 64 ) ( 384 -44 65 ) ( 384 -43 64 ) PBR_Textures/Rust_Panel/rust-panel-albedo 1536 348 0 0.06 0.06
-}
 }
 // entity 1
 {
-"classname" "trigger"
+"classname" "wall"
+"visual" "0"
+"layer" "4"
 // brush 0
 {
-( -70 42 388 ) ( -70 43 388 ) ( -70 42 389 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
-( -70 -170 388 ) ( -70 -170 389 ) ( -69 -170 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
-( -70 42 388 ) ( -69 42 388 ) ( -70 43 388 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
-( 324 175 389 ) ( 324 176 389 ) ( 325 175 389 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
-( 324 175 389 ) ( 325 175 389 ) ( 324 175 390 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
-( 324 175 389 ) ( 324 175 390 ) ( 324 176 389 ) PBR_Textures/Wood071/Wood071_1K_Color 0 0 0 1 1
+( -70 42 388 ) ( -70 43 388 ) ( -70 42 389 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Metalness 0 0 0 0.01 0.01
+( -70 -170 388 ) ( -70 -170 389 ) ( -69 -170 388 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Metalness 0 0 0 0.01 0.01
+( -70 42 388 ) ( -69 42 388 ) ( -70 43 388 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Metalness 0 0 0 0.01 0.01
+( 324 175 389 ) ( 324 176 389 ) ( 325 175 389 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Metalness 0 0 0 0.01 0.01
+( 324 175 389 ) ( 325 175 389 ) ( 324 175 390 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Metalness 0 0 0 0.01 0.01
+( 324 175 389 ) ( 324 175 390 ) ( 324 176 389 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Metalness 0 0 0 0.01 0.01
 }
 }

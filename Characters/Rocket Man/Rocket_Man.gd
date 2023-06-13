@@ -8,6 +8,8 @@ var mouse_sensitivity:float = .1
 @onready var ground_check = $GroundCheck
 @onready var raycast = %RayCast3D
 @onready var anim = %"Weapon Animations"
+@onready var scrn_txt = %"Screen Text"
+@onready var scrn_txt_anim = %"Screen Text Anim"
 @onready var explosion = preload("res://Objects/Projectile/Explosion_Hitbox.tscn")
 @onready var rocket = preload("res://Objects/Projectile/Rocket.tscn")
 
@@ -23,20 +25,32 @@ var mouse_sensitivity:float = .1
 @export var slow_air_angle:float = 45
 
 #Movement Variables 2
+#@export var can_bhop = true
 @export var cooldown = 0.8
+@export var auto_jump: bool = true # Auto bunnyhopping
 var wishdir:Vector3 = Vector3.ZERO
 var accelerate_return: Vector3 = Vector3.ZERO
 var vertical_velocity: float = 0 # Vertical component of our velocity. 
 # We separate it from 'velocity' to make calculations easier, then join both vectors before moving the player
 var terminal_velocity: float = gravity * -5
 var wish_jump:bool = false
-var auto_jump: bool = true # Auto bunnyhopping
 var nextVelocity: Vector3 = Vector3.ZERO
 var crouching:bool = false
 
 #Ammo Variables
 @export var max_ammo:int = 0
 @export var current_ammo:int = 0
+
+func set_scrn_txt(text):
+	scrn_txt.text = ""
+	scrn_txt.text = text
+	scrn_txt_anim.play("Text Appear")
+	scrn_txt.visible = true
+	await get_tree().create_timer(3).timeout
+	scrn_txt_anim.play("Text Disapear")
+	await scrn_txt_anim.animation_finished
+	scrn_txt.text = ""
+	scrn_txt.visible = false
 
 func _input(event: InputEvent) -> void:
 	# Camera rotation
@@ -48,6 +62,7 @@ func _input(event: InputEvent) -> void:
 		head.rotation = camera_rot
 
 func _ready():
+	Globals.scrn_txt.connect(set_scrn_txt)
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	Normal()
 
@@ -322,15 +337,19 @@ func friction(input_velocity: Vector3)-> Vector3:
 func queue_jump():
 	# If auto_jump is true, the player keeps jumping as long as the key is kept down
 	if auto_jump:
-		wish_jump = true if Input.is_action_pressed("jump") else false
+		if Input.is_action_pressed("jump"):
+			wish_jump = true
+		if Input.is_action_just_released("jump"):
+			wish_jump = false
+		#wish_jump = true if Input.is_action_pressed("jump") else false
 		return
-	
-	if Input.is_action_pressed("jump") and !wish_jump:
-		wish_jump = true
-		return true
-	if Input.is_action_just_released("jump"):
-		wish_jump = false
-		return false
+	else:
+		if Input.is_action_just_pressed("jump") and is_on_floor():#!wish_jump:
+			wish_jump = true
+			return true
+			wish_jump = false
+		else:
+			wish_jump = false
 
 func move_ground(input_velocity: Vector3, delta: float)-> void:
 	# We first work on only on the horizontal components of our current velocity

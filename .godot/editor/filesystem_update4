@@ -1,4 +1,4 @@
-res://Maps/Kingdom 1/Kingdom 1.tscn
+res://Maps/Kingdom 2/Kingdom 2.tscn
 res://Objects/Projectile/Explosion_Hitbox.tres
 res://addons/qodot/game_definitions/fgd/point_classes/signal_point_class.tres
 res://addons/qodot/game_definitions/fgd/solid_classes/trigger_solid_class.tres
@@ -18,19 +18,7 @@ res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Color.tres
 res://textures/PBR_Textures/Wood071/Wood071_1K_Color.tres
 res://textures/PBR_Textures/Orange_Tile.tres
 res://Stage Assets/Sign/Sign.tres
-res://Maps/Stage 1/Stage_1 Environment.tres
 res://textures/PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo.tres
 res://textures/PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo.tres
-res://Maps/Kingdom 2/Kingdom 2.tscn
-res://Characters/Rocket Man/Rocket_Man.tscn
-res://Objects/Capsules/Rocket_Capsule.tscn
-res://Maps/Stage 1/Tutorial.tscn
-res://Maps/Hub/Hub.tscn
-res://Objects/Projectile/Explosion_Hitbox.tscn
-res://Objects/Projectile/Rocket.tscn
-res://Titlescreen/TitleScreen.tscn
-res://Autoloads/Transitions/Transitions.tscn
-res://Autoloads/Transitions/Transitions.gd
-res://Titlescreen/Shifting_Shader.tscn
-res://Titlescreen/Shifting_Shader.tres
+res://Maps/Stage 1/Stage_1 Environment.tres
 res://Titlescreen/Shifting_Shader1.tres

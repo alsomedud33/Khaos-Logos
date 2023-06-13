@@ -1,4 +1,4 @@
-extends MeshInstance3D
+extends Area3D
 
 @export_category("Ammo Properties")
 @export var amount:int = 1
@@ -22,3 +22,5 @@ func _on_area_3d_body_entered(body):
 func _on_cooldown_timeout():
 	self.show()
 	%Area3D.set_collision_mask_value(2,true)
+
+

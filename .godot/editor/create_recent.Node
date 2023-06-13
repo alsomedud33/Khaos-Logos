@@ -1,13 +1,13 @@
-TextureRect
-ColorRect
 AnimationPlayer
-CanvasLayer
-Button
-Label
-SpotLight3D
-Sprite3D
 CollisionShape3D
 Area3D
+Label
+TextureRect
+ColorRect
+CanvasLayer
+Button
+SpotLight3D
+Sprite3D
 VideoStreamPlayer
 Control
 SubViewport
@@ -30,4 +30,3 @@ Marker3D
 SkeletonIK3D
 Camera3D
 Label3D
-CharacterBody3D

@@ -1,7 +1,8 @@
-[gd_scene load_steps=13 format=3 uid="uid://b2i1obwma0iqb"]
+[gd_scene load_steps=14 format=3 uid="uid://b2i1obwma0iqb"]
 
 [ext_resource type="Script" path="res://Objects/Projectile/Rocket.gd" id="1_ne0pv"]
 [ext_resource type="Texture2D" uid="uid://edv4t8r3nwb5" path="res://textures/Prototype_Textures/PNG/Red/texture_01.png" id="2_lwnmr"]
+[ext_resource type="PackedScene" uid="uid://bgmm611tg4r0y" path="res://Stage Assets/Rocket/Rocket.glb" id="3_bjg6k"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_lnb3e"]
 radius = 0.16
@@ -91,6 +92,7 @@ shape = SubResource("SphereShape3D_lnb3e")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
 transform = Transform3D(0.346164, 0, 0, 0, 0.290504, 0, 0, 0, 0.876048, 0, 0, 0)
+visible = false
 material_override = SubResource("StandardMaterial3D_u87mp")
 mesh = SubResource("BoxMesh_qbv1s")
 
@@ -124,5 +126,8 @@ process_material = SubResource("ParticleProcessMaterial_1h432")
 draw_pass_1 = SubResource("RibbonTrailMesh_evhea")
 
 [node name="Timer" type="Timer" parent="."]
+
+[node name="Rocket" parent="." instance=ExtResource("3_bjg6k")]
+transform = Transform3D(-8.74228e-09, 0, -0.2, 0, 0.2, 0, 0.2, 0, -8.74228e-09, 0.00695496, 0, -0.0570169)
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
