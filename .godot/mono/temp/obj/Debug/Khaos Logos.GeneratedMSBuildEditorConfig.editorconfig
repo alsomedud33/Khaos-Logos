@@ -1,4 +1,5 @@
 is_global = true
+build_property.GodotDisabledSourceGenerators = 
 build_property.GodotProjectDir = G:\Godot 4.0 Stuff\Khaos Logos\
 build_property.GodotProjectDirBase64 = 
 build_property.GodotSourceGenerators = 

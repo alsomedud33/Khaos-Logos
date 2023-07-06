@@ -1,6 +1,7 @@
-AnimationPlayer
 CollisionShape3D
 Area3D
+FogVolume
+AnimationPlayer
 Label
 TextureRect
 ColorRect
@@ -29,4 +30,3 @@ Skeleton3D
 Marker3D
 SkeletonIK3D
 Camera3D
-Label3D

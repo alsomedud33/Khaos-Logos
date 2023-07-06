@@ -99,10 +99,10 @@ tracks/1/path = NodePath("Pivot/ArmIK Left:position")
 tracks/1/interp = 2
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.3, 0.95, 1.6, 1.9),
+"times": PackedFloat32Array(0, 0.3, 0.95, 1.5, 1.9),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 2,
-"values": [Vector3(0.799608, -0.61209, 0.758279), Vector3(0.799608, -0.484905, 0.758279), Vector3(0.799608, -0.484905, 0.758279), Vector3(0.799608, -0.484905, 0.758279), Vector3(0.799608, -0.61209, 0.758279)]
+"values": [Vector3(0.88431, -0.447059, 1.0373), Vector3(0.88431, -0.447059, 1.0373), Vector3(0.88431, -0.456727, 1.0373), Vector3(0.88431, -0.456727, 1.0373), Vector3(0.88431, -0.447059, 1.0373)]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
@@ -111,10 +111,10 @@ tracks/2/path = NodePath("Pivot/ArmIK Left:rotation")
 tracks/2/interp = 2
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.3, 0.95, 1.6, 1.9),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.25, 1.5, 1.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 2,
-"values": [Vector3(0.025675, 1.93815, 1.76977), Vector3(0.215044, 1.88812, 1.26588), Vector3(0.215044, 1.88812, 1.26588), Vector3(0.215044, 1.88812, 1.26588), Vector3(0.025675, 1.93815, 1.76977)]
+"values": [Vector3(-0.00911433, -1.40153, -0.996803), Vector3(-0.00911434, -1.6472, -0.996802), Vector3(-0.00911433, -1.40153, -0.996803), Vector3(-0.00911433, -1.40153, -0.996803)]
 }
 
 [sub_resource type="Animation" id="Animation_2lplv"]
@@ -153,7 +153,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.0242324, 0.380542, 1.90257)]
+"values": [Vector3(-0.405048, -2.75522, -1.47462)]
 }
 
 [sub_resource type="Animation" id="Animation_36bmt"]
@@ -180,8 +180,8 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.3, 0.5),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 2,
-"values": [Vector3(-0.0242324, 0.380542, 1.90257), Vector3(-0.546079, 0.42907, 1.4737), Vector3(-0.546079, 0.42907, 1.4737), Vector3(-0.0242324, 0.380542, 1.90257)]
+"update": 0,
+"values": [Vector3(0.0242324, -2.76105, -1.90257), Vector3(0.806372, -2.67626, -1.45081), Vector3(0.806372, -2.67626, -1.45081), Vector3(0.0242325, -2.76105, -1.90257)]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
@@ -219,10 +219,10 @@ tracks/1/path = NodePath("Pivot/ArmIK Left:position")
 tracks/1/interp = 2
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.25, 0.3, 0.4, 0.8, 0.9),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.3, 0.4, 0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 2,
-"values": [Vector3(-0.987418, -0.640088, 0.969786), Vector3(-0.854497, -0.594542, 0.835344), Vector3(-0.987, -0.557, 0.97), Vector3(-0.987, -0.557, 0.97), Vector3(-0.987418, -0.640088, 0.969786), Vector3(-0.987418, -0.640088, 0.969786)]
+"values": [Vector3(-0.987418, -0.640088, 0.969786), Vector3(-0.987, -0.557, 0.97), Vector3(-0.987, -0.557, 0.97), Vector3(-0.987418, -0.640088, 0.969786), Vector3(-0.987418, -0.640088, 0.969786)]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
@@ -234,7 +234,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0, 0.3, 0.4),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 2,
-"values": [Vector3(-0.0242324, 0.380542, 1.90257), Vector3(0.312414, 0.380482, 1.90241), Vector3(0.312414, 0.380482, 1.90241)]
+"values": [Vector3(0.600014, -1.85714, -1.16514), Vector3(-0.064055, -2.84565, -1.88646), Vector3(-0.064055, -2.84565, -1.88646)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_itih0"]
@@ -357,7 +357,7 @@ skeleton = NodePath("")
 transform = Transform3D(-0.039783, 0, -0.999208, 0, 1, 0, 0.999208, 0, -0.039783, -1.42279, -0.540369, -0.315031)
 
 [node name="ArmIK Left" type="Marker3D" parent="Pivot"]
-transform = Transform3D(-0.310928, -0.874899, 0.371315, 0.945188, -0.325625, 0.02423, 0.0997104, 0.358496, 0.928191, -0.987418, -0.640088, 0.969786)
+transform = Transform3D(-0.236758, -0.907742, -0.346339, -0.914837, 0.0882579, 0.394063, -0.32714, 0.410141, -0.851331, -0.987418, -0.640088, 0.969786)
 
 [node name="Skeleton3D" type="Skeleton3D" parent="Pivot"]
 transform = Transform3D(0.319, 0, 0, 0, 0.173, 0, 0, 0, 0.295, -0.06, -1.436, -0.091)
@@ -418,7 +418,6 @@ skeleton = NodePath("")
 process_priority = 1
 root_bone = &"UpperArm.L.001"
 tip_bone = &"Arm.L.001"
-use_magnet = true
 magnet = Vector3(100, -1e+06, -10000)
 target_node = NodePath("../../ArmIK Left")
 script = ExtResource("7_sxqru")
