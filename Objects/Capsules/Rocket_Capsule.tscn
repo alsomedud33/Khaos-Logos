@@ -45,6 +45,21 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_qrnxk")
 
+[sub_resource type="Animation" id="Animation_x55x7"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.5708, -3.14159, 0)]
+}
+
 [sub_resource type="Animation" id="Animation_2rko4"]
 resource_name = "Rotate"
 length = 3.0
@@ -62,21 +77,6 @@ tracks/0/keys = {
 "values": [Vector3(1.5708, -3.14159, 0), Vector3(1.5708, 1.21005e-21, 0), Vector3(1.5708, 9.42478, 0)]
 }
 
-[sub_resource type="Animation" id="Animation_x55x7"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:rotation")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(-1.5708, -3.14159, 0)]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_iqfsb"]
 _data = {
 "RESET": SubResource("Animation_x55x7"),
@@ -92,7 +92,7 @@ script = ExtResource("1_k011l")
 shape = SubResource("BoxShape3D_6n8ag")
 
 [node name="Rocket Capsule" type="MeshInstance3D" parent="."]
-transform = Transform3D(-0.7, -6.11959e-08, -2.67496e-15, 0, -3.0598e-08, 0.7, -6.11959e-08, 0.7, 3.0598e-08, 0, 0, 0)
+transform = Transform3D(-0.7, 1.77463e-06, 6.42413e-12, 0, -2.53399e-06, 0.7, 1.77463e-06, 0.7, 2.53399e-06, 0, 0, 0)
 mesh = SubResource("ArrayMesh_hx5o8")
 
 [node name="Cooldown" type="Timer" parent="."]

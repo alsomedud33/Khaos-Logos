@@ -10,7 +10,7 @@ uniform float speed = 2.0;
 void fragment() {
 	float diff_x = 0.1 * sin((stretch * UV.y)+(speed * TIME));
 	COLOR = texture(TEXTURE, vec2(UV.x + diff_x, UV.y));
-	COLOR = mix(COLOR, vec4(0.0), float(int(UV.y * screen_height) % 2));
+	COLOR = mix(vec4(0.0),COLOR, float(int(UV.y * screen_height) % 2));
 }"
 
 [resource]

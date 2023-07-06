@@ -525,6 +525,7 @@ shape = SubResource("ConvexPolygonShape3D_ivw8e")
 [node name="entity_1_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15625, 24.2813, 7.9375)
 visible = false
+collision_layer = 8
 script = ExtResource("14_qlhq2")
 properties = {
 "classname": "wall",
