@@ -64,7 +64,7 @@ func _input(event: InputEvent) -> void:
 		head.rotate_x(deg_to_rad(event.relative.y * mouse_sensitivity))
 		self.rotate_y(deg_to_rad((event.relative.x * -mouse_sensitivity)))
 		var camera_rot = head.rotation
-		%Pivot.rotation.x = clamp(%Pivot.rotation.x, deg_to_rad(-89), deg_to_rad(89))
+		head.rotation.x = clamp(%Pivot.rotation.x, deg_to_rad(-89), deg_to_rad(89))
 		#camera_rot.x = clamp(camera_rot.x, deg_to_rad(-89), deg_to_rad(89))
 
 func _ready():
@@ -92,8 +92,8 @@ var crouch_jump_counter =0
 
 func _process(delta):
 	%"Weapons Cam".global_transform = $Pivot/Camera3D.global_transform
-	%"Hands and Weps".rotation.y = lerp_angle(%"Hands and Weps".rotation.y, rotation.y, sway_speed*delta)
-	%"Hands and Weps".rotation.x = lerp_angle(%"Hands and Weps".rotation.x, %Pivot.rotation.x, sway_speed*delta)
+	%"Hands and Weps".rotation.y = lerp_angle(%"Hands and Weps".rotation.y, rotation.y, sway_speed*(clamp(Input.get_last_mouse_velocity().y,1,2))*delta)
+	%"Hands and Weps".rotation.x = lerp_angle(%"Hands and Weps".rotation.x, %Pivot.rotation.x, sway_speed*(clamp(Input.get_last_mouse_velocity().x,1000,4000))*0.001*delta)
 	#%"Hands and Weps".global_transform.origin = %Pivot.global_transform.origin 
 	if Input.is_action_pressed("move_forward"):
 		%mv_W.visible = true
@@ -126,8 +126,7 @@ func _process(delta):
 
 
 func _physics_process(delta):
-	max_body_sway = clamp(velocity.length(),10,40)
-	print (max_body_sway)
+	max_body_sway = clamp(velocity.length(),10,30)
 	%"Hands and Weps".global_transform.origin = lerp(%"Hands and Weps".global_transform.origin, %Pivot.global_transform.origin, body_sway_speed*(max_body_sway*0.1)*delta)
 	#%"Hands and Weps".global_transform = %Pivot.global_transform
 	$CollisionShape3D2.global_rotation = Vector3.ZERO
@@ -135,6 +134,12 @@ func _physics_process(delta):
 	Ammunition()
 	var forward_input: float = Input.get_action_strength("move_forward") - Input.get_action_strength("move_back")
 	var strafe_input: float = Input.get_action_strength("move_left") - Input.get_action_strength("move_right")
+	if strafe_input > 0:
+		$Pivot/Camera3D.rotation.z = lerpf($Pivot/Camera3D.rotation.z,.05,10 * delta)
+	elif strafe_input < 0:
+		$Pivot/Camera3D.rotation.z = lerpf($Pivot/Camera3D.rotation.z,-.05,10 * delta)
+	elif strafe_input == 0:
+		$Pivot/Camera3D.rotation.z = lerpf($Pivot/Camera3D.rotation.z,0,10 * delta)
 	wishdir = Vector3(strafe_input, 0, forward_input).rotated(Vector3.UP, self.global_transform.basis.get_euler().y).normalized() 
 	if Input.is_action_just_pressed("crouch"):
 		if is_on_floor() == false and crouch_jump_counter == 0:

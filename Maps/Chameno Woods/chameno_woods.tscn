@@ -130,7 +130,7 @@ directional_shadow_max_distance = 200.0
 
 [node name="RocketMan" parent="." instance=ExtResource("3_y6em2")]
 unique_name_in_owner = true
-transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 3, 15, -4)
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 57, 100, 25)
 max_ammo = 1
 
 [node name="QodotMap" type="Node3D" parent="."]
