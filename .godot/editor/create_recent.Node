@@ -1,3 +1,5 @@
+Node3D
+QodotMap
 CollisionShape3D
 Area3D
 FogVolume
@@ -15,7 +17,6 @@ SubViewport
 AnimatedSprite3D
 SubViewportContainer
 MeshInstance3D
-QodotMap
 OmniLight3D
 Timer
 ShapeCast3D

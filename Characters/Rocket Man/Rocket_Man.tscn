@@ -31,7 +31,7 @@ resource_name = "Material.003"
 cull_mode = 2
 vertex_color_use_as_albedo = true
 albedo_texture = ExtResource("6_jh3dl")
-roughness = 0.4
+metallic_specular = 0.0
 texture_filter = 2
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_u12ys"]
@@ -83,7 +83,7 @@ step = 0.05
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Pivot/RocketLauncher2:rotation")
+tracks/0/path = NodePath("Pivot/Hands and Weps/RocketLauncher2:rotation")
 tracks/0/interp = 2
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -95,7 +95,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Pivot/ArmIK Left:position")
+tracks/1/path = NodePath("Pivot/Hands and Weps/ArmIK Left:position")
 tracks/1/interp = 2
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -107,7 +107,7 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Pivot/ArmIK Left:rotation")
+tracks/2/path = NodePath("Pivot/Hands and Weps/ArmIK Left:rotation")
 tracks/2/interp = 2
 tracks/2/loop_wrap = true
 tracks/2/keys = {
@@ -122,7 +122,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Pivot/RocketLauncher2:rotation")
+tracks/0/path = NodePath("Pivot/Hands and Weps/RocketLauncher2:rotation")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -134,7 +134,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Pivot/ArmIK Left:position")
+tracks/1/path = NodePath("Pivot/Hands and Weps/ArmIK Left:position")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -146,7 +146,7 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Pivot/ArmIK Left:rotation")
+tracks/2/path = NodePath("Pivot/Hands and Weps/ArmIK Left:rotation")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
@@ -162,7 +162,7 @@ length = 0.5
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Pivot/RocketLauncher2:rotation")
+tracks/0/path = NodePath("Pivot/Hands and Weps/RocketLauncher2:rotation")
 tracks/0/interp = 2
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -174,7 +174,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Pivot/ArmIK Left:rotation")
+tracks/1/path = NodePath("Pivot/Hands and Weps/ArmIK Left:rotation")
 tracks/1/interp = 2
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -186,7 +186,7 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Pivot/ArmIK Left:position")
+tracks/2/path = NodePath("Pivot/Hands and Weps/ArmIK Left:position")
 tracks/2/interp = 2
 tracks/2/loop_wrap = true
 tracks/2/keys = {
@@ -203,7 +203,7 @@ step = 0.05
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Pivot/RocketLauncher2:rotation")
+tracks/0/path = NodePath("Pivot/Hands and Weps/RocketLauncher2:rotation")
 tracks/0/interp = 2
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -215,7 +215,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Pivot/ArmIK Left:position")
+tracks/1/path = NodePath("Pivot/Hands and Weps/ArmIK Left:position")
 tracks/1/interp = 2
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -227,7 +227,7 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Pivot/ArmIK Left:rotation")
+tracks/2/path = NodePath("Pivot/Hands and Weps/ArmIK Left:rotation")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
@@ -304,6 +304,7 @@ floor_constant_speed = true
 floor_block_on_wall = false
 safe_margin = 0.015
 script = ExtResource("1_i0jmb")
+body_sway_speed = 30
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_oahi1")
@@ -344,7 +345,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.201, 0.66)
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.06679, -0.187537, 1.39645)
 
-[node name="RocketLauncher2" type="MeshInstance3D" parent="Pivot"]
+[node name="Hands and Weps" type="Node3D" parent="Pivot"]
+unique_name_in_owner = true
+top_level = true
+
+[node name="RocketLauncher2" type="MeshInstance3D" parent="Pivot/Hands and Weps"]
 transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -1, -0.7, 0)
 layers = 4
 material_override = SubResource("StandardMaterial3D_dmsml")
@@ -353,13 +358,13 @@ ignore_occlusion_culling = true
 mesh = ExtResource("4_3t46w")
 skeleton = NodePath("")
 
-[node name="ArmIK Right" type="Marker3D" parent="Pivot"]
+[node name="ArmIK Right" type="Marker3D" parent="Pivot/Hands and Weps"]
 transform = Transform3D(-0.039783, 0, -0.999208, 0, 1, 0, 0.999208, 0, -0.039783, -1.42279, -0.540369, -0.315031)
 
-[node name="ArmIK Left" type="Marker3D" parent="Pivot"]
+[node name="ArmIK Left" type="Marker3D" parent="Pivot/Hands and Weps"]
 transform = Transform3D(-0.236758, -0.907742, -0.346339, -0.914837, 0.0882579, 0.394063, -0.32714, 0.410141, -0.851331, -0.987418, -0.640088, 0.969786)
 
-[node name="Skeleton3D" type="Skeleton3D" parent="Pivot"]
+[node name="Skeleton3D" type="Skeleton3D" parent="Pivot/Hands and Weps"]
 transform = Transform3D(0.319, 0, 0, 0, 0.173, 0, 0, 0, 0.295, -0.06, -1.436, -0.091)
 bones/0/name = "UpperArm.L.001"
 bones/0/parent = -1
@@ -404,17 +409,17 @@ bones/5/position = Vector3(1.66446e-07, 2.17997, 5.55983e-07)
 bones/5/rotation = Quaternion(-0.0698083, -0.703653, -0.0698083, 0.703652)
 bones/5/scale = Vector3(1, 1, 1)
 
-[node name="Arms" type="MeshInstance3D" parent="Pivot/Skeleton3D"]
+[node name="Arms" type="MeshInstance3D" parent="Pivot/Hands and Weps/Skeleton3D"]
 layers = 4
 mesh = SubResource("ArrayMesh_u12ys")
 skin = SubResource("Skin_6rul4")
 
-[node name="85117" type="MeshInstance3D" parent="Pivot/Skeleton3D"]
+[node name="85117" type="MeshInstance3D" parent="Pivot/Hands and Weps/Skeleton3D"]
 cast_shadow = 0
 mesh = SubResource("ImmediateMesh_wtdhh")
 skeleton = NodePath("")
 
-[node name="Arm L" type="SkeletonIK3D" parent="Pivot/Skeleton3D"]
+[node name="Arm L" type="SkeletonIK3D" parent="Pivot/Hands and Weps/Skeleton3D"]
 process_priority = 1
 root_bone = &"UpperArm.L.001"
 tip_bone = &"Arm.L.001"
@@ -422,7 +427,7 @@ magnet = Vector3(100, -1e+06, -10000)
 target_node = NodePath("../../ArmIK Left")
 script = ExtResource("7_sxqru")
 
-[node name="Arm R" type="SkeletonIK3D" parent="Pivot/Skeleton3D"]
+[node name="Arm R" type="SkeletonIK3D" parent="Pivot/Hands and Weps/Skeleton3D"]
 process_priority = 1
 root_bone = &"UpperArm.R.001"
 tip_bone = &"Arm.R.001"
@@ -477,8 +482,9 @@ texture = ExtResource("5_echs7")
 
 [node name="Weapons Cam" type="Camera3D" parent="WeaponsCam/SubViewportContainer/SubViewport"]
 unique_name_in_owner = true
-transform = Transform3D(-1, 0, 1.50996e-07, 0, 1, 0, -1.50996e-07, 0, -1, 0, 1.64001, 0)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 1.64001, 0)
 cull_mask = 4
+current = true
 fov = 80.0
 
 [node name="Weapon Animations" type="AnimationPlayer" parent="."]

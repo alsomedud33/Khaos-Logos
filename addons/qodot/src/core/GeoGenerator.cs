@@ -7,7 +7,8 @@ namespace Qodot
 {
 	public class GeoGenerator
 	{
-		private const float CMP_EPSILON = 0.0005f;
+		// Min distance between two verts in a brush before they're merged. Higher values fix angled brushes near extents.
+		private const float CMP_EPSILON = 0.008f;
 
 		private readonly Vector3 UP_VECTOR      = new Vector3(0.0f, 0.0f, 1.0f);
 		private readonly Vector3 RIGHT_VECTOR   = new Vector3(0.0f, 1.0f, 0.0f);
@@ -205,6 +206,26 @@ namespace Qodot
 						Vector3? vertex = IntersectFaces(ref faces[f0], ref faces[f1], ref faces[f2]);
 						if (vertex == null || !VertexInHull(brush.faces, vertex.Value)) continue;
 
+						// If we already generated a vertex close enough to this one, then merge them.
+						bool merged = false;
+						for (int f3 = 0; f3 <= f0; f3++)
+						{
+							ref FaceGeometry otherFaceGeo = ref faceGeos[f3];
+							for (int i = 0; i < otherFaceGeo.vertices.Count; i++)
+							{
+								if (otherFaceGeo.vertices[i].vertex.DistanceTo(vertex.Value) < CMP_EPSILON)
+								{
+									vertex = otherFaceGeo.vertices[i].vertex;
+									merged = true;
+									break;
+								}
+							}
+							if (merged)
+							{
+								break;
+							}
+						}
+
 						Vector3 normal = Vector3.Zero;
 						if (phong)
 						{
@@ -234,6 +255,7 @@ namespace Qodot
 							tangent = GetStandardTangent(ref face);
 						}
 
+						// Check for a duplicate vertex in the current face.
 						int duplicateIdx = -1;
 						for (int i = 0; i < faceGeo.vertices.Count; i++)
 						{
@@ -331,10 +353,10 @@ namespace Qodot
 		private Vector2 GetValveUV(Vector3 vertex, ref Face face, int texW, int texH)
 		{
 			Vector2 uvOut = Vector2.Zero;
-			Vector3 uAxis = face.uvValve.u.axis;
-			Vector3 vAxis = face.uvValve.v.axis;
-			float uShift = face.uvValve.u.offset;
-			float vShift = face.uvValve.v.offset;
+			Vector3 uAxis = face.uvValve.U.axis;
+			Vector3 vAxis = face.uvValve.V.axis;
+			float uShift = face.uvValve.U.offset;
+			float vShift = face.uvValve.V.offset;
 	
 			uvOut.X = uAxis.Dot(vertex);
 			uvOut.Y = vAxis.Dot(vertex);
@@ -387,8 +409,8 @@ namespace Qodot
 
 		private Vector4 GetValveTangent(ref Face face)
 		{
-			Vector3 uAxis = face.uvValve.u.axis.Normalized();
-			Vector3 vAxis = face.uvValve.v.axis.Normalized();
+			Vector3 uAxis = face.uvValve.U.axis.Normalized();
+			Vector3 vAxis = face.uvValve.V.axis.Normalized();
 			float vSign = -Mathf.Sign(face.planeNormal.Cross(uAxis).Dot(vAxis));
 
 			return new Vector4(uAxis.X, uAxis.Y, uAxis.Z, vSign);

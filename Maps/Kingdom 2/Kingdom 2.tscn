@@ -1,7 +1,7 @@
-[gd_scene load_steps=520 format=3 uid="uid://ceemudvu4bt3v"]
+[gd_scene load_steps=517 format=3 uid="uid://ceemudvu4bt3v"]
 
 [ext_resource type="Script" path="res://Maps/Kingdom 2/Kingdom 2.gd" id="1_lattn"]
-[ext_resource type="Texture2D" uid="uid://bllihi6ryo2p6" path="res://Stage Assets/Skybox/environment.png" id="1_ndk88"]
+[ext_resource type="Environment" uid="uid://dyewwdho3gdlw" path="res://Maps/Kingdom 2/Kingdom 2 Env.tres" id="2_h6k1i"]
 [ext_resource type="PackedScene" uid="uid://bcoelkpf6exsv" path="res://Characters/Rocket Man/Rocket_Man.tscn" id="2_n5yof"]
 [ext_resource type="Script" path="res://addons/qodot/src/nodes/qodot_map.gd" id="3_x0mjq"]
 [ext_resource type="Resource" uid="uid://cj11aqydei5bh" path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" id="4_v3i3w"]
@@ -35,37 +35,6 @@
 [ext_resource type="VideoStream" path="res://Video Clips/surf+Slide_Bhop.ogv" id="29_635ol"]
 [ext_resource type="PackedScene" uid="uid://dm1kpyfdvr4qk" path="res://Objects/BHOP Boots/Shoes.glb" id="33_oimoh"]
 [ext_resource type="Script" path="res://Objects/BHOP Boots/BHOP Boots.gd" id="33_whe5c"]
-
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_jtj8y"]
-sky_top_color = Color(0, 0, 0, 1)
-sky_horizon_color = Color(0, 0, 0, 1)
-sky_cover = ExtResource("1_ndk88")
-ground_bottom_color = Color(0.0431373, 0.0509804, 0.141176, 1)
-ground_horizon_color = Color(0.0431373, 0.0509804, 0.141176, 1)
-sun_angle_max = 0.0
-
-[sub_resource type="Sky" id="Sky_7s4r0"]
-sky_material = SubResource("ProceduralSkyMaterial_jtj8y")
-
-[sub_resource type="Environment" id="Environment_oyc6r"]
-background_mode = 2
-sky = SubResource("Sky_7s4r0")
-glow_enabled = true
-glow_intensity = 2.29
-glow_bloom = 1.0
-fog_enabled = true
-fog_light_color = Color(0.0431373, 0.0509804, 0.141176, 1)
-fog_density = 0.0174
-fog_sky_affect = 0.0
-fog_height = -40.0
-fog_height_density = 0.1
-volumetric_fog_density = 0.01
-volumetric_fog_albedo = Color(0.0431373, 0.0509804, 0.141176, 1)
-volumetric_fog_emission = Color(0.0431373, 0.0509804, 0.141176, 1)
-volumetric_fog_gi_inject = 0.0
-volumetric_fog_length = 101.65
-volumetric_fog_detail_spread = 3.73213
-volumetric_fog_ambient_inject = 16.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5s3vh"]
 
@@ -2038,7 +2007,7 @@ shadow_bias = 1.2
 directional_shadow_mode = 0
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_oyc6r")
+environment = ExtResource("2_h6k1i")
 
 [node name="RocketMan" parent="." instance=ExtResource("2_n5yof")]
 unique_name_in_owner = true
@@ -2049,23 +2018,9 @@ max_ammo = 1
 [node name="QodotMap" type="Node3D" parent="."]
 script = ExtResource("3_x0mjq")
 map_file = "G:/Godot 4.0 Stuff/Khaos Logos/Qodot Maps/World 2.map"
-inverse_scale_factor = 16.0
 entity_fgd = ExtResource("4_v3i3w")
-base_texture_dir = "res://textures"
 texture_file_extensions = PackedStringArray("png", "jpg")
-worldspawn_layers = []
-brush_clip_texture = "special/clip"
-face_skip_texture = "special/skip"
-texture_wads = []
-material_file_extension = "tres"
-unshaded = false
-default_material_albedo_uniform = ""
 default_material = SubResource("StandardMaterial3D_5s3vh")
-uv_unwrap_texel_size = 1.0
-print_profiling_data = false
-use_trenchbroom_group_hierarchy = false
-tree_attach_batch_size = null
-set_owner_batch_size = 1000
 
 [node name="entity_0_worldspawn" type="StaticBody3D" parent="QodotMap"]
 
@@ -3344,6 +3299,7 @@ shape = SubResource("ConvexPolygonShape3D_bnfmo")
 
 [node name="entity_28_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.6875, 37.098, -80.125)
+collision_layer = 8
 script = ExtResource("16_l55me")
 properties = {
 "_tb_layer": "1",
@@ -3587,6 +3543,7 @@ shape = SubResource("ConvexPolygonShape3D_37ucc")
 
 [node name="entity_34_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.875, 16.125, -149.75)
+collision_layer = 8
 script = ExtResource("16_l55me")
 properties = {
 "_tb_layer": "2",
@@ -3621,6 +3578,7 @@ shape = SubResource("ConvexPolygonShape3D_0g41o")
 
 [node name="entity_36_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.25, 16.125, -137.688)
+collision_layer = 8
 script = ExtResource("16_l55me")
 properties = {
 "_tb_layer": "2",
@@ -3676,6 +3634,7 @@ shape = SubResource("ConvexPolygonShape3D_5gijn")
 
 [node name="entity_38_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.2813, 20.125, -123.219)
+collision_layer = 8
 script = ExtResource("16_l55me")
 properties = {
 "_tb_layer": "2",
@@ -3710,6 +3669,7 @@ shape = SubResource("ConvexPolygonShape3D_los6b")
 
 [node name="entity_40_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4688, 20.125, -117.219)
+collision_layer = 8
 script = ExtResource("16_l55me")
 properties = {
 "_tb_layer": "2",
@@ -3744,6 +3704,7 @@ shape = SubResource("ConvexPolygonShape3D_psxoe")
 
 [node name="entity_42_wall" type="StaticBody3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.625, 37.0938, -126.234)
+collision_layer = 8
 script = ExtResource("16_l55me")
 properties = {
 "_tb_layer": "2",

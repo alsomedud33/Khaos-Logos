@@ -1,4 +1,6 @@
+res://Maps/Kingdom 2
 G:/Godot 4.0 Stuff/Khaos Logos/Qodot Maps
+res://Maps/Chameno Woods
 res://Objects/BHOP Boots
 res://Titlescreen
 res://Autoloads/Transitions
@@ -10,7 +12,6 @@ res://textures/PBR_Textures/Brown_Spiral_Mosaic
 res://textures/PBR_Textures/bricks-mortar-ue
 res://Stage Assets/Sign
 res://Maps/Hub
-res://Maps/Kingdom 2
 res://Objects/Capsules
 res://Characters/Arms
 res://Objects/Weapons
@@ -19,4 +20,3 @@ res://textures/PBR_Textures/Wood071
 res://Stage Assets/Hammer
 res://Qodot Resources
 res://textures/PBR_Textures/Rock_035
-res://textures/PBR_Textures/Facade_019B

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "MKjL5dgygiU1ASZarWAjGKifbxhvl4dNZNIOX50DRDW/7joJxUnqUeAAcWYL6Fu//FqHR6wrT9SHuimPcsyqzQ==",
+  "dgSpecHash": "aWOVPp75peNi6hsLZz+7D1n63+1+beUCp80bQsBXTmvC8xFOICan9gU/jgjuQdJkOyW5FF4t2tRJ/50NaEmf3Q==",
   "success": true,
   "projectFilePath": "G:\\Godot 4.0 Stuff\\Khaos Logos\\Khaos Logos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alsom\\.nuget\\packages\\godot.sourcegenerators\\4.1.0\\godot.sourcegenerators.4.1.0.nupkg.sha512",
     "C:\\Users\\alsom\\.nuget\\packages\\godotsharp\\4.1.0\\godotsharp.4.1.0.nupkg.sha512",
     "C:\\Users\\alsom\\.nuget\\packages\\godotsharpeditor\\4.1.0\\godotsharpeditor.4.1.0.nupkg.sha512",
-    "C:\\Users\\alsom\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\alsom\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\alsom\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512"
+    "C:\\Users\\alsom\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\alsom\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\alsom\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
   ],
   "logs": []
 }

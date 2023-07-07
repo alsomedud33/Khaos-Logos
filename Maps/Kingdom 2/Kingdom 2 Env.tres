@@ -1,0 +1,35 @@
+[gd_resource type="Environment" load_steps=4 format=3 uid="uid://dyewwdho3gdlw"]
+
+[ext_resource type="Texture2D" uid="uid://bllihi6ryo2p6" path="res://Stage Assets/Skybox/environment.png" id="1_j32bo"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_jtj8y"]
+sky_top_color = Color(0, 0, 0, 1)
+sky_horizon_color = Color(0, 0, 0, 1)
+sky_cover = ExtResource("1_j32bo")
+ground_bottom_color = Color(0.0784314, 0.00784314, 0.156863, 1)
+ground_horizon_color = Color(0.0703125, 0.0195313, 0.132813, 1)
+ground_curve = 0.20393
+sun_angle_max = 0.0
+
+[sub_resource type="Sky" id="Sky_qm0us"]
+sky_material = SubResource("ProceduralSkyMaterial_jtj8y")
+
+[resource]
+background_mode = 2
+sky = SubResource("Sky_qm0us")
+glow_enabled = true
+glow_intensity = 2.29
+glow_bloom = 1.0
+fog_enabled = true
+fog_light_color = Color(0.0431373, 0.0509804, 0.141176, 1)
+fog_density = 0.0174
+fog_sky_affect = 0.0
+fog_height = -40.0
+fog_height_density = 0.1
+volumetric_fog_density = 0.01
+volumetric_fog_albedo = Color(0.0431373, 0.0509804, 0.141176, 1)
+volumetric_fog_emission = Color(0.0431373, 0.0509804, 0.141176, 1)
+volumetric_fog_gi_inject = 0.0
+volumetric_fog_length = 101.65
+volumetric_fog_detail_spread = 3.73213
+volumetric_fog_ambient_inject = 16.0

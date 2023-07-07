@@ -37,6 +37,11 @@ var wish_jump:bool = false
 var nextVelocity: Vector3 = Vector3.ZERO
 var crouching:bool = false
 
+#Relating to body sway
+@export var sway_speed = 20 
+@export var body_sway_speed = 20 
+var max_body_sway = velocity.length()
+
 #Ammo Variables
 @export var max_ammo:int = 0
 @export var current_ammo:int = 0
@@ -52,14 +57,15 @@ func set_scrn_txt(text):
 	scrn_txt.text = ""
 	scrn_txt.visible = false
 
+
 func _input(event: InputEvent) -> void:
 	# Camera rotation
 	if event is InputEventMouseMotion and Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
 		head.rotate_x(deg_to_rad(event.relative.y * mouse_sensitivity))
 		self.rotate_y(deg_to_rad((event.relative.x * -mouse_sensitivity)))
 		var camera_rot = head.rotation
-		camera_rot.x = clamp(camera_rot.x, deg_to_rad(-89), deg_to_rad(89))
-		head.rotation = camera_rot
+		%Pivot.rotation.x = clamp(%Pivot.rotation.x, deg_to_rad(-89), deg_to_rad(89))
+		#camera_rot.x = clamp(camera_rot.x, deg_to_rad(-89), deg_to_rad(89))
 
 func _ready():
 	Globals.scrn_txt.connect(set_scrn_txt)
@@ -86,6 +92,9 @@ var crouch_jump_counter =0
 
 func _process(delta):
 	%"Weapons Cam".global_transform = $Pivot/Camera3D.global_transform
+	%"Hands and Weps".rotation.y = lerp_angle(%"Hands and Weps".rotation.y, rotation.y, sway_speed*delta)
+	%"Hands and Weps".rotation.x = lerp_angle(%"Hands and Weps".rotation.x, %Pivot.rotation.x, sway_speed*delta)
+	#%"Hands and Weps".global_transform.origin = %Pivot.global_transform.origin 
 	if Input.is_action_pressed("move_forward"):
 		%mv_W.visible = true
 	else:
@@ -114,7 +123,13 @@ func _process(delta):
 		%mv_SHOOT.visible = true
 	else:
 		%mv_SHOOT.visible = false
+
+
 func _physics_process(delta):
+	max_body_sway = clamp(velocity.length(),10,40)
+	print (max_body_sway)
+	%"Hands and Weps".global_transform.origin = lerp(%"Hands and Weps".global_transform.origin, %Pivot.global_transform.origin, body_sway_speed*(max_body_sway*0.1)*delta)
+	#%"Hands and Weps".global_transform = %Pivot.global_transform
 	$CollisionShape3D2.global_rotation = Vector3.ZERO
 	queue_jump()
 	Ammunition()
@@ -344,10 +359,10 @@ func queue_jump():
 		#wish_jump = true if Input.is_action_pressed("jump") else false
 		return
 	else:
-		if Input.is_action_just_pressed("jump") and is_on_floor():#!wish_jump:
+		if Input.is_action_just_pressed("jump"):# and is_on_floor():#!wish_jump:
 			wish_jump = true
 			return true
-			wish_jump = false
+			#wish_jump = false
 		else:
 			wish_jump = false
 
