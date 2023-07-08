@@ -15,10 +15,12 @@ var mouse_sensitivity:float = .1
 
 #Movement Variables
 @export var max_speed: float = 6 # Meters per second
+var def_max_speed: float = max_speed
 @export var max_air_speed: float = 0.6
 @export var accel: float = 60 # or max_speed * 10 : Reach max speed in 1 / 10th of a second
 @export var gravity: float = 15
 @export var jump_impulse: float = 7
+var def_jump_impulse: float = jump_impulse
 @export_range(0,15,1) var floor_friction:float = 10
 
 @export var fast_air_angle:float = 20
@@ -291,8 +293,8 @@ func Normal():
 	crouching = false
 	slow_air_angle = deg_to_rad(45)
 	fast_air_angle = deg_to_rad(20)
-	jump_impulse = 7
-	max_speed = 6
+	jump_impulse = 7.5#7
+	max_speed = 15#6
 	accel = 60
 	floor_friction = 10
 	max_air_speed = .6

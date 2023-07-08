@@ -1,3 +1,4 @@
+OmniLight3D
 Node3D
 QodotMap
 CollisionShape3D
@@ -17,7 +18,6 @@ SubViewport
 AnimatedSprite3D
 SubViewportContainer
 MeshInstance3D
-OmniLight3D
 Timer
 ShapeCast3D
 PanelContainer
@@ -30,4 +30,3 @@ VBoxContainer
 Skeleton3D
 Marker3D
 SkeletonIK3D
-Camera3D

@@ -20,15 +20,11 @@ res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Color.tres
 res://textures/PBR_Textures/Wood071/Wood071_1K_Color.tres
 res://textures/PBR_Textures/Orange_Tile.tres
 res://Stage Assets/Sign/Sign.tres
+res://Ps1 Test.tres
+res://Shader/Ps1 Filter.gdshader
 res://Maps/Kingdom 2/Kingdom 2.tscn
 res://Maps/Chameno Woods/chameno_woods.tscn
 res://Characters/Rocket Man/Rocket_Man.tscn
 res://Maps/Kingdom 1/Kingdom 1.tscn
-res://Characters/Rocket Man/Camera3D.gd
-res://Characters/Rocket Man/Node3D.gd
-res://Characters/Rocket Man/Rocket_Man.gd
-res://Maps/Kingdom 2/Kingdom 2.gd
-res://Stage Assets/Hammer/Hammer Area.gd
 res://Stage Assets/Hammer/Hammer.tscn
-res://Ps1 Test.tres
-res://Shader/Ps1 Filter.gdshader
+res://Characters/Rocket Man/Rocket_Man.gd
