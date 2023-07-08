@@ -28,3 +28,7 @@ res://Characters/Rocket Man/Camera3D.gd
 res://Characters/Rocket Man/Node3D.gd
 res://Characters/Rocket Man/Rocket_Man.gd
 res://Maps/Kingdom 2/Kingdom 2.gd
+res://Stage Assets/Hammer/Hammer Area.gd
+res://Stage Assets/Hammer/Hammer.tscn
+res://Ps1 Test.tres
+res://Shader/Ps1 Filter.gdshader

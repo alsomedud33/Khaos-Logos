@@ -11,6 +11,7 @@ var player_vel
 func _on_Hammer_body_entered(body):
 	player = body
 	player_vel = body.velocity
+	body.velocity *= 0
 	%AnimationPlayer.play("Boost")
 	body.global_position = %Marker3D.global_position
 	body.change_state(body.FROZEN)

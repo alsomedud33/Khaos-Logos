@@ -270,7 +270,7 @@ func _physics_process(delta):
 #			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
 #				vertical_velocity = absf(vertical_velocity) * -1
 		FROZEN:
-			pass
+			self.velocity *= 0
 
 
 func Ammunition():
