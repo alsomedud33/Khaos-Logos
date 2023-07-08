@@ -77,6 +77,7 @@ namespace Qodot
 			
 			GD.Print("Map parsed: entities " + mapData.entities.Count.ToString());
 			
+			file.Close();
 			return true;
 		}
 

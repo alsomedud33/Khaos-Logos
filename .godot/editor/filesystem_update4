@@ -1,3 +1,5 @@
+res://addons/qodot/src/core/Qodot.cs
+res://addons/qodot/src/import_plugins/QuakeWadImportPlugin.cs
 res://Titlescreen/TitleScreen.tscn
 res://Objects/Projectile/Explosion_Hitbox.tres
 res://addons/qodot/game_definitions/fgd/point_classes/signal_point_class.tres
@@ -24,7 +26,7 @@ res://Ps1 Test.tres
 res://Shader/Ps1 Filter.gdshader
 res://Maps/Kingdom 2/Kingdom 2.tscn
 res://Maps/Chameno Woods/chameno_woods.tscn
-res://Characters/Rocket Man/Rocket_Man.tscn
 res://Maps/Kingdom 1/Kingdom 1.tscn
 res://Stage Assets/Hammer/Hammer.tscn
 res://Characters/Rocket Man/Rocket_Man.gd
+res://Characters/Rocket Man/Rocket_Man.tscn

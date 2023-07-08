@@ -208,7 +208,7 @@ func _physics_process(delta):
 		AIR:
 			vertical_velocity = get_real_velocity().y
 			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
-				vertical_velocity = absf(vertical_velocity) * -1
+				vertical_velocity = -1#absf(vertical_velocity) * -1
 			if vertical_velocity >= terminal_velocity:
 				vertical_velocity -= gravity * delta #if vertical_velocity >= terminal_velocity else 0 # Stop adding to vertical velocity once terminal velocity is reached
 			else:
@@ -263,7 +263,7 @@ func _physics_process(delta):
 				change_state(CROUCH)
 			vertical_velocity = get_real_velocity().y
 			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
-				vertical_velocity = absf(vertical_velocity) * -1
+				vertical_velocity = -1#absf(vertical_velocity) * -1
 			if vertical_velocity >= terminal_velocity:
 				vertical_velocity -= gravity * delta #if vertical_velocity >= terminal_velocity else 0 # Stop adding to vertical velocity once terminal velocity is reached
 			else:
