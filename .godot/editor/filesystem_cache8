@@ -237,7 +237,7 @@ Tutorial.tscn::PackedScene::5496867671610604133::1688660575::0::1::::<><>::uid:/
 Sky2.tres::Environment::452054818742888414::1686514255::0::1::::<><>::
 Sky.tres::Environment::1772127141427017430::1688754154::0::1::::<><>::
 tutorial_stage.tscn::PackedScene::-1::1681839025::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>res://Characters/Rocket_Man.tscn<>uid://go8joac0gcn3<>uid://cj11aqydei5bh<>uid://c3j78g5si5uyw<>uid://degvovww8o726<>uid://cmdhwpj1nqmh3<>uid://edv4t8r3nwb5<>uid://b20fwqk63guk8<>uid://cb31lbffhnven<>uid://dswb4a241m5qk<>uid://bmxl4s6mkuqky<>uid://ro1r3amxw6q5<>uid://5c46boyirtjp<>uid://ci5bktsqcux4r<>uid://dkvvkm2eoq7x<>res://Scritpts/button.gd<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>res://Scritpts/mover.gd<>uid://b2owhe8f2k6r0<>res://Scritpts/trigger.gd<>res://Stage Assets/Spawner/teleporter.gd<>res://fake_door.gd<>uid://cupcg43ka42cr
-::res://Objects/::1688659618
+::res://Objects/::1688848679
 ::res://Objects/BHOP Boots/::1686671845
 BHOP Boots.gd::GDScript::-1::1686671845::0::1::::<>Area3D<>::
 Shoes.glb::PackedScene::8055837221626981142::1686670762::1686671078::0::::<><>::
@@ -245,6 +245,10 @@ Shoes_Red_Pallete Gradient.png::CompressedTexture2D::2314767521066513174::168667
 ::res://Objects/Capsules/::1688660574
 Rocket_Capsule.gd::GDScript::-1::1686660302::0::1::::<>Area3D<>::
 Rocket_Capsule.tscn::PackedScene::6145969232593194267::1688660574::0::1::::<><>::res://Objects/Capsules/Rocket_Capsule.gd<>uid://b43ysskm04ct6
+::res://Objects/Medal/::1688848720
+Medal.glb::PackedScene::9058433020148638264::1688848469::1688848721::1::::<><>::uid://c0s20w2548xfy::::res://Objects/Medal/Medal_360_F_241373755_xvmEPTOeXvosc0qGEwBeJ0hdQkgZqrnd.png<>uid://bqjt0tuwt2ni5::::res://Objects/Medal/Medal_istockphoto-678719470-170667a.png
+Medal_360_F_241373755_xvmEPTOeXvosc0qGEwBeJ0hdQkgZqrnd.png::CompressedTexture2D::6566406460188967286::1688848721::1688848722::1::::<><>::
+Medal_istockphoto-678719470-170667a.png::CompressedTexture2D::3529220879264129706::1688848721::1688848722::1::::<><>::
 ::res://Objects/Projectile/::1688824485
 Explosion_Hitbox.gd::GDScript::-1::1680281183::0::1::::<>Area3D<>::
 Explosion_Hitbox.tres::VisualShader::4751446225725395425::1688824485::0::1::::<><>::
@@ -260,7 +264,7 @@ rocket_launcher.tscn::PackedScene::4196034657963907538::1681412740::0::1::::<><>
 ::res://Objects/Wine/::1688659624
 Wine.glb::PackedScene::5567756373055372616::1688659558::1688659624::0::::<><>::
 Wine_Wood067 Texture.png::CompressedTexture2D::5301774321750133112::1688659624::1688659624::1::::<><>::
-::res://Qodot Maps/::1688836527
+::res://Qodot Maps/::1688836735
 Chameno Woods.map::Resource::1499925427686428836::1688836654::1688836735::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
 E1M5.MAP::Resource::829215504343263063::841834880::1679677878::1::::<><>::
 Hub World.map::Resource::7993104602621322991::1688660336::1686673005::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd

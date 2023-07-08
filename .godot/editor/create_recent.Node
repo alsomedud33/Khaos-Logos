@@ -1,7 +1,8 @@
+CollisionShape3D
+CharacterBody3D
 OmniLight3D
 Node3D
 QodotMap
-CollisionShape3D
 Area3D
 FogVolume
 AnimationPlayer
@@ -29,4 +30,3 @@ HBoxContainer
 VBoxContainer
 Skeleton3D
 Marker3D
-SkeletonIK3D
