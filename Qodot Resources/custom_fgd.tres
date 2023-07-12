@@ -16,4 +16,4 @@ export_file = false
 target_folder = "C:/OtherPrograms/TrenchBroom/games/Qodot"
 fgd_name = "Custom_Qodot"
 base_fgd_files = Array[Resource]([])
-entity_definitions = [ExtResource("1_qrtyt"), ExtResource("2_5s2fa"), ExtResource("3_xqlv0"), ExtResource("4_2dxtd"), ExtResource("1_qrtyt"), ExtResource("5_lqs1k"), ExtResource("6_ltjc0"), ExtResource("1_2sxs6"), ExtResource("8_cs6qc")]
+entity_definitions = Array[Resource]([ExtResource("1_qrtyt"), ExtResource("2_5s2fa"), ExtResource("3_xqlv0"), ExtResource("4_2dxtd"), ExtResource("1_qrtyt"), ExtResource("5_lqs1k"), ExtResource("6_ltjc0"), ExtResource("1_2sxs6"), ExtResource("8_cs6qc")])

@@ -1,0 +1,26 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://ckj5kqcvmjbvy"]
+
+[ext_resource type="Texture2D" uid="uid://bia2t2fqvxndp" path="res://textures/PBR_Textures/Wood067/Wood067_1K_Color.jpg" id="1_a4lvy"]
+[ext_resource type="Texture2D" uid="uid://pvkylykirwva" path="res://textures/PBR_Textures/Wood067/Wood067_1K_Displacement.jpg" id="2_dshj8"]
+[ext_resource type="Texture2D" uid="uid://bcsu4evf6ybn" path="res://textures/PBR_Textures/Wood067/Wood067_1K_NormalDX.jpg" id="2_lcr8e"]
+[ext_resource type="Texture2D" uid="uid://cuph2uat0xc4o" path="res://textures/PBR_Textures/Wood067/Wood067_1K_Roughness.jpg" id="4_r2thy"]
+
+[resource]
+diffuse_mode = 3
+albedo_color = Color(1, 0.94902, 0.94902, 1)
+albedo_texture = ExtResource("1_a4lvy")
+metallic_specular = 0.0
+roughness_texture = ExtResource("4_r2thy")
+normal_texture = ExtResource("2_lcr8e")
+rim = 0.0
+rim_tint = 1.0
+clearcoat_roughness = 0.51
+heightmap_scale = 1.0
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_dshj8")
+subsurf_scatter_strength = 0.75
+grow_amount = 1.0
+distance_fade_min_distance = 200.0
+distance_fade_max_distance = 5.0
