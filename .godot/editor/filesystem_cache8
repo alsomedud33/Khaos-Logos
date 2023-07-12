@@ -1,877 +1,851 @@
 f2b985f967f0bdb1e3adfa033ebc58fb
-::res://::1689162670
-export_presets.cfg::TextFile::-1::1686516273::0::1::::<><>::
-fake_door.gd::GDScript::-1::1680040831::0::1::::<>StaticBody3D<>::
-icon.svg::CompressedTexture2D::6266338796732326602::1679338952::1679405070::1::::<><>::
-Ps1 Test.tres::VisualShader::540879708335824502::1689161897::0::1::::<><>::
-README.md::TextFile::-1::1679599878::0::1::::<><>::
-::res://addons/::1679601674
-::res://addons/qodot/::1679601675
-icon.png::CompressedTexture2D::4303817965049754646::1688332250::1688332250::1::::<><>::
-palette.lmp::Resource::4215014223586875623::1688332250::1688332250::1::::<><>::
-plugin.cfg::TextFile::-1::1688332250::0::1::::<><>::
-::res://addons/qodot/example_scenes/::1679601674
-::res://addons/qodot/example_scenes/0-visuals/::1679601674
-::res://addons/qodot/example_scenes/0-visuals/0-structural-geometry/::1679602033
-0-structural-geometry.map::Resource::313146780448585140::1688332250::1688332250::1::::<><>::
-0-structural-geometry.tscn::PackedScene::1709565390128941826::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/0-visuals/1-textures/::1679602033
-1-textures.map::Resource::5365009904910902972::1688332250::1688332250::1::::<><>::
-1-textures.tscn::PackedScene::8456968617685425924::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/0-visuals/2-materials/::1679601674
-2-materials.map::Resource::2362287929475946370::1688332250::1688332250::1::::<><>::
-2-materials.tscn::PackedScene::8007014657456742629::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/0-visuals/3-auto-pbr/::1679601674
-3-auto-pbr.map::Resource::3599643161606621994::1688332250::1688332250::1::::<><>::
-3-auto-pbr.tscn::PackedScene::4419324723498134653::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/0-visuals/4-special-textures/::1679601674
-4-special-textures.map::Resource::9074506994503976472::1688332250::1688332250::1::::<><>::
-4-special-textures.tscn::PackedScene::1072908542624844789::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/0-visuals/5-baked-lighting/::1679601679
-5-1-baked-lightmaps.exr::CompressedTexture2DArray::8238534027258359994::1688332250::1688332250::1::::<><>::
-5-1-baked-lightmaps.lmbake::LightmapGIData::4366191776278216613::1688332250::0::1::::<><>::uid://dpm2pmietu1pe
-5-1-baked-lightmaps.tscn::PackedScene::6063519636160818284::1688332250::0::1::::<><>::uid://b3hasm8twcdh2
-5-baked-lighting.map::Resource::7077147237438203012::1688332250::1688332250::1::::<><>::
-LightMap.png::CompressedTexture2D::6092113216270727996::1688332250::1688332250::1::::<><>::
-::res://addons/qodot/example_scenes/1-interactivity/::1679601674
-::res://addons/qodot/example_scenes/1-interactivity/0-point-entities/::1679601674
-0-point-entities.map::Resource::3948378812856615276::1688332250::1688332250::1::::<><>::
-0-point-entities.tscn::PackedScene::1887689969208820653::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/1-interactivity/1-brush-entities/::1679741662
-1-brush-entities.map::Resource::2191035927232272337::1688332250::1688332250::1::::<><>::
-1-brush-entities.tscn::PackedScene::4314149976300853281::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/1-interactivity/2-worldspawn-layers/::1679601674
-2-worldspawn-layers.map::Resource::6797811943856641659::1688332250::1688332250::1::::<><>::
-2-worldspawn-layers.tscn::PackedScene::2892293071312418402::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/1-interactivity/3-basic-signal-wiring/::1680098186
-3-basic-signal-wiring.map::Resource::2019461530844496329::1688332250::1688332250::1::::<><>::
-3-basic-signal-wiring.tscn::PackedScene::1754201009455252847::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/1-interactivity/4-advanced-signal-wiring/::1680098186
-4-advanced-signal-wiring.map::Resource::5221392987205254433::1688332250::1688332250::1::::<><>::
-4-advanced-signal-wiring.tscn::PackedScene::5520676679716296670::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/2-miscallaneous/::1679601674
-::res://addons/qodot/example_scenes/2-miscallaneous/0-trenchbroom-group-hierarchy/::1679601674
-0-trenchbroom-group-hierarchy.map::Resource::2789933136041701711::1688332250::1688332250::1::::<><>::
-0-trenchbroom-group-hierarchy.tscn::PackedScene::7514814830920271852::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
-::res://addons/qodot/example_scenes/2-miscallaneous/1-runtime-map-building/::1680086707
-1-runtime-map-building.map::Resource::7383937629020681760::1688332250::1688332250::1::::<><>::
-1-runtime-map-building.tscn::PackedScene::6050352078372374043::1688332250::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>res://addons/qodot/example_scenes/2-miscallaneous/1-runtime-map-building/orbit_arm.gd<>uid://7h57nuq1xmoi
-orbit_arm.gd::GDScript::-1::1688332250::0::1::::OrbitArm<>Node3D<>::
-::res://addons/qodot/game_definitions/::1679601675
-::res://addons/qodot/game_definitions/fgd/::1689161897
-qodot_fgd.tres::Resource/QodotFGDFile::5459794301136884865::1689161897::0::1::::<><>::res://addons/qodot/game_definitions/fgd/base_classes/target_base_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/func_group_solid_class.tres<>uid://dosulw1ii2s3m::::res://addons/qodot/game_definitions/fgd/point_classes/signal_point_class.tres<>uid://ccdjpf5j25aua::::res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres<>uid://berb45olxa68v::::res://addons/qodot/game_definitions/fgd/solid_classes/trigger_solid_class.tres<>res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_file.gd<>uid://vs6rpqedl2kg::::res://addons/qodot/game_definitions/fgd/point_classes/receiver_point_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/illusionary_solid_class.tres<>uid://dxp37dladbquv::::res://addons/qodot/game_definitions/fgd/solid_classes/worldspawn_solid_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/group_solid_class.tres<>uid://b8aisardk4k4u::::res://addons/qodot/game_definitions/fgd/solid_classes/detail_solid_class.tres<>uid://c5o31v30rw7v5::::res://addons/qodot/game_definitions/fgd/base_classes/light_base_class.tres<>uid://ccwosedfa8v8d::::res://addons/qodot/game_definitions/fgd/point_classes/light_point_class.tres<>uid://de6w02sa4ckl5::::res://addons/qodot/game_definitions/fgd/solid_classes/rotate_solid_class.tres<>uid://c2nmsj2qb3v6::::res://addons/qodot/game_definitions/fgd/solid_classes/button_solid_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/physics_solid_class.tres<>uid://c2bfqiwy8uj2b::::res://addons/qodot/game_definitions/fgd/solid_classes/wall_solid_class.tres<>uid://cubvqwi3p77sq::::res://addons/qodot/game_definitions/fgd/point_classes/physics_ball_point_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/mover_solid_class.tres<>uid://cq7e0f0ewffn5::::res://Qodot Resources/teleporter_point_class.tres<>uid://b6jj3q55o7kd::::res://Qodot Resources/fake_door_solid_class.tres
-::res://addons/qodot/game_definitions/fgd/base_classes/::1679747285
-light_base_class.tres::Resource/Resource::6909155618927381192::1679747285::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_base_class.gd
-targetname_base_class.tres::Resource/Resource::4919985737174980712::1679745670::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_base_class.gd
-target_base_class.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_base_class.gd
-::res://addons/qodot/game_definitions/fgd/point_classes/::1689161897
-light.gd::GDScript::-1::1683402389::0::1::::QodotLight<>QodotEntity<>::
-light_point_class.tres::Resource/Resource::4959517762396913953::1679748921::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>uid://c5o31v30rw7v5
-physics_ball.gd::GDScript::-1::1679601675::0::1::::PhysicsBall<>PhysicsEntity<>::
-physics_ball.tscn::PackedScene::4636723324233594687::1679747730::0::1::::<><>::
-physics_ball_point_class.tres::Resource/Resource::6179987416617154404::1679749360::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd<>uid://b7ccfkajnmn64<>res://addons/qodot/game_definitions/fgd/point_classes/physics_ball.gd
-receiver_point_class.tres::Resource/QodotFGDPointClass::1513037913997237070::1689161897::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd<>res://addons/qodot/game_definitions/fgd/base_classes/target_base_class.tres<>uid://ccdjpf5j25aua::::res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres
-signal_point_class.tres::Resource/QodotFGDPointClass::8180299841226990692::1689161897::0::1::::<><>::res://addons/qodot/game_definitions/fgd/base_classes/target_base_class.tres<>uid://ccdjpf5j25aua::::res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres<>res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd
-::res://addons/qodot/game_definitions/fgd/solid_classes/::1689161897
-button_solid_class.tres::Resource/QodotFGDSolidClass::196927597640254081::1689161897::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://Scritpts/button.gd
-detail_solid_class.tres::Resource::4703170430393086654::1679601675::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
-func_group_solid_class.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
-group_solid_class.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
-illusionary_solid_class.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
-mover_solid_class.tres::Resource/Resource::-1::1680098186::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://Scritpts/mover.gd
-physics.gd::GDScript::-1::1679601675::0::1::::PhysicsEntity<>RigidBody3D<>::
-physics_solid_class.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/game_definitions/fgd/solid_classes/physics.gd<>res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
-rotate.gd::GDScript::-1::1679601675::0::1::::QodotRotateEntity<>CharacterBody3D<>::
-rotate_solid_class.tres::Resource/Resource::7505395000671548060::1680114102::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://addons/qodot/game_definitions/fgd/solid_classes/rotate.gd
-trigger_solid_class.tres::Resource/QodotFGDSolidClass::2702384582938583747::1689161897::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://Scritpts/trigger.gd
-wall_solid_class.tres::Resource/QodotFGDSolidClass::6670337136341291883::1689161897::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://Scritpts/wall.gd
-worldspawn_solid_class.tres::Resource::8806328516834328821::1679601675::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
-::res://addons/qodot/game_definitions/trenchbroom/::1689155060
-qodot_trenchbroom_config_file.tres::Resource/TrenchBroomGameConfigFile::2741638764796956779::1689155060::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_game_config_file.gd<>uid://ddjx2v87gqtc6::::res://addons/qodot/game_definitions/trenchbroom/brush_tags/trigger_tag.tres<>res://addons/qodot/game_definitions/trenchbroom/face_tags/skip_tag.tres<>res://addons/qodot/game_definitions/trenchbroom/face_tags/clip_tag.tres<>res://addons/qodot/game_definitions/trenchbroom/brush_tags/detail_tag.tres
-qodot_trenchbroom_config_folder.tres::Resource/Resource::3405250437192010094::1679759124::0::1::::<><>::uid://cj11aqydei5bh<>uid://b2k2iutnsgjfy<>uid://0iewo8o8paid<>res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_game_config_folder.gd<>uid://bfccniysop476
-::res://addons/qodot/game_definitions/trenchbroom/brush_tags/::1686512796
-detail_tag.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_tag.gd
-trigger_tag.tres::Resource/Resource::7389853844480500431::1686512796::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_tag.gd
-::res://addons/qodot/game_definitions/trenchbroom/face_tags/::1679601675
-clip_tag.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_tag.gd
-skip_tag.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_tag.gd
-::res://addons/qodot/game_definitions/worldspawn_layers/::1683455718
-liquid.gd::GDScript::-1::1683455718::0::1::::LiquidLayer<>Area<>::
-::res://addons/qodot/game_definitions/worldspawn_layers/liquid/::1679601675
-lava.gd::GDScript::-1::1679601675::0::1::::LavaLayer<>LiquidLayer<>::
-lava.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/src/resources/worldspawn_layer.gd<>res://addons/qodot/game_definitions/worldspawn_layers/liquid/lava.gd
-slime.gd::GDScript::-1::1679601675::0::1::::SlimeLayer<>LiquidLayer<>::
-slime.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/src/resources/worldspawn_layer.gd<>res://addons/qodot/game_definitions/worldspawn_layers/liquid/slime.gd
-water.gd::GDScript::-1::1679601675::0::1::::WaterLayer<>LiquidLayer<>::
-water.tres::Resource::-1::1679601675::0::1::::<><>::res://addons/qodot/src/resources/worldspawn_layer.gd<>res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd
-::res://addons/qodot/icons/::1679601675
-icon_qodot_node3d.svg::CompressedTexture2D::2948150285741080799::1688332250::1688332250::1::::<><>::
-icon_qodot_node.svg::CompressedTexture2D::6793227165022044195::1688332250::1688332250::1::::<><>::
-::res://addons/qodot/src/::1679601675
-qodot_plugin.gd::GDScript::-1::1688332250::0::1::::QodotPlugin<>EditorPlugin<>::
-::res://addons/qodot/src/core/::1679601675
-GeoGenerator.cs::CSharpScript::-1::1688332250::0::1::::<><>::
-MapData.cs::CSharpScript::-1::1688332250::0::1::::<><>::
-MapParser.cs::CSharpScript::-1::1688824078::0::1::::<><>::
-Qodot.cs::CSharpScript::-1::1688332250::0::1::::<><>::
-SurfaceGatherer.cs::CSharpScript::-1::1688332250::0::1::::<><>::
-Types.cs::CSharpScript::-1::1688332250::0::1::::<><>::
-::res://addons/qodot/src/import_plugins/::1679601675
-QuakeWadImportPlugin.cs::CSharpScript::-1::1688332250::0::1::::<><>::
-quake_map_import_plugin.gd::GDScript::-1::1688332250::0::1::::QuakeMapImportPlugin<>EditorImportPlugin<>::
-quake_palette_import_plugin.gd::GDScript::-1::1688332250::0::1::::QuakePaletteImportPlugin<>EditorImportPlugin<>::
-::res://addons/qodot/src/nodes/::1679601675
-qodot_entity.gd::GDScript::-1::1688332250::0::1::::QodotEntity<>QodotNode3D<>::
-qodot_map.gd::GDScript::-1::1688332250::0::1::::QodotMap<>QodotNode3D<>::
-qodot_node3d.gd::GDScript::-1::1688332250::0::1::::QodotNode3D<>Node3D<>res://addons/qodot/icons/icon_qodot_node3d.svg::
-::res://addons/qodot/src/resources/::1679601675
-quake_map_file.gd::GDScript::-1::1688332250::0::1::::QuakeMapFile<>Resource<>::
-quake_palette_file.gd::GDScript::-1::1688332250::0::1::::QuakePaletteFile<>Resource<>::
-quake_wad_file.gd::GDScript::-1::1688332250::0::1::::QuakeWadFile<>Resource<>::
-worldspawn_layer.gd::GDScript::-1::1688332250::0::1::::QodotWorldspawnLayer<>Resource<>::
-::res://addons/qodot/src/resources/game-definitions/::1688681736
-trenchbroom_game_config.gd::GDScript::-1::1688332250::0::1::::TrenchBroomGameConfig<>Resource<>::
-::res://addons/qodot/src/resources/game-definitions/fgd/::1679601675
-qodot_fgd_base_class.gd::GDScript::-1::1688332250::0::1::::QodotFGDBaseClass<>QodotFGDClass<>::
-qodot_fgd_class.gd::GDScript::-1::1688332250::0::1::::QodotFGDClass<>Resource<>::
-qodot_fgd_file.gd::GDScript::-1::1688332250::0::1::::QodotFGDFile<>Resource<>::
-qodot_fgd_point_class.gd::GDScript::-1::1688332250::0::1::::QodotFGDPointClass<>QodotFGDClass<>::
-qodot_fgd_solid_class.gd::GDScript::-1::1688332250::0::1::::QodotFGDSolidClass<>QodotFGDClass<>::
-::res://addons/qodot/src/resources/game-definitions/trenchbroom/::1679602270
-trenchbroom_face_attrib.gd::GDScript::-1::1688332250::0::1::::TrenchBroomFaceAttrib<>Resource<>::
-trenchbroom_face_attrib_defaults.gd::GDScript::-1::1688332250::0::1::::TrenchBroomFaceAttribDefaults<>Resource<>::
-trenchbroom_game_config_file.gd::GDScript::-1::1679601675::0::1::::TrenchBroomGameConfigFile<>Resource<>::
-trenchbroom_game_config_folder.gd::GDScript::-1::1679602270::0::1::::TrenchBroomGameConfigFolder<>Resource<>::
-trenchbroom_tag.gd::GDScript::-1::1688332250::0::1::::TrenchBroomTag<>Resource<>::
-::res://addons/qodot/src/util/::1679601675
-qodot_texture_loader.gd::GDScript::-1::1688332250::0::1::::QodotTextureLoader<>RefCounted<>::
-qodot_util.gd::GDScript::-1::1688332250::0::1::::QodotUtil<>RefCounted<>::
-::res://addons/qodot/textures/::1679601676
-::res://addons/qodot/textures/base/::1679601679
-checkerboard.png::CompressedTexture2D::6792958888206592633::1688332250::1688332250::1::::<><>::
-grid.png::CompressedTexture2D::3997816497670471060::1688332250::1688332250::1::::<><>::
-uv_test.png::CompressedTexture2D::1125551641707912554::1688332250::1688332250::1::::<><>::
-::res://addons/qodot/textures/layers/::1679601679
-lava.png::CompressedTexture2D::6278954723491494119::1688332250::1688332250::1::::<><>::
-lava.tres::StandardMaterial3D::-1::1688332250::0::1::::<><>::
-slime.png::CompressedTexture2D::9046428312127563487::1688332250::1688332250::1::::<><>::
-slime.tres::StandardMaterial3D::-1::1688332250::0::1::::<><>::
-water.png::CompressedTexture2D::4514249969325759282::1688332250::1688332250::1::::<><>::
-water.tres::StandardMaterial3D::-1::1688332250::0::1::::<><>::
-::res://addons/qodot/textures/materials/::1679601679
-checkerboard_material.png::CompressedTexture2D::3810368368898848167::1688332250::1688332250::1::::<><>::
-checkerboard_material.tres::StandardMaterial3D::-1::1688332250::0::1::::<><>::res://addons/qodot/textures/materials/checkerboard_material.png
-grid_material.png::CompressedTexture2D::2971491687339174068::1688332250::1688332250::1::::<><>::
-grid_material.tres::StandardMaterial3D::-1::1688332250::0::1::::<><>::res://addons/qodot/textures/materials/grid_material.png
-uv_test_material.png::CompressedTexture2D::310633365650990606::1688332250::1688332250::1::::<><>::
-uv_test_material.tres::StandardMaterial3D::-1::1688332250::0::1::::<><>::res://addons/qodot/textures/materials/uv_test_material.png
-::res://addons/qodot/textures/orrery/::1679601679
-metal.png::CompressedTexture2D::1635230824848241745::1688332250::1688332250::1::::<><>::
-metal.tres::StandardMaterial3D::-1::1688332250::0::1::::<><>::
-planet.png::CompressedTexture2D::5187484155820737878::1688332250::1688332250::1::::<><>::
-planet.tres::StandardMaterial3D::-1::1688332250::0::1::::<><>::
-sun.png::CompressedTexture2D::7852726664507952814::1688332250::1688332250::1::::<><>::
-sun.tres::StandardMaterial3D::-1::1688332250::0::1::::<><>::
-::res://addons/qodot/textures/pbr/::1679601679
-military-panel.png::CompressedTexture2D::3546217722692229038::1688332250::1688332250::1::::<><>::
-::res://addons/qodot/textures/pbr/military-panel/::1679601679
-military-panel_ao.png::CompressedTexture2D::6051949604994203515::1688332250::1688332250::1::::<><>::
-military-panel_depth.png::CompressedTexture2D::2435984246511830471::1688332250::1688332250::1::::<><>::
-military-panel_emissive.png::CompressedTexture2D::2747755497903641844::1688332250::1688332250::1::::<><>::
-military-panel_metallic.png::CompressedTexture2D::7577414526983179745::1688332250::1688332250::1::::<><>::
-military-panel_normal.png::CompressedTexture2D::4365929439219684317::1688332250::1688332250::1::::<><>::
-military-panel_roughness.png::CompressedTexture2D::5873868765642727332::1688332250::1688332250::1::::<><>::
-::res://addons/qodot/textures/shaders/::1680275354
-tangent-test.png::CompressedTexture2D::8369999958819788034::1688332250::1688332250::1::::<><>::
-tangent-test.tres::ShaderMaterial::1491877661751243884::1688332250::0::1::::<><>::
-::res://addons/qodot/textures/special/::1679601679
-clip.png::CompressedTexture2D::8369999958819788034::1688332250::1688332250::1::::<><>::
-skip.png::CompressedTexture2D::3013576122456084822::1688332250::1688332250::1::::<><>::
-::res://Autoloads/::1686652297
-Globals.gd::GDScript::-1::1686652297::0::1::::<>Node<>::
-::res://Autoloads/Transitions/::1688660575
-Transitions.gd::GDScript::-1::1686601063::0::1::::<>CanvasLayer<>::
-Transitions.tscn::PackedScene::8213766234802008506::1688660575::0::1::::<><>::res://Autoloads/Transitions/Transitions.gd
-::res://Characters/::1689162458
-::res://Characters/Arms/::1689162458
-Arms.glb::PackedScene::7977148829687961047::1689162458::1689162458::1::::<><>::
-Arms_Xh6tFa1w.png::CompressedTexture2D::2998467229914962203::1689162458::1689162458::1::::<><>::
-start_ik.gd::GDScript::-1::1689162458::0::1::::<>SkeletonIK3D<>::
-::res://Characters/Rocket Man/::1689162458
-Node3D.gd::GDScript::-1::1689162458::0::1::::<>Node3D<>::
-Rocket_Man.gd::GDScript::-1::1689162458::0::1::::<>CharacterBody3D<>::
-Rocket_Man.tscn::PackedScene::2555962719904378053::1689162458::0::1::::<><>::res://Characters/Rocket Man/Rocket_Man.gd<>uid://i0qcax4cvbx1::::res://Objects/Weapons/Rocket Launcher/Rocket Launcher.png<>uid://bw4i8l3vi3neg::::res://Objects/Weapons/Rocket Launcher/Rocket Launcher2.obj<>uid://b74ux2rkgccyj::::res://HUD/Crosshair_reticle.png<>uid://biyqk1xbklqd4::::res://Characters/Arms/Arms_Xh6tFa1w.png<>uid://dnuj3h0fi2df1::::res://UI/tf2build.ttf<>res://Characters/Arms/start_ik.gd
-::res://Enemies/::1680264807
-::res://Enemies/Test Enemy/::1680393518
-Test_Enemy.gd::GDScript::-1::1680281010::0::1::::<>CharacterBody3D<>::
-Test_Enemy.tscn::PackedScene::6207717622093911913::1680393518::0::1::::<><>::res://Enemies/Test Enemy/Test_Enemy.gd
-::res://Enemies/Test_BossFight/::1680393518
-Test_BossFight.gd::GDScript::-1::1680285318::0::1::::<>CharacterBody3D<>::
-Test_BossFight.tscn::PackedScene::4689882843489308651::1680393518::0::1::::<><>::res://Enemies/Test_BossFight/Test_BossFight.gd
-::res://Entities/::1689162255
-::res://Entities/Characters/::1681413253
-::res://Entities/Characters/Arms/::1689162456
-::res://Entities/Characters/Rocket Man/::1689162456
-::res://Entities/Objects/::1688848679
-::res://Entities/Objects/BHOP Boots/::1689162456
-::res://Entities/Objects/Capsules/::1689162456
-::res://Entities/Objects/Medal/::1689162456
-::res://Entities/Objects/Projectile/::1689162457
-::res://Entities/Objects/Weapons/::1681399618
-::res://Entities/Objects/Weapons/Rocket Launcher/::1689162457
-::res://Entities/Objects/Wine/::1689162457
-::res://Entities/Particles/::1689161734
-::res://Entities/Stage Assets/::1686658624
-::res://Entities/Stage Assets/Hammer/::1689162457
-::res://Entities/Stage Assets/Rocket/::1689162457
-::res://Entities/Stage Assets/Sign/::1689162457
-::res://Entities/Stage Assets/Skybox/::1689162457
-::res://Entities/Stage Assets/Spawner/::1689162458
-::res://HUD/::1681390602
-Crosshair_reticle.png::CompressedTexture2D::4693587492947595697::1645383775::1681390602::1::::<><>::
-::res://Maps/::1688750032
-::res://Maps/Chameno Woods/::1689161924
-chameno_woods.tscn::PackedScene::4862430780610654717::1689161924::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh::::res://addons/qodot/game_definitions/fgd/qodot_fgd.tres<>uid://bcoelkpf6exsv::::res://Characters/Rocket Man/Rocket_Man.tscn<>uid://ckj5kqcvmjbvy::::res://textures/PBR_Textures/Wood067/Wood067_1K_Color.tres<>uid://bk7vsp6p4fajg::::res://textures/PBR_Textures/Window/glass1.tres<>uid://b5vasd3tfdcwo::::res://Stage Assets/Hammer/Hammer.tscn
-::res://Maps/Hub/::1689161961
-Hub.gd::GDScript::-1::1686654517::0::1::::<>Node3D<>::
-Hub.tscn::PackedScene::4877693868451968723::1689161961::0::1::::<><>::res://Maps/Hub/Hub.gd<>uid://bcmnnw4d6ssae::::res://Entities/Stage Assets/Skybox/scenic_a_vista_of_snowy_mountains_with_lightning_f.jpg<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh::::res://addons/qodot/game_definitions/fgd/qodot_fgd.tres<>uid://bia2t2fqvxndp::::res://textures/PBR_Textures/Wood067/Wood067_1K_Color.jpg<>uid://bxe4byfhp6ngi::::res://textures/PBR_Textures/Rock_035/Rock035_1K_Color.tres<>uid://bcoelkpf6exsv::::res://Entities/Characters/Rocket Man/Rocket_Man.tscn<>uid://qxwuvpl242lv::::res://textures/PBR_Textures/Wood071/Wood071_1K_Color.tres<>uid://3ssqnubu1es::::res://textures/PBR_Textures/SheetMetal003/SheetMetal003_1K_Metalness.jpg<>uid://o5s8hbdpfb2n::::res://textures/PBR_Textures/Tree_bark/albedo.png<>uid://dr08r43d2xin7::::res://textures/PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo.tres<>uid://0jl8r3k5fxe6::::res://textures/PBR_Textures/Rust_Panel/rust-panel-albedo.png<>uid://dpbhtv5erycmf::::res://textures/PBR_Textures/bricks-mortar-ue/bricks-mortar-albedo.tres<>res://Maps/Kingdom 1/Change_Scene.gd<>uid://cotyjlcfd0phm::::res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Metalness.jpg<>uid://c2moapnl1jbq7::::res://textures/PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color.jpg<>res://Scritpts/wall.gd
-::res://Maps/Kingdom 1/::1689162255
-Bhop Area.gd::GDScript::-1::1686664845::0::1::::<>Area3D<>::
-Change_Scene.gd::GDScript::-1::1688656314::0::1::::<>Area3D<>::
-Kingdom 1.gd::GDScript::-1::1686653389::0::1::::<>Node3D<>::
-Kingdom 1.tscn::PackedScene::4779362118122570073::1689162255::0::1::::<><>::res://Maps/Kingdom 1/Kingdom 1.gd<>uid://bllihi6ryo2p6::::res://Entities/Stage Assets/Skybox/environment.png<>uid://bcoelkpf6exsv::::res://Entities/Characters/Rocket Man/Rocket_Man.tscn<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh::::res://addons/qodot/game_definitions/fgd/qodot_fgd.tres<>uid://bxe4byfhp6ngi::::res://textures/PBR_Textures/Rock_035/Rock035_1K_Color.tres<>uid://c2moapnl1jbq7::::res://textures/PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color.jpg<>uid://gnffci8perhg::::res://textures/PBR_Textures/Purple_Marble/Purple_Marble_albedo.tres<>uid://c2fpqqhor2y4s::::res://textures/PBR_Textures/Blue_Tile.tres<>uid://kndt4iv0nqmd::::res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color.tres<>uid://g6vqn6m8aedr::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Color.tres<>uid://cn61f2yxyw3mx::::res://textures/PBR_Textures/Red_Tile.tres<>uid://b2owhe8f2k6r0::::res://Entities/Stage Assets/Spawner/teleporter.tscn<>res://Entities/Stage Assets/Spawner/teleporter.gd<>res://Scritpts/trigger.gd<>uid://b5vasd3tfdcwo::::res://Entities/Stage Assets/Hammer/Hammer.tscn<>uid://cttfhk6crbhg2::::res://Entities/Objects/Capsules/Rocket_Capsule.tscn<>res://Maps/Kingdom 1/Panels/Slide Panel.gd<>res://Maps/Kingdom 1/Change_Scene.gd<>res://Video Clips/Slide Tutorial3.ogv<>res://Video Clips/Slide Jump Tutorial.ogv<>res://Video Clips/Rocket Jump.ogv<>res://Video Clips/VideoStreamPlayer.gd<>res://Maps/Kingdom 1/Panels/Slide Jump Panel.gd<>res://Maps/Kingdom 1/Panels/Rocket Jump Panel.gd<>res://Maps/Kingdom 1/Bhop Area.gd
-::res://Maps/Kingdom 1/Panels/::1686509649
-Rocket Jump Panel.gd::GDScript::-1::1686487090::0::1::::<>MeshInstance3D<>::
-Slide Jump Panel.gd::GDScript::-1::1686487046::0::1::::<>MeshInstance3D<>::
-Slide Panel.gd::GDScript::-1::1686509649::0::1::::<>MeshInstance3D<>::
-::res://Maps/Kingdom 2/::1689162255
-Kingdom 2 Env.tres::Environment::8853427039772523784::1689162255::0::1::::<><>::uid://bllihi6ryo2p6::::res://Entities/Stage Assets/Skybox/environment.png
-Kingdom 2.gd::GDScript::-1::1688761044::0::1::::<>Node3D<>::
-Kingdom 2.tscn::PackedScene::5062618763704333873::1689162255::0::1::::<><>::res://Maps/Kingdom 2/Kingdom 2.gd<>uid://dyewwdho3gdlw::::res://Maps/Kingdom 2/Kingdom 2 Env.tres<>uid://bcoelkpf6exsv::::res://Entities/Characters/Rocket Man/Rocket_Man.tscn<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh::::res://addons/qodot/game_definitions/fgd/qodot_fgd.tres<>uid://c2moapnl1jbq7::::res://textures/PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color.jpg<>res://Scritpts/trigger.gd<>uid://kndt4iv0nqmd::::res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color.tres<>uid://cn61f2yxyw3mx::::res://textures/PBR_Textures/Red_Tile.tres<>uid://b2owhe8f2k6r0::::res://Entities/Stage Assets/Spawner/teleporter.tscn<>uid://bxe4byfhp6ngi::::res://textures/PBR_Textures/Rock_035/Rock035_1K_Color.tres<>res://Entities/Stage Assets/Spawner/teleporter.gd<>uid://bcv0ikyd4bufq::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Color.tres<>uid://bia2t2fqvxndp::::res://textures/PBR_Textures/Wood067/Wood067_1K_Color.jpg<>uid://qxwuvpl242lv::::res://textures/PBR_Textures/Wood071/Wood071_1K_Color.tres<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>res://Scritpts/button.gd<>res://Scritpts/wall.gd<>uid://g6vqn6m8aedr::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Color.tres<>res://Scritpts/mover.gd<>uid://3ssqnubu1es::::res://textures/PBR_Textures/SheetMetal003/SheetMetal003_1K_Metalness.jpg<>uid://c2fpqqhor2y4s::::res://textures/PBR_Textures/Blue_Tile.tres<>uid://rhssjygrp81x::::res://textures/PBR_Textures/Orange_Tile.tres<>uid://gnffci8perhg::::res://textures/PBR_Textures/Purple_Marble/Purple_Marble_albedo.tres<>uid://dayfowaiaqp7o::::res://Entities/Stage Assets/Sign/Sign.tres<>res://Maps/Kingdom 1/Panels/Slide Panel.gd<>res://Maps/Kingdom 1/Change_Scene.gd<>res://Video Clips/RJ Strafe Left.ogv<>res://Video Clips/RJ Strafe Right.ogv<>res://Video Clips/BHOP.ogv<>res://Video Clips/BHOP Strafe.ogv<>res://Video Clips/surf.ogv<>res://Video Clips/surf+Slide_Bhop.ogv<>uid://dm1kpyfdvr4qk::::res://Entities/Objects/BHOP Boots/Shoes.glb<>res://Entities/Objects/BHOP Boots/BHOP Boots.gd
-::res://Maps/Stage 1/::1689161961
-Stage_1 Environment.tres::Environment::7427863260509286248::1689161961::0::1::::<><>::uid://bllihi6ryo2p6::::res://Entities/Stage Assets/Skybox/environment.png
-Tutorial.tscn::PackedScene::5496867671610604133::1688660575::0::1::::<><>::uid://bcoelkpf6exsv
-::res://Maps/Testing Stage/::1688750032
-::res://Maps/Tutorial Stage/::1689162458
-Sky2.tres::Environment::452054818742888414::1686514255::0::1::::<><>::
-Sky.tres::Environment::1772127141427017430::1688754154::0::1::::<><>::
-tutorial_stage.tscn::PackedScene::-1::1689162458::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>res://Characters/Rocket_Man.tscn<>uid://go8joac0gcn3::::res://Maps/Tutorial Stage/Sky2.tres<>uid://cj11aqydei5bh::::res://addons/qodot/game_definitions/fgd/qodot_fgd.tres<>uid://c3j78g5si5uyw::::res://textures/Prototype_Textures/PNG/Dark/texture_08.png<>uid://degvovww8o726::::res://textures/Prototype_Textures/PNG/Orange/texture_12.png<>uid://cmdhwpj1nqmh3::::res://textures/Prototype_Textures/PNG/Red/texture_09.png<>uid://edv4t8r3nwb5::::res://textures/Prototype_Textures/PNG/Red/texture_01.png<>uid://b20fwqk63guk8::::res://textures/Prototype_Textures/PNG/Dark/texture_13.png<>uid://cb31lbffhnven::::res://textures/Prototype_Textures/PNG/Orange/texture_01.png<>uid://dswb4a241m5qk::::res://textures/Prototype_Textures/PNG/Light/texture_01.png<>uid://bmxl4s6mkuqky::::res://textures/Prototype_Textures/PNG/Green/texture_01.png<>uid://ro1r3amxw6q5::::res://textures/Prototype_Textures/PNG/Light/texture_08.png<>uid://5c46boyirtjp::::res://textures/Prototype_Textures/PNG/Dark/texture_01.png<>uid://ci5bktsqcux4r::::res://textures/Prototype_Textures/PNG/Green/texture_02.png<>uid://dkvvkm2eoq7x::::res://textures/Prototype_Textures/PNG/Dark/texture_07.png<>res://Scritpts/button.gd<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>res://Scritpts/mover.gd<>uid://b2owhe8f2k6r0::::res://Stage Assets/Spawner/teleporter.tscn<>res://Scritpts/trigger.gd<>res://Stage Assets/Spawner/teleporter.gd<>res://fake_door.gd<>uid://cupcg43ka42cr::::res://Enemies/Test Enemy/Test_Enemy.tscn
-::res://Objects/::1689162662
-::res://Objects/BHOP Boots/::1689162458
-BHOP Boots.gd::GDScript::-1::1689162458::0::1::::<>Area3D<>::
-Shoes.glb::PackedScene::8055837221626981142::1689162458::1689162458::1::::<><>::
-Shoes_Red_Pallete Gradient.png::CompressedTexture2D::2314767521066513174::1689162458::1689162458::1::::<><>::
-::res://Objects/Capsules/::1689162458
-Rocket_Capsule.gd::GDScript::-1::1689162458::0::1::::<>Area3D<>::
-Rocket_Capsule.tscn::PackedScene::6145969232593194267::1689162458::0::1::::<><>::res://Objects/Capsules/Rocket_Capsule.gd<>uid://b43ysskm04ct6::::res://Stage Assets/Rocket/Rocket_Cylinder Base Color.png
-::res://Objects/Medal/::1689162662
-Medal.glb::PackedScene::9058433020148638264::1689162662::1689162662::1::::<><>::
-medal.tscn::PackedScene::8019791661560403117::1689162662::0::1::::<><>::uid://d2b8clb6v2q21::::res://Objects/Medal/Medal.glb
-Medal_360_F_241373755_xvmEPTOeXvosc0qGEwBeJ0hdQkgZqrnd.png::CompressedTexture2D::6566406460188967286::1689162662::1689162662::1::::<><>::
-Medal_istockphoto-678719470-170667a.png::CompressedTexture2D::3529220879264129706::1689162662::1689162662::1::::<><>::
-::res://Objects/Projectile/::1689162458
-Explosion_Hitbox.gd::GDScript::-1::1689162458::0::1::::<>Area3D<>::
-Explosion_Hitbox.tres::VisualShader::4751446225725395425::1689162458::0::1::::<><>::
-Explosion_Hitbox.tscn::PackedScene::6207442870457207257::1689162458::0::1::::<><>::res://Objects/Projectile/Explosion_Hitbox.gd<>uid://b8xvviwuymbs0::::res://Objects/Projectile/Explosion_Hitbox.tres
-Rocket.gd::GDScript::-1::1689162458::0::1::::<>CharacterBody3D<>::
-Rocket.tscn::PackedScene::4299638213934315017::1689162458::0::1::::<><>::res://Objects/Projectile/Rocket.gd<>uid://edv4t8r3nwb5::::res://textures/Prototype_Textures/PNG/Red/texture_01.png<>uid://bgmm611tg4r0y::::res://Stage Assets/Rocket/Rocket.glb
-::res://Objects/Weapons/::1689162458
-::res://Objects/Weapons/Rocket Launcher/::1689162479
-Rocket Launcher2.obj::Mesh::3990987487715865794::1689162458::1689162458::1::::<><>::
-Rocket Launcher.obj::PackedScene::6618491457376963503::1689162466::1689162671::1::::<><>::
-Rocket Launcher.png::CompressedTexture2D::614095273279455572::1689162458::1689162458::1::::<><>::
-rocket_launcher.tscn::PackedScene::4196034657963907538::1689162458::0::1::::<><>::uid://i0qcax4cvbx1::::res://Objects/Weapons/Rocket Launcher/Rocket Launcher.png
-::res://Objects/Wine/::1689162458
-Wine.glb::PackedScene::5567756373055372616::1689162458::1689162458::1::::<><>::
-Wine_Wood067 Texture.png::CompressedTexture2D::5301774321750133112::1689162458::1689162458::1::::<><>::
-::res://Qodot Maps/::1689162479
-Chameno Woods.map::Resource::1499925427686428836::1689160546::1689162671::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-E1M5.MAP::Resource::829215504343263063::841834880::1679677878::1::::<><>::
-Hub World.map::Resource::7993104602621322991::1688660336::1686673005::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.map::Resource::3974402900401035392::1683468103::1681867383::1::::<><>::
-Test.map::Resource::7053277462487014365::1679623827::1679623830::1::::<><>::
-testing1.map::Resource::490261466992435758::1688743717::1688745123::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-testing.map::Resource::2880445599225934663::1688745356::1688749734::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Tutorial Stage.map::Resource::7812903028738425667::1680040282::1680040284::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Tutorial.map::Resource::2215841061022788197::1679671945::1679631024::1::::<><>::
-World 1.map::Resource::7307351713100933646::1688764368::1688755057::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.map::Resource::8652048466495728329::1688662104::1688662105::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 3.map::Resource::5114748687151846691::1688660365::1688660442::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-::res://Qodot Maps/autosave/::1689162479
-Chameno Woods.1.map::Resource::5046892885602516667::1688682046::1688682066::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.2.map::Resource::268138359489442125::1688682987::1688683577::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.3.map::Resource::7699246850879063068::1688687384::1688687389::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.4.map::Resource::7747250934798172670::1688768787::1688768796::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.5.map::Resource::2909764910122340396::1688784216::1688785252::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.6.map::Resource::2285630873152931524::1688785828::1688785834::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.7.map::Resource::176502313943969655::1688787056::1688787063::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.8.map::Resource::4302258050402718012::1688787790::1688788096::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.9.map::Resource::6713064733579330650::1688788553::1688788559::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.10.map::Resource::5456765488657202453::1688789177::1688791608::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.11.map::Resource::2444516668090495893::1688789801::1688791608::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.12.map::Resource::1009995755972794033::1688790441::1688791608::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.13.map::Resource::8629900811604285851::1688791106::1688791608::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.14.map::Resource::1248278272151407900::1688791774::1688791774::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.15.map::Resource::5149532964924343866::1688817493::1688817497::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.16.map::Resource::6287164231997174719::1688818109::1688818311::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.17.map::Resource::1287142919936875089::1688819203::1688822060::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.18.map::Resource::1124871141788129027::1688819911::1688822060::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.19.map::Resource::9120498772003762950::1688820740::1688822060::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.20.map::Resource::6365060775532059422::1688822127::1688822132::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.21.map::Resource::7866487436353075553::1688823133::1688823138::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.22.map::Resource::8133786291426979997::1688823734::1688823937::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.23.map::Resource::212111939496802373::1688824607::1688826517::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.24.map::Resource::3678270686802633605::1689153840::1689162671::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.25.map::Resource::3948958441760778428::1689154495::1689162671::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.26.map::Resource::5672040119082591302::1689156433::1689162671::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.27.map::Resource::5988574389008388061::1689157698::1689162671::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Chameno Woods.28.map::Resource::7455855383365645773::1689159785::1689162671::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Hub World.1.map::Resource::4788175234771957471::1686351966::1686351977::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Hub World.2.map::Resource::4261556222209192752::1686353025::1686353497::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Hub World.3.map::Resource::2283842164234484327::1686387531::1686388562::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Hub World.4.map::Resource::547464401860989313::1686388132::1686388562::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Hub World.5.map::Resource::6279633224721164025::1686391326::1686391407::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Hub World.6.map::Resource::2587675149180050201::1686391949::1686391961::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Hub World.7.map::Resource::67153888912588163::1686393559::1686393562::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Hub World.8.map::Resource::527137900533460429::1686403973::1686404189::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Hub World.9.map::Resource::5856519523861627121::1686404582::1686404767::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Hub World.10.map::Resource::7358562566795946098::1686514735::1686514743::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.1.map::Resource::2216729812365186903::1680087708::1680087914::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.2.map::Resource::7234553262328971555::1680088518::1680088605::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.3.map::Resource::3744684803787284058::1680089420::1680089509::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.4.map::Resource::4772293309458617479::1680090024::1680090058::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.5.map::Resource::7743412172685706426::1680090733::1680090958::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.6.map::Resource::2662597183904050500::1680091334::1680091555::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.7.map::Resource::2788279202214393622::1680093505::1680093967::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.8.map::Resource::7704307048746500513::1680095566::1680095571::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.9.map::Resource::3410059189321260473::1680096169::1680096175::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.10.map::Resource::3856957049839299018::1680097251::1680097283::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.11.map::Resource::2070579947539327375::1680097901::1680097913::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.12.map::Resource::6033300623426850536::1680101952::1680101956::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.13.map::Resource::5766972401686326934::1680103509::1680103594::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.14.map::Resource::2556405754980227440::1680105057::1680105061::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.15.map::Resource::4863351308439627047::1680109494::1680109601::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.16.map::Resource::1020522544483746720::1680110095::1680110222::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.17.map::Resource::4317040510822377107::1680110737::1680110838::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.18.map::Resource::3731302485579113737::1680113399::1680113441::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.19.map::Resource::8166442528962322033::1680114247::1680114289::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.20.map::Resource::5938951965232581367::1680115048::1680115417::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.21.map::Resource::5149925919488295981::1680124612::1680124812::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.22.map::Resource::2714421895406790793::1680125763::1680125774::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.23.map::Resource::7452902375984760926::1680126761::1680126810::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.24.map::Resource::551777036071639220::1680166575::1680167786::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.25.map::Resource::2014485083622013812::1680171132::1680171871::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.26.map::Resource::5541511716625084333::1680171780::1680171871::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.27.map::Resource::8115936265000549511::1680172390::1680172452::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.28.map::Resource::1026887928567497536::1680172991::1680173064::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.29.map::Resource::4817394727868188317::1680173592::1680173829::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.30.map::Resource::6668513296858301882::1680174745::1680174831::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.31.map::Resource::1305934495752023905::1680176638::1680177198::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.32.map::Resource::1165884415308869173::1680177303::1680177392::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.33.map::Resource::6462742945381020053::1680177976::1680178068::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.34.map::Resource::4517888779867541805::1680180960::1680181177::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.35.map::Resource::5962636998220845981::1680181598::1680182170::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.36.map::Resource::4514233006915804065::1680184681::1680185532::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Stage 1.37.map::Resource::1273927454732276632::1683457334::1683457367::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Test.1.map::Resource::3035268523837054341::1679603474::1679616439::1::::<><>::
-Test.2.map::Resource::8125943410888283474::1679605671::1679616439::1::::<><>::
-Test.3.map::Resource::8793249561940492369::1679606271::1679616439::1::::<><>::
-Test.4.map::Resource::8946538814856867067::1679606872::1679616439::1::::<><>::
-Test.5.map::Resource::6872752402909189069::1679607878::1679616439::1::::<><>::
-Test.6.map::Resource::974551853150517899::1679616452::1679616684::1::::<><>::
-Test.7.map::Resource::1501244100904644183::1679617316::1679617453::1::::<><>::
-Test.8.map::Resource::7219149558689388931::1679618329::1679618568::1::::<><>::
-Test.9.map::Resource::6321191572995524386::1679620807::1679622437::1::::<><>::
-Test.10.map::Resource::7916134691525930379::1679621416::1679622437::1::::<><>::
-Test.11.map::Resource::6976577275136762512::1679622115::1679622437::1::::<><>::
-Test.12.map::Resource::4988299418963597750::1679623682::1679623720::1::::<><>::
-testing1.1.map::Resource::8858350236080798367::1688742374::1688745123::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-testing.1.map::Resource::1283895051345544449::1688686398::1688686435::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-testing.2.map::Resource::8568006057699271070::1688744091::1688745123::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-testing.3.map::Resource::6064100971162207563::1688745362::1688749734::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Tutorial Stage.1.map::Resource::1087668969094853843::1679674459::1679674709::1::::<><>::
-Tutorial Stage.2.map::Resource::3841311301284962782::1679675151::1679675309::1::::<><>::
-Tutorial Stage.3.map::Resource::8417041900057493422::1679676313::1679676315::1::::<><>::
-Tutorial Stage.4.map::Resource::6861692139378759178::1679678060::1679678205::1::::<><>::
-Tutorial Stage.5.map::Resource::6585571223732201076::1679679623::1679679637::1::::<><>::
-Tutorial Stage.6.map::Resource::8880454159637213055::1679680351::1679680502::1::::<><>::
-Tutorial Stage.7.map::Resource::378594373932749969::1679680952::1679681453::1::::<><>::
-Tutorial Stage.8.map::Resource::6333171217198980949::1679682102::1679682119::1::::<><>::
-Tutorial Stage.9.map::Resource::6608860342102849334::1679710076::1679710237::1::::<><>::
-Tutorial Stage.10.map::Resource::1485437418587672829::1679711067::1679711290::1::::<><>::
-Tutorial Stage.11.map::Resource::5421850532233363044::1679712378::1679712475::1::::<><>::
-Tutorial Stage.12.map::Resource::5950565748607874757::1679716539::1679716788::1::::<><>::
-Tutorial Stage.13.map::Resource::5348778912441798121::1679717245::1679718045::1::::<><>::
-Tutorial Stage.14.map::Resource::5071129548553809701::1679717846::1679718045::1::::<><>::
-Tutorial Stage.15.map::Resource::699121843592129942::1679718542::1679718544::1::::<><>::
-Tutorial Stage.16.map::Resource::4558533638889807683::1679720152::1679720165::1::::<><>::
-Tutorial Stage.17.map::Resource::9170593456082569382::1679720752::1679720802::1::::<><>::
-Tutorial Stage.18.map::Resource::1043719711671347353::1679742635::1679742641::1::::<><>::
-Tutorial Stage.19.map::Resource::4105466862326402776::1679743603::1679743614::1::::<><>::
-Tutorial Stage.20.map::Resource::4903295476116517802::1679747590::1679747611::1::::<><>::
-Tutorial Stage.21.map::Resource::8075405700024152257::1679748642::1679748644::1::::<><>::
-Tutorial Stage.22.map::Resource::4974193342080220453::1679750269::1679750317::1::::<><>::
-Tutorial Stage.23.map::Resource::9068433509674880864::1679751430::1679751468::1::::<><>::
-Tutorial Stage.24.map::Resource::1937146924103517128::1679753870::1679754296::1::::<><>::
-Tutorial Stage.25.map::Resource::4078234280584875227::1679754470::1679754555::1::::<><>::
-Tutorial Stage.26.map::Resource::4753179601266366457::1679755090::1679755092::1::::<><>::
-Tutorial Stage.27.map::Resource::2926831964611022609::1679759157::1679759194::1::::<><>::
-Tutorial Stage.28.map::Resource::4567797319282448951::1679768662::1679768792::1::::<><>::
-Tutorial Stage.29.map::Resource::8507717182843200049::1679769723::1679770170::1::::<><>::
-Tutorial Stage.30.map::Resource::7216814826056989517::1679790524::1679791526::1::::<><>::
-Tutorial Stage.31.map::Resource::2157572228472320266::1679791273::1679791526::1::::<><>::
-Tutorial Stage.32.map::Resource::8037881532698436455::1679791873::1679789329::1::::<><>::
-Tutorial Stage.33.map::Resource::1970198787903415103::1679789285::1679789329::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Tutorial Stage.34.map::Resource::3328980940242373246::1679916283::1679916340::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-Tutorial.1.map::Resource::7594339390350601751::1679626910::1679627076::1::::<><>::
-Tutorial.2.map::Resource::7158473262901662213::1679627679::1679627681::1::::<><>::
-Tutorial.3.map::Resource::7673174096010131398::1679628298::1679629167::1::::<><>::
-Tutorial.4.map::Resource::6687014911081962099::1679628898::1679629167::1::::<><>::
-Tutorial.5.map::Resource::6734063287014527257::1679630082::1679630087::1::::<><>::
-World 1.1.map::Resource::5712545730659578730::1680394769::1680395119::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.2.map::Resource::2046067068044871571::1680395989::1680396087::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.3.map::Resource::2920274892784764593::1680449900::1680449923::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.4.map::Resource::4008462589559363303::1680450511::1680450588::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.5.map::Resource::8354316149800459299::1680452140::1680452225::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.6.map::Resource::1770289916662293460::1680911918::1680912008::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.7.map::Resource::3945902202605052901::1680913464::1680913466::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.8.map::Resource::9025884632519989836::1680915293::1680915863::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.9.map::Resource::1509271791419559959::1681398939::1681399053::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.10.map::Resource::6559486479698319791::1681840301::1681842523::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.11.map::Resource::3302895312142412909::1681840902::1681842523::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.12.map::Resource::8714373854084552521::1681842185::1681842523::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.13.map::Resource::5662744672335392162::1681843000::1681843706::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.14.map::Resource::4937308320139176086::1681843601::1681843706::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.15.map::Resource::2008368237383233297::1681850853::1681850854::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.16.map::Resource::715325635914780460::1681851462::1681852297::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.17.map::Resource::3312710413092583318::1681854371::1681854566::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.18.map::Resource::9148889337457697301::1681856289::1681858208::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.19.map::Resource::2699819340244991848::1681858039::1681858208::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.20.map::Resource::9221558537296180964::1681859043::1681859200::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.21.map::Resource::1696310471147376100::1686596271::1686596280::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 1.22.map::Resource::384677820013147997::1688755001::1688755008::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.1.map::Resource::255957364634423282::1683223161::1683224145::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.2.map::Resource::5941212906795570831::1683224115::1683224145::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.3.map::Resource::7916974384964364276::1683225204::1683225285::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.4.map::Resource::5326457338686663373::1683225815::1683226213::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.5.map::Resource::2959122389620304565::1683227225::1683227554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.6.map::Resource::2850814900377633664::1683228102::1683228839::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.7.map::Resource::5306792656451416305::1683401972::1683401995::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.8.map::Resource::8706429504344018801::1683402967::1683403034::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.9.map::Resource::6516859877361796711::1683404030::1683404256::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.10.map::Resource::8563465658198212377::1683404760::1683404866::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.11.map::Resource::84069372896724441::1683405373::1683405394::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.12.map::Resource::6727413318378329508::1683406758::1683407258::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.13.map::Resource::7036791153028169928::1683408102::1683411350::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.14.map::Resource::4268525144572638649::1683408703::1683411350::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.15.map::Resource::4975255128253861528::1683453707::1683453899::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.16.map::Resource::252347783128536202::1683455031::1683455101::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.17.map::Resource::5938199918413550816::1683456164::1683456677::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.18.map::Resource::4862761039585543696::1683456875::1683456945::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.19.map::Resource::7548390924489834999::1683457594::1683458415::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.20.map::Resource::3741929569075517224::1683459484::1683459776::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.21.map::Resource::108943831732990854::1683460716::1683460895::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.22.map::Resource::2332213600667487617::1683461320::1683461352::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.23.map::Resource::7637640489843932123::1683463125::1683463254::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.24.map::Resource::3517994359007857943::1683464170::1683464414::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.25.map::Resource::4468476241456754230::1683465050::1683465097::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.26.map::Resource::8384505226959511640::1683465787::1683465810::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.27.map::Resource::6785117405465180620::1683466649::1683466747::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.28.map::Resource::8120683424059989262::1686385013::1686385048::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.29.map::Resource::7597837524978541556::1686386655::1686386913::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.30.map::Resource::6101444344867237029::1686410199::1686410294::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.31.map::Resource::4036165071496531823::1686490703::1686490770::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.32.map::Resource::4253086489791343719::1686594840::1686594847::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.33.map::Resource::6796985913498479976::1686595554::1686595558::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.34.map::Resource::5764608654126761395::1688659925::1688659949::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.35.map::Resource::3835945458262171699::1688661037::1688661051::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-World 2.36.map::Resource::7916605485275634909::1688661665::1688661684::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
-::res://Qodot Resources/::1689161961
-custom_fgd.tres::Resource/QodotFGDFile::1771519055406493979::1689159951::0::1::::<><>::uid://cq7e0f0ewffn5::::res://Qodot Resources/teleporter_point_class.tres<>uid://dxp37dladbquv::::res://addons/qodot/game_definitions/fgd/solid_classes/worldspawn_solid_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/group_solid_class.tres<>uid://b8aisardk4k4u::::res://addons/qodot/game_definitions/fgd/solid_classes/detail_solid_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/illusionary_solid_class.tres<>uid://c5o31v30rw7v5::::res://addons/qodot/game_definitions/fgd/base_classes/light_base_class.tres<>uid://ccwosedfa8v8d::::res://addons/qodot/game_definitions/fgd/point_classes/light_point_class.tres<>res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_file.gd<>uid://b6jj3q55o7kd::::res://Qodot Resources/fake_door_solid_class.tres
-fake_door_solid_class.tres::Resource/QodotFGDSolidClass::134748575868342759::1689159951::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>uid://ccdjpf5j25aua::::res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres<>res://fake_door.gd
-teleporter_point_class.tres::Resource/QodotFGDPointClass::5962210767991526324::1689161961::0::1::::<><>::uid://ccdjpf5j25aua::::res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres<>uid://b2owhe8f2k6r0::::res://Entities/Stage Assets/Spawner/teleporter.tscn<>res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd<>res://Entities/Stage Assets/Spawner/teleporter.gd
-::res://Qodot Resources/env_destructible/::1689161721
+::res://::1689163906
+fake_door.gd::GDScript::-1::1688851976::0::1::::<>StaticBody3D<>::
+icon.svg::CompressedTexture2D::6266338796732326602::1688851976::1688851976::1::::<><>::
+Ps1 Test.tres::VisualShader::540879708335824502::1689163833::0::1::::<><>::
+README.md::TextFile::-1::1688851976::0::1::::<><>::
+::res://addons/::1689163484
+::res://addons/qodot/::1689163485
+icon.png::CompressedTexture2D::4303817965049754646::1688851976::1688851976::1::::<><>::
+palette.lmp::Resource::4215014223586875623::1688851976::1688851976::1::::<><>::
+plugin.cfg::TextFile::-1::1688851976::0::1::::<><>::
+::res://addons/qodot/example_scenes/::1689163485
+::res://addons/qodot/example_scenes/0-visuals/::1689163484
+::res://addons/qodot/example_scenes/0-visuals/0-structural-geometry/::1689163484
+0-structural-geometry.map::Resource::313146780448585140::1688851976::1688851976::1::::<><>::
+0-structural-geometry.tscn::PackedScene::1709565390128941826::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/0-visuals/1-textures/::1689163484
+1-textures.map::Resource::5365009904910902972::1688851976::1688851976::1::::<><>::
+1-textures.tscn::PackedScene::8456968617685425924::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/0-visuals/2-materials/::1689163484
+2-materials.map::Resource::2362287929475946370::1688851976::1688851976::1::::<><>::
+2-materials.tscn::PackedScene::8007014657456742629::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/0-visuals/3-auto-pbr/::1689163484
+3-auto-pbr.map::Resource::3599643161606621994::1688851976::1688851976::1::::<><>::
+3-auto-pbr.tscn::PackedScene::4419324723498134653::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/0-visuals/4-special-textures/::1689163484
+4-special-textures.map::Resource::9074506994503976472::1688851976::1688851976::1::::<><>::
+4-special-textures.tscn::PackedScene::1072908542624844789::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/0-visuals/5-baked-lighting/::1689163485
+5-1-baked-lightmaps.exr::CompressedTexture2DArray::8238534027258359994::1688851976::1688851976::1::::<><>::
+5-1-baked-lightmaps.lmbake::LightmapGIData::4366191776278216613::1688851976::0::1::::<><>::uid://dpm2pmietu1pe
+5-1-baked-lightmaps.tscn::PackedScene::6063519636160818284::1688851976::0::1::::<><>::uid://b3hasm8twcdh2
+5-baked-lighting.map::Resource::7077147237438203012::1688851976::1688851976::1::::<><>::
+LightMap.png::CompressedTexture2D::6092113216270727996::1688851976::1688851976::1::::<><>::
+::res://addons/qodot/example_scenes/1-interactivity/::1689163485
+::res://addons/qodot/example_scenes/1-interactivity/0-point-entities/::1689163485
+0-point-entities.map::Resource::3948378812856615276::1688851976::1688851976::1::::<><>::
+0-point-entities.tscn::PackedScene::1887689969208820653::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/1-interactivity/1-brush-entities/::1689163485
+1-brush-entities.map::Resource::2191035927232272337::1688851976::1688851976::1::::<><>::
+1-brush-entities.tscn::PackedScene::4314149976300853281::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/1-interactivity/2-worldspawn-layers/::1689163485
+2-worldspawn-layers.map::Resource::6797811943856641659::1688851976::1688851976::1::::<><>::
+2-worldspawn-layers.tscn::PackedScene::2892293071312418402::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/1-interactivity/3-basic-signal-wiring/::1689163485
+3-basic-signal-wiring.map::Resource::2019461530844496329::1688851976::1688851976::1::::<><>::
+3-basic-signal-wiring.tscn::PackedScene::1754201009455252847::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/1-interactivity/4-advanced-signal-wiring/::1689163485
+4-advanced-signal-wiring.map::Resource::5221392987205254433::1688851976::1688851976::1::::<><>::
+4-advanced-signal-wiring.tscn::PackedScene::5520676679716296670::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/2-miscallaneous/::1689163485
+::res://addons/qodot/example_scenes/2-miscallaneous/0-trenchbroom-group-hierarchy/::1689163485
+0-trenchbroom-group-hierarchy.map::Resource::2789933136041701711::1688851976::1688851976::1::::<><>::
+0-trenchbroom-group-hierarchy.tscn::PackedScene::7514814830920271852::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://7h57nuq1xmoi
+::res://addons/qodot/example_scenes/2-miscallaneous/1-runtime-map-building/::1689163485
+1-runtime-map-building.map::Resource::7383937629020681760::1688851976::1688851976::1::::<><>::
+1-runtime-map-building.tscn::PackedScene::6050352078372374043::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>res://addons/qodot/example_scenes/2-miscallaneous/1-runtime-map-building/orbit_arm.gd<>uid://7h57nuq1xmoi
+orbit_arm.gd::GDScript::-1::1688851976::0::1::::OrbitArm<>Node3D<>::
+::res://addons/qodot/game_definitions/::1689163485
+::res://addons/qodot/game_definitions/fgd/::1689163832
+qodot_fgd.tres::Resource/QodotFGDFile::5459794301136884865::1689163832::0::1::::<><>::res://addons/qodot/game_definitions/fgd/base_classes/target_base_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/func_group_solid_class.tres<>uid://dosulw1ii2s3m::::res://addons/qodot/game_definitions/fgd/point_classes/signal_point_class.tres<>uid://ccdjpf5j25aua::::res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres<>uid://berb45olxa68v::::res://addons/qodot/game_definitions/fgd/solid_classes/trigger_solid_class.tres<>res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_file.gd<>uid://vs6rpqedl2kg::::res://addons/qodot/game_definitions/fgd/point_classes/receiver_point_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/illusionary_solid_class.tres<>uid://dxp37dladbquv::::res://addons/qodot/game_definitions/fgd/solid_classes/worldspawn_solid_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/group_solid_class.tres<>uid://b8aisardk4k4u::::res://addons/qodot/game_definitions/fgd/solid_classes/detail_solid_class.tres<>uid://c5o31v30rw7v5::::res://addons/qodot/game_definitions/fgd/base_classes/light_base_class.tres<>uid://ccwosedfa8v8d::::res://addons/qodot/game_definitions/fgd/point_classes/light_point_class.tres<>uid://de6w02sa4ckl5::::res://addons/qodot/game_definitions/fgd/solid_classes/rotate_solid_class.tres<>uid://c2nmsj2qb3v6::::res://addons/qodot/game_definitions/fgd/solid_classes/button_solid_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/physics_solid_class.tres<>uid://c2bfqiwy8uj2b::::res://addons/qodot/game_definitions/fgd/solid_classes/wall_solid_class.tres<>uid://cubvqwi3p77sq::::res://addons/qodot/game_definitions/fgd/point_classes/physics_ball_point_class.tres<>res://addons/qodot/game_definitions/fgd/solid_classes/mover_solid_class.tres<>uid://cq7e0f0ewffn5::::res://Qodot Resources/teleporter_point_class.tres<>uid://b6jj3q55o7kd::::res://Qodot Resources/fake_door_solid_class.tres
+::res://addons/qodot/game_definitions/fgd/base_classes/::1689163485
+light_base_class.tres::Resource/Resource::6909155618927381192::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_base_class.gd
+targetname_base_class.tres::Resource/Resource::4919985737174980712::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_base_class.gd
+target_base_class.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_base_class.gd
+::res://addons/qodot/game_definitions/fgd/point_classes/::1689163832
+light.gd::GDScript::-1::1688851976::0::1::::QodotLight<>QodotEntity<>::
+light_point_class.tres::Resource/Resource::4959517762396913953::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd<>res://addons/qodot/game_definitions/fgd/point_classes/light.gd<>uid://c5o31v30rw7v5
+physics_ball.gd::GDScript::-1::1688851976::0::1::::PhysicsBall<>PhysicsEntity<>::
+physics_ball.tscn::PackedScene::4636723324233594687::1688851976::0::1::::<><>::
+physics_ball_point_class.tres::Resource/Resource::6179987416617154404::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd<>uid://b7ccfkajnmn64
+receiver_point_class.tres::Resource/QodotFGDPointClass::1513037913997237070::1689163832::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd<>res://addons/qodot/game_definitions/fgd/base_classes/target_base_class.tres<>uid://ccdjpf5j25aua::::res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres
+signal_point_class.tres::Resource/QodotFGDPointClass::8180299841226990692::1689163832::0::1::::<><>::res://addons/qodot/game_definitions/fgd/base_classes/target_base_class.tres<>uid://ccdjpf5j25aua::::res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres<>res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd
+::res://addons/qodot/game_definitions/fgd/solid_classes/::1689163832
+button_solid_class.tres::Resource/QodotFGDSolidClass::196927597640254081::1689163832::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://Scritpts/button.gd
+detail_solid_class.tres::Resource::4703170430393086654::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
+func_group_solid_class.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
+group_solid_class.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
+illusionary_solid_class.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
+mover_solid_class.tres::Resource/Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://Scritpts/mover.gd
+physics.gd::GDScript::-1::1688851976::0::1::::PhysicsEntity<>RigidBody3D<>::
+physics_solid_class.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/game_definitions/fgd/solid_classes/physics.gd<>res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
+rotate.gd::GDScript::-1::1688851976::0::1::::QodotRotateEntity<>CharacterBody3D<>::
+rotate_solid_class.tres::Resource/Resource::7505395000671548060::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://addons/qodot/game_definitions/fgd/solid_classes/rotate.gd
+trigger_solid_class.tres::Resource/QodotFGDSolidClass::2702384582938583747::1689163832::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://Scritpts/trigger.gd
+wall_solid_class.tres::Resource/QodotFGDSolidClass::6670337136341291883::1689163832::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://Scritpts/wall.gd
+worldspawn_solid_class.tres::Resource::8806328516834328821::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd
+::res://addons/qodot/game_definitions/trenchbroom/::1689163832
+qodot_trenchbroom_config_file.tres::Resource/TrenchBroomGameConfigFile::2741638764796956779::1689163832::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_game_config_file.gd<>uid://ddjx2v87gqtc6::::res://addons/qodot/game_definitions/trenchbroom/brush_tags/trigger_tag.tres<>res://addons/qodot/game_definitions/trenchbroom/face_tags/skip_tag.tres<>res://addons/qodot/game_definitions/trenchbroom/face_tags/clip_tag.tres<>res://addons/qodot/game_definitions/trenchbroom/brush_tags/detail_tag.tres
+qodot_trenchbroom_config_folder.tres::Resource/Resource::3405250437192010094::1688851976::0::1::::<><>::uid://cj11aqydei5bh
+::res://addons/qodot/game_definitions/trenchbroom/brush_tags/::1689163485
+detail_tag.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_tag.gd
+trigger_tag.tres::Resource/Resource::7389853844480500431::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_tag.gd
+::res://addons/qodot/game_definitions/trenchbroom/face_tags/::1689163485
+clip_tag.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_tag.gd
+skip_tag.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/trenchbroom/trenchbroom_tag.gd
+::res://addons/qodot/game_definitions/worldspawn_layers/::1689163485
+liquid.gd::GDScript::-1::1688851976::0::1::::LiquidLayer<>Area<>::
+::res://addons/qodot/game_definitions/worldspawn_layers/liquid/::1689163485
+lava.gd::GDScript::-1::1688851976::0::1::::LavaLayer<>LiquidLayer<>::
+lava.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/worldspawn_layer.gd<>res://addons/qodot/game_definitions/worldspawn_layers/liquid/lava.gd
+slime.gd::GDScript::-1::1688851976::0::1::::SlimeLayer<>LiquidLayer<>::
+slime.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/worldspawn_layer.gd<>res://addons/qodot/game_definitions/worldspawn_layers/liquid/slime.gd
+water.gd::GDScript::-1::1688851976::0::1::::WaterLayer<>LiquidLayer<>::
+water.tres::Resource::-1::1688851976::0::1::::<><>::res://addons/qodot/src/resources/worldspawn_layer.gd<>res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd
+::res://addons/qodot/icons/::1689163485
+icon_qodot_node3d.svg::CompressedTexture2D::2948150285741080799::1688851976::1688851976::1::::<><>::
+icon_qodot_node.svg::CompressedTexture2D::6793227165022044195::1688851976::1688851976::1::::<><>::
+::res://addons/qodot/src/::1689163485
+qodot_plugin.gd::GDScript::-1::1688851976::0::1::::QodotPlugin<>EditorPlugin<>::
+::res://addons/qodot/src/core/::1689163485
+GeoGenerator.cs::CSharpScript::-1::1688851976::0::1::::<><>::
+MapData.cs::CSharpScript::-1::1688851976::0::1::::<><>::
+MapParser.cs::CSharpScript::-1::1688851976::0::1::::<><>::
+Qodot.cs::CSharpScript::-1::1688851976::0::1::::<><>::
+SurfaceGatherer.cs::CSharpScript::-1::1688851976::0::1::::<><>::
+Types.cs::CSharpScript::-1::1688851976::0::1::::<><>::
+::res://addons/qodot/src/import_plugins/::1689163485
+QuakeWadImportPlugin.cs::CSharpScript::-1::1688851976::0::1::::<><>::
+quake_map_import_plugin.gd::GDScript::-1::1688851976::0::1::::QuakeMapImportPlugin<>EditorImportPlugin<>::
+quake_palette_import_plugin.gd::GDScript::-1::1688851976::0::1::::QuakePaletteImportPlugin<>EditorImportPlugin<>::
+::res://addons/qodot/src/nodes/::1689163485
+qodot_entity.gd::GDScript::-1::1688851976::0::1::::QodotEntity<>QodotNode3D<>::
+qodot_map.gd::GDScript::-1::1688851976::0::1::::QodotMap<>QodotNode3D<>::
+qodot_node3d.gd::GDScript::-1::1688851976::0::1::::QodotNode3D<>Node3D<>res://addons/qodot/icons/icon_qodot_node3d.svg::
+::res://addons/qodot/src/resources/::1689163485
+quake_map_file.gd::GDScript::-1::1688851976::0::1::::QuakeMapFile<>Resource<>::
+quake_palette_file.gd::GDScript::-1::1688851976::0::1::::QuakePaletteFile<>Resource<>::
+quake_wad_file.gd::GDScript::-1::1688851976::0::1::::QuakeWadFile<>Resource<>::
+worldspawn_layer.gd::GDScript::-1::1688851976::0::1::::QodotWorldspawnLayer<>Resource<>::
+::res://addons/qodot/src/resources/game-definitions/::1689163485
+trenchbroom_game_config.gd::GDScript::-1::1688851976::0::1::::TrenchBroomGameConfig<>Resource<>::
+::res://addons/qodot/src/resources/game-definitions/fgd/::1689163485
+qodot_fgd_base_class.gd::GDScript::-1::1688851976::0::1::::QodotFGDBaseClass<>QodotFGDClass<>::
+qodot_fgd_class.gd::GDScript::-1::1688851976::0::1::::QodotFGDClass<>Resource<>::
+qodot_fgd_file.gd::GDScript::-1::1688851976::0::1::::QodotFGDFile<>Resource<>::
+qodot_fgd_point_class.gd::GDScript::-1::1688851976::0::1::::QodotFGDPointClass<>QodotFGDClass<>::
+qodot_fgd_solid_class.gd::GDScript::-1::1688851976::0::1::::QodotFGDSolidClass<>QodotFGDClass<>::
+::res://addons/qodot/src/resources/game-definitions/trenchbroom/::1689163485
+trenchbroom_face_attrib.gd::GDScript::-1::1688851976::0::1::::TrenchBroomFaceAttrib<>Resource<>::
+trenchbroom_face_attrib_defaults.gd::GDScript::-1::1688851976::0::1::::TrenchBroomFaceAttribDefaults<>Resource<>::
+trenchbroom_game_config_file.gd::GDScript::-1::1688851976::0::1::::TrenchBroomGameConfigFile<>Resource<>::
+trenchbroom_game_config_folder.gd::GDScript::-1::1688851976::0::1::::TrenchBroomGameConfigFolder<>Resource<>::
+trenchbroom_tag.gd::GDScript::-1::1688851976::0::1::::TrenchBroomTag<>Resource<>::
+::res://addons/qodot/src/util/::1689163485
+qodot_texture_loader.gd::GDScript::-1::1688851976::0::1::::QodotTextureLoader<>RefCounted<>::
+qodot_util.gd::GDScript::-1::1688851976::0::1::::QodotUtil<>RefCounted<>::
+::res://addons/qodot/textures/::1689163485
+::res://addons/qodot/textures/base/::1689163485
+checkerboard.png::CompressedTexture2D::6792958888206592633::1688851976::1688851976::1::::<><>::
+grid.png::CompressedTexture2D::3997816497670471060::1688851976::1688851976::1::::<><>::
+uv_test.png::CompressedTexture2D::1125551641707912554::1688851976::1688851976::1::::<><>::
+::res://addons/qodot/textures/layers/::1689163485
+lava.png::CompressedTexture2D::6278954723491494119::1688851976::1688851976::1::::<><>::
+lava.tres::StandardMaterial3D::-1::1688851976::0::1::::<><>::
+slime.png::CompressedTexture2D::9046428312127563487::1688851976::1688851976::1::::<><>::
+slime.tres::StandardMaterial3D::-1::1688851976::0::1::::<><>::
+water.png::CompressedTexture2D::4514249969325759282::1688851976::1688851976::1::::<><>::
+water.tres::StandardMaterial3D::-1::1688851976::0::1::::<><>::
+::res://addons/qodot/textures/materials/::1689163485
+checkerboard_material.png::CompressedTexture2D::3810368368898848167::1688851976::1688851976::1::::<><>::
+checkerboard_material.tres::StandardMaterial3D::-1::1688851976::0::1::::<><>::res://addons/qodot/textures/materials/checkerboard_material.png
+grid_material.png::CompressedTexture2D::2971491687339174068::1688851976::1688851976::1::::<><>::
+grid_material.tres::StandardMaterial3D::-1::1688851976::0::1::::<><>::res://addons/qodot/textures/materials/grid_material.png
+uv_test_material.png::CompressedTexture2D::310633365650990606::1688851976::1688851976::1::::<><>::
+uv_test_material.tres::StandardMaterial3D::-1::1688851976::0::1::::<><>::res://addons/qodot/textures/materials/uv_test_material.png
+::res://addons/qodot/textures/orrery/::1689163485
+metal.png::CompressedTexture2D::1635230824848241745::1688851976::1688851976::1::::<><>::
+metal.tres::StandardMaterial3D::-1::1688851976::0::1::::<><>::
+planet.png::CompressedTexture2D::5187484155820737878::1688851976::1688851976::1::::<><>::
+planet.tres::StandardMaterial3D::-1::1688851976::0::1::::<><>::
+sun.png::CompressedTexture2D::7852726664507952814::1688851976::1688851976::1::::<><>::
+sun.tres::StandardMaterial3D::-1::1688851976::0::1::::<><>::
+::res://addons/qodot/textures/pbr/::1689163485
+military-panel.png::CompressedTexture2D::3546217722692229038::1688851976::1688851976::1::::<><>::
+::res://addons/qodot/textures/pbr/military-panel/::1689163485
+military-panel_ao.png::CompressedTexture2D::6051949604994203515::1688851976::1688851976::1::::<><>::
+military-panel_depth.png::CompressedTexture2D::2435984246511830471::1688851976::1688851976::1::::<><>::
+military-panel_emissive.png::CompressedTexture2D::2747755497903641844::1688851976::1688851976::1::::<><>::
+military-panel_metallic.png::CompressedTexture2D::7577414526983179745::1688851976::1688851976::1::::<><>::
+military-panel_normal.png::CompressedTexture2D::4365929439219684317::1688851976::1688851976::1::::<><>::
+military-panel_roughness.png::CompressedTexture2D::5873868765642727332::1688851976::1688851976::1::::<><>::
+::res://addons/qodot/textures/shaders/::1689163485
+tangent-test.png::CompressedTexture2D::8369999958819788034::1688851976::1688851976::1::::<><>::
+tangent-test.tres::ShaderMaterial::1491877661751243884::1688851976::0::1::::<><>::
+::res://addons/qodot/textures/special/::1689163485
+clip.png::CompressedTexture2D::8369999958819788034::1688851976::1688851976::1::::<><>::
+skip.png::CompressedTexture2D::3013576122456084822::1688851976::1688851976::1::::<><>::
+::res://Autoloads/::1689163485
+Globals.gd::GDScript::-1::1688851976::0::1::::<>Node<>::
+::res://Autoloads/Transitions/::1689163485
+Transitions.gd::GDScript::-1::1688851976::0::1::::<>CanvasLayer<>::
+Transitions.tscn::PackedScene::8213766234802008506::1688851976::0::1::::<><>::res://Autoloads/Transitions/Transitions.gd
+::res://Characters/::1689163485
+::res://Characters/Arms/::1689163485
+Arms.glb::PackedScene::7977148829687961047::1688851976::1688851976::1::::<><>::
+Arms_Xh6tFa1w.png::CompressedTexture2D::2998467229914962203::1688851976::1688851976::1::::<><>::
+start_ik.gd::GDScript::-1::1688851976::0::1::::<>SkeletonIK3D<>::
+::res://Characters/Rocket Man/::1689163485
+Node3D.gd::GDScript::-1::1688851976::0::1::::<>Node3D<>::
+Rocket_Man.gd::GDScript::-1::1688851976::0::1::::<>CharacterBody3D<>::
+Rocket_Man.tscn::PackedScene::2555962719904378053::1688851976::0::1::::<><>::res://Characters/Rocket Man/Rocket_Man.gd<>uid://i0qcax4cvbx1
+::res://Enemies/::1689163485
+::res://Enemies/Test Enemy/::1689163485
+Test_Enemy.gd::GDScript::-1::1688851976::0::1::::<>CharacterBody3D<>::
+Test_Enemy.tscn::PackedScene::6207717622093911913::1688851976::0::1::::<><>::res://Enemies/Test Enemy/Test_Enemy.gd
+::res://Enemies/Test_BossFight/::1689163485
+Test_BossFight.gd::GDScript::-1::1688851976::0::1::::<>CharacterBody3D<>::
+Test_BossFight.tscn::PackedScene::4689882843489308651::1688851976::0::1::::<><>::res://Enemies/Test_BossFight/Test_BossFight.gd
+::res://HUD/::1689163485
+Crosshair_reticle.png::CompressedTexture2D::4693587492947595697::1688851976::1688851976::1::::<><>::
+::res://Maps/::1689163485
+::res://Maps/Chameno Woods/::1689163832
+chameno_woods.tscn::PackedScene::4862430780610654717::1689163832::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh::::res://addons/qodot/game_definitions/fgd/qodot_fgd.tres<>uid://bcoelkpf6exsv::::res://Characters/Rocket Man/Rocket_Man.tscn<>res://textures/PBR_Textures/Wood067/Wood067_1K_Color.tres<>uid://bk7vsp6p4fajg::::res://textures/PBR_Textures/Window/glass1.tres<>uid://b5vasd3tfdcwo::::res://Stage Assets/Hammer/Hammer.tscn
+::res://Maps/Hub/::1689163485
+Hub.gd::GDScript::-1::1688851976::0::1::::<>Node3D<>::
+Hub.tscn::PackedScene::4877693868451968723::1688851976::0::1::::<><>::res://Maps/Hub/Hub.gd<>uid://bcmnnw4d6ssae
+::res://Maps/Kingdom 1/::1689163485
+Bhop Area.gd::GDScript::-1::1688851976::0::1::::<>Area3D<>::
+Change_Scene.gd::GDScript::-1::1688851976::0::1::::<>Area3D<>::
+Kingdom 1.gd::GDScript::-1::1688851976::0::1::::<>Node3D<>::
+Kingdom 1.tscn::PackedScene::4779362118122570073::1688851976::0::1::::<><>::res://Maps/Kingdom 1/Kingdom 1.gd<>uid://bllihi6ryo2p6
+::res://Maps/Kingdom 1/Panels/::1689163485
+Rocket Jump Panel.gd::GDScript::-1::1688851976::0::1::::<>MeshInstance3D<>::
+Slide Jump Panel.gd::GDScript::-1::1688851976::0::1::::<>MeshInstance3D<>::
+Slide Panel.gd::GDScript::-1::1688851976::0::1::::<>MeshInstance3D<>::
+::res://Maps/Kingdom 2/::1689163832
+Kingdom 2 Env.tres::Environment::8853427039772523784::1689163832::0::1::::<><>::uid://bllihi6ryo2p6::::res://Stage Assets/Skybox/environment.png
+Kingdom 2.gd::GDScript::-1::1688851976::0::1::::<>Node3D<>::
+Kingdom 2.tscn::PackedScene::5062618763704333873::1688851976::0::1::::<><>::res://Maps/Kingdom 2/Kingdom 2.gd<>uid://dyewwdho3gdlw
+::res://Maps/Stage 1/::1689163485
+Stage_1 Environment.tres::Environment::7427863260509286248::1688851976::0::1::::<><>::uid://bllihi6ryo2p6
+Tutorial.tscn::PackedScene::5496867671610604133::1688851976::0::1::::<><>::uid://bcoelkpf6exsv
+::res://Maps/Tutorial Stage/::1689163485
+Sky2.tres::Environment::452054818742888414::1688851976::0::1::::<><>::
+Sky.tres::Environment::1772127141427017430::1688851976::0::1::::<><>::
+tutorial_stage.tscn::PackedScene::-1::1688851976::0::1::::<><>::res://addons/qodot/src/nodes/qodot_map.gd<>res://Characters/Rocket_Man.tscn<>uid://go8joac0gcn3
+::res://Objects/::1689163485
+::res://Objects/BHOP Boots/::1689163485
+BHOP Boots.gd::GDScript::-1::1688851976::0::1::::<>Area3D<>::
+Shoes.glb::PackedScene::8055837221626981142::1688851976::1688851976::1::::<><>::
+Shoes_Red_Pallete Gradient.png::CompressedTexture2D::2314767521066513174::1688851976::1688851976::1::::<><>::
+::res://Objects/Capsules/::1689163485
+Rocket_Capsule.gd::GDScript::-1::1688851976::0::1::::<>Area3D<>::
+Rocket_Capsule.tscn::PackedScene::6145969232593194267::1688851976::0::1::::<><>::res://Objects/Capsules/Rocket_Capsule.gd<>uid://b43ysskm04ct6
+::res://Objects/Medal/::1689163485
+Medal.glb::PackedScene::9058433020148638264::1688851976::1688851976::1::::<><>::
+medal.tscn::PackedScene::8019791661560403117::1688851976::0::1::::<><>::uid://d2b8clb6v2q21
+Medal_360_F_241373755_xvmEPTOeXvosc0qGEwBeJ0hdQkgZqrnd.png::CompressedTexture2D::6566406460188967286::1688851976::1688851976::1::::<><>::
+Medal_istockphoto-678719470-170667a.png::CompressedTexture2D::3529220879264129706::1688851976::1688851976::1::::<><>::
+::res://Objects/Projectile/::1689163832
+Explosion_Hitbox.gd::GDScript::-1::1688851976::0::1::::<>Area3D<>::
+Explosion_Hitbox.tres::VisualShader::4751446225725395425::1689163832::0::1::::<><>::
+Explosion_Hitbox.tscn::PackedScene::6207442870457207257::1688851976::0::1::::<><>::res://Objects/Projectile/Explosion_Hitbox.gd<>uid://b8xvviwuymbs0
+Rocket.gd::GDScript::-1::1688851976::0::1::::<>CharacterBody3D<>::
+Rocket.tscn::PackedScene::4299638213934315017::1688851976::0::1::::<><>::res://Objects/Projectile/Rocket.gd<>uid://edv4t8r3nwb5
+::res://Objects/Weapons/::1689163485
+::res://Objects/Weapons/Rocket Launcher/::1689163554
+Rocket Launcher2.obj::Mesh::3990987487715865794::1688851976::1688851976::1::::<><>::
+Rocket Launcher.obj::PackedScene::6618491457376963503::1688851976::1689163554::1::::<><>::
+Rocket Launcher.png::CompressedTexture2D::614095273279455572::1688851976::1688851976::1::::<><>::
+rocket_launcher.tscn::PackedScene::4196034657963907538::1688851976::0::1::::<><>::uid://i0qcax4cvbx1
+::res://Objects/Wine/::1689163485
+Wine.glb::PackedScene::5567756373055372616::1688851976::1688851976::1::::<><>::
+Wine_Wood067 Texture.png::CompressedTexture2D::5301774321750133112::1688851976::1688851976::1::::<><>::
+::res://Qodot Maps/::1689163828
+Chameno Woods.map::Resource::1499925427686428836::1689163774::1689163828::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+E1M5.MAP::Resource::829215504343263063::1688851976::1688851976::1::::<><>::
+Hub World.map::Resource::7993104602621322991::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.map::Resource::3974402900401035392::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.map::Resource::7053277462487014365::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+testing1.map::Resource::490261466992435758::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+testing.map::Resource::2880445599225934663::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.map::Resource::7812903028738425667::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial.map::Resource::2215841061022788197::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.map::Resource::7307351713100933646::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.map::Resource::8652048466495728329::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 3.map::Resource::5114748687151846691::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+::res://Qodot Maps/autosave/::1689163554
+Chameno Woods.1.map::Resource::5046892885602516667::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.2.map::Resource::268138359489442125::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.3.map::Resource::7699246850879063068::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.4.map::Resource::7747250934798172670::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.5.map::Resource::2909764910122340396::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.6.map::Resource::2285630873152931524::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.7.map::Resource::176502313943969655::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.8.map::Resource::4302258050402718012::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.9.map::Resource::6713064733579330650::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.10.map::Resource::5456765488657202453::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.11.map::Resource::2444516668090495893::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.12.map::Resource::1009995755972794033::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.13.map::Resource::8629900811604285851::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.14.map::Resource::1248278272151407900::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.15.map::Resource::5149532964924343866::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.16.map::Resource::6287164231997174719::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.17.map::Resource::1287142919936875089::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.18.map::Resource::1124871141788129027::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.19.map::Resource::9120498772003762950::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.20.map::Resource::6365060775532059422::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.21.map::Resource::7866487436353075553::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.22.map::Resource::8133786291426979997::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Chameno Woods.23.map::Resource::212111939496802373::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Hub World.1.map::Resource::4788175234771957471::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Hub World.2.map::Resource::4261556222209192752::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Hub World.3.map::Resource::2283842164234484327::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Hub World.4.map::Resource::547464401860989313::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Hub World.5.map::Resource::6279633224721164025::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Hub World.6.map::Resource::2587675149180050201::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Hub World.7.map::Resource::67153888912588163::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Hub World.8.map::Resource::527137900533460429::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Hub World.9.map::Resource::5856519523861627121::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Hub World.10.map::Resource::7358562566795946098::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.1.map::Resource::2216729812365186903::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.2.map::Resource::7234553262328971555::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.3.map::Resource::3744684803787284058::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.4.map::Resource::4772293309458617479::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.5.map::Resource::7743412172685706426::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.6.map::Resource::2662597183904050500::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.7.map::Resource::2788279202214393622::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.8.map::Resource::7704307048746500513::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.9.map::Resource::3410059189321260473::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.10.map::Resource::3856957049839299018::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.11.map::Resource::2070579947539327375::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.12.map::Resource::6033300623426850536::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.13.map::Resource::5766972401686326934::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.14.map::Resource::2556405754980227440::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.15.map::Resource::4863351308439627047::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.16.map::Resource::1020522544483746720::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.17.map::Resource::4317040510822377107::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.18.map::Resource::3731302485579113737::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.19.map::Resource::8166442528962322033::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.20.map::Resource::5938951965232581367::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.21.map::Resource::5149925919488295981::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.22.map::Resource::2714421895406790793::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.23.map::Resource::7452902375984760926::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.24.map::Resource::551777036071639220::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.25.map::Resource::2014485083622013812::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.26.map::Resource::5541511716625084333::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.27.map::Resource::8115936265000549511::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.28.map::Resource::1026887928567497536::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.29.map::Resource::4817394727868188317::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.30.map::Resource::6668513296858301882::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.31.map::Resource::1305934495752023905::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.32.map::Resource::1165884415308869173::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.33.map::Resource::6462742945381020053::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.34.map::Resource::4517888779867541805::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.35.map::Resource::5962636998220845981::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.36.map::Resource::4514233006915804065::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Stage 1.37.map::Resource::1273927454732276632::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.1.map::Resource::3035268523837054341::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.2.map::Resource::8125943410888283474::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.3.map::Resource::8793249561940492369::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.4.map::Resource::8946538814856867067::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.5.map::Resource::6872752402909189069::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.6.map::Resource::974551853150517899::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.7.map::Resource::1501244100904644183::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.8.map::Resource::7219149558689388931::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.9.map::Resource::6321191572995524386::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.10.map::Resource::7916134691525930379::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.11.map::Resource::6976577275136762512::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Test.12.map::Resource::4988299418963597750::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+testing1.1.map::Resource::8858350236080798367::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+testing.1.map::Resource::1283895051345544449::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+testing.2.map::Resource::8568006057699271070::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+testing.3.map::Resource::6064100971162207563::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.1.map::Resource::1087668969094853843::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.2.map::Resource::3841311301284962782::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.3.map::Resource::8417041900057493422::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.4.map::Resource::6861692139378759178::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.5.map::Resource::6585571223732201076::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.6.map::Resource::8880454159637213055::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.7.map::Resource::378594373932749969::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.8.map::Resource::6333171217198980949::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.9.map::Resource::6608860342102849334::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.10.map::Resource::1485437418587672829::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.11.map::Resource::5421850532233363044::1688851976::1689163554::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.12.map::Resource::5950565748607874757::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.13.map::Resource::5348778912441798121::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.14.map::Resource::5071129548553809701::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.15.map::Resource::699121843592129942::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.16.map::Resource::4558533638889807683::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.17.map::Resource::9170593456082569382::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.18.map::Resource::1043719711671347353::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.19.map::Resource::4105466862326402776::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.20.map::Resource::4903295476116517802::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.21.map::Resource::8075405700024152257::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.22.map::Resource::4974193342080220453::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.23.map::Resource::9068433509674880864::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.24.map::Resource::1937146924103517128::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.25.map::Resource::4078234280584875227::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.26.map::Resource::4753179601266366457::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.27.map::Resource::2926831964611022609::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.28.map::Resource::4567797319282448951::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.29.map::Resource::8507717182843200049::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.30.map::Resource::7216814826056989517::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.31.map::Resource::2157572228472320266::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.32.map::Resource::8037881532698436455::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.33.map::Resource::1970198787903415103::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial Stage.34.map::Resource::3328980940242373246::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial.1.map::Resource::7594339390350601751::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial.2.map::Resource::7158473262901662213::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial.3.map::Resource::7673174096010131398::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial.4.map::Resource::6687014911081962099::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+Tutorial.5.map::Resource::6734063287014527257::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.1.map::Resource::5712545730659578730::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.2.map::Resource::2046067068044871571::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.3.map::Resource::2920274892784764593::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.4.map::Resource::4008462589559363303::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.5.map::Resource::8354316149800459299::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.6.map::Resource::1770289916662293460::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.7.map::Resource::3945902202605052901::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.8.map::Resource::9025884632519989836::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.9.map::Resource::1509271791419559959::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.10.map::Resource::6559486479698319791::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.11.map::Resource::3302895312142412909::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.12.map::Resource::8714373854084552521::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.13.map::Resource::5662744672335392162::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.14.map::Resource::4937308320139176086::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.15.map::Resource::2008368237383233297::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.16.map::Resource::715325635914780460::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.17.map::Resource::3312710413092583318::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.18.map::Resource::9148889337457697301::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.19.map::Resource::2699819340244991848::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.20.map::Resource::9221558537296180964::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.21.map::Resource::1696310471147376100::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 1.22.map::Resource::384677820013147997::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.1.map::Resource::255957364634423282::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.2.map::Resource::5941212906795570831::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.3.map::Resource::7916974384964364276::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.4.map::Resource::5326457338686663373::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.5.map::Resource::2959122389620304565::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.6.map::Resource::2850814900377633664::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.7.map::Resource::5306792656451416305::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.8.map::Resource::8706429504344018801::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.9.map::Resource::6516859877361796711::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.10.map::Resource::8563465658198212377::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.11.map::Resource::84069372896724441::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.12.map::Resource::6727413318378329508::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.13.map::Resource::7036791153028169928::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.14.map::Resource::4268525144572638649::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.15.map::Resource::4975255128253861528::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.16.map::Resource::252347783128536202::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.17.map::Resource::5938199918413550816::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.18.map::Resource::4862761039585543696::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.19.map::Resource::7548390924489834999::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.20.map::Resource::3741929569075517224::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.21.map::Resource::108943831732990854::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.22.map::Resource::2332213600667487617::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.23.map::Resource::7637640489843932123::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.24.map::Resource::3517994359007857943::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.25.map::Resource::4468476241456754230::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.26.map::Resource::8384505226959511640::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.27.map::Resource::6785117405465180620::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.28.map::Resource::8120683424059989262::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.29.map::Resource::7597837524978541556::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.30.map::Resource::6101444344867237029::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.31.map::Resource::4036165071496531823::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.32.map::Resource::4253086489791343719::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.33.map::Resource::6796985913498479976::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.34.map::Resource::5764608654126761395::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.35.map::Resource::3835945458262171699::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+World 2.36.map::Resource::7916605485275634909::1688851976::1689163553::1::::<><>::res://addons/qodot/src/resources/quake_map_file.gd
+::res://Qodot Resources/::1689163832
+custom_fgd.tres::Resource/Resource::1771519055406493979::1688851976::0::1::::<><>::uid://cq7e0f0ewffn5
+fake_door_solid_class.tres::Resource/Resource::134748575868342759::1688851976::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>uid://ccdjpf5j25aua
+teleporter_point_class.tres::Resource/QodotFGDPointClass::5962210767991526324::1689163832::0::1::::<><>::uid://ccdjpf5j25aua::::res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres<>uid://b2owhe8f2k6r0::::res://Stage Assets/Spawner/teleporter.tscn<>res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd<>res://Stage Assets/Spawner/teleporter.gd
+::res://Qodot Resources/env_destructible/::1689163647
 Destructible.gd::GDScript::-1::1689161721::0::1::::<>CharacterBody3D<>::
-env_destructable.tres::Resource/QodotFGDSolidClass::7596069297554322688::1689161566::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://Qodot Resources/env_destructible/Destructible.gd
-::res://Qodot Resources/Fake Door/::1689162022
-DissapearAnim.res::Animation::9140387794020619573::1679765989::0::1::::<><>::
-DissapearLib.res::AnimationLibrary::4378725785094509904::1679765453::0::1::::<><>::uid://d3hw37m601fc4
-fake_door_anim.tscn::PackedScene::3265879356502233579::1689162022::0::1::::<><>::uid://b3nc8d4078f0c::::res://Qodot Resources/Fake Door/DissapearLib.res
-test.res::AnimationLibrary::8694990376045160584::1679761738::0::1::::<><>::
-::res://Scritpts/::1688661793
-button.gd::GDScript::-1::1683455877::0::1::::<>Area3D<>::
-mover.gd::GDScript::-1::1688661793::0::1::::<>CharacterBody3D<>::
-trigger.gd::GDScript::-1::1686512861::0::1::::<>Area3D<>::
-wall.gd::GDScript::-1::1686664367::0::1::::<>StaticBody3D<>::
-::res://Shaders/::1689161831
-Ps1 Filter.gdshader::Shader::-1::1689161831::0::1::::<><>::
-::res://Stage Assets/::1689162458
-::res://Stage Assets/Hammer/::1689162458
-Boost.glb::PackedScene::4016561407445620668::1689162458::1689162458::1::::<><>::
-Boost.res::Animation::2587771431322073241::1689162458::0::1::::<><>::
-Boost_Torus004.res::ArrayMesh::4306505081527021823::1689162458::0::1::::<><>::
-Default.res::Animation::2209006374883096120::1689162458::0::1::::<><>::
-Hammer Area.gd::GDScript::-1::1689162458::0::1::::<>Area3D<>::
-Hammer.tscn::PackedScene::4535470271654265802::1689162458::0::1::::<><>::res://Stage Assets/Hammer/Hammer_Params.gd<>res://Stage Assets/Hammer/Hammer Area.gd<>uid://b2mdrk8tgh3vn::::res://Stage Assets/Hammer/Boost_Torus004.res<>uid://bc4shnkr0qgy8::::res://Stage Assets/Hammer/Boost.res<>uid://43ymx7kgbcs4::::res://Stage Assets/Hammer/Rotate.res
-HammerAnimLib.res::AnimationLibrary::8388007305650698355::1689162458::0::1::::<><>::uid://6qcaofwck4gi::::res://Stage Assets/Hammer/Default.res<>uid://bc4shnkr0qgy8::::res://Stage Assets/Hammer/Boost.res<>uid://43ymx7kgbcs4::::res://Stage Assets/Hammer/Rotate.res
-Hammer_Params.gd::GDScript::-1::1689162458::0::1::::<>Node3D<>::
-Rotate.res::Animation::2094758937903075889::1689162458::0::1::::<><>::
-::res://Stage Assets/Rocket/::1689162458
-Rocket.glb::PackedScene::2814569126380399892::1689162458::1689162458::1::::<><>::
-Rocket_Cylinder Base Color.png::CompressedTexture2D::4481190039874520229::1689162458::1689162458::1::::<><>::
-::res://Stage Assets/Sign/::1689162458
-sign.glb::PackedScene::2470516312400918361::1689162458::1689162458::1::::<><>::
-Sign.tres::ArrayMesh::7209136859133072522::1689162458::0::1::::<><>::
-::res://Stage Assets/Skybox/::1689162458
-anime_art_style_a_dark_atmosphere_similar_to_the_s.jpg::CompressedTexture2D::5115922971384314673::1689162458::1689162458::1::::<><>::
-environment.png::CompressedTexture2D::3181704824386375129::1689162458::1689162458::1::::<><>::
-interior_views_a_dark_atmosphere_similar_to_the_su.jpg::CompressedTexture2D::8778623180121166928::1689162458::1689162458::1::::<><>::
-scenic_a_vista_of_snowy_mountains_with_lightning_f.jpg::CompressedTexture2D::2552384640736103020::1689162458::1689162458::1::::<><>::
-Skybox_pan-dragonmoon-lg.jpg::CompressedTexture2D::5406427376376917883::1689162458::1689162458::1::::<><>::
-Skybox_pan-olos-lg.jpg::CompressedTexture2D::8027649197482264066::1689162458::1689162458::1::::<><>::
-::res://Stage Assets/Spawner/::1689162458
-teleporter.gd::GDScript::-1::1689162458::0::1::::Telepoorter<>QodotEntity<>::
-teleporter.tscn::PackedScene::4311769286210642743::1689162458::0::1::::<><>::
-::res://Test/::1681420297
-Test Stage.tscn::PackedScene::-1::1680098186::0::1::::<><>::uid://cdgfflanbrm24<>uid://bwpvncrn5yjae<>res://addons/qodot/src/nodes/qodot_map.gd<>uid://cj11aqydei5bh<>res://Scritpts/button.gd<>res://Scritpts/mover.gd
-Test_Plat.tscn::PackedScene::4996107257107546139::1680086707::0::1::::<><>::uid://cb31lbffhnven
-::res://textures/::1680088190
-::res://textures/Default_size/::1679630938
-pattern_01.png::CompressedTexture2D::2599663666025405721::1635355261::1679630938::1::::<><>::
-pattern_02.png::CompressedTexture2D::8139855262232337529::1635355251::1679630938::1::::<><>::
-pattern_03.png::CompressedTexture2D::4875474938655933344::1635355251::1679630938::1::::<><>::
-pattern_04.png::CompressedTexture2D::382111457557814965::1635355251::1679630938::1::::<><>::
-pattern_05.png::CompressedTexture2D::4405654395294829776::1635355251::1679630938::1::::<><>::
-pattern_06.png::CompressedTexture2D::6400864104603056072::1635355251::1679630938::1::::<><>::
-pattern_07.png::CompressedTexture2D::3367005403051381445::1635355251::1679630938::1::::<><>::
-pattern_08.png::CompressedTexture2D::6787409007912612917::1635355251::1679630938::1::::<><>::
-pattern_09.png::CompressedTexture2D::9027954308058471449::1635355251::1679630938::1::::<><>::
-pattern_10.png::CompressedTexture2D::6647340219995554084::1635355252::1679630938::1::::<><>::
-pattern_11.png::CompressedTexture2D::7118325223534006338::1635355252::1679630938::1::::<><>::
-pattern_12.png::CompressedTexture2D::8665693384181599008::1635355252::1679630938::1::::<><>::
-pattern_13.png::CompressedTexture2D::7448858678263638858::1635355252::1679630938::1::::<><>::
-pattern_14.png::CompressedTexture2D::5775119690294610447::1635355252::1679630938::1::::<><>::
-pattern_15.png::CompressedTexture2D::4924344157223075289::1635355252::1679630938::1::::<><>::
-pattern_16.png::CompressedTexture2D::4324657559702227810::1635355252::1679630938::1::::<><>::
-pattern_17.png::CompressedTexture2D::7557895766433220327::1635355252::1679630938::1::::<><>::
-pattern_18.png::CompressedTexture2D::232809895101904079::1635355252::1679630938::1::::<><>::
-pattern_19.png::CompressedTexture2D::6876740969060461187::1635355253::1679630938::1::::<><>::
-pattern_20.png::CompressedTexture2D::1570585257989801267::1635355253::1679630938::1::::<><>::
-pattern_21.png::CompressedTexture2D::1092277623558617293::1635355253::1679630938::1::::<><>::
-pattern_22.png::CompressedTexture2D::6909232880108395643::1635355253::1679630938::1::::<><>::
-pattern_23.png::CompressedTexture2D::88777120789253147::1635355253::1679630938::1::::<><>::
-pattern_24.png::CompressedTexture2D::3834661088638641513::1635355253::1679630938::1::::<><>::
-pattern_25.png::CompressedTexture2D::6834665217224099229::1635355253::1679630938::1::::<><>::
-pattern_26.png::CompressedTexture2D::4177685128701426746::1635355254::1679630938::1::::<><>::
-pattern_27.png::CompressedTexture2D::3513004109799181555::1635355254::1679630938::1::::<><>::
-pattern_28.png::CompressedTexture2D::7432369142281120449::1635355254::1679630938::1::::<><>::
-pattern_29.png::CompressedTexture2D::3700617890822828422::1635355254::1679630938::1::::<><>::
-pattern_30.png::CompressedTexture2D::2530766632864044073::1635355254::1679630938::1::::<><>::
-pattern_31.png::CompressedTexture2D::7510134202140297913::1635355254::1679630938::1::::<><>::
-pattern_32.png::CompressedTexture2D::7254845143926503805::1635355254::1679630938::1::::<><>::
-pattern_33.png::CompressedTexture2D::8130465374442736485::1635355254::1679630938::1::::<><>::
-pattern_34.png::CompressedTexture2D::1615906111695165751::1635355255::1679630938::1::::<><>::
-pattern_35.png::CompressedTexture2D::5546242443356007551::1635355255::1679630938::1::::<><>::
-pattern_36.png::CompressedTexture2D::1931653239176680725::1635355255::1679630938::1::::<><>::
-pattern_37.png::CompressedTexture2D::7316910241184419432::1635355255::1679630938::1::::<><>::
-pattern_38.png::CompressedTexture2D::4683791443281916828::1635355255::1679630938::1::::<><>::
-pattern_39.png::CompressedTexture2D::1314638575946830224::1635355255::1679630938::1::::<><>::
-pattern_40.png::CompressedTexture2D::3577830869712508524::1635355255::1679630938::1::::<><>::
-pattern_41.png::CompressedTexture2D::3106906443312353593::1635355255::1679630938::1::::<><>::
-pattern_42.png::CompressedTexture2D::2837547026714878038::1635355256::1679630938::1::::<><>::
-pattern_43.png::CompressedTexture2D::3982434510017862543::1635355256::1679630938::1::::<><>::
-pattern_44.png::CompressedTexture2D::8467745318835291669::1635355256::1679630938::1::::<><>::
-pattern_45.png::CompressedTexture2D::6806457002026195659::1635355256::1679630938::1::::<><>::
-pattern_46.png::CompressedTexture2D::4699293647382312475::1635355256::1679630938::1::::<><>::
-pattern_47.png::CompressedTexture2D::6260384445969268485::1635355256::1679630938::1::::<><>::
-pattern_48.png::CompressedTexture2D::1067906355467439777::1635355256::1679630938::1::::<><>::
-pattern_49.png::CompressedTexture2D::4193753879747649359::1635355256::1679630938::1::::<><>::
-pattern_50.png::CompressedTexture2D::3391593035856054715::1635355257::1679630938::1::::<><>::
-pattern_51.png::CompressedTexture2D::8981934639767583040::1635355257::1679630938::1::::<><>::
-pattern_52.png::CompressedTexture2D::4956087636226838993::1635355257::1679630938::1::::<><>::
-pattern_53.png::CompressedTexture2D::1863912346367349512::1635355257::1679630938::1::::<><>::
-pattern_54.png::CompressedTexture2D::1689360088881388263::1635355257::1679630938::1::::<><>::
-pattern_55.png::CompressedTexture2D::3256808675209339265::1635355257::1679630938::1::::<><>::
-pattern_56.png::CompressedTexture2D::3826648446658981681::1635355257::1679630938::1::::<><>::
-pattern_57.png::CompressedTexture2D::6819223614520486265::1635355257::1679630938::1::::<><>::
-pattern_58.png::CompressedTexture2D::1780855480438118150::1635355258::1679630938::1::::<><>::
-pattern_59.png::CompressedTexture2D::3698507171343544624::1635355258::1679630938::1::::<><>::
-pattern_60.png::CompressedTexture2D::1757911662913479426::1635355258::1679630938::1::::<><>::
-pattern_61.png::CompressedTexture2D::1163382727074472635::1635355258::1679630938::1::::<><>::
-pattern_62.png::CompressedTexture2D::760754099504649046::1635355258::1679630938::1::::<><>::
-pattern_63.png::CompressedTexture2D::3035421086724590368::1635355258::1679630938::1::::<><>::
-pattern_64.png::CompressedTexture2D::4376012153742440784::1635355258::1679630938::1::::<><>::
-pattern_65.png::CompressedTexture2D::9216185181621618063::1635355258::1679630938::1::::<><>::
-pattern_66.png::CompressedTexture2D::4336721038824245078::1635355258::1679630938::1::::<><>::
-pattern_67.png::CompressedTexture2D::2288940051498520842::1635355259::1679630938::1::::<><>::
-pattern_68.png::CompressedTexture2D::1799931963004244117::1635355259::1679630938::1::::<><>::
-pattern_69.png::CompressedTexture2D::4152074785252048357::1635355259::1679630938::1::::<><>::
-pattern_70.png::CompressedTexture2D::5735244685970695128::1635355259::1679630938::1::::<><>::
-pattern_71.png::CompressedTexture2D::6195489218858234186::1635355259::1679630938::1::::<><>::
-pattern_72.png::CompressedTexture2D::4866649730171561799::1635355259::1679630938::1::::<><>::
-pattern_73.png::CompressedTexture2D::4113578738428822637::1635355259::1679630938::1::::<><>::
-pattern_74.png::CompressedTexture2D::6413472394756242207::1635355259::1679630938::1::::<><>::
-pattern_75.png::CompressedTexture2D::2279048956879098819::1635355260::1679630938::1::::<><>::
-pattern_76.png::CompressedTexture2D::3801098112239018205::1635355260::1679630938::1::::<><>::
-pattern_77.png::CompressedTexture2D::4987125175187458436::1635355260::1679630938::1::::<><>::
-pattern_78.png::CompressedTexture2D::3750127844367732037::1635355260::1679630938::1::::<><>::
-pattern_79.png::CompressedTexture2D::2261417876285599194::1635355260::1679630938::1::::<><>::
-pattern_80.png::CompressedTexture2D::4129973334383850602::1635355260::1679630938::1::::<><>::
-pattern_81.png::CompressedTexture2D::7887720205172761407::1635355260::1679630938::1::::<><>::
-pattern_82.png::CompressedTexture2D::8648352683673098484::1635355260::1679630938::1::::<><>::
-pattern_83.png::CompressedTexture2D::4003012615365780274::1635355260::1679630938::1::::<><>::
-pattern_84.png::CompressedTexture2D::7760944777169776458::1635355261::1679630938::1::::<><>::
-::res://textures/PBR_Textures/::1689162255
-Blue_Tile.jpg::CompressedTexture2D::2275085640120806795::1680090722::1680090724::1::::<><>::
-Blue_Tile.tres::StandardMaterial3D::6679202213824487476::1689162255::0::1::::<><>::uid://7oclfjt82t60::::res://textures/PBR_Textures/Blue_Tile.jpg
-Orange_Tile.jpg::CompressedTexture2D::8950714482204472694::1680110207::1680110274::1::::<><>::
-Orange_Tile.tres::StandardMaterial3D::1208786546366469591::1689162255::0::1::::<><>::uid://d0r17vshrv5v3::::res://textures/PBR_Textures/Orange_Tile.jpg
-Red_Tile.jpg::CompressedTexture2D::2098485975899571993::1680094539::1680094593::1::::<><>::
-Red_Tile.tres::StandardMaterial3D::5750881072121672879::1689162255::0::1::::<><>::uid://45r00ubsv1np::::res://textures/PBR_Textures/Red_Tile.jpg
-::res://textures/PBR_Textures/bricks-mortar-ue/::1688660482
-bricks-mortar-albedo.png::CompressedTexture2D::7265138993421341043::1686130054::1686393834::1::::<><>::
-bricks-mortar-albedo.tres::StandardMaterial3D::8214619181977297909::1688660482::0::1::::<><>::uid://dbrj1pdsesg5p
-bricks-mortar-ao.png::CompressedTexture2D::6230847519235533946::1686130056::1686394011::1::::<><>::
-bricks-mortar-height.png::CompressedTexture2D::8111405116133040550::1686130056::1686393995::1::::<><>::
-bricks-mortar-metallic.png::CompressedTexture2D::6139346817821359696::1686130054::1686393971::1::::<><>::
-bricks-mortar-normal-dx.png::CompressedTexture2D::7532493004970135468::1686130054::1686393983::1::::<><>::
-bricks-mortar-preview.jpg::CompressedTexture2D::6958055742419962031::1686297286::1686393767::1::::<><>::
-bricks-mortar-roughness.png::CompressedTexture2D::727491221540207417::1686130054::1686393768::1::::<><>::
-::res://textures/PBR_Textures/Brown_Spiral_Mosaic/::1688660482
-Brown_Spiral_Mosaic_albedo.png::CompressedTexture2D::9208419556257011571::1686400432::1686404984::1::::<><>::
-Brown_Spiral_Mosaic_albedo.tres::StandardMaterial3D::8406117422640003522::1688660482::0::1::::<><>::uid://d4gvlbm8gyx36
-displacement.png::CompressedTexture2D::6433521094530977162::1686400432::1686405085::1::::<><>::
-normals.png::CompressedTexture2D::8855008233339378455::1686400432::1686405085::1::::<><>::
-roughness.png::CompressedTexture2D::4687471547803088092::1686400432::1686405062::1::::<><>::
-::res://textures/PBR_Textures/Facade_019B/::1689162255
-Facade019B_1K_AmbientOcclusion.jpg::CompressedTexture2D::8835502271100207791::1641143763::1680096703::1::::<><>::
-Facade019B_1K_Color.jpg::CompressedTexture2D::4978328261757885343::1641143786::1680096412::1::::<><>::
-Facade019B_1K_Color.tres::StandardMaterial3D::2571683077458751938::1689162255::0::1::::<><>::uid://cc6slsbdlw7p8::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Color.jpg<>uid://dmbs5p6vlt7yk::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Emission.jpg<>uid://dx48ow3smji3p::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_AmbientOcclusion.jpg<>uid://bcthboxnsxpj3::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Displacement.jpg<>uid://7v8snsyumxii::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Metalness.jpg<>uid://86cm18dvvl14::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_NormalDX.jpg<>uid://cbi0kam2xo4e0::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Roughness.jpg
-Facade019B_1K_Displacement.jpg::CompressedTexture2D::2566449124512611522::1641143783::1680096622::1::::<><>::
-Facade019B_1K_Emission.jpg::CompressedTexture2D::8004739868885512034::1641143798::1680096489::1::::<><>::
-Facade019B_1K_Metalness.jpg::CompressedTexture2D::2291431446031579796::1641143801::1680096451::1::::<><>::
-Facade019B_1K_NormalDX.jpg::CompressedTexture2D::2380371830694171221::1641143825::1680096469::1::::<><>::
-Facade019B_1K_NormalGL.jpg::CompressedTexture2D::8314738786049390204::1641143836::1680096476::1::::<><>::
-Facade019B_1K_Roughness.jpg::CompressedTexture2D::4861081035610652373::1641143841::1680096460::1::::<><>::
-Facade019B_PREVIEW.jpg::CompressedTexture2D::6493867875473505082::1641144758::1681844429::1::::<><>::
-::res://textures/PBR_Textures/GlazedTerracotta/::1680089520
-GlazedTerracotta002_1K_Color.jpg::CompressedTexture2D::6693563525028123724::1642104724::1680089520::1::::<><>::
-GlazedTerracotta002_1K_Displacement.jpg::CompressedTexture2D::4038748679604366747::1642104731::1680088201::1::::<><>::
-GlazedTerracotta002_1K_NormalDX.jpg::CompressedTexture2D::1915143723838226622::1642104755::1680088201::1::::<><>::
-GlazedTerracotta002_1K_NormalGL.jpg::CompressedTexture2D::6387933787987644325::1642104773::1680088201::1::::<><>::
-GlazedTerracotta002_1K_Roughness.jpg::CompressedTexture2D::756733924709846792::1642104782::1680088201::1::::<><>::
-GlazedTerracotta002_PREVIEW.jpg::CompressedTexture2D::3864119093258016417::1642107547::1680088202::1::::<><>::
-::res://textures/PBR_Textures/MetalWalkway010/::1689162255
-MetalWalkway010_1K_Color.jpg::CompressedTexture2D::5089064340659840866::1627640508::1680093972::1::::<><>::
-MetalWalkway010_1K_Color.tres::StandardMaterial3D::728942964769265011::1689162255::0::1::::<><>::uid://c4ywnksta14hr::::res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Displacement.jpg<>uid://cerge78a8k235::::res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color.jpg
-MetalWalkway010_1K_Displacement.jpg::CompressedTexture2D::6859222442052511395::1627640508::1680094024::1::::<><>::
-MetalWalkway010_1K_Metalness.jpg::CompressedTexture2D::5796182216695977166::1627640508::1680089512::1::::<><>::
-MetalWalkway010_1K_NormalDX.jpg::CompressedTexture2D::445263831112628939::1627640509::1680094133::1::::<><>::
-MetalWalkway010_1K_NormalGL.jpg::CompressedTexture2D::3387941264669467120::1627724552::1680094138::1::::<><>::
-MetalWalkway010_1K_Opacity.jpg::CompressedTexture2D::1380247880013155339::1627640508::1680093972::1::::<><>::
-MetalWalkway010_1K_Roughness.jpg::CompressedTexture2D::3252792014161017939::1627640509::1680094071::1::::<><>::
-MetalWalkway010_PREVIEW.jpg::CompressedTexture2D::1847907160883844422::1627637547::1680088201::1::::<><>::
-::res://textures/PBR_Textures/Metal_Plate_006/::1680088661
-MetalPlates006_1K_Color.jpg::CompressedTexture2D::5716237814564671084::1627640415::1680088661::1::::<><>::
-MetalPlates006_1K_Displacement.jpg::CompressedTexture2D::1871492452069948391::1627640416::1680088661::1::::<><>::
-MetalPlates006_1K_Metalness.jpg::CompressedTexture2D::455907292521537335::1627640416::1680088661::1::::<><>::
-MetalPlates006_1K_NormalDX.jpg::CompressedTexture2D::4114979353060331883::1627640416::1680088661::1::::<><>::
-MetalPlates006_1K_NormalGL.jpg::CompressedTexture2D::3064800040189916722::1627724390::1680088661::1::::<><>::
-MetalPlates006_1K_Roughness.jpg::CompressedTexture2D::3596861495789103258::1627640417::1680088661::1::::<><>::
-MetalPlates006_PREVIEW.jpg::CompressedTexture2D::5329620115420645851::1627637546::1680088661::1::::<><>::
-::res://textures/PBR_Textures/Purple_Marble/::1689162255
-displacement.png::CompressedTexture2D::5650086276004260741::1686522058::1686526121::1::::<><>::
-normals.png::CompressedTexture2D::7075393636459702467::1686522058::1686526117::1::::<><>::
-Purple_Marble_albedo.png::CompressedTexture2D::4915099802040492039::1686522058::1686526095::1::::<><>::
-Purple_Marble_albedo.tres::StandardMaterial3D::448282605489054952::1689162255::0::1::::<><>::uid://cca58f3ls63xr::::res://textures/PBR_Textures/Purple_Marble/Purple_Marble_albedo.png<>uid://cmq7dimwq15s0::::res://textures/PBR_Textures/Purple_Marble/displacement.png<>uid://c72mx1t0weiyt::::res://textures/PBR_Textures/Purple_Marble/normals.png<>uid://dao8kywvxym71::::res://textures/PBR_Textures/Purple_Marble/roughness.png
-roughness.png::CompressedTexture2D::7190186153868420826::1686522058::1686526113::1::::<><>::
-::res://textures/PBR_Textures/Purple_Marble 2/::1686526010
-albedo.png::CompressedTexture2D::7479123342094338718::1686522056::1686526010::1::::<><>::
-displacement.png::CompressedTexture2D::902072632849529145::1686522056::1686526010::1::::<><>::
-normals.png::CompressedTexture2D::2386762288372481804::1686522056::1686526010::1::::<><>::
-roughness.png::CompressedTexture2D::8848812318667115771::1686522056::1686526010::1::::<><>::
-::res://textures/PBR_Textures/Rock_035/::1689162255
-Rock035_1K_AmbientOcclusion.jpg::CompressedTexture2D::522507004084660546::1627642404::1680106895::1::::<><>::
-Rock035_1K_Color.jpg::CompressedTexture2D::7054010523641141787::1627642404::1680088784::1::::<><>::
-Rock035_1K_Color.tres::StandardMaterial3D::4010785445591969552::1689162255::0::1::::<><>::uid://c7rar1jajdnpb::::res://textures/PBR_Textures/Rock_035/Rock035_1K_Color.jpg<>uid://hpdu42moip2q::::res://textures/PBR_Textures/Rock_035/Rock035_1K_AmbientOcclusion.jpg<>uid://b3klv48u1mpro::::res://textures/PBR_Textures/Rock_035/Rock035_1K_Roughness.jpg<>uid://8hqyrw5qs8qj::::res://textures/PBR_Textures/Rock_035/Rock035_1K_NormalGL.jpg<>uid://bxyiavbpnplmp::::res://textures/PBR_Textures/Rock_035/Rock035_1K_Displacement.jpg
-Rock035_1K_Displacement.jpg::CompressedTexture2D::4050795994642076091::1627642401::1680106908::1::::<><>::
-Rock035_1K_NormalDX.jpg::CompressedTexture2D::2581900058452574154::1627642401::1680106879::1::::<><>::
-Rock035_1K_NormalGL.jpg::CompressedTexture2D::2331697743539307901::1627729563::1680106882::1::::<><>::
-Rock035_1K_Roughness.jpg::CompressedTexture2D::4373059046790682188::1627642401::1680106853::1::::<><>::
-Rock035_PREVIEW.jpg::CompressedTexture2D::7860598710206368164::1627637562::1680088668::1::::<><>::
-::res://textures/PBR_Textures/Rust_Panel/::1686393653
-rust-panel-albedo.png::CompressedTexture2D::1774028245502783947::1501835804::1686393653::1::::<><>::
-rust-panel-ao.png::CompressedTexture2D::7363164500950956114::1501920890::1686393478::1::::<><>::
-rust-panel-metalness.png::CompressedTexture2D::308108004179143422::1501865816::1686393478::1::::<><>::
-rust-panel-normal-ue.png::CompressedTexture2D::7817333049602554161::1501865720::1686393479::1::::<><>::
-rust-panel-roughness.png::CompressedTexture2D::723503300735488379::1501865766::1686393478::1::::<><>::
-::res://textures/PBR_Textures/SheetMetal001/::1689162255
-SheetMetal001_1K_Color.png::CompressedTexture2D::2967496731221682832::1627935021::1680091649::1::::<><>::
-SheetMetal001_1K_Color.tres::StandardMaterial3D::486433133036439127::1689162255::0::1::::<><>::uid://c7uo2cy6wfof1::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Displacement.png<>uid://kddbencahg7q::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Opacity.png<>uid://bijqicw5fdtme::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Color.png<>uid://bvx1fxatmbr70::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Metallic.png<>uid://b5aq3x5ba4y63::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_NormalGL.png<>uid://dutmmk3yupiy1::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Roughness.png
-SheetMetal001_1K_Displacement.png::CompressedTexture2D::7061070316778713316::1627935022::1680092644::1::::<><>::
-SheetMetal001_1K_Metallic.png::CompressedTexture2D::3909455868133030981::1627935030::1680091716::1::::<><>::
-SheetMetal001_1K_NormalDX.png::CompressedTexture2D::6691258326449189586::1627935025::1680091739::1::::<><>::
-SheetMetal001_1K_NormalGL.png::CompressedTexture2D::4493108721375462946::1627935030::1680091742::1::::<><>::
-SheetMetal001_1K_Opacity.png::CompressedTexture2D::708265736681719456::1627935029::1680091800::1::::<><>::
-SheetMetal001_1K_Roughness.png::CompressedTexture2D::8603012704212944546::1627935031::1680091768::1::::<><>::
-SheetMetal001_PREVIEW.jpg::CompressedTexture2D::6040067902093709611::1627637582::1680091555::1::::<><>::
-::res://textures/PBR_Textures/SheetMetal003/::1680914032
-SheetMetal003_1K_Color.jpg::CompressedTexture2D::3187311485151216123::1627642937::1680914032::1::::<><>::
-SheetMetal003_1K_Displacement.jpg::CompressedTexture2D::1169246604626119626::1627642937::1680088201::1::::<><>::
-SheetMetal003_1K_Metalness.jpg::CompressedTexture2D::58928488640679026::1627642937::1680088692::1::::<><>::
-SheetMetal003_1K_NormalDX.jpg::CompressedTexture2D::3276921855165426986::1627642938::1680088201::1::::<><>::
-SheetMetal003_1K_NormalGL.jpg::CompressedTexture2D::5330625365582742629::1627730668::1680088201::1::::<><>::
-SheetMetal003_1K_Opacity.jpg::CompressedTexture2D::7165519019475157450::1627642937::1680088201::1::::<><>::
-SheetMetal003_1K_Roughness.jpg::CompressedTexture2D::5064910836817518938::1627642938::1680088201::1::::<><>::
-SheetMetal003_PREVIEW.jpg::CompressedTexture2D::2183971489571393070::1627637582::1680088201::1::::<><>::
-::res://textures/PBR_Textures/Tree_bark/::1686404767
-albedo.png::CompressedTexture2D::1045727349987709919::1686401026::1686404767::1::::<><>::
-displacement.png::CompressedTexture2D::112951537126802867::1686401026::1686404767::1::::<><>::
-normals.png::CompressedTexture2D::717197899573132507::1686401026::1686404767::1::::<><>::
-roughness.png::CompressedTexture2D::3208087865917698988::1686401026::1686404767::1::::<><>::
-::res://textures/PBR_Textures/Window/::1689162479
-glass1.png::CompressedTexture2D::885655337398372044::1586304886::1689162671::1::::<><>::
+env_destructable.tres::Resource/Resource::7596069297554322688::1689161566::0::1::::<><>::res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd<>res://Qodot Resources/env_destructible/Destructible.gd
+::res://Qodot Resources/Fake Door/::1689163486
+DissapearAnim.res::Animation::9140387794020619573::1688851976::0::1::::<><>::
+DissapearLib.res::AnimationLibrary::4378725785094509904::1688851976::0::1::::<><>::uid://d3hw37m601fc4
+fake_door_anim.tscn::PackedScene::3265879356502233579::1688851976::0::1::::<><>::uid://b3nc8d4078f0c
+test.res::AnimationLibrary::8694990376045160584::1688851976::0::1::::<><>::
+::res://Scritpts/::1689163486
+button.gd::GDScript::-1::1688851976::0::1::::<>Area3D<>::
+mover.gd::GDScript::-1::1688851976::0::1::::<>CharacterBody3D<>::
+trigger.gd::GDScript::-1::1688851976::0::1::::<>Area3D<>::
+wall.gd::GDScript::-1::1688851976::0::1::::<>StaticBody3D<>::
+::res://Shader/::1689163843
+Ps1 Filter.gdshader::Shader::-1::1689163843::0::1::::<><>::
+::res://Stage Assets/::1689163486
+::res://Stage Assets/Hammer/::1689163832
+Boost.glb::PackedScene::4016561407445620668::1688851976::1688851976::1::::<><>::
+Boost.res::Animation::2587771431322073241::1688851976::0::1::::<><>::
+Boost_Torus004.res::ArrayMesh::4306505081527021823::1689163832::0::1::::<><>::
+Default.res::Animation::2209006374883096120::1688851976::0::1::::<><>::
+Hammer Area.gd::GDScript::-1::1688851976::0::1::::<>Area3D<>::
+Hammer.tscn::PackedScene::4535470271654265802::1688851976::0::1::::<><>::res://Stage Assets/Hammer/Hammer_Params.gd<>res://Stage Assets/Hammer/Hammer Area.gd<>uid://b2mdrk8tgh3vn
+HammerAnimLib.res::AnimationLibrary::8388007305650698355::1688851976::0::1::::<><>::uid://6qcaofwck4gi
+Hammer_Params.gd::GDScript::-1::1688851976::0::1::::<>Node3D<>::
+Rotate.res::Animation::2094758937903075889::1688851976::0::1::::<><>::
+::res://Stage Assets/Rocket/::1689163486
+Rocket.glb::PackedScene::2814569126380399892::1688851976::1688851976::1::::<><>::
+Rocket_Cylinder Base Color.png::CompressedTexture2D::4481190039874520229::1688851976::1688851976::1::::<><>::
+::res://Stage Assets/Sign/::1689163833
+sign.glb::PackedScene::2470516312400918361::1688851976::1688851976::1::::<><>::
+Sign.tres::ArrayMesh::7209136859133072522::1689163833::0::1::::<><>::
+::res://Stage Assets/Skybox/::1689163486
+anime_art_style_a_dark_atmosphere_similar_to_the_s.jpg::CompressedTexture2D::5115922971384314673::1688851976::1688851976::1::::<><>::
+environment.png::CompressedTexture2D::3181704824386375129::1688851976::1688851976::1::::<><>::
+interior_views_a_dark_atmosphere_similar_to_the_su.jpg::CompressedTexture2D::8778623180121166928::1688851976::1688851976::1::::<><>::
+scenic_a_vista_of_snowy_mountains_with_lightning_f.jpg::CompressedTexture2D::2552384640736103020::1688851976::1688851976::1::::<><>::
+Skybox_pan-dragonmoon-lg.jpg::CompressedTexture2D::5406427376376917883::1688851976::1688851976::1::::<><>::
+Skybox_pan-olos-lg.jpg::CompressedTexture2D::8027649197482264066::1688851976::1688851976::1::::<><>::
+::res://Stage Assets/Spawner/::1689163486
+teleporter.gd::GDScript::-1::1688851976::0::1::::Telepoorter<>QodotEntity<>::
+teleporter.tscn::PackedScene::4311769286210642743::1688851976::0::1::::<><>::
+::res://Test/::1689163486
+Test Stage.tscn::PackedScene::-1::1688851976::0::1::::<><>::uid://cdgfflanbrm24
+Test_Plat.tscn::PackedScene::4996107257107546139::1688851976::0::1::::<><>::uid://cb31lbffhnven
+::res://textures/::1689163487
+::res://textures/Default_size/::1689163486
+pattern_01.png::CompressedTexture2D::2599663666025405721::1688851976::1688851976::1::::<><>::
+pattern_02.png::CompressedTexture2D::8139855262232337529::1688851976::1688851976::1::::<><>::
+pattern_03.png::CompressedTexture2D::4875474938655933344::1688851976::1688851976::1::::<><>::
+pattern_04.png::CompressedTexture2D::382111457557814965::1688851976::1688851976::1::::<><>::
+pattern_05.png::CompressedTexture2D::4405654395294829776::1688851976::1688851976::1::::<><>::
+pattern_06.png::CompressedTexture2D::6400864104603056072::1688851976::1688851976::1::::<><>::
+pattern_07.png::CompressedTexture2D::3367005403051381445::1688851976::1688851976::1::::<><>::
+pattern_08.png::CompressedTexture2D::6787409007912612917::1688851976::1688851976::1::::<><>::
+pattern_09.png::CompressedTexture2D::9027954308058471449::1688851976::1688851976::1::::<><>::
+pattern_10.png::CompressedTexture2D::6647340219995554084::1688851976::1688851976::1::::<><>::
+pattern_11.png::CompressedTexture2D::7118325223534006338::1688851976::1688851976::1::::<><>::
+pattern_12.png::CompressedTexture2D::8665693384181599008::1688851976::1688851976::1::::<><>::
+pattern_13.png::CompressedTexture2D::7448858678263638858::1688851976::1688851976::1::::<><>::
+pattern_14.png::CompressedTexture2D::5775119690294610447::1688851976::1688851976::1::::<><>::
+pattern_15.png::CompressedTexture2D::4924344157223075289::1688851976::1688851976::1::::<><>::
+pattern_16.png::CompressedTexture2D::4324657559702227810::1688851976::1688851976::1::::<><>::
+pattern_17.png::CompressedTexture2D::7557895766433220327::1688851976::1688851976::1::::<><>::
+pattern_18.png::CompressedTexture2D::232809895101904079::1688851976::1688851976::1::::<><>::
+pattern_19.png::CompressedTexture2D::6876740969060461187::1688851976::1688851976::1::::<><>::
+pattern_20.png::CompressedTexture2D::1570585257989801267::1688851976::1688851976::1::::<><>::
+pattern_21.png::CompressedTexture2D::1092277623558617293::1688851976::1688851976::1::::<><>::
+pattern_22.png::CompressedTexture2D::6909232880108395643::1688851976::1688851976::1::::<><>::
+pattern_23.png::CompressedTexture2D::88777120789253147::1688851976::1688851976::1::::<><>::
+pattern_24.png::CompressedTexture2D::3834661088638641513::1688851976::1688851976::1::::<><>::
+pattern_25.png::CompressedTexture2D::6834665217224099229::1688851976::1688851976::1::::<><>::
+pattern_26.png::CompressedTexture2D::4177685128701426746::1688851976::1688851976::1::::<><>::
+pattern_27.png::CompressedTexture2D::3513004109799181555::1688851976::1688851976::1::::<><>::
+pattern_28.png::CompressedTexture2D::7432369142281120449::1688851976::1688851976::1::::<><>::
+pattern_29.png::CompressedTexture2D::3700617890822828422::1688851976::1688851976::1::::<><>::
+pattern_30.png::CompressedTexture2D::2530766632864044073::1688851976::1688851976::1::::<><>::
+pattern_31.png::CompressedTexture2D::7510134202140297913::1688851976::1688851976::1::::<><>::
+pattern_32.png::CompressedTexture2D::7254845143926503805::1688851976::1688851976::1::::<><>::
+pattern_33.png::CompressedTexture2D::8130465374442736485::1688851976::1688851976::1::::<><>::
+pattern_34.png::CompressedTexture2D::1615906111695165751::1688851976::1688851976::1::::<><>::
+pattern_35.png::CompressedTexture2D::5546242443356007551::1688851976::1688851976::1::::<><>::
+pattern_36.png::CompressedTexture2D::1931653239176680725::1688851976::1688851976::1::::<><>::
+pattern_37.png::CompressedTexture2D::7316910241184419432::1688851976::1688851976::1::::<><>::
+pattern_38.png::CompressedTexture2D::4683791443281916828::1688851976::1688851976::1::::<><>::
+pattern_39.png::CompressedTexture2D::1314638575946830224::1688851976::1688851976::1::::<><>::
+pattern_40.png::CompressedTexture2D::3577830869712508524::1688851976::1688851976::1::::<><>::
+pattern_41.png::CompressedTexture2D::3106906443312353593::1688851976::1688851976::1::::<><>::
+pattern_42.png::CompressedTexture2D::2837547026714878038::1688851976::1688851976::1::::<><>::
+pattern_43.png::CompressedTexture2D::3982434510017862543::1688851976::1688851976::1::::<><>::
+pattern_44.png::CompressedTexture2D::8467745318835291669::1688851976::1688851976::1::::<><>::
+pattern_45.png::CompressedTexture2D::6806457002026195659::1688851976::1688851976::1::::<><>::
+pattern_46.png::CompressedTexture2D::4699293647382312475::1688851976::1688851976::1::::<><>::
+pattern_47.png::CompressedTexture2D::6260384445969268485::1688851976::1688851976::1::::<><>::
+pattern_48.png::CompressedTexture2D::1067906355467439777::1688851976::1688851976::1::::<><>::
+pattern_49.png::CompressedTexture2D::4193753879747649359::1688851976::1688851976::1::::<><>::
+pattern_50.png::CompressedTexture2D::3391593035856054715::1688851976::1688851976::1::::<><>::
+pattern_51.png::CompressedTexture2D::8981934639767583040::1688851976::1688851976::1::::<><>::
+pattern_52.png::CompressedTexture2D::4956087636226838993::1688851976::1688851976::1::::<><>::
+pattern_53.png::CompressedTexture2D::1863912346367349512::1688851976::1688851976::1::::<><>::
+pattern_54.png::CompressedTexture2D::1689360088881388263::1688851976::1688851976::1::::<><>::
+pattern_55.png::CompressedTexture2D::3256808675209339265::1688851976::1688851976::1::::<><>::
+pattern_56.png::CompressedTexture2D::3826648446658981681::1688851976::1688851976::1::::<><>::
+pattern_57.png::CompressedTexture2D::6819223614520486265::1688851976::1688851976::1::::<><>::
+pattern_58.png::CompressedTexture2D::1780855480438118150::1688851976::1688851976::1::::<><>::
+pattern_59.png::CompressedTexture2D::3698507171343544624::1688851976::1688851976::1::::<><>::
+pattern_60.png::CompressedTexture2D::1757911662913479426::1688851976::1688851976::1::::<><>::
+pattern_61.png::CompressedTexture2D::1163382727074472635::1688851976::1688851976::1::::<><>::
+pattern_62.png::CompressedTexture2D::760754099504649046::1688851976::1688851976::1::::<><>::
+pattern_63.png::CompressedTexture2D::3035421086724590368::1688851976::1688851976::1::::<><>::
+pattern_64.png::CompressedTexture2D::4376012153742440784::1688851976::1688851976::1::::<><>::
+pattern_65.png::CompressedTexture2D::9216185181621618063::1688851976::1688851976::1::::<><>::
+pattern_66.png::CompressedTexture2D::4336721038824245078::1688851976::1688851976::1::::<><>::
+pattern_67.png::CompressedTexture2D::2288940051498520842::1688851976::1688851976::1::::<><>::
+pattern_68.png::CompressedTexture2D::1799931963004244117::1688851976::1688851976::1::::<><>::
+pattern_69.png::CompressedTexture2D::4152074785252048357::1688851976::1688851976::1::::<><>::
+pattern_70.png::CompressedTexture2D::5735244685970695128::1688851976::1688851976::1::::<><>::
+pattern_71.png::CompressedTexture2D::6195489218858234186::1688851976::1688851976::1::::<><>::
+pattern_72.png::CompressedTexture2D::4866649730171561799::1688851976::1688851976::1::::<><>::
+pattern_73.png::CompressedTexture2D::4113578738428822637::1688851976::1688851976::1::::<><>::
+pattern_74.png::CompressedTexture2D::6413472394756242207::1688851976::1688851976::1::::<><>::
+pattern_75.png::CompressedTexture2D::2279048956879098819::1688851976::1688851976::1::::<><>::
+pattern_76.png::CompressedTexture2D::3801098112239018205::1688851976::1688851976::1::::<><>::
+pattern_77.png::CompressedTexture2D::4987125175187458436::1688851976::1688851976::1::::<><>::
+pattern_78.png::CompressedTexture2D::3750127844367732037::1688851976::1688851976::1::::<><>::
+pattern_79.png::CompressedTexture2D::2261417876285599194::1688851976::1688851976::1::::<><>::
+pattern_80.png::CompressedTexture2D::4129973334383850602::1688851976::1688851976::1::::<><>::
+pattern_81.png::CompressedTexture2D::7887720205172761407::1688851976::1688851976::1::::<><>::
+pattern_82.png::CompressedTexture2D::8648352683673098484::1688851976::1688851976::1::::<><>::
+pattern_83.png::CompressedTexture2D::4003012615365780274::1688851976::1688851976::1::::<><>::
+pattern_84.png::CompressedTexture2D::7760944777169776458::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/::1689163832
+Blue_Tile.jpg::CompressedTexture2D::2275085640120806795::1688851976::1688851976::1::::<><>::
+Blue_Tile.tres::StandardMaterial3D::6679202213824487476::1689163832::0::1::::<><>::uid://7oclfjt82t60::::res://textures/PBR_Textures/Blue_Tile.jpg
+Orange_Tile.jpg::CompressedTexture2D::8950714482204472694::1688851976::1688851976::1::::<><>::
+Orange_Tile.tres::StandardMaterial3D::1208786546366469591::1689163832::0::1::::<><>::uid://d0r17vshrv5v3::::res://textures/PBR_Textures/Orange_Tile.jpg
+Red_Tile.jpg::CompressedTexture2D::2098485975899571993::1688851976::1688851976::1::::<><>::
+Red_Tile.tres::StandardMaterial3D::5750881072121672879::1689163832::0::1::::<><>::uid://45r00ubsv1np::::res://textures/PBR_Textures/Red_Tile.jpg
+::res://textures/PBR_Textures/bricks-mortar-ue/::1689163486
+bricks-mortar-albedo.png::CompressedTexture2D::7265138993421341043::1688851976::1688851976::1::::<><>::
+bricks-mortar-albedo.tres::StandardMaterial3D::8214619181977297909::1688851976::0::1::::<><>::uid://dbrj1pdsesg5p
+bricks-mortar-ao.png::CompressedTexture2D::6230847519235533946::1688851976::1688851976::1::::<><>::
+bricks-mortar-height.png::CompressedTexture2D::8111405116133040550::1688851976::1688851976::1::::<><>::
+bricks-mortar-metallic.png::CompressedTexture2D::6139346817821359696::1688851976::1688851976::1::::<><>::
+bricks-mortar-normal-dx.png::CompressedTexture2D::7532493004970135468::1688851976::1688851976::1::::<><>::
+bricks-mortar-preview.jpg::CompressedTexture2D::6958055742419962031::1688851976::1688851976::1::::<><>::
+bricks-mortar-roughness.png::CompressedTexture2D::727491221540207417::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/Brown_Spiral_Mosaic/::1689163486
+Brown_Spiral_Mosaic_albedo.png::CompressedTexture2D::9208419556257011571::1688851976::1688851976::1::::<><>::
+Brown_Spiral_Mosaic_albedo.tres::StandardMaterial3D::8406117422640003522::1688851976::0::1::::<><>::uid://d4gvlbm8gyx36
+displacement.png::CompressedTexture2D::6433521094530977162::1688851976::1688851976::1::::<><>::
+normals.png::CompressedTexture2D::8855008233339378455::1688851976::1688851976::1::::<><>::
+roughness.png::CompressedTexture2D::4687471547803088092::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/Facade_019B/::1689163832
+Facade019B_1K_AmbientOcclusion.jpg::CompressedTexture2D::8835502271100207791::1688851976::1688851976::1::::<><>::
+Facade019B_1K_Color.jpg::CompressedTexture2D::4978328261757885343::1688851976::1688851976::1::::<><>::
+Facade019B_1K_Color.tres::StandardMaterial3D::2571683077458751938::1689163832::0::1::::<><>::uid://cc6slsbdlw7p8::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Color.jpg<>uid://dmbs5p6vlt7yk::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Emission.jpg<>uid://dx48ow3smji3p::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_AmbientOcclusion.jpg<>uid://bcthboxnsxpj3::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Displacement.jpg<>uid://7v8snsyumxii::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Metalness.jpg<>uid://86cm18dvvl14::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_NormalDX.jpg<>uid://cbi0kam2xo4e0::::res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Roughness.jpg
+Facade019B_1K_Displacement.jpg::CompressedTexture2D::2566449124512611522::1688851976::1688851976::1::::<><>::
+Facade019B_1K_Emission.jpg::CompressedTexture2D::8004739868885512034::1688851976::1688851976::1::::<><>::
+Facade019B_1K_Metalness.jpg::CompressedTexture2D::2291431446031579796::1688851976::1688851976::1::::<><>::
+Facade019B_1K_NormalDX.jpg::CompressedTexture2D::2380371830694171221::1688851976::1688851976::1::::<><>::
+Facade019B_1K_NormalGL.jpg::CompressedTexture2D::8314738786049390204::1688851976::1688851976::1::::<><>::
+Facade019B_1K_Roughness.jpg::CompressedTexture2D::4861081035610652373::1688851976::1688851976::1::::<><>::
+Facade019B_PREVIEW.jpg::CompressedTexture2D::6493867875473505082::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/GlazedTerracotta/::1689163486
+GlazedTerracotta002_1K_Color.jpg::CompressedTexture2D::6693563525028123724::1688851976::1688851976::1::::<><>::
+GlazedTerracotta002_1K_Displacement.jpg::CompressedTexture2D::4038748679604366747::1688851976::1688851976::1::::<><>::
+GlazedTerracotta002_1K_NormalDX.jpg::CompressedTexture2D::1915143723838226622::1688851976::1688851976::1::::<><>::
+GlazedTerracotta002_1K_NormalGL.jpg::CompressedTexture2D::6387933787987644325::1688851976::1688851976::1::::<><>::
+GlazedTerracotta002_1K_Roughness.jpg::CompressedTexture2D::756733924709846792::1688851976::1688851976::1::::<><>::
+GlazedTerracotta002_PREVIEW.jpg::CompressedTexture2D::3864119093258016417::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/MetalWalkway010/::1689163832
+MetalWalkway010_1K_Color.jpg::CompressedTexture2D::5089064340659840866::1688851976::1688851976::1::::<><>::
+MetalWalkway010_1K_Color.tres::StandardMaterial3D::728942964769265011::1689163832::0::1::::<><>::uid://c4ywnksta14hr::::res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Displacement.jpg<>uid://cerge78a8k235::::res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color.jpg
+MetalWalkway010_1K_Displacement.jpg::CompressedTexture2D::6859222442052511395::1688851976::1688851976::1::::<><>::
+MetalWalkway010_1K_Metalness.jpg::CompressedTexture2D::5796182216695977166::1688851976::1688851976::1::::<><>::
+MetalWalkway010_1K_NormalDX.jpg::CompressedTexture2D::445263831112628939::1688851976::1688851976::1::::<><>::
+MetalWalkway010_1K_NormalGL.jpg::CompressedTexture2D::3387941264669467120::1688851976::1688851976::1::::<><>::
+MetalWalkway010_1K_Opacity.jpg::CompressedTexture2D::1380247880013155339::1688851976::1688851976::1::::<><>::
+MetalWalkway010_1K_Roughness.jpg::CompressedTexture2D::3252792014161017939::1688851976::1688851976::1::::<><>::
+MetalWalkway010_PREVIEW.jpg::CompressedTexture2D::1847907160883844422::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/Metal_Plate_006/::1689163486
+MetalPlates006_1K_Color.jpg::CompressedTexture2D::5716237814564671084::1688851976::1688851976::1::::<><>::
+MetalPlates006_1K_Displacement.jpg::CompressedTexture2D::1871492452069948391::1688851976::1688851976::1::::<><>::
+MetalPlates006_1K_Metalness.jpg::CompressedTexture2D::455907292521537335::1688851976::1688851976::1::::<><>::
+MetalPlates006_1K_NormalDX.jpg::CompressedTexture2D::4114979353060331883::1688851976::1688851976::1::::<><>::
+MetalPlates006_1K_NormalGL.jpg::CompressedTexture2D::3064800040189916722::1688851976::1688851976::1::::<><>::
+MetalPlates006_1K_Roughness.jpg::CompressedTexture2D::3596861495789103258::1688851976::1688851976::1::::<><>::
+MetalPlates006_PREVIEW.jpg::CompressedTexture2D::5329620115420645851::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/Purple_Marble/::1689163832
+displacement.png::CompressedTexture2D::5650086276004260741::1688851976::1688851976::1::::<><>::
+normals.png::CompressedTexture2D::7075393636459702467::1688851976::1688851976::1::::<><>::
+Purple_Marble_albedo.png::CompressedTexture2D::4915099802040492039::1688851976::1688851976::1::::<><>::
+Purple_Marble_albedo.tres::StandardMaterial3D::448282605489054952::1689163832::0::1::::<><>::uid://cca58f3ls63xr::::res://textures/PBR_Textures/Purple_Marble/Purple_Marble_albedo.png<>uid://cmq7dimwq15s0::::res://textures/PBR_Textures/Purple_Marble/displacement.png<>uid://c72mx1t0weiyt::::res://textures/PBR_Textures/Purple_Marble/normals.png<>uid://dao8kywvxym71::::res://textures/PBR_Textures/Purple_Marble/roughness.png
+roughness.png::CompressedTexture2D::7190186153868420826::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/Purple_Marble 2/::1689163486
+albedo.png::CompressedTexture2D::7479123342094338718::1688851976::1688851976::1::::<><>::
+displacement.png::CompressedTexture2D::902072632849529145::1688851976::1688851976::1::::<><>::
+normals.png::CompressedTexture2D::2386762288372481804::1688851976::1688851976::1::::<><>::
+roughness.png::CompressedTexture2D::8848812318667115771::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/Rock_035/::1689163832
+Rock035_1K_AmbientOcclusion.jpg::CompressedTexture2D::522507004084660546::1688851976::1688851976::1::::<><>::
+Rock035_1K_Color.jpg::CompressedTexture2D::7054010523641141787::1688851976::1688851976::1::::<><>::
+Rock035_1K_Color.tres::StandardMaterial3D::4010785445591969552::1689163832::0::1::::<><>::uid://c7rar1jajdnpb::::res://textures/PBR_Textures/Rock_035/Rock035_1K_Color.jpg<>uid://hpdu42moip2q::::res://textures/PBR_Textures/Rock_035/Rock035_1K_AmbientOcclusion.jpg<>uid://b3klv48u1mpro::::res://textures/PBR_Textures/Rock_035/Rock035_1K_Roughness.jpg<>uid://8hqyrw5qs8qj::::res://textures/PBR_Textures/Rock_035/Rock035_1K_NormalGL.jpg<>uid://bxyiavbpnplmp::::res://textures/PBR_Textures/Rock_035/Rock035_1K_Displacement.jpg
+Rock035_1K_Displacement.jpg::CompressedTexture2D::4050795994642076091::1688851976::1688851976::1::::<><>::
+Rock035_1K_NormalDX.jpg::CompressedTexture2D::2581900058452574154::1688851976::1688851976::1::::<><>::
+Rock035_1K_NormalGL.jpg::CompressedTexture2D::2331697743539307901::1688851976::1688851976::1::::<><>::
+Rock035_1K_Roughness.jpg::CompressedTexture2D::4373059046790682188::1688851976::1688851976::1::::<><>::
+Rock035_PREVIEW.jpg::CompressedTexture2D::7860598710206368164::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/Rust_Panel/::1689163486
+rust-panel-albedo.png::CompressedTexture2D::1774028245502783947::1688851976::1688851976::1::::<><>::
+rust-panel-ao.png::CompressedTexture2D::7363164500950956114::1688851976::1688851976::1::::<><>::
+rust-panel-metalness.png::CompressedTexture2D::308108004179143422::1688851976::1688851976::1::::<><>::
+rust-panel-normal-ue.png::CompressedTexture2D::7817333049602554161::1688851976::1688851976::1::::<><>::
+rust-panel-roughness.png::CompressedTexture2D::723503300735488379::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/SheetMetal001/::1689163832
+SheetMetal001_1K_Color.png::CompressedTexture2D::2967496731221682832::1688851976::1688851976::1::::<><>::
+SheetMetal001_1K_Color.tres::StandardMaterial3D::486433133036439127::1689163832::0::1::::<><>::uid://c7uo2cy6wfof1::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Displacement.png<>uid://kddbencahg7q::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Opacity.png<>uid://bijqicw5fdtme::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Color.png<>uid://bvx1fxatmbr70::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Metallic.png<>uid://b5aq3x5ba4y63::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_NormalGL.png<>uid://dutmmk3yupiy1::::res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Roughness.png
+SheetMetal001_1K_Displacement.png::CompressedTexture2D::7061070316778713316::1688851976::1688851976::1::::<><>::
+SheetMetal001_1K_Metallic.png::CompressedTexture2D::3909455868133030981::1688851976::1688851976::1::::<><>::
+SheetMetal001_1K_NormalDX.png::CompressedTexture2D::6691258326449189586::1688851976::1688851976::1::::<><>::
+SheetMetal001_1K_NormalGL.png::CompressedTexture2D::4493108721375462946::1688851976::1688851976::1::::<><>::
+SheetMetal001_1K_Opacity.png::CompressedTexture2D::708265736681719456::1688851976::1688851976::1::::<><>::
+SheetMetal001_1K_Roughness.png::CompressedTexture2D::8603012704212944546::1688851976::1688851976::1::::<><>::
+SheetMetal001_PREVIEW.jpg::CompressedTexture2D::6040067902093709611::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/SheetMetal003/::1689163487
+SheetMetal003_1K_Color.jpg::CompressedTexture2D::3187311485151216123::1688851976::1688851976::1::::<><>::
+SheetMetal003_1K_Displacement.jpg::CompressedTexture2D::1169246604626119626::1688851976::1688851976::1::::<><>::
+SheetMetal003_1K_Metalness.jpg::CompressedTexture2D::58928488640679026::1688851976::1688851976::1::::<><>::
+SheetMetal003_1K_NormalDX.jpg::CompressedTexture2D::3276921855165426986::1688851976::1688851976::1::::<><>::
+SheetMetal003_1K_NormalGL.jpg::CompressedTexture2D::5330625365582742629::1688851976::1688851976::1::::<><>::
+SheetMetal003_1K_Opacity.jpg::CompressedTexture2D::7165519019475157450::1688851976::1688851976::1::::<><>::
+SheetMetal003_1K_Roughness.jpg::CompressedTexture2D::5064910836817518938::1688851976::1688851976::1::::<><>::
+SheetMetal003_PREVIEW.jpg::CompressedTexture2D::2183971489571393070::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/Tree_bark/::1689163487
+albedo.png::CompressedTexture2D::1045727349987709919::1688851976::1688851976::1::::<><>::
+displacement.png::CompressedTexture2D::112951537126802867::1688851976::1688851976::1::::<><>::
+normals.png::CompressedTexture2D::717197899573132507::1688851976::1688851976::1::::<><>::
+roughness.png::CompressedTexture2D::3208087865917698988::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/Window/::1689163705
+glass1.png::CompressedTexture2D::885655337398372044::1586304886::1689163705::1::::<><>::
 glass1.tres::StandardMaterial3D::3155677245801392592::1689161897::0::1::::<><>::
-::res://textures/PBR_Textures/Wood067/::1689162479
-Wood067_1K_Color.jpg::CompressedTexture2D::2949606148296672625::1627644649::1680127127::1::::<><>::
-Wood067_1K_Color.tres::StandardMaterial3D::5495149415708853518::1689161897::0::1::::<><>::uid://bia2t2fqvxndp::::res://textures/PBR_Textures/Wood067/Wood067_1K_Color.jpg<>uid://pvkylykirwva::::res://textures/PBR_Textures/Wood067/Wood067_1K_Displacement.jpg<>uid://bcsu4evf6ybn::::res://textures/PBR_Textures/Wood067/Wood067_1K_NormalDX.jpg<>uid://cuph2uat0xc4o::::res://textures/PBR_Textures/Wood067/Wood067_1K_Roughness.jpg
-Wood067_1K_Displacement.jpg::CompressedTexture2D::1096835231685020010::1627644647::1689162671::1::::<><>::
-Wood067_1K_NormalDX.jpg::CompressedTexture2D::75447751212489847::1627644648::1689162671::1::::<><>::
-Wood067_1K_NormalGL.jpg::CompressedTexture2D::1540408467671704404::1627736498::1680088201::1::::<><>::
-Wood067_1K_Roughness.jpg::CompressedTexture2D::6208058193207135512::1627644647::1689162671::1::::<><>::
-Wood067_PREVIEW.jpg::CompressedTexture2D::729209501455551491::1627637600::1680088201::1::::<><>::
-::res://textures/PBR_Textures/Wood071/::1689162255
-Wood071_1K_Color.jpg::CompressedTexture2D::3162037753515133575::1627644673::1680182212::1::::<><>::
-Wood071_1K_Color.tres::StandardMaterial3D::1171874802970314543::1689162255::0::1::::<><>::uid://blbykgufptmmx::::res://textures/PBR_Textures/Wood071/Wood071_1K_Color.jpg<>uid://b8wb6gubpd1ya::::res://textures/PBR_Textures/Wood071/Wood071_1K_NormalGL.jpg<>uid://dsmjfe1juqv7d::::res://textures/PBR_Textures/Wood071/Wood071_1K_Roughness.jpg
-Wood071_1K_Displacement.jpg::CompressedTexture2D::7421761883538910693::1627644674::1680181303::1::::<><>::
-Wood071_1K_NormalDX.jpg::CompressedTexture2D::1326917508793669942::1627644673::1680182259::1::::<><>::
-Wood071_1K_NormalGL.jpg::CompressedTexture2D::4748185257043121472::1627736591::1680182261::1::::<><>::
-Wood071_1K_Roughness.jpg::CompressedTexture2D::8447989402211641207::1627644673::1680182271::1::::<><>::
-Wood071_PREVIEW.jpg::CompressedTexture2D::2716044307904444118::1627637600::1680181304::1::::<><>::
-::res://textures/PBR_Textures/WoodFloor020/::1686392639
-WoodFloor020_1K_AmbientOcclusion.jpg::CompressedTexture2D::11266267573356219::1627644781::1680088201::1::::<><>::
-WoodFloor020_1K_Color.png::CompressedTexture2D::4638134598490208842::1627967542::1686392639::1::::<><>::
-WoodFloor020_1K_Displacement.jpg::CompressedTexture2D::7952431206426104637::1627644781::1680088201::1::::<><>::
-WoodFloor020_1K_NormalDX.jpg::CompressedTexture2D::7305780292416460806::1627644782::1680088201::1::::<><>::
-WoodFloor020_1K_NormalGL.jpg::CompressedTexture2D::3727784573035735899::1627736856::1680088201::1::::<><>::
-WoodFloor020_1K_Roughness.jpg::CompressedTexture2D::5096981923125789973::1627644782::1680088201::1::::<><>::
-WoodFloor020_PREVIEW.jpg::CompressedTexture2D::3392843206902051043::1627637602::1680088201::1::::<><>::
-::res://textures/PBR_Textures/WoodSiding007/::1686388975
-WoodSiding007_1K_AmbientOcclusion.jpg::CompressedTexture2D::269200866323707910::1627645035::1680181248::1::::<><>::
-WoodSiding007_1K_Color.jpg::CompressedTexture2D::8064506073567491804::1627645035::1686388975::1::::<><>::
-WoodSiding007_1K_Displacement.jpg::CompressedTexture2D::3228135882572170368::1627645035::1680181248::1::::<><>::
-WoodSiding007_1K_NormalDX.jpg::CompressedTexture2D::5519412516296346068::1627645037::1680181248::1::::<><>::
-WoodSiding007_1K_NormalGL.jpg::CompressedTexture2D::7043477769134268687::1627738111::1680181248::1::::<><>::
-WoodSiding007_1K_Roughness.jpg::CompressedTexture2D::2378042855176522956::1627645036::1680181248::1::::<><>::
-WoodSiding007_PREVIEW.jpg::CompressedTexture2D::2796246122688154398::1627637604::1680181248::1::::<><>::
-::res://textures/Prototype_Textures/::1679598704
-::res://textures/Prototype_Textures/PNG/::1679598690
-::res://textures/Prototype_Textures/PNG/Dark/::1681412174
-texture_01.png::CompressedTexture2D::2111610292302813589::1586304798::1679630981::1::::<><>::
-texture_02.png::CompressedTexture2D::5668670965797279267::1586304799::1679630981::1::::<><>::
-texture_03.png::CompressedTexture2D::9017634236103024396::1586304800::1679630981::1::::<><>::
-texture_04.png::CompressedTexture2D::2506428555046596391::1586304801::1679630981::1::::<><>::
-texture_05.png::CompressedTexture2D::8033956736657529507::1586304802::1679630981::1::::<><>::
-texture_06.png::CompressedTexture2D::2280664666341590559::1586304803::1681412174::1::::<><>::
-texture_07.png::CompressedTexture2D::232523411978619559::1586304804::1679630981::1::::<><>::
-texture_08.png::CompressedTexture2D::6758710626319000006::1586304805::1679710240::1::::<><>::
-texture_09.png::CompressedTexture2D::7865468781250921408::1586304806::1679630981::1::::<><>::
-texture_10.png::CompressedTexture2D::4095856153205175360::1586304807::1681412171::1::::<><>::
-texture_11.png::CompressedTexture2D::7117386456694530761::1586304808::1679630981::1::::<><>::
-texture_12.png::CompressedTexture2D::1704830654138813611::1586304810::1679630981::1::::<><>::
-texture_13.png::CompressedTexture2D::4333472635469031189::1586304812::1679630981::1::::<><>::
-::res://textures/Prototype_Textures/PNG/Green/::1679630982
-texture_01.png::CompressedTexture2D::3276888164505170476::1586304814::1679630981::1::::<><>::
-texture_02.png::CompressedTexture2D::5396363050524655239::1586304814::1679630981::1::::<><>::
-texture_03.png::CompressedTexture2D::5970820945600296316::1586304815::1679630981::1::::<><>::
-texture_04.png::CompressedTexture2D::6529150332449367027::1586304816::1679630981::1::::<><>::
-texture_05.png::CompressedTexture2D::7344815714918419981::1586304817::1679630981::1::::<><>::
-texture_06.png::CompressedTexture2D::1269811483408551388::1586304818::1679630981::1::::<><>::
-texture_07.png::CompressedTexture2D::4820393305051639726::1586304819::1679630982::1::::<><>::
-texture_08.png::CompressedTexture2D::7491447244146541008::1586304820::1679630982::1::::<><>::
-texture_09.png::CompressedTexture2D::4211161793547135919::1586304821::1679630982::1::::<><>::
-texture_10.png::CompressedTexture2D::7590285533240329841::1586304822::1679630982::1::::<><>::
-texture_11.png::CompressedTexture2D::3352994100638441530::1586304824::1679630982::1::::<><>::
-texture_12.png::CompressedTexture2D::8817276780785443717::1586304826::1679630982::1::::<><>::
-texture_13.png::CompressedTexture2D::5384256090750134301::1586304827::1679630982::1::::<><>::
-::res://textures/Prototype_Textures/PNG/Light/::1679712481
-texture_01.png::CompressedTexture2D::8468190095231807746::1586304828::1679712481::1::::<><>::
-texture_02.png::CompressedTexture2D::3349954537325698455::1586304829::1679630982::1::::<><>::
-texture_03.png::CompressedTexture2D::1898979682126012925::1586304830::1679630982::1::::<><>::
-texture_04.png::CompressedTexture2D::4836496320206626407::1586304832::1679630982::1::::<><>::
-texture_05.png::CompressedTexture2D::698215317166910044::1586304833::1679630982::1::::<><>::
-texture_06.png::CompressedTexture2D::6613132230270622480::1586304834::1679630982::1::::<><>::
-texture_07.png::CompressedTexture2D::809200603431413590::1586304835::1679630981::1::::<><>::
-texture_08.png::CompressedTexture2D::1223722101942364634::1586304836::1679710991::1::::<><>::
-texture_09.png::CompressedTexture2D::7724455973950850617::1586304838::1679630982::1::::<><>::
-texture_10.png::CompressedTexture2D::1959684659171564393::1586304839::1679630982::1::::<><>::
-texture_11.png::CompressedTexture2D::8930932314961781898::1586304840::1679630982::1::::<><>::
-texture_12.png::CompressedTexture2D::3274106257192164960::1586304842::1679630982::1::::<><>::
-texture_13.png::CompressedTexture2D::3868974286045241450::1586304843::1679630981::1::::<><>::
-::res://textures/Prototype_Textures/PNG/Orange/::1679711291
-texture_01.png::CompressedTexture2D::4902431134167229217::1586304844::1679631107::1::::<><>::
-texture_02.png::CompressedTexture2D::1614075217333766582::1586304845::1679630981::1::::<><>::
-texture_03.png::CompressedTexture2D::5025243303255478214::1586304846::1679630981::1::::<><>::
-texture_04.png::CompressedTexture2D::1046439370807146308::1586304847::1679630981::1::::<><>::
-texture_05.png::CompressedTexture2D::4504606518893860113::1586304848::1679630981::1::::<><>::
-texture_06.png::CompressedTexture2D::8587827163116275082::1586304849::1679630981::1::::<><>::
-texture_07.png::CompressedTexture2D::4060714426221866880::1586304849::1679630981::1::::<><>::
-texture_08.png::CompressedTexture2D::1241059560537238379::1586304850::1679630981::1::::<><>::
-texture_09.png::CompressedTexture2D::4785631526536698121::1586304851::1679630981::1::::<><>::
-texture_10.png::CompressedTexture2D::1597550475108352172::1586304852::1679630981::1::::<><>::
-texture_11.png::CompressedTexture2D::2359328335300452365::1586304854::1679630981::1::::<><>::
-texture_12.png::CompressedTexture2D::7453704888138872437::1586304855::1679711291::1::::<><>::
-texture_13.png::CompressedTexture2D::2848148368451895446::1586304857::1679630981::1::::<><>::
-::res://textures/Prototype_Textures/PNG/Purple/::1679753270
-texture_01.png::CompressedTexture2D::8239523774452306683::1586304859::1679710812::1::::<><>::
-texture_02.png::CompressedTexture2D::7828144789422441756::1586304860::1679630981::1::::<><>::
-texture_03.png::CompressedTexture2D::6912626888258572571::1586304861::1679630981::1::::<><>::
-texture_04.png::CompressedTexture2D::3110663825703545274::1586304862::1679630981::1::::<><>::
-texture_05.png::CompressedTexture2D::6801436250632353859::1586304863::1679630981::1::::<><>::
-texture_06.png::CompressedTexture2D::6714102072865678992::1586304864::1679630981::1::::<><>::
-texture_07.png::CompressedTexture2D::5466715540725743738::1586304865::1679630981::1::::<><>::
-texture_08.png::CompressedTexture2D::54664816818435584::1586304866::1679753270::1::::<><>::
-texture_09.png::CompressedTexture2D::7945410121382300065::1586304867::1679630981::1::::<><>::
-texture_10.png::CompressedTexture2D::5802224071634025214::1586304868::1679630981::1::::<><>::
-texture_11.png::CompressedTexture2D::4792039157722343192::1586304870::1679630981::1::::<><>::
-texture_12.png::CompressedTexture2D::4665121430090528774::1586304871::1679630981::1::::<><>::
-texture_13.png::CompressedTexture2D::2925358110735360582::1586304872::1679630981::1::::<><>::
-::res://textures/Prototype_Textures/PNG/Red/::1679753410
-texture_01.png::CompressedTexture2D::288276402418201120::1586304873::1679710364::1::::<><>::
-texture_02.png::CompressedTexture2D::4397855258914508827::1586304874::1679630981::1::::<><>::
-texture_03.png::CompressedTexture2D::2816112983956829053::1586304875::1679630981::1::::<><>::
-texture_04.png::CompressedTexture2D::6069445463839662024::1586304876::1679630981::1::::<><>::
-texture_05.png::CompressedTexture2D::266337473739492305::1586304877::1679630981::1::::<><>::
-texture_06.png::CompressedTexture2D::1985887683474064432::1586304878::1679630981::1::::<><>::
-texture_07.png::CompressedTexture2D::1437222923444112871::1586304879::1679630981::1::::<><>::
-texture_08.png::CompressedTexture2D::4171210495133863880::1586304880::1679630981::1::::<><>::
-texture_09.png::CompressedTexture2D::5621765733672871306::1586304880::1679710569::1::::<><>::
-texture_10.png::CompressedTexture2D::2023737427984928845::1586304881::1679630981::1::::<><>::
-texture_11.png::CompressedTexture2D::1476011091911042287::1586304883::1679630981::1::::<><>::
-texture_12.png::CompressedTexture2D::6031188947549588412::1586304885::1679630981::1::::<><>::
-texture_13.png::CompressedTexture2D::7914048684541735325::1586304886::1679753410::1::::<><>::
-::res://Titlescreen/::1689162022
-Shifting_Shader1.tres::ShaderMaterial::5855260006651777489::1689161897::0::1::::<><>::
-Shifting_Shader.tres::VisualShader::1415982643352656796::1686602973::0::1::::<><>::
-Shifting_Shader.tscn::PackedScene::5641323410538070103::1688213445::0::1::::<><>::uid://bful77bmn66vu<>uid://cpoljobeoniqj
-TitleScreen.gd::GDScript::-1::1688654481::0::1::::<>Control<>::
-TitleScreen.tscn::PackedScene::5823748054840931044::1689162022::0::1::::<><>::uid://dnuj3h0fi2df1::::res://UI/tf2build.ttf<>res://Titlescreen/TitleScreen.gd<>uid://cmmx1i38xeq0v::::res://Titlescreen/Shifting_Shader.tscn
-::res://Titlescreen/Patterns/::1686602787
-BG1.png::CompressedTexture2D::2779379172145707746::1635695841::1686602787::1::::<><>::
-BG2.png::CompressedTexture2D::5885374070739606659::1635695841::1686602787::1::::<><>::
-BG3.png::CompressedTexture2D::749090179330527399::1635695841::1686602787::1::::<><>::
-::res://UI/::1681418754
-tf2build.ttf::FontFile::8113601435141649032::1254496742::1681418754::1::::<><>::
-tf2professor.ttf::FontFile::4500334698552097770::1275831120::1681418754::1::::<><>::
-TF2secondary.ttf::FontFile::3917063111838367612::1201794870::1681418754::1::::<><>::
-::res://Video Clips/::1686509981
-BHOP Strafe.ogv::VideoStreamTheora::-1::1686503172::0::1::::<><>::
-BHOP.ogv::VideoStreamTheora::-1::1686491364::0::1::::<><>::
-RJ Strafe Left.ogv::VideoStreamTheora::-1::1686488433::0::1::::<><>::
-RJ Strafe Right.ogv::VideoStreamTheora::-1::1686488830::0::1::::<><>::
-Rocket Jump.ogv::VideoStreamTheora::-1::1686485625::0::1::::<><>::
-Slide Jump Tutorial.ogv::VideoStreamTheora::-1::1686484537::0::1::::<><>::
-Slide Tutorial3.ogv::VideoStreamTheora::-1::1686482581::0::1::::<><>::
-surf+Slide_Bhop.ogv::VideoStreamTheora::-1::1686509968::0::1::::<><>::
-surf.ogv::VideoStreamTheora::-1::1686509289::0::1::::<><>::
-VideoStreamPlayer.gd::GDScript::-1::1686486749::0::1::::<>VideoStreamPlayer<>::
+::res://textures/PBR_Textures/Wood067/::1689163706
+Wood067_1K_Color.jpg::CompressedTexture2D::2949606148296672625::1688851976::1688851976::1::::<><>::
+Wood067_1K_Color.tres::StandardMaterial3D::-1::1689161897::0::1::::<><>::
+Wood067_1K_Displacement.jpg::CompressedTexture2D::1096835231685020010::1688851976::1688851976::1::::<><>::
+Wood067_1K_NormalDX.jpg::CompressedTexture2D::75447751212489847::1688851976::1688851976::1::::<><>::
+Wood067_1K_NormalGL.jpg::CompressedTexture2D::1540408467671704404::1688851976::1688851976::1::::<><>::
+Wood067_1K_Roughness.jpg::CompressedTexture2D::6208058193207135512::1688851976::1689163706::1::::<><>::
+Wood067_PREVIEW.jpg::CompressedTexture2D::729209501455551491::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/Wood071/::1689163832
+Wood071_1K_Color.jpg::CompressedTexture2D::3162037753515133575::1688851976::1688851976::1::::<><>::
+Wood071_1K_Color.tres::StandardMaterial3D::1171874802970314543::1689163832::0::1::::<><>::uid://blbykgufptmmx::::res://textures/PBR_Textures/Wood071/Wood071_1K_Color.jpg<>uid://b8wb6gubpd1ya::::res://textures/PBR_Textures/Wood071/Wood071_1K_NormalGL.jpg<>uid://dsmjfe1juqv7d::::res://textures/PBR_Textures/Wood071/Wood071_1K_Roughness.jpg
+Wood071_1K_Displacement.jpg::CompressedTexture2D::7421761883538910693::1688851976::1688851976::1::::<><>::
+Wood071_1K_NormalDX.jpg::CompressedTexture2D::1326917508793669942::1688851976::1688851976::1::::<><>::
+Wood071_1K_NormalGL.jpg::CompressedTexture2D::4748185257043121472::1688851976::1688851976::1::::<><>::
+Wood071_1K_Roughness.jpg::CompressedTexture2D::8447989402211641207::1688851976::1688851976::1::::<><>::
+Wood071_PREVIEW.jpg::CompressedTexture2D::2716044307904444118::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/WoodFloor020/::1689163487
+WoodFloor020_1K_AmbientOcclusion.jpg::CompressedTexture2D::11266267573356219::1688851976::1688851976::1::::<><>::
+WoodFloor020_1K_Color.png::CompressedTexture2D::4638134598490208842::1688851976::1688851976::1::::<><>::
+WoodFloor020_1K_Displacement.jpg::CompressedTexture2D::7952431206426104637::1688851976::1688851976::1::::<><>::
+WoodFloor020_1K_NormalDX.jpg::CompressedTexture2D::7305780292416460806::1688851976::1688851976::1::::<><>::
+WoodFloor020_1K_NormalGL.jpg::CompressedTexture2D::3727784573035735899::1688851976::1688851976::1::::<><>::
+WoodFloor020_1K_Roughness.jpg::CompressedTexture2D::5096981923125789973::1688851976::1688851976::1::::<><>::
+WoodFloor020_PREVIEW.jpg::CompressedTexture2D::3392843206902051043::1688851976::1688851976::1::::<><>::
+::res://textures/PBR_Textures/WoodSiding007/::1689163487
+WoodSiding007_1K_AmbientOcclusion.jpg::CompressedTexture2D::269200866323707910::1688851976::1688851976::1::::<><>::
+WoodSiding007_1K_Color.jpg::CompressedTexture2D::8064506073567491804::1688851976::1688851976::1::::<><>::
+WoodSiding007_1K_Displacement.jpg::CompressedTexture2D::3228135882572170368::1688851976::1688851976::1::::<><>::
+WoodSiding007_1K_NormalDX.jpg::CompressedTexture2D::5519412516296346068::1688851976::1688851976::1::::<><>::
+WoodSiding007_1K_NormalGL.jpg::CompressedTexture2D::7043477769134268687::1688851976::1688851976::1::::<><>::
+WoodSiding007_1K_Roughness.jpg::CompressedTexture2D::2378042855176522956::1688851976::1688851976::1::::<><>::
+WoodSiding007_PREVIEW.jpg::CompressedTexture2D::2796246122688154398::1688851976::1688851976::1::::<><>::
+::res://textures/Prototype_Textures/::1689163487
+::res://textures/Prototype_Textures/PNG/::1689163487
+::res://textures/Prototype_Textures/PNG/Dark/::1689163487
+texture_01.png::CompressedTexture2D::2111610292302813589::1688851976::1688851976::1::::<><>::
+texture_02.png::CompressedTexture2D::5668670965797279267::1688851976::1688851976::1::::<><>::
+texture_03.png::CompressedTexture2D::9017634236103024396::1688851976::1688851976::1::::<><>::
+texture_04.png::CompressedTexture2D::2506428555046596391::1688851976::1688851976::1::::<><>::
+texture_05.png::CompressedTexture2D::8033956736657529507::1688851976::1688851976::1::::<><>::
+texture_06.png::CompressedTexture2D::2280664666341590559::1688851976::1688851976::1::::<><>::
+texture_07.png::CompressedTexture2D::232523411978619559::1688851976::1688851976::1::::<><>::
+texture_08.png::CompressedTexture2D::6758710626319000006::1688851976::1688851976::1::::<><>::
+texture_09.png::CompressedTexture2D::7865468781250921408::1688851976::1688851976::1::::<><>::
+texture_10.png::CompressedTexture2D::4095856153205175360::1688851976::1688851976::1::::<><>::
+texture_11.png::CompressedTexture2D::7117386456694530761::1688851976::1688851976::1::::<><>::
+texture_12.png::CompressedTexture2D::1704830654138813611::1688851976::1688851976::1::::<><>::
+texture_13.png::CompressedTexture2D::4333472635469031189::1688851976::1688851976::1::::<><>::
+::res://textures/Prototype_Textures/PNG/Green/::1689163487
+texture_01.png::CompressedTexture2D::3276888164505170476::1688851976::1688851976::1::::<><>::
+texture_02.png::CompressedTexture2D::5396363050524655239::1688851976::1688851976::1::::<><>::
+texture_03.png::CompressedTexture2D::5970820945600296316::1688851976::1688851976::1::::<><>::
+texture_04.png::CompressedTexture2D::6529150332449367027::1688851976::1688851976::1::::<><>::
+texture_05.png::CompressedTexture2D::7344815714918419981::1688851976::1688851976::1::::<><>::
+texture_06.png::CompressedTexture2D::1269811483408551388::1688851976::1688851976::1::::<><>::
+texture_07.png::CompressedTexture2D::4820393305051639726::1688851976::1688851976::1::::<><>::
+texture_08.png::CompressedTexture2D::7491447244146541008::1688851976::1688851976::1::::<><>::
+texture_09.png::CompressedTexture2D::4211161793547135919::1688851976::1688851976::1::::<><>::
+texture_10.png::CompressedTexture2D::7590285533240329841::1688851976::1688851976::1::::<><>::
+texture_11.png::CompressedTexture2D::3352994100638441530::1688851976::1688851976::1::::<><>::
+texture_12.png::CompressedTexture2D::8817276780785443717::1688851976::1688851976::1::::<><>::
+texture_13.png::CompressedTexture2D::5384256090750134301::1688851976::1688851976::1::::<><>::
+::res://textures/Prototype_Textures/PNG/Light/::1689163487
+texture_01.png::CompressedTexture2D::8468190095231807746::1688851976::1688851976::1::::<><>::
+texture_02.png::CompressedTexture2D::3349954537325698455::1688851976::1688851976::1::::<><>::
+texture_03.png::CompressedTexture2D::1898979682126012925::1688851976::1688851976::1::::<><>::
+texture_04.png::CompressedTexture2D::4836496320206626407::1688851976::1688851976::1::::<><>::
+texture_05.png::CompressedTexture2D::698215317166910044::1688851976::1688851976::1::::<><>::
+texture_06.png::CompressedTexture2D::6613132230270622480::1688851976::1688851976::1::::<><>::
+texture_07.png::CompressedTexture2D::809200603431413590::1688851976::1688851976::1::::<><>::
+texture_08.png::CompressedTexture2D::1223722101942364634::1688851976::1688851976::1::::<><>::
+texture_09.png::CompressedTexture2D::7724455973950850617::1688851976::1688851976::1::::<><>::
+texture_10.png::CompressedTexture2D::1959684659171564393::1688851976::1688851976::1::::<><>::
+texture_11.png::CompressedTexture2D::8930932314961781898::1688851976::1688851976::1::::<><>::
+texture_12.png::CompressedTexture2D::3274106257192164960::1688851976::1688851976::1::::<><>::
+texture_13.png::CompressedTexture2D::3868974286045241450::1688851976::1688851976::1::::<><>::
+::res://textures/Prototype_Textures/PNG/Orange/::1689163487
+texture_01.png::CompressedTexture2D::4902431134167229217::1688851976::1688851976::1::::<><>::
+texture_02.png::CompressedTexture2D::1614075217333766582::1688851976::1688851976::1::::<><>::
+texture_03.png::CompressedTexture2D::5025243303255478214::1688851976::1688851976::1::::<><>::
+texture_04.png::CompressedTexture2D::1046439370807146308::1688851976::1688851976::1::::<><>::
+texture_05.png::CompressedTexture2D::4504606518893860113::1688851976::1688851976::1::::<><>::
+texture_06.png::CompressedTexture2D::8587827163116275082::1688851976::1688851976::1::::<><>::
+texture_07.png::CompressedTexture2D::4060714426221866880::1688851976::1688851976::1::::<><>::
+texture_08.png::CompressedTexture2D::1241059560537238379::1688851976::1688851976::1::::<><>::
+texture_09.png::CompressedTexture2D::4785631526536698121::1688851976::1688851976::1::::<><>::
+texture_10.png::CompressedTexture2D::1597550475108352172::1688851976::1688851976::1::::<><>::
+texture_11.png::CompressedTexture2D::2359328335300452365::1688851976::1688851976::1::::<><>::
+texture_12.png::CompressedTexture2D::7453704888138872437::1688851976::1688851976::1::::<><>::
+texture_13.png::CompressedTexture2D::2848148368451895446::1688851976::1688851976::1::::<><>::
+::res://textures/Prototype_Textures/PNG/Purple/::1689163487
+texture_01.png::CompressedTexture2D::8239523774452306683::1688851976::1688851976::1::::<><>::
+texture_02.png::CompressedTexture2D::7828144789422441756::1688851976::1688851976::1::::<><>::
+texture_03.png::CompressedTexture2D::6912626888258572571::1688851976::1688851976::1::::<><>::
+texture_04.png::CompressedTexture2D::3110663825703545274::1688851976::1688851976::1::::<><>::
+texture_05.png::CompressedTexture2D::6801436250632353859::1688851976::1688851976::1::::<><>::
+texture_06.png::CompressedTexture2D::6714102072865678992::1688851976::1688851976::1::::<><>::
+texture_07.png::CompressedTexture2D::5466715540725743738::1688851976::1688851976::1::::<><>::
+texture_08.png::CompressedTexture2D::54664816818435584::1688851976::1688851976::1::::<><>::
+texture_09.png::CompressedTexture2D::7945410121382300065::1688851976::1688851976::1::::<><>::
+texture_10.png::CompressedTexture2D::5802224071634025214::1688851976::1688851976::1::::<><>::
+texture_11.png::CompressedTexture2D::4792039157722343192::1688851976::1688851976::1::::<><>::
+texture_12.png::CompressedTexture2D::4665121430090528774::1688851976::1688851976::1::::<><>::
+texture_13.png::CompressedTexture2D::2925358110735360582::1688851976::1688851976::1::::<><>::
+::res://textures/Prototype_Textures/PNG/Red/::1689163487
+texture_01.png::CompressedTexture2D::288276402418201120::1688851976::1688851976::1::::<><>::
+texture_02.png::CompressedTexture2D::4397855258914508827::1688851976::1688851976::1::::<><>::
+texture_03.png::CompressedTexture2D::2816112983956829053::1688851976::1688851976::1::::<><>::
+texture_04.png::CompressedTexture2D::6069445463839662024::1688851976::1688851976::1::::<><>::
+texture_05.png::CompressedTexture2D::266337473739492305::1688851976::1688851976::1::::<><>::
+texture_06.png::CompressedTexture2D::1985887683474064432::1688851976::1688851976::1::::<><>::
+texture_07.png::CompressedTexture2D::1437222923444112871::1688851976::1688851976::1::::<><>::
+texture_08.png::CompressedTexture2D::4171210495133863880::1688851976::1688851976::1::::<><>::
+texture_09.png::CompressedTexture2D::5621765733672871306::1688851976::1688851976::1::::<><>::
+texture_10.png::CompressedTexture2D::2023737427984928845::1688851976::1688851976::1::::<><>::
+texture_11.png::CompressedTexture2D::1476011091911042287::1688851976::1688851976::1::::<><>::
+texture_12.png::CompressedTexture2D::6031188947549588412::1688851976::1688851976::1::::<><>::
+texture_13.png::CompressedTexture2D::7914048684541735325::1688851976::1688851976::1::::<><>::
+::res://Titlescreen/::1689163832
+Shifting_Shader1.tres::ShaderMaterial::5855260006651777489::1689163832::0::1::::<><>::
+Shifting_Shader.tres::VisualShader::1415982643352656796::1688851976::0::1::::<><>::
+Shifting_Shader.tscn::PackedScene::5641323410538070103::1688851976::0::1::::<><>::uid://bful77bmn66vu
+TitleScreen.gd::GDScript::-1::1688851976::0::1::::<>Control<>::
+TitleScreen.tscn::PackedScene::5823748054840931044::1688851976::0::1::::<><>::uid://dnuj3h0fi2df1
+::res://Titlescreen/Patterns/::1689163487
+BG1.png::CompressedTexture2D::2779379172145707746::1688851976::1688851976::1::::<><>::
+BG2.png::CompressedTexture2D::5885374070739606659::1688851976::1688851976::1::::<><>::
+BG3.png::CompressedTexture2D::749090179330527399::1688851976::1688851976::1::::<><>::
+::res://UI/::1689163487
+tf2build.ttf::FontFile::8113601435141649032::1688851976::1688851976::1::::<><>::
+tf2professor.ttf::FontFile::4500334698552097770::1688851976::1688851976::1::::<><>::
+TF2secondary.ttf::FontFile::3917063111838367612::1688851976::1688851976::1::::<><>::
+::res://Video Clips/::1689163487
+BHOP Strafe.ogv::VideoStreamTheora::-1::1688851976::0::1::::<><>::
+BHOP.ogv::VideoStreamTheora::-1::1688851976::0::1::::<><>::
+RJ Strafe Left.ogv::VideoStreamTheora::-1::1688851976::0::1::::<><>::
+RJ Strafe Right.ogv::VideoStreamTheora::-1::1688851976::0::1::::<><>::
+Rocket Jump.ogv::VideoStreamTheora::-1::1688851976::0::1::::<><>::
+Slide Jump Tutorial.ogv::VideoStreamTheora::-1::1688851976::0::1::::<><>::
+Slide Tutorial3.ogv::VideoStreamTheora::-1::1688851976::0::1::::<><>::
+surf+Slide_Bhop.ogv::VideoStreamTheora::-1::1688851976::0::1::::<><>::
+surf.ogv::VideoStreamTheora::-1::1688851976::0::1::::<><>::
+VideoStreamPlayer.gd::GDScript::-1::1688851976::0::1::::<>VideoStreamPlayer<>::
