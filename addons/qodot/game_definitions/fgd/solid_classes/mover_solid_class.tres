@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="QodotFGDSolidClass" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="QodotFGDSolidClass" load_steps=3 format=3 uid="uid://tywrv0oj8rqk"]
 
 [ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd" id="1"]
 [ext_resource type="Script" path="res://Scritpts/mover.gd" id="2"]

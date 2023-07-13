@@ -1,4 +1,5 @@
-class_name QodotEntity extends QodotNode3D
+class_name QodotEntity 
+extends QodotNode3D
 
 ## Base class for entities created by Qodot
 ##

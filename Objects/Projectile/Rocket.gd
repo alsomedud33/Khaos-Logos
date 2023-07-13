@@ -18,7 +18,13 @@ func _physics_process(delta):
 		velocity = destination.direction_to(self.global_position) * -speed 
 	else:
 		velocity = transform.basis.z * -speed
+	if get_slide_collision_count() >0:
+		if get_last_slide_collision().get_collider().has_method("destroy"):
+			var col_p = get_last_slide_collision().get_position()
+			var col_n =  (get_last_slide_collision().get_position() -self.global_position).normalized()
+			get_last_slide_collision().get_collider().destroy(col_n, col_p)
 	if is_on_wall() or get_slide_collision_count() >0:
+
 		var collision = get_global_position()#bounce.get_position()
 		var explosion_instance = explosion.instantiate()
 		main.add_child(explosion_instance)

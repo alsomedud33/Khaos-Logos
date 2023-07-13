@@ -14,17 +14,26 @@ var mouse_sensitivity:float = .1
 @onready var rocket = preload("res://Objects/Projectile/Rocket.tscn")
 
 #Movement Variables
-@export var max_speed: float = 6 # Meters per second
-var def_max_speed: float = max_speed
-@export var max_air_speed: float = 0.6
+@export var speed: float = 6 # Meters per second
+@export var air_speed: float = 0.6
 @export var accel: float = 60 # or max_speed * 10 : Reach max speed in 1 / 10th of a second
 @export var gravity: float = 15
 @export var jump_impulse: float = 7
-var def_jump_impulse: float = jump_impulse
 @export_range(0,15,1) var floor_friction:float = 10
 
 @export var fast_air_angle:float = 20
 @export var slow_air_angle:float = 45
+
+#Max Movement Variables
+@export var max_speed: float = 6 # Meters per second
+@export var max_air_speed: float = 0.6
+@export var max_accel: float = 60 # or max_speed * 10 : Reach max speed in 1 / 10th of a second
+@export var max_gravity: float = 15
+@export var max_jump_impulse: float = 7
+@export_range(0,15,1) var max_floor_friction:float = 10
+
+@export var max_fast_air_angle:float = 20
+@export var max_slow_air_angle:float = 45
 
 #Movement Variables 2
 #@export var can_bhop = true
@@ -38,10 +47,10 @@ var terminal_velocity: float = gravity * -5
 var wish_jump:bool = false
 var nextVelocity: Vector3 = Vector3.ZERO
 var crouching:bool = false
-
+var water:bool = false
 #Relating to body sway
 @export var sway_speed = 20 
-@export var body_sway_speed = 20 
+@export var body_sway_speed = 30 
 var max_body_sway = velocity.length()
 
 #Ammo Variables
@@ -96,6 +105,7 @@ func _process(delta):
 	%"Weapons Cam".global_transform = $Pivot/Camera3D.global_transform
 	%"Hands and Weps".rotation.y = lerp_angle(%"Hands and Weps".rotation.y, rotation.y, sway_speed*(clamp(Input.get_last_mouse_velocity().y,1,2))*delta)
 	%"Hands and Weps".rotation.x = lerp_angle(%"Hands and Weps".rotation.x, %Pivot.rotation.x, sway_speed*(clamp(Input.get_last_mouse_velocity().x,1000,4000))*0.001*delta)
+	%"Hands and Weps".rotation.z = 0
 	#%"Hands and Weps".global_transform.origin = %Pivot.global_transform.origin 
 	if Input.is_action_pressed("move_forward"):
 		%mv_W.visible = true
@@ -294,10 +304,10 @@ func Normal():
 	slow_air_angle = deg_to_rad(45)
 	fast_air_angle = deg_to_rad(20)
 	jump_impulse = 7.5#7
-	max_speed = 15#6
+	speed = 15#6
 	accel = 60
 	floor_friction = 10
-	max_air_speed = .6
+	air_speed = .6
 	var tween = get_tree().create_tween()
 #	if tween:
 #		tween.kill()
@@ -311,10 +321,10 @@ func Crouching(delta):
 	crouching = true
 	slow_air_angle = deg_to_rad(10)#deg_to_rad(20)
 	fast_air_angle = deg_to_rad(0)
-	max_speed = 2
+	speed = 2
 	accel = 10
 	floor_friction = 3
-	max_air_speed = .1
+	air_speed = .1
 	jump_impulse = 7+2
 	print("crouching")
 	var tween = get_tree().create_tween()
@@ -351,7 +361,7 @@ func friction(input_velocity: Vector3)-> Vector3:
 	scaled_velocity = input_velocity * (100 - floor_friction)/100 # Reduce current velocity by 10%
 	
 	# If the player is moving too slowly, we stop them completely
-	if scaled_velocity.length() < max_speed / 100:
+	if scaled_velocity.length() < speed / 100:
 		scaled_velocity = Vector3.ZERO
 
 	return scaled_velocity
@@ -378,7 +388,7 @@ func move_ground(input_velocity: Vector3, delta: float)-> void:
 	nextVelocity.x = input_velocity.x
 	nextVelocity.z = input_velocity.z
 	nextVelocity = friction(nextVelocity) #Scale down velocity
-	nextVelocity = accelerate(wishdir, nextVelocity, accel, max_speed, delta)
+	nextVelocity = accelerate(wishdir, nextVelocity, accel, speed, delta)
 	
 	# Then get back our vertical component, and move the player
 	nextVelocity.y = vertical_velocity
@@ -391,7 +401,7 @@ func move_air(input_velocity: Vector3, delta: float)-> void:
 	# We first work on only on the horizontal components of our current velocity
 	nextVelocity.x = input_velocity.x
 	nextVelocity.z = input_velocity.z
-	nextVelocity = accelerate(wishdir, nextVelocity, accel*10, max_air_speed, delta)
+	nextVelocity = accelerate(wishdir, nextVelocity, accel*10, air_speed, delta)
 	
 	# Then get back our vertical component, and move the player
 	nextVelocity.y = vertical_velocity

@@ -306,7 +306,6 @@ floor_constant_speed = true
 floor_block_on_wall = false
 safe_margin = 0.015
 script = ExtResource("1_i0jmb")
-body_sway_speed = 30
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_oahi1")

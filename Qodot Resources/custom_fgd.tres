@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="QodotFGDFile" load_steps=10 format=3 uid="uid://0iewo8o8paid"]
+[gd_resource type="Resource" script_class="QodotFGDFile" load_steps=11 format=3 uid="uid://0iewo8o8paid"]
 
 [ext_resource type="Resource" uid="uid://cq7e0f0ewffn5" path="res://Qodot Resources/teleporter_point_class.tres" id="1_2sxs6"]
 [ext_resource type="Resource" uid="uid://dxp37dladbquv" path="res://addons/qodot/game_definitions/fgd/solid_classes/worldspawn_solid_class.tres" id="1_qrtyt"]
@@ -9,11 +9,12 @@
 [ext_resource type="Resource" uid="uid://ccwosedfa8v8d" path="res://addons/qodot/game_definitions/fgd/point_classes/light_point_class.tres" id="6_ltjc0"]
 [ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_file.gd" id="7_75er3"]
 [ext_resource type="Resource" uid="uid://b6jj3q55o7kd" path="res://Qodot Resources/fake_door_solid_class.tres" id="8_cs6qc"]
+[ext_resource type="Resource" uid="uid://dghufff1qb8k7" path="res://Qodot Resources/env_destructible/env_destructable_solid_class.tres" id="9_j567g"]
 
 [resource]
 script = ExtResource("7_75er3")
 export_file = false
-target_folder = "C:/OtherPrograms/TrenchBroom/games/Qodot"
+target_folder = "G:/TrenchBroom/games/Khaos Logos"
 fgd_name = "Custom_Qodot"
 base_fgd_files = Array[Resource]([])
-entity_definitions = [ExtResource("1_qrtyt"), ExtResource("2_5s2fa"), ExtResource("3_xqlv0"), ExtResource("4_2dxtd"), ExtResource("1_qrtyt"), ExtResource("5_lqs1k"), ExtResource("6_ltjc0"), ExtResource("1_2sxs6"), ExtResource("8_cs6qc")]
+entity_definitions = Array[Resource]([ExtResource("1_qrtyt"), ExtResource("2_5s2fa"), ExtResource("3_xqlv0"), ExtResource("4_2dxtd"), ExtResource("1_qrtyt"), ExtResource("5_lqs1k"), ExtResource("6_ltjc0"), ExtResource("1_2sxs6"), ExtResource("8_cs6qc"), ExtResource("9_j567g")])

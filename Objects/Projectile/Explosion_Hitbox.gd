@@ -47,6 +47,8 @@ func _on_body_entered(body):
 			body.velocity += explode_force*get_global_transform().origin.direction_to(body.get_global_transform().origin) * distance_ratio/self.get_global_position().distance_to(body.get_global_position())
 			body.velocity.y += explode_force*y_explode_ratio*get_global_transform().origin.direction_to(body.get_global_transform().origin).y
 		body.move_and_slide()
+	
+		
 
 
 func _on_animation_player_animation_finished(anim_name):

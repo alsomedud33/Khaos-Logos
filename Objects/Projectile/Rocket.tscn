@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Objects/Projectile/Rocket.gd" id="1_ne0pv"]
 [ext_resource type="Texture2D" uid="uid://edv4t8r3nwb5" path="res://textures/Prototype_Textures/PNG/Red/texture_01.png" id="2_lwnmr"]
-[ext_resource type="PackedScene" uid="uid://bgmm611tg4r0y" path="res://Stage Assets/Rocket/Rocket.glb" id="3_bjg6k"]
+[ext_resource type="PackedScene" uid="uid://bgdnso5qb88hk" path="res://Stage Assets/Rocket/Rocket.glb" id="3_bjg6k"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_lnb3e"]
 radius = 0.16

@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="QodotFGDSolidClass" load_steps=3 format=3 uid="uid://dghufff1qb8k7"]
 
-[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd" id="1_pnyh7"]
-[ext_resource type="Script" path="res://Qodot Resources/env_destructible/Destructible.gd" id="2_axybn"]
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd" id="1_gu0qi"]
+[ext_resource type="Script" path="res://Qodot Resources/env_destructible/Destructible.gd" id="2_xjl03"]
 
 [resource]
-script = ExtResource("1_pnyh7")
+script = ExtResource("1_gu0qi")
 spawn = "----------------------------------------------------------------"
 spawn_type = 2
 visual_build = "----------------------------------------------------------------"
@@ -12,10 +12,10 @@ build_visuals = true
 collision_build = "----------------------------------------------------------------"
 collision_shape_type = 1
 scripting = "----------------------------------------------------------------"
-script_class = ExtResource("2_axybn")
+script_class = ExtResource("2_xjl03")
 class_options = "----------------------------------------------------------------"
-classname = "Destructible"
-description = "A destructible environmental item with health"
+classname = "Destructible_destructible"
+description = "A destructible item with health"
 qodot_internal = false
 base_classes = Array[Resource]([])
 class_properties = {}
