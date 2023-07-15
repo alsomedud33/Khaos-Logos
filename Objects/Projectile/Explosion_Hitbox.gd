@@ -40,13 +40,15 @@ func _on_body_entered(body):
 	
 	#body.velocity += explode_force*get_global_transform().origin.direction_to(body.get_global_transform().origin)#collision_point * *15 #body.global_transform.origin,collision_point*10)
 	if body.is_in_group("Player"):
-		if body.is_on_floor() and body.wish_jump == false:
-			body.velocity += (explode_force*get_global_transform().origin.direction_to(body.get_global_transform().origin) * distance_ratio/self.get_global_position().distance_to(body.get_global_position())) /2
-			body.velocity.y += (explode_force*y_explode_ratio*get_global_transform().origin.direction_to(body.get_global_transform().origin).y ) /2
-		else:
-			body.velocity += explode_force*get_global_transform().origin.direction_to(body.get_global_transform().origin) * distance_ratio/self.get_global_position().distance_to(body.get_global_position())
-			body.velocity.y += explode_force*y_explode_ratio*get_global_transform().origin.direction_to(body.get_global_transform().origin).y
-		body.move_and_slide()
+		if body.rocket_jump == true:
+			if body.is_on_floor() and body.wish_jump == false:
+				body.floor_snap_length = 0
+				body.velocity += (explode_force*get_global_transform().origin.direction_to(body.get_global_transform().origin) * distance_ratio/self.get_global_position().distance_to(body.get_global_position())) /2
+				body.velocity.y += (explode_force*y_explode_ratio*get_global_transform().origin.direction_to(body.get_global_transform().origin).y ) /2
+			else:
+				body.velocity += explode_force*get_global_transform().origin.direction_to(body.get_global_transform().origin) * distance_ratio/self.get_global_position().distance_to(body.get_global_position())
+				body.velocity.y += explode_force*y_explode_ratio*get_global_transform().origin.direction_to(body.get_global_transform().origin).y
+			body.move_and_slide()
 	
 		
 

@@ -1,12 +1,13 @@
-res://Titlescreen/TitleScreen.tscn
+res://addons/qodot/example_scenes/1-interactivity/0-point-entities/0-point-entities.tscn
+res://Objects/Projectile/Explosion_Hitbox.tres
 res://addons/qodot/game_definitions/fgd/point_classes/signal_point_class.tres
 res://addons/qodot/game_definitions/fgd/point_classes/receiver_point_class.tres
-res://addons/qodot/game_definitions/fgd/solid_classes/button_solid_class.tres
+res://addons/qodot/game_definitions/fgd/base_classes/light_base_class.tres
+res://addons/qodot/game_definitions/fgd/point_classes/light_point_class.tres
 res://addons/qodot/game_definitions/fgd/solid_classes/wall_solid_class.tres
-res://Qodot Resources/teleporter_point_class.tres
 res://Qodot Resources/fake_door_solid_class.tres
+res://Qodot Resources/Medal/Medal_point_class.tres
 res://addons/qodot/game_definitions/fgd/qodot_fgd.tres
-res://Objects/Projectile/Explosion_Hitbox.tres
 res://textures/PBR_Textures/Rock_035/Rock035_1K_Color.tres
 res://textures/PBR_Textures/Purple_Marble/Purple_Marble_albedo.tres
 res://textures/PBR_Textures/Blue_Tile.tres
@@ -19,20 +20,38 @@ res://Maps/Kingdom 2/Kingdom 2 Env.tres
 res://textures/PBR_Textures/Facade_019B/Facade019B_1K_Color.tres
 res://textures/PBR_Textures/Wood071/Wood071_1K_Color.tres
 res://textures/PBR_Textures/Orange_Tile.tres
+res://textures/PBR_Textures/Wood067/Wood067_1K_Color.tres
 res://Stage Assets/Sign/Sign.tres
-res://addons/qodot/game_definitions/trenchbroom/brush_tags/trigger_tag.tres
-res://addons/qodot/game_definitions/trenchbroom/face_tags/skip_tag.tres
-res://addons/qodot/game_definitions/trenchbroom/qodot_trenchbroom_config_file.tres
 res://Ps1 Test.tres
 res://Shader/Ps1 Filter.gdshader
+res://Titlescreen/TitleScreen.tscn
 res://Maps/Kingdom 2/Kingdom 2.tscn
-res://Maps/Chameno Woods/chameno_woods.tscn
 res://Maps/Kingdom 1/Kingdom 1.tscn
 res://Stage Assets/Hammer/Hammer.tscn
 res://Characters/Rocket Man/Rocket_Man.tscn
 res://Objects/Medal/medal.tscn
-res://Qodot Resources/env_destructible/destruction_particle.tscn
-res://Objects/Projectile/Explosion_Hitbox.tscn
-res://Objects/Projectile/Rocket.tscn
-res://Objects/Projectile/Rocket.gd
-res://textures/PBR_Textures/Wood067/Wood067_1K_Color.tres
+res://Maps/Chameno Woods/chameno_woods.tscn
+res://Maps/Level 1/level 1.tscn
+res://Maps/Test Stage/Test Stage.tscn
+res://addons/qodot/example_scenes/1-interactivity/1-brush-entities/1-brush-entities.tscn
+res://addons/qodot/example_scenes/1-interactivity/2-worldspawn-layers/2-worldspawn-layers.tscn
+res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.tres
+res://addons/qodot/textures/layers/water.tres
+res://addons/qodot/example_scenes/2-miscallaneous/1-runtime-map-building/1-runtime-map-building.tscn
+res://addons/qodot/textures/shaders/tangent-test.tres
+res://Scritpts/button.gd
+res://addons/qodot/example_scenes/0-visuals/3-auto-pbr/3-auto-pbr.tscn
+res://addons/qodot/example_scenes/0-visuals/2-materials/2-materials.tscn
+res://addons/qodot/example_scenes/0-visuals/0-structural-geometry/0-structural-geometry.tscn
+res://addons/qodot/example_scenes/0-visuals/5-baked-lighting/5-1-baked-lightmaps.tscn
+res://addons/qodot/textures/materials/checkerboard_material.tres
+res://addons/qodot/example_scenes/0-visuals/1-textures/1-textures.tscn
+res://addons/qodot/example_scenes/1-interactivity/4-advanced-signal-wiring/4-advanced-signal-wiring.tscn
+res://Qodot Resources/Path Corner/path_corner_solid_class.tres
+res://addons/qodot/game_definitions/fgd/solid_classes/mover_solid_class.tres
+res://Qodot Resources/Path Corner/path_corner.gd
+res://addons/qodot/game_definitions/trenchbroom/brush_tags/trigger_tag.tres
+res://addons/qodot/game_definitions/trenchbroom/face_tags/skip_tag.tres
+res://addons/qodot/game_definitions/trenchbroom/qodot_trenchbroom_config_folder.tres
+res://Qodot Resources/Path Corner/path_corner_point_class.tres
+res://Scritpts/mover.gd

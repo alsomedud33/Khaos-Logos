@@ -1,5 +1,5 @@
 @tool
-class_name Telepoorter
+class_name Teleporter
 extends QodotEntity
 
 

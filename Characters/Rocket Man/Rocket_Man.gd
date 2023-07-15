@@ -25,11 +25,11 @@ var mouse_sensitivity:float = .1
 @export var slow_air_angle:float = 45
 
 #Max Movement Variables
-@export var max_speed: float = 6 # Meters per second
+@export var max_speed: float = 15 # Meters per second
 @export var max_air_speed: float = 0.6
 @export var max_accel: float = 60 # or max_speed * 10 : Reach max speed in 1 / 10th of a second
 @export var max_gravity: float = 15
-@export var max_jump_impulse: float = 7
+@export var max_jump_impulse: float = 7.5
 @export_range(0,15,1) var max_floor_friction:float = 10
 
 @export var max_fast_air_angle:float = 20
@@ -39,6 +39,7 @@ var mouse_sensitivity:float = .1
 #@export var can_bhop = true
 @export var cooldown = 0.8
 @export var auto_jump: bool = true # Auto bunnyhopping
+@export var rocket_jump:bool = true
 var wishdir:Vector3 = Vector3.ZERO
 var accelerate_return: Vector3 = Vector3.ZERO
 var vertical_velocity: float = 0 # Vertical component of our velocity. 
@@ -52,6 +53,9 @@ var water:bool = false
 @export var sway_speed = 20 
 @export var body_sway_speed = 30 
 var max_body_sway = velocity.length()
+#
+var can_crouch = true
+var can_rel_crouch = true
 
 #Ammo Variables
 @export var max_ammo:int = 0
@@ -144,6 +148,7 @@ func _physics_process(delta):
 	$CollisionShape3D2.global_rotation = Vector3.ZERO
 	queue_jump()
 	Ammunition()
+	apply_floor_snap()
 	var forward_input: float = Input.get_action_strength("move_forward") - Input.get_action_strength("move_back")
 	var strafe_input: float = Input.get_action_strength("move_left") - Input.get_action_strength("move_right")
 	if strafe_input > 0:
@@ -153,7 +158,7 @@ func _physics_process(delta):
 	elif strafe_input == 0:
 		$Pivot/Camera3D.rotation.z = lerpf($Pivot/Camera3D.rotation.z,0,10 * delta)
 	wishdir = Vector3(strafe_input, 0, forward_input).rotated(Vector3.UP, self.global_transform.basis.get_euler().y).normalized() 
-	if Input.is_action_just_pressed("crouch"):
+	if Input.is_action_just_pressed("crouch") and can_crouch == true:
 		if is_on_floor() == false and crouch_jump_counter == 0:
 			print("ellow")
 			crouch_jump_counter += 1
@@ -188,7 +193,7 @@ func _physics_process(delta):
 			rocket_instance.global_transform.origin = %Rocket_Spawn.global_transform.origin
 			rocket_instance.rotation_degrees = Vector3(-$Pivot.rotation_degrees.x+1, self.rotation_degrees.y+182,0)
 		get_tree().current_scene.call_deferred("add_child",rocket_instance)
-		move_and_slide()
+		#move_and_slide()
 	if Input.is_action_pressed("ui_cancel"):
 		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	match state:
@@ -197,25 +202,29 @@ func _physics_process(delta):
 				anim.play("Sway_Rocket")
 			#print (is_on_floor())
 			if is_on_floor() == false:
+				vertical_velocity = 0
 				change_state(AIR)
 			crouch_jump_counter =0
 			if wish_jump:
+				floor_snap_length = 0
 				vertical_velocity = jump_impulse
 				move_air(get_real_velocity(), delta)
 #				wish_jump = false
 			else:
 				if ground_check.is_colliding() == true:
 					var normal = ground_check.get_collision_normal()
-					#print(normal.dot(Vector3.UP))
-					if normal.dot(Vector3.UP) > .8:#.92:
+					print(normal.dot(Vector3.UP))
+					if normal.dot(Vector3.UP) > .92:#.8:
 						#print ("true")
-						vertical_velocity = velocity.y
+						vertical_velocity = velocity.y#get_real_velocity().normalized().y #velocity.y#get_real_velocity().normalized().y#velocity.y
 						#vertical_velocity = -1
 					else:
 						#print (false)
-						vertical_velocity = get_real_velocity().y
+						vertical_velocity = 5#get_real_velocity().y
+				floor_snap_length = .3
 				move_ground(get_real_velocity(), delta)
 		AIR:
+			floor_snap_length = 0
 			vertical_velocity = get_real_velocity().y
 			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
 				vertical_velocity = -1#absf(vertical_velocity) * -1
@@ -232,10 +241,11 @@ func _physics_process(delta):
 					self.velocity.z *= 1#0.9
 				change_state(GROUND)
 		CROUCH:
+			floor_snap_length = 0
 			if anim.current_animation != "Sway_Rocket":
 				anim.play("Sway_Rocket")
 			#print ()
-			if Input.is_action_pressed("crouch") == false:
+			if Input.is_action_pressed("crouch") == false and can_rel_crouch == true:
 				Normal()
 				if is_on_floor() == false:
 					change_state(AIR)
@@ -259,8 +269,10 @@ func _physics_process(delta):
 				else:
 					#print (false)
 					vertical_velocity = get_real_velocity().y
+			floor_snap_length = .1
 			move_ground(get_real_velocity(), delta)
 		CROUCH_AIR:
+			floor_snap_length = 0
 			if Input.is_action_pressed("crouch") == false:
 				print("RELAESED")
 				Normal()
@@ -303,11 +315,11 @@ func Normal():
 	crouching = false
 	slow_air_angle = deg_to_rad(45)
 	fast_air_angle = deg_to_rad(20)
-	jump_impulse = 7.5#7
-	speed = 15#6
-	accel = 60
-	floor_friction = 10
-	air_speed = .6
+	jump_impulse = max_jump_impulse#7
+	speed = max_speed#15#6
+	accel = max_accel#60
+	floor_friction = max_floor_friction#10
+	air_speed = max_air_speed#.6
 	var tween = get_tree().create_tween()
 #	if tween:
 #		tween.kill()

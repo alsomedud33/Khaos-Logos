@@ -304,7 +304,6 @@ collision_mask = 9
 floor_stop_on_slope = false
 floor_constant_speed = true
 floor_block_on_wall = false
-safe_margin = 0.015
 script = ExtResource("1_i0jmb")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
@@ -327,7 +326,7 @@ unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Pivot"]
-transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 0, 0)
+transform = Transform3D(-0.666667, 0, 5.82819e-08, 0, 0.666667, 0, -5.82819e-08, 0, -0.666667, 0, 0, 0)
 cull_mask = 1048569
 current = true
 
@@ -438,6 +437,7 @@ script = ExtResource("7_sxqru")
 
 [node name="GroundCheck" type="RayCast3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.32, 0)
+target_position = Vector3(0, -1.3, 0)
 hit_from_inside = true
 debug_shape_custom_color = Color(0.360784, 0, 1, 1)
 

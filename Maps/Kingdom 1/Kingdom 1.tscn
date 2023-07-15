@@ -36,12 +36,12 @@ ground_horizon_color = Color(0.0703125, 0.0195313, 0.132813, 1)
 ground_curve = 0.20393
 sun_angle_max = 0.0
 
-[sub_resource type="Sky" id="Sky_qm0us"]
+[sub_resource type="Sky" id="Sky_pkqey"]
 sky_material = SubResource("ProceduralSkyMaterial_jtj8y")
 
 [sub_resource type="Environment" id="Environment_c3a01"]
 background_mode = 2
-sky = SubResource("Sky_qm0us")
+sky = SubResource("Sky_pkqey")
 ambient_light_color = Color(0.046875, 0.0507813, 0.140625, 1)
 ambient_light_sky_contribution = 0.0
 glow_intensity = 2.29
@@ -752,11 +752,6 @@ environment = SubResource("Environment_c3a01")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56, -46, -3)
 shape = 4
 material = SubResource("FogMaterial_oix1c")
-
-[node name="RocketMan" parent="." instance=ExtResource("2_5crs6")]
-unique_name_in_owner = true
-transform = Transform3D(-1.5, 0, -2.26494e-07, 0, 1.5, 0, 2.26494e-07, 0, -1.5, 0, 3, 0)
-auto_jump = false
 
 [node name="QodotMap" type="Node3D" parent="."]
 script = ExtResource("3_b808c")
@@ -1599,6 +1594,12 @@ script = ExtResource("26_nt2ys")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Bhop Area"]
 shape = SubResource("BoxShape3D_l0no5")
+
+[node name="RocketMan" parent="." instance=ExtResource("2_5crs6")]
+unique_name_in_owner = true
+transform = Transform3D(-1.5, 0, -1.31134e-07, 0, 1.5, 0, 1.31134e-07, 0, -1.5, 0, 2.5, 0)
+auto_jump = false
+rocket_jump = false
 
 [connection signal="trigger" from="QodotMap/entity_2_trigger" to="QodotMap/entity_1_Teleporter" method="use"]
 [connection signal="trigger" from="QodotMap/entity_7_trigger" to="QodotMap/entity_1_Teleporter" method="use"]

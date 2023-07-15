@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="QodotFGDPointClass" load_steps=3 format=3 uid="uid://boc6rrgwhwgiq"]
+
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd" id="1_81278"]
+[ext_resource type="Script" path="res://Qodot Resources/Path Corner/path_corner.gd" id="2_q2unm"]
+
+[resource]
+script = ExtResource("1_81278")
+scene = "----------------------------------------------------------------"
+scripting = "----------------------------------------------------------------"
+script_class = ExtResource("2_q2unm")
+class_options = "----------------------------------------------------------------"
+classname = "Path_corner"
+description = ""
+qodot_internal = false
+base_classes = Array[Resource]([])
+class_properties = {
+"mangle": Vector3(0, 0, 0),
+"origin": Vector3(0, 0, 0),
+"path_index": 0,
+"path_name": "",
+"speed": 0
+}
+class_property_descriptions = {}
+meta_properties = {
+"color": Color(0.356863, 0.878431, 1, 1),
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_options = "----------------------------------------------------------------"
+node_class = ""
+transient_node = false

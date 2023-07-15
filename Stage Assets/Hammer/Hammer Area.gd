@@ -16,7 +16,7 @@ func _on_Hammer_body_entered(body):
 	body.global_position = %Marker3D.global_position
 	body.change_state(body.FROZEN)
 	Timerstartup.start(startup)
-	Timerfinish.start(startup+2)
+	Timerfinish.start(startup*1.1)
 #	if body.is_on_floor() || body.ground_check.is_colliding():
 #		body.force_jump = true
 #		#body.change_state(body.AIR)

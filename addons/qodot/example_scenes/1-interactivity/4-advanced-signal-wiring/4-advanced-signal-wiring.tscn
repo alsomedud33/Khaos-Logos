@@ -1,7 +1,7 @@
 [gd_scene load_steps=40 format=3 uid="uid://ckwi0drqi8sve"]
 
 [ext_resource type="Script" path="res://addons/qodot/src/nodes/qodot_map.gd" id="1"]
-[ext_resource type="Resource" uid="uid://7h57nuq1xmoi" path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" id="2"]
+[ext_resource type="Resource" uid="uid://cj11aqydei5bh" path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" id="2"]
 [ext_resource type="PackedScene" uid="uid://b7ccfkajnmn64" path="res://addons/qodot/game_definitions/fgd/point_classes/physics_ball.tscn" id="3"]
 [ext_resource type="Script" path="res://addons/qodot/game_definitions/fgd/solid_classes/mover.gd" id="4"]
 [ext_resource type="Texture2D" uid="uid://bw7tponn4vieu" path="res://addons/qodot/textures/base/grid.png" id="5"]
@@ -174,7 +174,6 @@ The `receiver` entity takes a `targetname` property that should be referenced in
 
 This structure forms a chain of entity > signal > receiver > entity, and encodes all of the necessary information for Qodot to detect and connect the necessary signals at build time. Entities can have multiple sets of signals and receivers connected to them, allowing for complex interactions between objects."
 
-
 [node name="DirectionalLight" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.5, 0.612372, -0.612372, 0, 0.707107, 0.707107, 0.866025, 0.353553, -0.353554, 0, 15, 0)
 light_energy = 0.8
@@ -188,22 +187,10 @@ far = 200.0
 [node name="QodotMap" type="Node3D" parent="."]
 script = ExtResource("1")
 map_file = "C:/Users/Embyr/Desktop/qmap-development/addons/qodot/example_scenes/1-interactivity/4-advanced-signal-wiring/4-advanced-signal-wiring.map"
-inverse_scale_factor = 16.0
 entity_fgd = ExtResource("2")
 base_texture_dir = "res://addons/qodot/textures"
 texture_file_extensions = PackedStringArray("png")
-worldspawn_layers = []
-brush_clip_texture = "special/clip"
-face_skip_texture = "special/skip"
-texture_wads = []
-material_file_extension = "tres"
-unshaded = false
-default_material_albedo_uniform = ""
 default_material = SubResource("51")
-uv_unwrap_texel_size = 1.0
-print_profiling_data = false
-use_trenchbroom_group_hierarchy = false
-tree_attach_batch_size = null
 set_owner_batch_size = 16
 
 [node name="entity_0_worldspawn" type="StaticBody3D" parent="QodotMap"]

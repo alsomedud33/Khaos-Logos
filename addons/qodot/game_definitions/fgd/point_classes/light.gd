@@ -60,7 +60,7 @@ func update_properties():
 			attenuation = 1
 	
 	light_node.set_param(Light3D.PARAM_ATTENUATION, attenuation)
-	light_node.set_shadow(true)
+	light_node.set_shadow(false)
 	light_node.set_bake_mode(Light3D.BAKE_STATIC)
 	light_node.light_specular = 0
 	

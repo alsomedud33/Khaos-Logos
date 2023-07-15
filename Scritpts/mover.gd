@@ -11,8 +11,14 @@ extends CharacterBody3D
 var base_transform: Transform3D
 var offset_transform: Transform3D
 var target_transform: Transform3D
-
+var path:String
 var speed := 1.0
+
+var path_name:String = ""
+var path_index:int 
+enum {ONCE, LOOP, PINGPONG}
+var path_loop_type:int = ONCE
+
 
 func update_properties() -> void:
 	if 'translation' in properties:

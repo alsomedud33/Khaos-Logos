@@ -1,0 +1,25 @@
+// Game: Khaos Logos
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/PBR_Textures;textures/PBR_Textures/Brown_Spiral_Mosaic;textures/PBR_Textures/Facade_019B;textures/PBR_Textures/GlazedTerracotta;textures/PBR_Textures/MetalWalkway010;textures/PBR_Textures/Metal_Plate_006;textures/PBR_Textures/Purple_Marble;textures/PBR_Textures/Purple_Marble 2;textures/PBR_Textures/Rock_035;textures/PBR_Textures/Rust_Panel;textures/PBR_Textures/SheetMetal001;textures/PBR_Textures/SheetMetal003;textures/PBR_Textures/Tree_bark;textures/PBR_Textures/Window;textures/PBR_Textures/Wood067;textures/PBR_Textures/Wood071;textures/PBR_Textures/WoodFloor020;textures/PBR_Textures/WoodSiding007;textures/PBR_Textures/bricks-mortar-ue"
+// brush 0
+{
+( -768 -768 -32 ) ( -768 -756 -32 ) ( -768 -768 -30 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+( -768 -768 -32 ) ( -768 -768 -30 ) ( -756 -768 -32 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+( -768 -768 -32 ) ( -756 -768 -32 ) ( -768 -756 -32 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+( 768 768 32 ) ( 768 780 32 ) ( 780 768 32 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+( 768 768 32 ) ( 780 768 32 ) ( 768 768 34 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+( 768 768 32 ) ( 768 768 34 ) ( 768 780 32 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+}
+// brush 1
+{
+( -512 -256 0 ) ( -512 -255 0 ) ( -512 -256 1 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+( -512 -256 0 ) ( -512 -256 1 ) ( -511 -256 0 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+( -512 -256 0 ) ( -511 -256 0 ) ( -512 -255 0 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+( -256 256 256 ) ( -256 257 256 ) ( -255 256 256 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+( -256 256 256 ) ( -255 256 256 ) ( -256 256 257 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+( -256 256 256 ) ( -256 256 257 ) ( -256 257 256 ) PBR_Textures/Brown_Spiral_Mosaic/Brown_Spiral_Mosaic_albedo 0 0 0 1 1
+}
+}

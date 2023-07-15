@@ -1,3 +1,18 @@
+res://Qodot Resources/Path Corner
+res://addons/qodot/game_definitions/fgd/solid_classes
+res://Scritpts
+G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/0-visuals/5-baked-lighting
+G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/0-visuals/2-materials
+G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/0-visuals/0-structural-geometry
+G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/0-visuals/1-textures
+G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/1-interactivity/4-advanced-signal-wiring
+G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/1-interactivity/3-basic-signal-wiring
+G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/2-miscallaneous/0-trenchbroom-group-hierarchy
+G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/2-miscallaneous/1-runtime-map-building
+G:/Godot 4.0 Stuff/Khaos Logos/Qodot Maps
+res://Qodot Resources/Medal
+res://Maps/Test Stage
+res://Maps/Level 1
 G:/TrenchBroom/games/Khaos Logos
 G:/Godot 4.0 Stuff/Khaos Logos
 res://Qodot Resources/env_destructible
@@ -5,20 +20,3 @@ res://Objects/Medal
 res://Shader
 res://
 res://Maps/Kingdom 2
-G:/Godot 4.0 Stuff/Khaos Logos/Qodot Maps
-res://Maps/Chameno Woods
-res://Objects/BHOP Boots
-res://Titlescreen
-res://Autoloads/Transitions
-res://Autoloads
-res://textures/PBR_Textures/Purple_Marble
-G:/Game Uploads
-res://Video Clips
-res://textures/PBR_Textures/Brown_Spiral_Mosaic
-res://textures/PBR_Textures/bricks-mortar-ue
-res://Stage Assets/Sign
-res://Maps/Hub
-res://Objects/Capsules
-res://Characters/Arms
-res://Objects/Weapons
-res://Enemies/Test_BossFight

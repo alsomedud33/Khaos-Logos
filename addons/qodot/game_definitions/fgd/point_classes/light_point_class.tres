@@ -18,7 +18,7 @@ class_properties = {
 "angle": 0.0
 }
 class_property_descriptions = {
-"angle": "Rotation Angle"
+"angle": "Angle of Light"
 }
 meta_properties = {
 "size": AABB(-8, -8, -8, 8, 8, 8)

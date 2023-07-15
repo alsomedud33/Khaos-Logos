@@ -1,14 +1,62 @@
-[gd_scene load_steps=3 format=3 uid="uid://dmi32djx5ybon"]
+[gd_scene load_steps=6 format=3 uid="uid://dmi32djx5ybon"]
 
 [ext_resource type="PackedScene" uid="uid://d2b8clb6v2q21" path="res://Objects/Medal/Medal.glb" id="1_homse"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_0xwl6"]
 size = Vector3(1, 3, 2)
 
-[node name="Medal" type="CharacterBody3D"]
+[sub_resource type="Animation" id="Animation_5tgak"]
+resource_name = "Float"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Medal:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 1, 0), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_atujc"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Medal:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ihw28"]
+_data = {
+"Float": SubResource("Animation_5tgak"),
+"RESET": SubResource("Animation_atujc")
+}
+
+[node name="Medal" type="Area3D"]
+collision_mask = 2
 
 [node name="Medal" parent="." instance=ExtResource("1_homse")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 shape = SubResource("BoxShape3D_0xwl6")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Float"
+libraries = {
+"": SubResource("AnimationLibrary_ihw28")
+}
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

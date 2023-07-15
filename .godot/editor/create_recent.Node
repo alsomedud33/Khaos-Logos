@@ -1,12 +1,14 @@
+AnimatableBody3D
+Area3D
+CharacterBody3D
+AnimationPlayer
+QodotMap
+NavigationRegion3D
 CollisionShape3D
 GPUParticles3D
-CharacterBody3D
 OmniLight3D
 Node3D
-QodotMap
-Area3D
 FogVolume
-AnimationPlayer
 Label
 TextureRect
 ColorRect
@@ -29,4 +31,3 @@ Container
 NinePatchRect
 HBoxContainer
 VBoxContainer
-Skeleton3D
