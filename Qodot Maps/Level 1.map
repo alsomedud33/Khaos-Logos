@@ -23,6 +23,14 @@
 ( 752 256 16 ) ( 753 256 16 ) ( 752 256 17 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -640 0 0 1 1
 ( 1408 32 16 ) ( 1408 32 17 ) ( 1408 33 16 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 0 0 1 1
 }
+// brush 2
+{
+( 416 -128 40 ) ( 416 -128 16 ) ( 416 -64 16 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 -0.3333335 0 1 1.5
+( 416 -128 40 ) ( 576 -128 40 ) ( 576 -128 16 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 -0.3333335 0 1 1.5
+( 576 -128 16 ) ( 576 -64 16 ) ( 416 -64 16 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 0 0 1 1
+( 416 -64 16 ) ( 576 -64 16 ) ( 576 -128 40 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 0 0 1 1
+( 576 -128 40 ) ( 576 -64 16 ) ( 576 -128 16 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color 0 -0.3333335 0 1 1.5
+}
 }
 // entity 1
 {
@@ -211,13 +219,28 @@
 }
 // entity 3
 {
+"classname" "rotate"
+"axis" "0 1 0"
+"speed" "180"
+// brush 0
+{
+( 2048 -128 96 ) ( 2048 -127 96 ) ( 2048 -128 97 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 0 0 1 1
+( 2048 256 112 ) ( 2176 256 240 ) ( 2176 256 112 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 0 0 1 1
+( 1856 -128 0 ) ( 1857 -128 0 ) ( 1856 -127 0 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 384 0 1 1
+( 1888 0 112 ) ( 1888 1 112 ) ( 1889 0 112 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 384 0 1 1
+( 1888 512 128 ) ( 1889 512 128 ) ( 1888 512 129 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 0 0 1 1
+( 2176 0 128 ) ( 2176 0 129 ) ( 2176 1 128 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 0 0 1 1
+}
+}
+// entity 4
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Corridor1"
 "_tb_id" "2"
 "_tb_layer_sort_index" "0"
 }
-// entity 4
+// entity 5
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -449,36 +472,18 @@
 ( 1888 1152 128 ) ( 1889 1152 128 ) ( 1888 1152 129 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 0 0 1 1
 ( 2944 768 128 ) ( 2944 768 129 ) ( 2944 769 128 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -128 0 0 1 1
 }
-// brush 25
-{
-( 2048 -128 96 ) ( 2048 -127 96 ) ( 2048 -128 97 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 0 0 1 1
-( 2048 256 112 ) ( 2176 256 240 ) ( 2176 256 112 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 0 0 1 1
-( 1856 -128 0 ) ( 1857 -128 0 ) ( 1856 -127 0 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 384 0 1 1
-( 1888 0 112 ) ( 1888 1 112 ) ( 1889 0 112 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 384 0 1 1
-( 1888 512 128 ) ( 1889 512 128 ) ( 1888 512 129 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 0 0 1 1
-( 2176 0 128 ) ( 2176 0 129 ) ( 2176 1 128 ) PBR_Textures/GlazedTerracotta/GlazedTerracotta002_1K_Color -384 0 0 1 1
 }
-}
-// entity 5
+// entity 6
 {
 "classname" "Teleporter"
 "origin" "888 -24 168"
 "_tb_layer" "28"
 }
-// entity 6
-{
-"classname" "Path_corner"
-"origin" "1160 136 120"
-"path_index" "1"
-"speed" "30"
-"path_name" "test"
-"_tb_layer" "28"
-}
 // entity 7
 {
 "classname" "Path_corner"
-"origin" "1160 -136 120"
-"path_index" "4"
+"origin" "1160 136 88"
+"path_index" "1"
 "speed" "30"
 "path_name" "test"
 "_tb_layer" "28"
@@ -486,8 +491,8 @@
 // entity 8
 {
 "classname" "Path_corner"
-"origin" "1000 -136 120"
-"path_index" "3"
+"origin" "1160 -136 88"
+"path_index" "4"
 "speed" "30"
 "path_name" "test"
 "_tb_layer" "28"
@@ -495,7 +500,16 @@
 // entity 9
 {
 "classname" "Path_corner"
-"origin" "1000 152 120"
+"origin" "1000 -136 88"
+"path_index" "3"
+"speed" "30"
+"path_name" "test"
+"_tb_layer" "28"
+}
+// entity 10
+{
+"classname" "Path_corner"
+"origin" "1000 152 88"
 "path_index" "2"
 "speed" "30"
 "path_name" "test"

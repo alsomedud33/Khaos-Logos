@@ -2009,6 +2009,7 @@ environment = ExtResource("2_h6k1i")
 [node name="RocketMan" parent="." instance=ExtResource("2_n5yof")]
 unique_name_in_owner = true
 transform = Transform3D(-1.5, 0, -2.26494e-07, 0, 1.5, 0, 2.26494e-07, 0, -1.5, 3, 3, 3)
+max_jump_impulse = 7.0
 auto_jump = false
 max_ammo = 1
 

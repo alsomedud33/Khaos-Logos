@@ -45,12 +45,11 @@ func update_properties() -> void:
 	if 'path_loop_type' in properties:
 		path_loop_type = properties.path_loop_type
 
-func _process(delta: float) -> void:
+func _physics_process(delta: float) -> void:
 	path_group = get_tree().get_nodes_in_group("path_" + path_name)
 
 	#transform = transform.interpolate_with(target_transform, speed * delta)
 	for pc in path_group:
-		print (pc.name)
 		if self.path_index == pc.path_index:
 			offset_location = pc.global_position
 			self.global_position = self.position.lerp(offset_location, speed * delta)

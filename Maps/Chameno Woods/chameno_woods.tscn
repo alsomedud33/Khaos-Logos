@@ -1459,7 +1459,7 @@ shape = SubResource("ConvexPolygonShape3D_1r2u0")
 shape = SubResource("ConvexPolygonShape3D_bkkt6")
 
 [node name="entity_1_Medal" parent="QodotMap" instance=ExtResource("6_iuorg")]
-transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, 124.5, 115.5, 86)
+transform = Transform3D(-1, 0, -4.37113e-07, 0, 1, 0, 4.37113e-07, 0, -1, 124.5, 115.5, 86)
 script = ExtResource("7_ajr3s")
 properties = {
 "angle": Vector3(0, 90, 0),
@@ -1468,7 +1468,7 @@ properties = {
 }
 
 [node name="entity_2_Medal" parent="QodotMap" instance=ExtResource("6_iuorg")]
-transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, 168, 111.5, -3.5)
+transform = Transform3D(-1, 0, -4.37113e-07, 0, 1, 0, 4.37113e-07, 0, -1, 168, 111.5, -3.5)
 script = ExtResource("7_ajr3s")
 properties = {
 "angle": Vector3(0, 90, 0),
@@ -2576,7 +2576,7 @@ mesh = SubResource("ArrayMesh_o2vig")
 shape = SubResource("ConvexPolygonShape3D_g144m")
 
 [node name="entity_24_Medal" parent="QodotMap" instance=ExtResource("6_iuorg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 184, 103, 110)
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 184, 103, 110)
 script = ExtResource("7_ajr3s")
 properties = {
 "_tb_group": "13",
@@ -2586,7 +2586,7 @@ properties = {
 }
 
 [node name="entity_25_Medal" parent="QodotMap" instance=ExtResource("6_iuorg")]
-transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, 195, 101, 83)
+transform = Transform3D(-1, 0, -4.37113e-07, 0, 1, 0, 4.37113e-07, 0, -1, 195, 101, 83)
 script = ExtResource("7_ajr3s")
 properties = {
 "_tb_group": "13",

@@ -188,7 +188,7 @@ func _physics_process(delta):
 #			get_tree().current_scene.add_child(explosion_instance)
 #			explosion_instance.global_transform.origin = raycast.get_collision_point()
 			rocket_instance.look_at_from_position(%Rocket_Spawn.global_transform.origin,raycast.get_collision_point(), Vector3.UP)
-			rocket_instance.destination = raycast.get_collision_point()
+			#rocket_instance.destination = raycast.get_collision_point()
 		else:
 			rocket_instance.global_transform.origin = %Rocket_Spawn.global_transform.origin
 			rocket_instance.rotation_degrees = Vector3(-$Pivot.rotation_degrees.x+1, self.rotation_degrees.y+182,0)
@@ -222,7 +222,7 @@ func _physics_process(delta):
 						#print (false)
 						vertical_velocity = 5#get_real_velocity().y
 				floor_snap_length = .3
-				move_ground(get_real_velocity(), delta)
+				move_ground(velocity, delta)
 		AIR:
 			floor_snap_length = 0
 			vertical_velocity = get_real_velocity().y

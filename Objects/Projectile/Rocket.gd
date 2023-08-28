@@ -14,10 +14,10 @@ func _ready():
 
 func _physics_process(delta):
 	move_and_slide()
-	if destination != Vector3.ZERO:
-		velocity = destination.direction_to(self.global_position) * -speed 
-	else:
-		velocity = transform.basis.z * -speed
+#	if destination != Vector3.ZERO:
+#		velocity = destination.direction_to(self.global_position) * -speed 
+#	else:
+	velocity = transform.basis.z * -speed
 	if get_slide_collision_count() >0:
 		if get_last_slide_collision().get_collider().has_method("destroy"):
 			var col_p = get_last_slide_collision().get_position()
