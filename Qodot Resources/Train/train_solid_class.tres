@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="QodotFGDSolidClass" load_steps=3 format=3 uid="uid://chmdwidcanwhc"]
+
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_solid_class.gd" id="1_p564p"]
+[ext_resource type="Script" path="res://Scritpts/train.gd" id="2_02e11"]
+
+[resource]
+script = ExtResource("1_p564p")
+spawn = "----------------------------------------------------------------"
+spawn_type = 2
+visual_build = "----------------------------------------------------------------"
+build_visuals = true
+collision_build = "----------------------------------------------------------------"
+collision_shape_type = 1
+scripting = "----------------------------------------------------------------"
+script_class = ExtResource("2_02e11")
+class_options = "----------------------------------------------------------------"
+classname = "train"
+description = "Train Brush."
+qodot_internal = false
+base_classes = Array[Resource]([])
+class_properties = {
+"path_index": 0,
+"path_loop_type": 0,
+"path_name": "",
+"rotation": Vector3(0, 0, 0),
+"scale": Vector3(0, 0, 0),
+"speed": 0
+}
+class_property_descriptions = {}
+meta_properties = {
+"color": Color(0.8, 0.8, 0.8, 1),
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_options = "----------------------------------------------------------------"
+node_class = "KinematicBody"
+transient_node = false

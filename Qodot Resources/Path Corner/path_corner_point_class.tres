@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="QodotFGDPointClass" load_steps=3 format=3 uid="uid://boc6rrgwhwgiq"]
+[gd_resource type="Resource" script_class="QodotFGDPointClass" load_steps=4 format=3 uid="uid://boc6rrgwhwgiq"]
 
 [ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd" id="1_81278"]
+[ext_resource type="PackedScene" uid="uid://b2owhe8f2k6r0" path="res://Stage Assets/Spawner/teleporter.tscn" id="1_ojgdn"]
 [ext_resource type="Script" path="res://Qodot Resources/Path Corner/path_corner.gd" id="2_q2unm"]
 
 [resource]
 script = ExtResource("1_81278")
 scene = "----------------------------------------------------------------"
+scene_file = ExtResource("1_ojgdn")
 scripting = "----------------------------------------------------------------"
 script_class = ExtResource("2_q2unm")
 class_options = "----------------------------------------------------------------"

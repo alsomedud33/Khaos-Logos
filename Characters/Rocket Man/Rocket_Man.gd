@@ -213,7 +213,7 @@ func _physics_process(delta):
 			else:
 				if ground_check.is_colliding() == true:
 					var normal = ground_check.get_collision_normal()
-					print(normal.dot(Vector3.UP))
+					#print(normal.dot(Vector3.UP))
 					if normal.dot(Vector3.UP) > .92:#.8:
 						#print ("true")
 						vertical_velocity = velocity.y#get_real_velocity().normalized().y #velocity.y#get_real_velocity().normalized().y#velocity.y

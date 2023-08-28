@@ -31,5 +31,13 @@ res://Objects/Medal/medal.tscn
 res://Maps/Chameno Woods/chameno_woods.tscn
 res://Maps/Level 1/level 1.tscn
 res://Maps/Test Stage/Test Stage.tscn
-res://addons/qodot/src/core/Qodot.cs
-res://addons/qodot/src/import_plugins/QuakeWadImportPlugin.cs
+res://addons/qodot/game_definitions/trenchbroom/brush_tags/trigger_tag.tres
+res://addons/qodot/game_definitions/trenchbroom/face_tags/skip_tag.tres
+res://Scritpts/train.gd
+res://Scritpts/train.tscn
+res://Qodot Resources/Train/train_solid_class.tres
+res://addons/qodot/game_definitions/trenchbroom/qodot_trenchbroom_config_folder.tres
+res://addons/qodot/game_definitions/trenchbroom/qodot_trenchbroom_config_file.tres
+res://Characters/Rocket Man/Rocket_Man.gd
+res://Qodot Resources/Path Corner/path_corner.gd
+res://Qodot Resources/teleporter_point_class.tres

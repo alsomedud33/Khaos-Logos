@@ -11,8 +11,8 @@ func update_properties():
 		return;
 	#set_rotation_degrees(GameManager::demangler(properties));
 	rotation_degrees =(demangler(properties))
-	if (properties.has("pathindex")):
-		path_index = properties["pathindex"]
+	if (properties.has("path_index")):
+		path_index = properties["path_index"]
 	## Speed of 0 maintains current velocity; make sure to set the first path node's speed!
 	if (properties.has("speed")):
 		speed = properties["speed"]
@@ -22,9 +22,11 @@ func update_properties():
 
 
 func _ready():
-	if (!Engine.is_editor_hint() && properties.has("pathname")):
-		path_name = properties["pathname"];
+	if (!Engine.is_editor_hint() && properties.has("path_name")):
+		path_name = properties["path_name"];
 		add_to_group("path_" + path_name);
+	if (properties.has("path_index")):
+		path_index = properties["path_index"]
 
 #static Vector3 demangler(Dictionary properties, int mangle_type = 0)
 func demangler(properties:Dictionary,mangle_type:int = 0) -> Vector3:

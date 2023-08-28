@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="QodotFGDFile" load_steps=25 format=3 uid="uid://cj11aqydei5bh"]
+[gd_resource type="Resource" script_class="QodotFGDFile" load_steps=26 format=3 uid="uid://cj11aqydei5bh"]
 
 [ext_resource type="Resource" path="res://addons/qodot/game_definitions/fgd/base_classes/target_base_class.tres" id="1"]
 [ext_resource type="Resource" path="res://addons/qodot/game_definitions/fgd/solid_classes/func_group_solid_class.tres" id="2"]
@@ -24,6 +24,7 @@
 [ext_resource type="Resource" uid="uid://dghufff1qb8k7" path="res://Qodot Resources/env_destructible/env_destructable_solid_class.tres" id="21_b3ybc"]
 [ext_resource type="Resource" uid="uid://d1glntghyvr4t" path="res://Qodot Resources/Medal/Medal_point_class.tres" id="22_82soj"]
 [ext_resource type="Resource" uid="uid://boc6rrgwhwgiq" path="res://Qodot Resources/Path Corner/path_corner_point_class.tres" id="23_a1i6m"]
+[ext_resource type="Resource" uid="uid://chmdwidcanwhc" path="res://Qodot Resources/Train/train_solid_class.tres" id="24_kmdq3"]
 
 [resource]
 script = ExtResource("6")
@@ -31,4 +32,4 @@ export_file = false
 target_folder = "C:/OtherPrograms/TrenchBroom/games/Qodot"
 fgd_name = "Qodot"
 base_fgd_files = Array[Resource]([])
-entity_definitions = Array[Resource]([ExtResource("9"), ExtResource("1"), ExtResource("4"), ExtResource("12"), ExtResource("3"), ExtResource("13"), ExtResource("7"), ExtResource("18"), ExtResource("2"), ExtResource("10"), ExtResource("11"), ExtResource("8"), ExtResource("17"), ExtResource("5"), ExtResource("14"), ExtResource("19"), ExtResource("16"), ExtResource("15"), ExtResource("19_kr0ad"), ExtResource("20_8rtfc"), ExtResource("21_b3ybc"), ExtResource("22_82soj"), ExtResource("23_a1i6m")])
+entity_definitions = Array[Resource]([ExtResource("9"), ExtResource("1"), ExtResource("4"), ExtResource("12"), ExtResource("3"), ExtResource("13"), ExtResource("7"), ExtResource("18"), ExtResource("2"), ExtResource("10"), ExtResource("11"), ExtResource("8"), ExtResource("17"), ExtResource("5"), ExtResource("14"), ExtResource("19"), ExtResource("16"), ExtResource("15"), ExtResource("19_kr0ad"), ExtResource("20_8rtfc"), ExtResource("21_b3ybc"), ExtResource("22_82soj"), ExtResource("23_a1i6m"), ExtResource("24_kmdq3")])
