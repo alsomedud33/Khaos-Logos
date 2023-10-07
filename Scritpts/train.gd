@@ -46,15 +46,19 @@ func update_properties() -> void:
 		path_loop_type = properties.path_loop_type
 
 func _physics_process(delta: float) -> void:
+	move_and_slide()
 	path_group = get_tree().get_nodes_in_group("path_" + path_name)
 
 	#transform = transform.interpolate_with(target_transform, speed * delta)
 	for pc in path_group:
 		if self.path_index == pc.path_index:
 			offset_location = pc.global_position
-			self.global_position = self.position.lerp(offset_location, speed * delta)
-			if (global_position.x > offset_location.x-1 and global_position.x < offset_location.x+1) and (global_position.z > offset_location.z-1 and global_position.z < offset_location.z+1) and (global_position.y > offset_location.y-1 and global_position.y < offset_location.y+1):# and global_position.y in range(offset_location.y-1,offset_location.y+1) and global_position.z in range(offset_location.z-1,offset_location.z+1):
+			#self.global_position = self.position.lerp(offset_location, speed * delta)
+			velocity = global_position.direction_to(offset_location) * 10
+			#if (global_position.x > offset_location.x-1 and global_position.x < offset_location.x+1) and (global_position.z > offset_location.z-1 and global_position.z < offset_location.z+1) and (global_position.y > offset_location.y-1 and global_position.y < offset_location.y+1):# and global_position.y in range(offset_location.y-1,offset_location.y+1) and global_position.z in range(offset_location.z-1,offset_location.z+1):
 			#if self.global_position == offset_location:
+			if global_position.distance_to(offset_location) < .5:
+				#print ("within range")
 				if !path_index == last_item():
 					path_index += 1
 				else:
@@ -68,9 +72,17 @@ func last_item():
 		if pc.path_index > ph:
 			ph = pc.path_index
 	return ph
-		
+
+func first_item():
+	path_group = get_tree().get_nodes_in_group("path_" + path_name)
+	var ph:int = 0
+	for pc in path_group:
+		if pc.path_index > ph:
+			ph = pc.path_index
+	return ph
 
 func _ready() -> void:
+	set_collision_mask_value(1,false)
 	base_transform = transform
 	target_transform = base_transform
 

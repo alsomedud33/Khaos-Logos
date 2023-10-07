@@ -6,6 +6,7 @@ var mouse_sensitivity:float = .1
 #Onready Nodes
 @onready var head= %Pivot
 @onready var ground_check = $GroundCheck
+@onready var ceiling_check = $CeilingCheck
 @onready var raycast = %RayCast3D
 @onready var anim = %"Weapon Animations"
 @onready var scrn_txt = %"Screen Text"
@@ -110,6 +111,8 @@ func _process(delta):
 	%"Hands and Weps".rotation.y = lerp_angle(%"Hands and Weps".rotation.y, rotation.y, sway_speed*(clamp(Input.get_last_mouse_velocity().y,1,2))*delta)
 	%"Hands and Weps".rotation.x = lerp_angle(%"Hands and Weps".rotation.x, %Pivot.rotation.x, sway_speed*(clamp(Input.get_last_mouse_velocity().x,1000,4000))*0.001*delta)
 	%"Hands and Weps".rotation.z = 0
+	ceiling_check.global_position = self.global_position
+	ceiling_check.rotation.z = 0
 	#%"Hands and Weps".global_transform.origin = %Pivot.global_transform.origin 
 	if Input.is_action_pressed("move_forward"):
 		%mv_W.visible = true
@@ -214,13 +217,13 @@ func _physics_process(delta):
 				if ground_check.is_colliding() == true:
 					var normal = ground_check.get_collision_normal()
 					#print(normal.dot(Vector3.UP))
-					if normal.dot(Vector3.UP) > .92:#.8:
+					if normal.dot(Vector3.UP) > .8:#.92:#.8:
 						#print ("true")
 						vertical_velocity = velocity.y#get_real_velocity().normalized().y #velocity.y#get_real_velocity().normalized().y#velocity.y
 						#vertical_velocity = -1
 					else:
 						#print (false)
-						vertical_velocity = 5#get_real_velocity().y
+						vertical_velocity = velocity.y#5#get_real_velocity().y
 				floor_snap_length = .3
 				move_ground(velocity, delta)
 		AIR:
@@ -245,7 +248,7 @@ func _physics_process(delta):
 			if anim.current_animation != "Sway_Rocket":
 				anim.play("Sway_Rocket")
 			#print ()
-			if Input.is_action_pressed("crouch") == false and can_rel_crouch == true:
+			if Input.is_action_pressed("crouch") == false and ceiling_check.is_colliding() == false:
 				Normal()
 				if is_on_floor() == false:
 					change_state(AIR)
@@ -273,7 +276,7 @@ func _physics_process(delta):
 			move_ground(get_real_velocity(), delta)
 		CROUCH_AIR:
 			floor_snap_length = 0
-			if Input.is_action_pressed("crouch") == false:
+			if Input.is_action_pressed("crouch") == false and ceiling_check.is_colliding() == false:
 				print("RELAESED")
 				Normal()
 				if is_on_floor() == false:

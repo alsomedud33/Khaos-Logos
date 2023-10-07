@@ -78,6 +78,9 @@ bind/5/pose = Transform3D(-5.9181e-08, 6.96229, 1.97227e-06, -6.95715, 9.63896e-
 
 [sub_resource type="ImmediateMesh" id="ImmediateMesh_wtdhh"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_ouaf1"]
+margin = 0.0
+
 [sub_resource type="Animation" id="Animation_uhk0f"]
 resource_name = "Idle_Rocket"
 length = 1.9
@@ -295,8 +298,6 @@ _data = {
 "Text Disapear": SubResource("Animation_l1d5x")
 }
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_ouaf1"]
-
 [node name="RocketMan" type="CharacterBody3D" groups=["Player"]]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 1, 0)
 collision_layer = 2
@@ -304,6 +305,7 @@ collision_mask = 9
 floor_stop_on_slope = false
 floor_constant_speed = true
 floor_block_on_wall = false
+safe_margin = 0.015
 script = ExtResource("1_i0jmb")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
@@ -434,6 +436,12 @@ root_bone = &"UpperArm.R.001"
 tip_bone = &"Arm.R.001"
 target_node = NodePath("../../ArmIK Right")
 script = ExtResource("7_sxqru")
+
+[node name="CeilingCheck" type="ShapeCast3D" parent="."]
+top_level = true
+shape = SubResource("BoxShape3D_ouaf1")
+target_position = Vector3(0, 1, 0)
+debug_shape_custom_color = Color(0.360784, 0, 1, 1)
 
 [node name="GroundCheck" type="RayCast3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.32, 0)
@@ -702,7 +710,3 @@ unique_name_in_owner = true
 libraries = {
 "": SubResource("AnimationLibrary_4m8wx")
 }
-
-[node name="ShapeCast3D" type="ShapeCast3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
-shape = SubResource("BoxShape3D_ouaf1")

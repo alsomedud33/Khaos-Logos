@@ -26,7 +26,11 @@ class_properties = {
 "scale": Vector3(0, 0, 0),
 "speed": 0
 }
-class_property_descriptions = {}
+class_property_descriptions = {
+"path_index": "First path corner to target",
+"path_name": "Group of path corners to target",
+"speed": "Speed of the Train"
+}
 meta_properties = {
 "color": Color(0.8, 0.8, 0.8, 1),
 "size": AABB(-8, -8, -8, 8, 8, 8)

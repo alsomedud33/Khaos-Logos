@@ -22,7 +22,11 @@ class_properties = {
 "path_name": "",
 "speed": 0
 }
-class_property_descriptions = {}
+class_property_descriptions = {
+"path_index": "Number assigned to path corner",
+"path_name": "Group the path corner is a part of",
+"speed": "Speed of Train"
+}
 meta_properties = {
 "color": Color(0.356863, 0.878431, 1, 1),
 "size": AABB(-8, -8, -8, 8, 8, 8)

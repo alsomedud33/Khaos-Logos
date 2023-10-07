@@ -1,0 +1,4 @@
+Classname - Name of class
+Path Index - First path corner to target
+Path Name - Group of path corners to target
+Speed - Speed of the Train 

@@ -1,0 +1,3 @@
+Path Index - Number assigned to path corner
+Path Name - Group the path corner is a part of
+Speed - Speed of Train
