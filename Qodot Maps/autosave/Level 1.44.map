@@ -16,21 +16,30 @@
 }
 // brush 1
 {
-( 488 -384 96 ) ( 488 -383 96 ) ( 488 -384 97 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 224 0 0 1 1
-( 488 -384 96 ) ( 488 -384 97 ) ( 489 -384 96 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 176 0 0 1 1
-( 488 -384 96 ) ( 489 -384 96 ) ( 488 -383 96 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 176 -224 0 1 1
-( 512 -344 104 ) ( 512 -343 104 ) ( 513 -344 104 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 176 -224 0 1 1
-( 512 -344 104 ) ( 513 -344 104 ) ( 512 -344 105 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 176 0 0 1 1
-( 512 -344 104 ) ( 512 -344 105 ) ( 512 -343 104 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 224 0 0 1 1
+( 648 -144 80 ) ( 648 -143 80 ) ( 648 -144 81 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color -16 0 0 1 1
+( 648 -144 80 ) ( 648 -144 81 ) ( 649 -144 80 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 0 0 0 1 1
+( 648 -144 80 ) ( 649 -144 80 ) ( 648 -143 80 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 0 16 0 1 1
+( 672 -104 88 ) ( 672 -103 88 ) ( 673 -104 88 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 0 16 0 1 1
+( 672 -104 88 ) ( 673 -104 88 ) ( 672 -104 89 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 0 0 0 1 1
+( 672 -104 88 ) ( 672 -104 89 ) ( 672 -103 88 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color -16 0 0 1 1
 }
 // brush 2
 {
-( 488 -144 96 ) ( 488 -143 96 ) ( 488 -144 97 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color -16 0 0 1 1
-( 488 -144 96 ) ( 488 -144 97 ) ( 489 -144 96 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 168 0 0 1 1
-( 488 -144 96 ) ( 489 -144 96 ) ( 488 -143 96 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 168 16 0 1 1
-( 512 -104 104 ) ( 512 -103 104 ) ( 513 -104 104 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 168 16 0 1 1
-( 512 -104 104 ) ( 513 -104 104 ) ( 512 -104 105 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 168 0 0 1 1
-( 512 -104 104 ) ( 512 -104 105 ) ( 512 -103 104 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color -16 0 0 1 1
+( 472 -384 80 ) ( 472 -383 80 ) ( 472 -384 81 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 224 0 0 1 1
+( 472 -384 80 ) ( 472 -384 81 ) ( 473 -384 80 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 176 0 0 1 1
+( 472 -384 80 ) ( 473 -384 80 ) ( 472 -383 80 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 176 -224 0 1 1
+( 496 -344 88 ) ( 496 -343 88 ) ( 497 -344 88 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 176 -224 0 1 1
+( 496 -344 88 ) ( 497 -344 88 ) ( 496 -344 89 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 176 0 0 1 1
+( 496 -344 88 ) ( 496 -344 89 ) ( 496 -343 88 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 224 0 0 1 1
+}
+// brush 3
+{
+( 480 -144 80 ) ( 480 -143 80 ) ( 480 -144 81 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color -16 0 0 1 1
+( 480 -144 80 ) ( 480 -144 81 ) ( 481 -144 80 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 168 0 0 1 1
+( 480 -144 80 ) ( 481 -144 80 ) ( 480 -143 80 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 168 16 0 1 1
+( 504 -104 88 ) ( 504 -103 88 ) ( 505 -104 88 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 168 16 0 1 1
+( 504 -104 88 ) ( 505 -104 88 ) ( 504 -104 89 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color 168 0 0 1 1
+( 504 -104 88 ) ( 504 -104 89 ) ( 504 -103 88 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color -16 0 0 1 1
 }
 }
 // entity 1
@@ -116,7 +125,7 @@
 ( -128 240 16 ) ( -128 112 144 ) ( -128 112 16 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( 506.7397260273973 1.9726027397260282 16 ) ( -5.260273972602732 193.97260273972603 16 ) ( -5.260273972602732 193.97260273972603 144 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( 640 80 -8 ) ( -2560 896 -8 ) ( 640 -304 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 640 80 80 ) ( -2560 896 80 ) ( -2560 1280 80 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( 640 80 64 ) ( -2560 896 64 ) ( -2560 1280 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( 640 80 16 ) ( -2560 1280 0 ) ( 640 80 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( 0 192 16 ) ( 0 64 16 ) ( 0 64 144 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 }
@@ -125,7 +134,7 @@
 ( -128 -384 40 ) ( -128 -512 40 ) ( -128 -512 -88 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -773.2602739726027 -481.972602739726 40 ) ( 2426.7397260273974 718.027397260274 56 ) ( -773.2602739726027 -481.972602739726 56 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -768 -496 -8 ) ( 2432 320 -8 ) ( 2432 704 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( -768 -496 80 ) ( 2432 320 80 ) ( -768 -880 80 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( -768 -496 64 ) ( 2432 320 64 ) ( -768 -880 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -640 -560 40 ) ( -128 -368 40 ) ( -128 -368 -88 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( 0 -336 40 ) ( 0 -464 -88 ) ( 0 -464 40 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 }
@@ -135,7 +144,7 @@
 ( -128 368 -8 ) ( -128 368 64 ) ( -192 360 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -192 240 64 ) ( -128 240 64 ) ( -128 240 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -128 256 -8 ) ( -128 368 -8 ) ( -192 360 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( -192 360 96 ) ( -128 368 96 ) ( -128 256 96 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( -192 360 64 ) ( -128 368 64 ) ( -128 256 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -128 256 64 ) ( -128 368 64 ) ( -128 368 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 }
 // brush 11
@@ -143,7 +152,7 @@
 ( -320 -256 64 ) ( -320 -360 64 ) ( -320 -360 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -148.71796 0 0 0.11142857 0.12
 ( -192 -360 64 ) ( -128 -360 64 ) ( -128 -360 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -128 -360 -8 ) ( -128 -256 -8 ) ( -192 -256 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( -192 -256 96 ) ( -128 -256 96 ) ( -128 -360 96 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( -192 -256 64 ) ( -128 -256 64 ) ( -128 -360 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -128 -240 -8 ) ( -128 -240 64 ) ( -192 -240 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -128 -360 64 ) ( -128 -256 64 ) ( -128 -256 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 148.71796 0 0 0.11142857 0.12
 }
@@ -152,7 +161,7 @@
 ( -512 328 64 ) ( -512 224 64 ) ( -512 224 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -148.71796 0 0 0.11142857 0.12
 ( -256 400 -8 ) ( -256 400 64 ) ( -320 360 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -256 288 -8 ) ( -256 400 -8 ) ( -320 360 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( -320 360 112 ) ( -256 400 112 ) ( -256 288 112 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( -320 360 64 ) ( -256 400 64 ) ( -256 288 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -313.6 243.2 64 ) ( -249.60000000000002 275.2 64 ) ( -249.60000000000002 275.2 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -320 360 64 ) ( -320 256 -8 ) ( -320 256 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -148.71796 0 0 0.11142857 0.12
 }
@@ -162,7 +171,7 @@
 ( -384 240 -8 ) ( -384 240 64 ) ( -448 232 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -448 -272 64 ) ( -384 -272 64 ) ( -384 -272 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -384 128 -8 ) ( -384 240 -8 ) ( -448 232 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( -448 232 112 ) ( -384 240 112 ) ( -384 128 112 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( -448 232 64 ) ( -384 240 64 ) ( -384 128 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -512 232 64 ) ( -512 128 -8 ) ( -512 128 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -148.71796 0 0 0.11142857 0.12
 }
 // brush 14
@@ -170,7 +179,7 @@
 ( -512 -224 64 ) ( -512 -328 64 ) ( -512 -328 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -148.71796 0 0 0.11142857 0.12
 ( -323.2 -366.40000000000003 64 ) ( -259.2 -398.40000000000003 64 ) ( -259.2 -398.40000000000003 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -256 -392 -8 ) ( -256 -288 -8 ) ( -320 -256 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( -320 -256 112 ) ( -256 -288 112 ) ( -256 -392 112 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( -320 -256 64 ) ( -256 -288 64 ) ( -256 -392 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -249.59999999999997 -275.20000000000005 -8 ) ( -249.59999999999997 -275.20000000000005 64 ) ( -313.59999999999997 -243.20000000000002 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( -320 -256 64 ) ( -320 -360 -8 ) ( -320 -360 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -148.71796 0 0 0.11142857 0.12
 }
@@ -565,14 +574,6 @@
 ( 200 -40 40 ) ( 192 -40 164 ) ( 192 -40 36 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 ( 416 -96 40 ) ( 416 64 40 ) ( 416 64 16 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 }
-// brush 58
-{
-( -40 -48 -8 ) ( 0 -96 64 ) ( 0 -96 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 0 -96 64 ) ( -40 -48 -8 ) ( -16 -24 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 -990.66675 0 0.12 0.12
-( 0 -96 -8 ) ( 32 -64 -8 ) ( -16 -24 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 32 -64 -8 ) ( 32 -64 64 ) ( -16 -24 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 0 -96 64 ) ( 32 -64 64 ) ( 32 -64 -8 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-}
 }
 // entity 2
 {
@@ -744,11 +745,11 @@
 }
 // brush 17
 {
-( 424 -96 64 ) ( 424 -96 40 ) ( 424 -32 40 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 -0.3333335 0 0.12 0.12
-( 424 -96 64 ) ( 584 -96 64 ) ( 584 -96 40 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 -0.3333335 0 0.12 0.12
-( 584 -96 16 ) ( 584 -32 16 ) ( 424 -32 16 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 424 -32 40 ) ( 584 -32 40 ) ( 584 -96 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 584 -96 64 ) ( 584 -32 40 ) ( 584 -96 40 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 -0.3333335 0 0.12 0.12
+( 416 -128 40 ) ( 416 -128 16 ) ( 416 -64 16 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 -0.3333335 0 0.12 0.12
+( 416 -128 40 ) ( 576 -128 40 ) ( 576 -128 16 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 -0.3333335 0 0.12 0.12
+( 576 -128 16 ) ( 576 -64 16 ) ( 416 -64 16 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( 416 -64 16 ) ( 576 -64 16 ) ( 576 -128 40 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( 576 -128 40 ) ( 576 -64 16 ) ( 576 -128 16 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 -0.3333335 0 0.12 0.12
 }
 // brush 18
 {
@@ -1383,21 +1384,21 @@
 }
 // brush 88
 {
-( 1552 496 544 ) ( 1504 128 544 ) ( 1504 128 496 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 224.00024 490.66675 0 0.120000005 0.12
-( 1504 128 544 ) ( 1632 128 544 ) ( 1632 128 496 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -862.6671 490.66675 0 0.192 0.12
-( 1632 128 496 ) ( 1632 496 496 ) ( 1552 496 496 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -224 0 0.12 0.12
-( 1552 496 544 ) ( 1632 496 544 ) ( 1632 128 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -224 0 0.12 0.12
-( 1632 496 496 ) ( 1632 496 544 ) ( 1552 496 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.66675 0 0.12 0.12
-( 1632 128 544 ) ( 1632 496 544 ) ( 1632 496 496 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 224 490.66675 0 0.12 0.12
+( 1600 224 48 ) ( 1600 352 -64 ) ( 1600 352 48 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 224 490.66675 0 0.12 0.12
+( 1664 224 48 ) ( 1632 224 -64 ) ( 1632 224 48 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.66675 0 0.12 0.12
+( 1664 352 512 ) ( 1632 224 512 ) ( 1664 224 512 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -224 0 0.12 0.12
+( 1632 320 544 ) ( 1760 288 544 ) ( 1632 288 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -224 0 0.12 0.12
+( 1664 320 48 ) ( 1632 320 -64 ) ( 1664 320 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.66675 0 0.12 0.12
+( 1632 224 48 ) ( 1632 352 48 ) ( 1632 352 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 224 490.66675 0 0.12 0.12
 }
 // brush 89
 {
-( 544 -328 -24 ) ( 544 -328 -8 ) ( 544 -456 -24 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 328.00024 0 0 0.12 0.12
-( 512 128 96 ) ( 528 128 224 ) ( 528 128 96 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 0 0.12 -0.12
-( 576 312 480 ) ( 576 296 480 ) ( 704 296 480 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 128 -104 0 0.12 0.12
-( 528 -456 496 ) ( 432 -456 496 ) ( 528 -328 496 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 328.00024 96 90 0.12 0.12
-( 528 480 -24 ) ( 528 480 -8 ) ( 432 480 -24 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 1552 -456 -24 ) ( 1552 -456 -8 ) ( 1552 -328 -24 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 328.00024 0 0 0.12 0.12
+( 544 -328 24 ) ( 544 -328 40 ) ( 544 -456 24 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 328.00024 0 0 0.12 0.12
+( 512 224 144 ) ( 528 224 272 ) ( 528 224 144 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 0 0.12 -0.12
+( 576 312 528 ) ( 576 296 528 ) ( 704 296 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 128 -104 0 0.12 0.12
+( 528 -456 544 ) ( 432 -456 544 ) ( 528 -328 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 328.00024 96 90 0.12 0.12
+( 528 320 24 ) ( 528 320 40 ) ( 432 320 24 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
+( 1600 -456 24 ) ( 1600 -456 40 ) ( 1600 -328 24 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 328.00024 0 0 0.12 0.12
 }
 // brush 90
 {
@@ -1455,12 +1456,12 @@
 }
 // brush 96
 {
-( 544 320 528 ) ( 544 224 528 ) ( 544 320 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 0 0 0.12 0.12
-( 560 128 128 ) ( 544 128 128 ) ( 560 128 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 560 320 144 ) ( 544 320 144 ) ( 560 224 144 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
-( 560 224 528 ) ( 544 224 528 ) ( 560 320 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
-( 560 480 528 ) ( 544 480 528 ) ( 560 480 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 560 224 528 ) ( 560 320 528 ) ( 560 224 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 0 0 0.12 0.12
+( 528 320 528 ) ( 528 224 528 ) ( 528 320 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 0 0 0.12 0.12
+( 544 224 128 ) ( 528 224 128 ) ( 544 224 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
+( 544 320 128 ) ( 528 320 128 ) ( 544 224 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
+( 544 224 528 ) ( 528 224 528 ) ( 544 320 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
+( 544 320 528 ) ( 528 320 528 ) ( 544 320 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
+( 544 224 528 ) ( 544 320 528 ) ( 544 224 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 0 0 0.12 0.12
 }
 // brush 97
 {
@@ -1474,118 +1475,47 @@
 // brush 98
 {
 ( 464 320 528 ) ( 464 304 528 ) ( 464 320 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 0 0 0.12 0.12
-( 528 336 528 ) ( 464 320 528 ) ( 528 336 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 464 320 144 ) ( 464 304 144 ) ( 528 336 144 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
-( 528 336 528 ) ( 528 320 528 ) ( 464 320 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
-( 528 320 528 ) ( 528 320 128 ) ( 464 304 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 544 336 128 ) ( 544 320 128 ) ( 544 336 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 0 0 0.12 0.12
+( 528 304 528 ) ( 528 304 128 ) ( 464 304 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
+( 464 320 128 ) ( 464 304 128 ) ( 528 320 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
+( 528 320 528 ) ( 528 304 528 ) ( 464 320 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
+( 528 320 528 ) ( 464 320 528 ) ( 528 320 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
+( 528 320 128 ) ( 528 304 128 ) ( 528 320 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 0 0 0.12 0.12
 }
 // brush 99
 {
 ( 464 224 128 ) ( 464 240 128 ) ( 464 224 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 0 0 0.12 0.12
-( 528 208 128 ) ( 464 224 128 ) ( 528 208 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 528 208 144 ) ( 528 224 144 ) ( 464 224 144 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
-( 464 224 528 ) ( 464 240 528 ) ( 528 208 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
-( 464 240 128 ) ( 528 224 128 ) ( 464 240 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 544 208 528 ) ( 544 224 528 ) ( 544 208 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 0 0 0.12 0.12
+( 528 224 128 ) ( 464 224 128 ) ( 528 224 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
+( 528 224 128 ) ( 528 240 128 ) ( 464 224 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
+( 464 224 528 ) ( 464 240 528 ) ( 528 224 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
+( 464 240 128 ) ( 528 240 128 ) ( 464 240 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
+( 528 224 528 ) ( 528 240 528 ) ( 528 224 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 0 0 0.12 0.12
 }
 // brush 100
 {
-( 448 384 48 ) ( 448 512 -64 ) ( 448 512 48 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -85.33325 490.6665 0 0.12 0.12
-( 1664 480 48 ) ( 1664 480 -64 ) ( 1632 480 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.6665 0 0.12 0.12
-( 1664 512 496 ) ( 1632 384 496 ) ( 1664 384 496 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 85.33325 0 0.12 0.12
-( 1632 480 656 ) ( 1760 448 656 ) ( 1632 448 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 85.33325 0 0.12 0.12
-( 1664 496 48 ) ( 1632 496 -64 ) ( 1664 496 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.6665 0 0.12 0.12
-( 1632 384 48 ) ( 1632 512 48 ) ( 1632 512 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -85.33325 490.6665 0 0.12 0.12
+( 544 224 48 ) ( 544 352 -64 ) ( 544 352 48 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 224 490.66675 0 0.12 0.12
+( 1664 320 48 ) ( 1664 320 -64 ) ( 1632 320 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.66675 0 0.12 0.12
+( 1664 352 528 ) ( 1632 224 528 ) ( 1664 224 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -224 0 0.12 0.12
+( 1632 320 656 ) ( 1760 288 656 ) ( 1632 288 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -224 0 0.12 0.12
+( 1664 336 48 ) ( 1632 336 -64 ) ( 1664 336 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.66675 0 0.12 0.12
+( 1632 224 48 ) ( 1632 352 48 ) ( 1632 352 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 224 490.66675 0 0.12 0.12
 }
 // brush 101
 {
-( 448 16 48 ) ( 448 144 -64 ) ( 448 144 48 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 933.3334 490.6665 0 0.12 0.12
-( 1664 112 48 ) ( 1664 112 -64 ) ( 1632 112 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.6665 0 0.12 0.12
-( 1664 144 496 ) ( 1632 16 496 ) ( 1664 16 496 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -933.3334 0 0.12 0.12
-( 1632 112 656 ) ( 1760 80 656 ) ( 1632 80 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -933.3334 0 0.12 0.12
-( 1664 128 48 ) ( 1632 128 -64 ) ( 1664 128 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.6665 0 0.12 0.12
-( 1632 16 48 ) ( 1632 144 48 ) ( 1632 144 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 933.3334 490.6665 0 0.12 0.12
+( 544 112 48 ) ( 544 240 -64 ) ( 544 240 48 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33337 490.6665 0 0.12 0.12
+( 1664 208 48 ) ( 1664 208 -64 ) ( 1632 208 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.6665 0 0.12 0.12
+( 1664 240 528 ) ( 1632 112 528 ) ( 1664 112 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -133.33337 0 0.12 0.12
+( 1632 208 656 ) ( 1760 176 656 ) ( 1632 176 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -133.33337 0 0.12 0.12
+( 1664 224 48 ) ( 1632 224 -64 ) ( 1664 224 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.6665 0 0.12 0.12
+( 1632 112 48 ) ( 1632 240 48 ) ( 1632 240 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33337 490.6665 0 0.12 0.12
 }
 // brush 102
 {
-( 464 208 48 ) ( 464 336 -64 ) ( 464 336 48 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 357.3335 490.6665 0 0.12 0.12
-( 1664 112 48 ) ( 1664 112 -64 ) ( 1632 112 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.6665 0 0.12 0.12
+( 544 208 48 ) ( 544 336 -64 ) ( 544 336 48 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 357.3335 490.6665 0 0.12 0.12
+( 1664 224 48 ) ( 1664 224 -64 ) ( 1632 224 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.6665 0 0.12 0.12
 ( 1632 304 656 ) ( 1632 272 656 ) ( 1760 272 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -357.3335 0 0.12 0.12
 ( 1632 304 672 ) ( 1760 272 672 ) ( 1632 272 672 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 -357.3335 0 0.12 0.12
-( 1664 480 48 ) ( 1632 480 -64 ) ( 1664 480 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.6665 0 0.12 0.12
+( 1664 320 48 ) ( 1632 320 -64 ) ( 1664 320 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 181.33301 490.6665 0 0.12 0.12
 ( 1632 208 48 ) ( 1632 336 48 ) ( 1632 336 -64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 357.3335 490.6665 0 0.12 0.12
-}
-// brush 103
-{
-( 448 176 528 ) ( 448 160 528 ) ( 448 176 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -453.33337 0 0 0.12 0.12
-( 448 112 528 ) ( 448 112 128 ) ( 384 112 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 261.33325 0 180 0.12 -0.12
-( 448 176 528 ) ( 384 176 528 ) ( 448 160 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -453.33337 -261.33325 90 0.12 0.12
-( 448 176 672 ) ( 448 160 672 ) ( 384 176 672 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -453.3335 -261.33325 90 0.12 0.12
-( 448 480 528 ) ( 384 480 528 ) ( 448 480 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 261.33325 0 180 0.12 -0.12
-( 464 176 128 ) ( 464 160 128 ) ( 464 176 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -453.33337 0 0 0.12 0.12
-}
-// brush 104
-{
-( 1632 384 32 ) ( 1632 352 -80 ) ( 1632 384 -80 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -373.33325 357.333 0 0.12 0.12
-( 1776 352 32 ) ( 1648 352 -80 ) ( 1648 352 32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 506.667 357.333 180 0.12 -0.12
-( 1648 384 544 ) ( 1648 352 544 ) ( 1776 352 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -373.33325 -506.667 90 0.12 0.12
-( 1648 384 656 ) ( 1776 352 656 ) ( 1648 352 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -373.33325 -506.667 90 0.12 0.12
-( 1648 480 32 ) ( 1776 480 -80 ) ( 1776 480 32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 506.667 357.333 180 0.12 -0.12
-( 1648 384 32 ) ( 1648 384 -80 ) ( 1648 352 -80 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -373.33325 357.333 0 0.12 0.12
-}
-// brush 105
-{
-( 1632 112 32 ) ( 1632 80 -80 ) ( 1632 112 -80 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 869.3335 357.333 0 0.12 0.12
-( 1776 112 32 ) ( 1648 112 -80 ) ( 1648 112 32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 506.667 357.333 180 0.12 -0.12
-( 1648 112 544 ) ( 1648 80 544 ) ( 1776 80 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 869.3335 -506.667 90 0.12 0.12
-( 1648 112 656 ) ( 1776 80 656 ) ( 1648 80 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 869.3335 -506.667 90 0.12 0.12
-( 1648 208 32 ) ( 1776 208 -80 ) ( 1776 208 32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 506.667 357.333 180 0.12 -0.12
-( 1648 112 32 ) ( 1648 112 -80 ) ( 1648 80 -80 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 869.3335 357.333 0 0.12 0.12
-}
-// brush 106
-{
-( 424 96 16 ) ( 424 64 144 ) ( 424 64 16 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 256 -128 0 ) ( 256 -128 1 ) ( 257 -128 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -320 0 0 0.12 0.12
-( 256 32 16 ) ( 257 32 16 ) ( 256 33 16 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -320 0 0 0.12 0.12
-( 272 96 64 ) ( 272 97 64 ) ( 273 96 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -320 0 0 0.12 0.12
-( 272 -96 16 ) ( 273 -96 16 ) ( 272 -96 17 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -320 0 0 0.12 0.12
-( 576 96 16 ) ( 576 64 16 ) ( 576 64 144 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-}
-// brush 107
-{
-( 424 -136 16 ) ( 424 -168 144 ) ( 424 -168 16 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 256 -360 0 ) ( 256 -360 1 ) ( 257 -360 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -320 0 0 0.12 0.12
-( 256 -200 40 ) ( 257 -200 40 ) ( 256 -199 40 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -320 0 0 0.12 0.12
-( 272 -136 64 ) ( 272 -135 64 ) ( 273 -136 64 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -320 0 0 0.12 0.12
-( 272 -328 16 ) ( 273 -328 16 ) ( 272 -328 17 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -320 0 0 0.12 0.12
-( 576 -136 16 ) ( 576 -168 16 ) ( 576 -168 144 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-}
-// brush 108
-{
-( 544 304 528 ) ( 544 304 544 ) ( 464 304 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 544 240 544 ) ( 544 112 544 ) ( 544 112 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 596.66675 0 0 0.13714285 0.12
-( 544 240 528 ) ( 464 240 544 ) ( 544 240 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 544 112 528 ) ( 544 240 528 ) ( 464 240 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 346.66675 96 90 0.12 0.12
-( 560 304 528 ) ( 544 304 544 ) ( 544 432 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 346.66675 96 90 0.12 0.12
-}
-// brush 109
-{
-( 464 240 544 ) ( 464 112 544 ) ( 464 112 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 596.66675 0 0 0.13714285 0.12
-( 464 128 544 ) ( 544 128 544 ) ( 544 128 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 544 112 528 ) ( 544 240 528 ) ( 464 240 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 346.66675 96 90 0.12 0.12
-( 464 240 544 ) ( 544 240 544 ) ( 544 112 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 346.66675 96 90 0.12 0.12
-( 544 240 528 ) ( 544 240 544 ) ( 464 240 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 560 240 528 ) ( 544 240 544 ) ( 544 368 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 346.66675 96 90 0.12 0.12
-}
-// brush 110
-{
-( 464 496 544 ) ( 464 304 544 ) ( 464 304 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 605.77783 0 0 0.13090909 0.12
-( 464 304 544 ) ( 544 304 544 ) ( 544 304 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 544 304 528 ) ( 544 496 528 ) ( 464 496 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
-( 464 496 544 ) ( 544 496 544 ) ( 544 304 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
-( 544 480 528 ) ( 544 480 544 ) ( 464 480 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -96 0 180 0.12 -0.12
-( 560 240 528 ) ( 544 240 544 ) ( 544 368 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 394.66675 96 90 0.12 0.12
 }
 }
 // entity 4
@@ -1639,12 +1569,12 @@
 "_tb_layer" "28"
 // brush 0
 {
-( 1168 -144 -48 ) ( 1168 -143 -48 ) ( 1168 -144 -47 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 1168 -144 -48 ) ( 1168 -144 -47 ) ( 1169 -144 -48 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 1168 -144 -48 ) ( 1169 -144 -48 ) ( 1168 -143 -48 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 1312 -48 0 ) ( 1312 -47 0 ) ( 1313 -48 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 1312 -48 -32 ) ( 1313 -48 -32 ) ( 1312 -48 -31 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 1312 -48 -32 ) ( 1312 -48 -31 ) ( 1312 -47 -32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( 1072 208 80 ) ( 1072 209 80 ) ( 1072 208 81 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( 1072 208 80 ) ( 1072 208 81 ) ( 1073 208 80 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( 1072 208 80 ) ( 1073 208 80 ) ( 1072 209 80 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( 1216 304 128 ) ( 1216 305 128 ) ( 1217 304 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( 1216 304 96 ) ( 1217 304 96 ) ( 1216 304 97 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
+( 1216 304 96 ) ( 1216 304 97 ) ( 1216 305 96 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 }
 }
 // entity 10
@@ -1661,40 +1591,5 @@
 ( 1888 0 112 ) ( 1888 1 112 ) ( 1889 0 112 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -384 384 0 0.12 0.12
 ( 1888 512 128 ) ( 1889 512 128 ) ( 1888 512 129 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -384 0 0 0.12 0.12
 ( 2176 0 128 ) ( 2176 0 129 ) ( 2176 1 128 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -384 0 0 0.12 0.12
-}
-}
-// entity 11
-{
-"classname" "Path_corner"
-"origin" "1496 312 536"
-"path_index" "1"
-"speed" "30"
-"path_name" "upstairs"
-"_tb_layer" "28"
-}
-// entity 12
-{
-"classname" "Path_corner"
-"origin" "1144 312 536"
-"path_index" "2"
-"speed" "30"
-"path_name" "upstairs"
-"_tb_layer" "28"
-}
-// entity 13
-{
-"classname" "train"
-"path_name" "upstairs"
-"path_index" "1"
-"speed" "1"
-"_tb_layer" "28"
-// brush 0
-{
-( 1472 240 528 ) ( 1472 241 528 ) ( 1472 240 529 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 1424 256 528 ) ( 1424 256 529 ) ( 1425 256 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 1424 240 528 ) ( 1425 240 528 ) ( 1424 241 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 1568 336 544 ) ( 1568 337 544 ) ( 1569 336 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 1568 352 544 ) ( 1569 352 544 ) ( 1568 352 545 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
-( 1568 336 544 ) ( 1568 336 545 ) ( 1568 337 544 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 0 0 0 0.12 0.12
 }
 }
