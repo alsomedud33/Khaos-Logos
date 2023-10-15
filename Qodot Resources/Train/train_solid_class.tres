@@ -19,6 +19,7 @@ description = "Train Brush."
 qodot_internal = false
 base_classes = Array[Resource]([])
 class_properties = {
+"active": 1,
 "path_index": 0,
 "path_loop_type": 0,
 "path_name": "",

@@ -1,8 +1,9 @@
 res://Titlescreen/TitleScreen.tscn
 res://Objects/Projectile/Explosion_Hitbox.tres
+res://addons/qodot/game_definitions/fgd/base_classes/targetname_base_class.tres
 res://addons/qodot/game_definitions/fgd/base_classes/light_base_class.tres
 res://addons/qodot/game_definitions/fgd/point_classes/light_point_class.tres
-res://addons/qodot/game_definitions/fgd/solid_classes/wall_solid_class.tres
+res://addons/qodot/game_definitions/fgd/point_classes/physics_ball_point_class.tres
 res://Qodot Resources/teleporter_point_class.tres
 res://Qodot Resources/fake_door_solid_class.tres
 res://Qodot Resources/Path Corner/path_corner_point_class.tres
@@ -33,3 +34,12 @@ res://Maps/Chameno Woods/chameno_woods.tscn
 res://Maps/Level 1/level 1.tscn
 res://Maps/Test Stage/Test Stage.tscn
 res://Objects/Projectile/Rocket.tscn
+res://Objects/Capsules/Rocket_Capsule.tscn
+res://Characters/Rocket Man/Rocket_Man.gd
+res://trace.gd
+res://Maps/Level 1B/Level1B.tscn
+res://Maps/Level 1B/Level1B.gd
+res://Maps/Kingdom 1/Change_Scene.gd
+res://Autoloads/Globals.gd
+res://addons/qodot/game_definitions/trenchbroom/brush_tags/trigger_tag.tres
+res://addons/qodot/game_definitions/trenchbroom/face_tags/skip_tag.tres

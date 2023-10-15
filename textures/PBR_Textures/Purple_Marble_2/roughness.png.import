@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://m38affvrnyll"
-path="res://.godot/imported/displacement.png-4d248b0b140b34317f14485b1af965f9.ctex"
+uid="uid://dycov731j3e64"
+path="res://.godot/imported/roughness.png-4bb2efd0e65378b83a5e2f998025f194.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/PBR_Textures/Purple_Marble 2/displacement.png"
-dest_files=["res://.godot/imported/displacement.png-4d248b0b140b34317f14485b1af965f9.ctex"]
+source_file="res://textures/PBR_Textures/Purple_Marble_2/roughness.png"
+dest_files=["res://.godot/imported/roughness.png-4bb2efd0e65378b83a5e2f998025f194.ctex"]
 
 [params]
 

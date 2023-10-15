@@ -4,11 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cerge78a8k235" path="res://textures/PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color.jpg" id="2_x576l"]
 
 [resource]
-transparency = 2
-alpha_scissor_threshold = 0.4
-alpha_antialiasing_mode = 2
-alpha_antialiasing_edge = 0.5
-shading_mode = 0
+transparency = 4
 vertex_color_use_as_albedo = true
 albedo_texture = ExtResource("1_mdeb4")
 albedo_texture_msdf = true
@@ -20,5 +16,8 @@ heightmap_flip_binormal = true
 heightmap_texture = ExtResource("1_mdeb4")
 detail_enabled = true
 detail_albedo = ExtResource("2_x576l")
-msdf_pixel_range = 10.0
+uv1_triplanar_sharpness = 150.0
+uv1_world_triplanar = true
+disable_receive_shadows = true
+msdf_pixel_range = 100.0
 msdf_outline_size = 5.0

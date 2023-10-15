@@ -4,7 +4,10 @@ extends QodotEntity
 var path_name:String = ""
 var path_index:int 
 var speed:int 
-var delay:int 
+var delay:float 
+
+enum {CONSTANT,LERP}
+var path_speed_type:int = CONSTANT
 
 func update_properties():
 	if (!Engine.is_editor_hint()):
@@ -19,6 +22,8 @@ func update_properties():
 	## Time in seconds to wait before moving onto the next node
 	if (properties.has("delay")):
 		delay = properties["delay"]
+	if (properties.has("path_speed_type")):
+		path_speed_type = properties.path_speed_type
 
 
 func _ready():
@@ -27,6 +32,8 @@ func _ready():
 		add_to_group("path_" + path_name);
 	if (properties.has("path_index")):
 		path_index = properties["path_index"]
+	if (properties.has("delay")):
+		delay = properties["delay"]
 
 #static Vector3 demangler(Dictionary properties, int mangle_type = 0)
 func demangler(properties:Dictionary,mangle_type:int = 0) -> Vector3:

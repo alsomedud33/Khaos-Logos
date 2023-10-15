@@ -1,0 +1,231 @@
+// Game: Khaos Logos
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/PBR_Textures/Brown_Spiral_Mosaic;textures/PBR_Textures/Facade_019B;textures/PBR_Textures/GlazedTerracotta;textures/PBR_Textures/MetalWalkway010;textures/PBR_Textures/Metal_Plate_006;textures/PBR_Textures/Purple_Marble;textures/PBR_Textures/Purple_Marble_2;textures/PBR_Textures/Rock_035;textures/PBR_Textures/Rust_Panel;textures/PBR_Textures/SheetMetal001;textures/PBR_Textures/SheetMetal003;textures/PBR_Textures/Tree_bark;textures/PBR_Textures/Window;textures/PBR_Textures/Wood067;textures/PBR_Textures/Wood071;textures/PBR_Textures/WoodFloor020;textures/PBR_Textures/WoodSiding007;textures/PBR_Textures/bricks-mortar-ue"
+// brush 0
+{
+( -48 -400 640 ) ( -48 -368 640 ) ( -48 -368 768 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66675 0 0 0.12 0.12
+( -144 48 368 ) ( -16 48 496 ) ( -16 48 368 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 0 0 0.12 0.12
+( -336 -432 0 ) ( -335 -432 0 ) ( -336 -431 0 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66675 0 0.12 0.12
+( -304 -304 768 ) ( -304 -303 768 ) ( -303 -304 768 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66675 0 0.12 0.12
+( -144 80 368 ) ( -16 80 368 ) ( -16 80 496 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 0 0 0.12 0.12
+( 48 -400 640 ) ( 48 -368 768 ) ( 48 -368 640 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66675 0 0 0.12 0.12
+}
+// brush 1
+{
+( -96 -432 352 ) ( -96 -431 352 ) ( -96 -432 353 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66672 0 0 0.12 0.12
+( -240 -96 352 ) ( -240 -96 353 ) ( -239 -96 352 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33505 0 0 0.12 0.12
+( -240 -432 0 ) ( -239 -432 0 ) ( -240 -431 0 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33505 154.66672 0 0.12 0.12
+( -208 -304 768 ) ( -208 -303 768 ) ( -207 -304 768 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33505 154.66672 0 0.12 0.12
+( -240 80 352 ) ( -239 80 352 ) ( -240 80 353 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33505 0 0 0.12 0.12
+( -48 -432 352 ) ( -48 -432 353 ) ( -48 -431 352 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66672 0 0 0.12 0.12
+}
+// brush 2
+{
+( 48 -400 640 ) ( 48 -368 640 ) ( 48 -368 768 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 0 0 0.12 0.12
+( -48 -96 368 ) ( 80 -96 496 ) ( 80 -96 368 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33496 0 0 0.12 0.12
+( -240 -432 0 ) ( -239 -432 0 ) ( -240 -431 0 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33496 154.66669 0 0.12 0.12
+( -208 -304 768 ) ( -208 -303 768 ) ( -207 -304 768 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33496 154.66669 0 0.12 0.12
+( -48 80 368 ) ( 80 80 368 ) ( 80 80 496 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33496 0 0 0.12 0.12
+( 96 -400 640 ) ( 96 -368 768 ) ( 96 -368 640 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 0 0 0.12 0.12
+}
+// brush 3
+{
+( -48 -304 512 ) ( -48 -303 512 ) ( -48 -304 513 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66663 0 0 0.12 0.12
+( -48 -80 528 ) ( 80 -80 656 ) ( 80 -80 528 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 0 0 0.12 0.12
+( -240 -304 128 ) ( -239 -304 128 ) ( -240 -303 128 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66663 0 0.12 0.12
+( -208 -176 768 ) ( -208 -175 768 ) ( -207 -176 768 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66663 0 0.12 0.12
+( -48 -48 528 ) ( 80 -48 528 ) ( 80 -48 656 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 0 0 0.12 0.12
+( 48 -272 800 ) ( 48 -240 928 ) ( 48 -240 800 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66663 0 0 0.12 0.12
+}
+// brush 4
+{
+( -48 -304 512 ) ( -48 -303 512 ) ( -48 -304 513 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 0 0 0.12 0.12
+( -48 -48 528 ) ( 80 -48 656 ) ( 80 -48 528 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 0 0 0.12 0.12
+( -240 -304 0 ) ( -239 -304 0 ) ( -240 -303 0 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66669 0 0.12 0.12
+( -240 -304 32 ) ( -240 -303 32 ) ( -239 -304 32 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66669 0 0.12 0.12
+( -48 48 528 ) ( 80 48 528 ) ( 80 48 656 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 0 0 0.12 0.12
+( 48 -272 800 ) ( 48 -240 928 ) ( 48 -240 800 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 0 0 0.12 0.12
+}
+// brush 5
+{
+( -64 -432 352 ) ( -64 -431 352 ) ( -64 -432 353 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66672 0 0 0.12 0.12
+( -240 -80 352 ) ( -240 -80 353 ) ( -239 -80 352 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33505 0 0 0.12 0.12
+( -208 -304 768 ) ( -207 -304 768 ) ( -208 -303 768 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33505 154.66672 0 0.12 0.12
+( -208 -304 800 ) ( -208 -303 800 ) ( -207 -304 800 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33505 154.66672 0 0.12 0.12
+( -240 80 352 ) ( -239 80 352 ) ( -240 80 353 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33505 0 0 0.12 0.12
+( 80 -432 352 ) ( 80 -432 353 ) ( 80 -431 352 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66672 0 0 0.12 0.12
+}
+// brush 6
+{
+( -48 -304 512 ) ( -48 -303 512 ) ( -48 -304 513 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 0 0 0.12 0.12
+( -48 -80 528 ) ( 80 -80 656 ) ( 80 -80 528 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 0 0 0.12 0.12
+( -240 -304 0 ) ( -239 -304 0 ) ( -240 -303 0 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66669 0 0.12 0.12
+( -240 -304 32 ) ( -240 -303 32 ) ( -239 -304 32 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66669 0 0.12 0.12
+( -48 -48 528 ) ( 80 -48 528 ) ( 80 -48 656 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 0 0 0.12 0.12
+( 48 -272 800 ) ( 48 -240 928 ) ( 48 -240 800 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 0 0 0.12 0.12
+}
+// brush 7
+{
+( -48 -304 512 ) ( -48 -303 512 ) ( -48 -304 513 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66669 0 0 0.12 0.12
+( -48 -256 528 ) ( 80 -256 656 ) ( 80 -256 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( -240 -304 0 ) ( -239 -304 0 ) ( -240 -303 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -240 -304 32 ) ( -240 -303 32 ) ( -239 -304 32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -48 -96 528 ) ( 80 -96 528 ) ( 80 -96 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( 48 -272 800 ) ( 48 -240 928 ) ( 48 -240 800 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66669 0 0 0.12 0.12
+}
+// brush 8
+{
+( 96 -272 800 ) ( 96 -240 800 ) ( 96 -240 928 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+( -48 -256 528 ) ( 80 -256 656 ) ( 80 -256 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( -240 -304 0 ) ( -239 -304 0 ) ( -240 -303 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -240 -304 32 ) ( -240 -303 32 ) ( -239 -304 32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -48 -96 528 ) ( 80 -96 528 ) ( 80 -96 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( 128 -272 800 ) ( 128 -240 928 ) ( 128 -240 800 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+}
+// brush 9
+{
+( -128 -304 512 ) ( -128 -303 512 ) ( -128 -304 513 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+( -48 -256 528 ) ( 80 -256 656 ) ( 80 -256 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( -240 -304 0 ) ( -239 -304 0 ) ( -240 -303 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -240 -304 32 ) ( -240 -303 32 ) ( -239 -304 32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -48 -96 528 ) ( 80 -96 528 ) ( 80 -96 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( -96 -304 512 ) ( -96 -304 513 ) ( -96 -303 512 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+}
+// brush 10
+{
+( -48 -304 512 ) ( -48 -303 512 ) ( -48 -304 513 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66669 0 0 0.12 0.12
+( -48 -96 528 ) ( 80 -96 656 ) ( 80 -96 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( -240 -304 0 ) ( -239 -304 0 ) ( -240 -303 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -240 -304 32 ) ( -240 -303 32 ) ( -239 -304 32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -48 -80 528 ) ( 80 -80 528 ) ( 80 -80 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( 48 -272 800 ) ( 48 -240 928 ) ( 48 -240 800 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66669 0 0 0.12 0.12
+}
+// brush 11
+{
+( -64 -432 352 ) ( -64 -431 352 ) ( -64 -432 353 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+( -240 80 352 ) ( -240 80 353 ) ( -239 80 352 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 0 0 0.12 0.12
+( -208 -304 656 ) ( -207 -304 656 ) ( -208 -303 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 154.66675 0 0.12 0.12
+( -208 -304 800 ) ( -208 -303 800 ) ( -207 -304 800 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 154.66672 0 0.12 0.12
+( -240 608 352 ) ( -239 608 352 ) ( -240 608 353 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 0 0 0.12 0.12
+( 80 -432 352 ) ( 80 -432 353 ) ( 80 -431 352 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+}
+// brush 12
+{
+( -64 -432 352 ) ( -64 -431 352 ) ( -64 -432 353 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+( -240 608 352 ) ( -240 608 353 ) ( -239 608 352 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 0 0 0.12 0.12
+( -208 -304 656 ) ( -207 -304 656 ) ( -208 -303 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 154.66675 0 0.12 0.12
+( -208 -304 800 ) ( -208 -303 800 ) ( -207 -304 800 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 154.66672 0 0.12 0.12
+( -240 736 352 ) ( -239 736 352 ) ( -240 736 353 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 0 0 0.12 0.12
+( 80 -432 352 ) ( 80 -432 353 ) ( 80 -431 352 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+}
+// brush 13
+{
+( 80 -432 352 ) ( 80 -431 352 ) ( 80 -432 353 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+( -240 608 352 ) ( -240 608 353 ) ( -239 608 352 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 0 0 0.12 0.12
+( -208 -304 656 ) ( -207 -304 656 ) ( -208 -303 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 154.66675 0 0.12 0.12
+( -208 -304 800 ) ( -208 -303 800 ) ( -207 -304 800 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 154.66672 0 0.12 0.12
+( -240 736 352 ) ( -239 736 352 ) ( -240 736 353 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33505 0 0 0.12 0.12
+( 224 -432 352 ) ( 224 -432 353 ) ( 224 -431 352 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66699 0 0 0.12 0.12
+}
+// brush 14
+{
+( 48 -272 800 ) ( 48 -240 800 ) ( 48 -240 928 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66669 0 0 0.12 0.12
+( -48 -256 528 ) ( 80 -256 656 ) ( 80 -256 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( -240 -304 0 ) ( -239 -304 0 ) ( -240 -303 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -240 -304 32 ) ( -240 -303 32 ) ( -239 -304 32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -48 -96 528 ) ( 80 -96 528 ) ( 80 -96 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( 96 -272 800 ) ( 96 -240 928 ) ( 96 -240 800 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+}
+// brush 15
+{
+( 96 -272 800 ) ( 96 -240 800 ) ( 96 -240 928 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+( -48 -96 528 ) ( 80 -96 656 ) ( 80 -96 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( -240 -304 0 ) ( -239 -304 0 ) ( -240 -303 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -240 -304 768 ) ( -240 -303 768 ) ( -239 -304 768 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33496 154.66669 0 0.12 0.12
+( -48 -64 528 ) ( 80 -64 528 ) ( 80 -64 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33496 0 0 0.12 0.12
+( 128 -272 800 ) ( 128 -240 928 ) ( 128 -240 800 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+}
+// brush 16
+{
+( -96 -304 512 ) ( -96 -303 512 ) ( -96 -304 513 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+( -48 -256 528 ) ( 80 -256 656 ) ( 80 -256 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( -240 -304 0 ) ( -239 -304 0 ) ( -240 -303 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -240 -304 32 ) ( -240 -303 32 ) ( -239 -304 32 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -48 -96 528 ) ( 80 -96 528 ) ( 80 -96 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( -48 -304 512 ) ( -48 -304 513 ) ( -48 -303 512 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66669 0 0 0.12 0.12
+}
+// brush 17
+{
+( -128 -304 512 ) ( -128 -303 512 ) ( -128 -304 513 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+( -48 -96 528 ) ( 80 -96 656 ) ( 80 -96 528 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 0 0 0.12 0.12
+( -240 -304 0 ) ( -239 -304 0 ) ( -240 -303 0 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33493 154.66669 0 0.12 0.12
+( -240 -304 768 ) ( -240 -303 768 ) ( -239 -304 768 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33496 154.66669 0 0.12 0.12
+( -48 -64 528 ) ( 80 -64 528 ) ( 80 -64 656 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color 133.33496 0 0 0.12 0.12
+( -96 -304 512 ) ( -96 -304 513 ) ( -96 -303 512 ) PBR_Textures/Metal_Plate_006/MetalPlates006_1K_Color -154.66675 0 0 0.12 0.12
+}
+}
+// entity 1
+{
+"classname" "trigger"
+"target" "Spawn_door"
+"mask" "2"
+// brush 0
+{
+( -48 -304 421 ) ( -48 -303 421 ) ( -48 -304 422 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 -246.33336 0 0.12 0.12
+( -48 -48 437 ) ( 80 -48 565 ) ( 80 -48 437 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 -246.33336 0 0.12 0.12
+( -240 -304 -59 ) ( -239 -304 -59 ) ( -240 -303 -59 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66669 0 0.12 0.12
+( -240 -304 37 ) ( -240 -303 37 ) ( -239 -304 37 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66669 0 0.12 0.12
+( -48 48 437 ) ( 80 48 437 ) ( 80 48 565 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 -246.33336 0 0.12 0.12
+( 48 -272 709 ) ( 48 -240 837 ) ( 48 -240 709 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 -246.33336 0 0.12 0.12
+}
+}
+// entity 2
+{
+"classname" "mover"
+"targetname" "Spawn_door"
+"speed" "1"
+"translation" "0 -7 0"
+// brush 0
+{
+( -48 -304 512 ) ( -48 -303 512 ) ( -48 -304 513 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66663 0 0 0.12 0.12
+( -48 -80 528 ) ( 80 -80 656 ) ( 80 -80 528 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 0 0 0.12 0.12
+( -240 -304 32 ) ( -239 -304 32 ) ( -240 -303 32 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66663 0 0.12 0.12
+( -240 -304 128 ) ( -240 -303 128 ) ( -239 -304 128 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66663 0 0.12 0.12
+( -48 -48 528 ) ( 80 -48 528 ) ( 80 -48 656 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 0 0 0.12 0.12
+( 48 -272 800 ) ( 48 -240 928 ) ( 48 -240 800 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66663 0 0 0.12 0.12
+}
+}
+// entity 3
+{
+"classname" "trigger"
+"target" "Spawn_elevator"
+"mask" "2"
+// brush 0
+{
+( -48 -304 836 ) ( -48 -303 836 ) ( -48 -304 837 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 140 0 0.12 0.12
+( -48 -48 852 ) ( 80 -48 980 ) ( 80 -48 852 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 140 0 0.12 0.12
+( -240 -304 356 ) ( -239 -304 356 ) ( -240 -303 356 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66669 0 0.12 0.12
+( -240 -304 372 ) ( -240 -303 372 ) ( -239 -304 372 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66669 0 0.12 0.12
+( -48 48 852 ) ( 80 48 852 ) ( 80 48 980 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 140 0 0.12 0.12
+( 48 -272 1124 ) ( 48 -240 1252 ) ( 48 -240 1124 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 140 0 0.12 0.12
+}
+}
+// entity 4
+{
+"classname" "mover"
+"targetname" "Spawn_elevator"
+"translation" "0 -25 0"
+"speed" ".2"
+// brush 0
+{
+( -48 -304 848 ) ( -48 -303 848 ) ( -48 -304 849 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 240.00024 0 0.12 0.12
+( -48 -48 864 ) ( 80 -48 992 ) ( 80 -48 864 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 240.00024 0 0.12 0.12
+( -240 -304 336 ) ( -239 -304 336 ) ( -240 -303 336 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66669 0 0.12 0.12
+( -240 -304 368 ) ( -240 -303 368 ) ( -239 -304 368 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 154.66669 0 0.12 0.12
+( -48 48 864 ) ( 80 48 864 ) ( 80 48 992 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo 133.33493 240.00024 0 0.12 0.12
+( 48 -272 1136 ) ( 48 -240 1264 ) ( 48 -240 1136 ) PBR_Textures/Purple_Marble/Purple_Marble_albedo -154.66669 240.00024 0 0.12 0.12
+}
+}

@@ -710,3 +710,6 @@ unique_name_in_owner = true
 libraries = {
 "": SubResource("AnimationLibrary_4m8wx")
 }
+
+[node name="Node3D" type="Node3D" parent="."]
+top_level = true

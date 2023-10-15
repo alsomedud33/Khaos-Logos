@@ -1,9 +1,6 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://c2fpqqhor2y4s"]
-
-[ext_resource type="Texture2D" uid="uid://7oclfjt82t60" path="res://textures/PBR_Textures/Blue_Tile.jpg" id="1_ef0qx"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c2fpqqhor2y4s"]
 
 [resource]
 shading_mode = 0
 vertex_color_use_as_albedo = true
-albedo_color = Color(0.164706, 0.92549, 0.831373, 1)
-albedo_texture = ExtResource("1_ef0qx")
+albedo_color = Color(0, 0.913725, 0.941176, 1)

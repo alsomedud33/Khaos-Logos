@@ -1,7 +1,8 @@
 extends Node
 
 var player
-
+var head_rotation:Vector3 = Vector3.ZERO
+var body_rotation:Vector3 = Vector3.ZERO
 
 signal scrn_txt(text)
 

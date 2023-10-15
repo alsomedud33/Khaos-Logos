@@ -84,6 +84,8 @@ func _input(event: InputEvent) -> void:
 		#camera_rot.x = clamp(camera_rot.x, deg_to_rad(-89), deg_to_rad(89))
 
 func _ready():
+	self.head.global_rotation.x = Globals.head_rotation.x 
+	self.global_rotation.y = Globals.body_rotation.y
 	Globals.scrn_txt.connect(set_scrn_txt)
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	Normal()
@@ -145,8 +147,12 @@ func _process(delta):
 
 
 func _physics_process(delta):
+	deltaTime = delta
 	max_body_sway = clamp(velocity.length(),10,30)
-	%"Hands and Weps".global_transform.origin = lerp(%"Hands and Weps".global_transform.origin, %Pivot.global_transform.origin, body_sway_speed*(max_body_sway*0.1)*delta)
+	%"Hands and Weps".global_position = lerp(%"Hands and Weps".global_position, %Pivot.global_position, body_sway_speed*(max_body_sway*0.1)*delta)
+#	$Node3D.global_position = lerp($Node3D.global_position, %Pivot.global_transform.origin, body_sway_speed*(max_body_sway*0.1)*delta)
+#	$Pivot/Camera3D.global_position.y = $Node3D.global_position.y
+	smooth_step_up()
 	#%"Hands and Weps".global_transform = %Pivot.global_transform
 	$CollisionShape3D2.global_rotation = Vector3.ZERO
 	queue_jump()
@@ -207,13 +213,16 @@ func _physics_process(delta):
 			if is_on_floor() == false:
 				vertical_velocity = 0
 				change_state(AIR)
+			if is_on_ceiling() and is_on_floor():
+				self.global_position = Vector3.ZERO
 			crouch_jump_counter =0
 			if wish_jump:
 				floor_snap_length = 0
 				vertical_velocity = jump_impulse
 				move_air(get_real_velocity(), delta)
 #				wish_jump = false
-			else:
+			if is_on_floor() == true:
+				#step_move(global_position,get_real_velocity().normalized()*10)
 				if ground_check.is_colliding() == true:
 					var normal = ground_check.get_collision_normal()
 					#print(normal.dot(Vector3.UP))
@@ -229,6 +238,7 @@ func _physics_process(delta):
 		AIR:
 			floor_snap_length = 0
 			vertical_velocity = get_real_velocity().y
+			#print (vertical_velocity)
 			if self.is_on_ceiling(): #We've hit a ceiling, usually after a jump. Vertical velocity is reset to cancel any remaining jump momentum
 				vertical_velocity = -1#absf(vertical_velocity) * -1
 			if vertical_velocity >= terminal_velocity:
@@ -331,7 +341,7 @@ func Normal():
 	#head.position = Vector3(0,0.7,0)
 	$CollisionShape3D2.shape.size.y = 1.9*1.5#.height = 1.9
 	$CollisionShape3D2.position = Vector3(0,0,0)
-	
+
 func Crouching(delta):
 	crouching = true
 	slow_air_angle = deg_to_rad(10)#deg_to_rad(20)
@@ -352,6 +362,65 @@ func Crouching(delta):
 func reset_jump_impulse():
 	print("finsihed tween")
 	jump_impulse = 7
+
+
+var deltaTime : float = 0.0
+const STEPSIZE : float = 3         # default: 1.8
+@onready var collider : CollisionShape3D = $CollisionShape3D2
+func step_move(original_pos : Vector3, vel : Vector3):
+	var dest  : Vector3
+	var down  : Vector3
+	var up    : Vector3
+	var trace : Trace
+	
+	trace = Trace.new()
+	
+	# Get destination position that is one step-size above the intended move
+	dest = original_pos
+	dest[0] += vel[0] * deltaTime
+	dest[1] += STEPSIZE
+	dest[2] += vel[2] * deltaTime
+	
+	# 1st Trace: check for collisions one stepsize above the original position
+	up = original_pos + Vector3.UP * STEPSIZE
+	trace.standard(original_pos, up, collider.shape, self)
+	
+	dest[1] = trace.endpos[1]
+	
+	# 2nd Trace: Check for collisions one stepsize above the original position
+	# and along the intended destination
+	trace.standard(trace.endpos, dest, collider.shape, self)
+	
+	# 3rd Trace: Check for collisions below the stepsize until 
+	# level with original position
+	down = Vector3(trace.endpos[0], original_pos[1], trace.endpos[2])
+	trace.standard(trace.endpos, down, collider.shape, self)
+	
+	# Move to trace collision position if step is higher than original position 
+	# and not steep 
+	if trace.endpos[1] > original_pos[1] and trace.normal[1] >= 0.7: 
+		var tween1 = get_tree().create_tween()
+		tween1.parallel().tween_property(self,"global_position",trace.endpos,.1)
+		tween1.play()
+		#trace.endpos
+		#velocity = velocity.slide(trace.normal)
+		return true
+	
+	return false
+
+
+var oldy : float = 0.0
+func smooth_step_up():
+	var current = self.global_transform.origin[1]
+	if current - oldy > 0:
+		oldy += deltaTime * 15.0
+		if oldy > current:
+			oldy = current
+		if current - oldy > 1.2:
+			oldy = current - 1.2
+		transform.origin[1] += oldy - current
+	else:
+		oldy = current
 
 #Movement Functions
 # This is where we calculate the speed to add to current velocity
@@ -393,7 +462,7 @@ func queue_jump():
 	else:
 		if Input.is_action_just_pressed("jump"):# and is_on_floor():#!wish_jump:
 			wish_jump = true
-			return true
+			#return true
 			#wish_jump = false
 		else:
 			wish_jump = false
@@ -408,6 +477,20 @@ func move_ground(input_velocity: Vector3, delta: float)-> void:
 	# Then get back our vertical component, and move the player
 	nextVelocity.y = vertical_velocity
 	#print (vertical_velocity)
+	
+#	var ccd_max = 1
+#	for _i in range(ccd_max):
+	velocity = nextVelocity
+	var ccd_step = nextVelocity
+	var collision = move_and_collide(ccd_step*.1 * deltaTime)
+	if collision:
+		var normal = collision.get_normal()
+		if normal[1] < 0.7:
+			var stepped = step_move(global_transform.origin, nextVelocity.normalized()*60)
+			if !stepped and nextVelocity.dot(normal) < 0:
+				nextVelocity = nextVelocity.slide(normal)
+		else:
+			nextVelocity = nextVelocity.slide(normal)
 	velocity = nextVelocity#move_and_slide_with_snap(nextVelocity, -get_floor_normal(), Vector3.UP,true,4,deg_to_rad(60))
 	floor_max_angle = deg_to_rad(60)
 	move_and_slide()

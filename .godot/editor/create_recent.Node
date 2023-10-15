@@ -1,14 +1,14 @@
+QodotMap
+Node3D
+CollisionShape3D
+Area3D
 RigidBody3D
 AnimatableBody3D
-Area3D
 CharacterBody3D
 AnimationPlayer
-QodotMap
 NavigationRegion3D
-CollisionShape3D
 GPUParticles3D
 OmniLight3D
-Node3D
 FogVolume
 Label
 TextureRect
@@ -30,4 +30,3 @@ Panel
 MarginContainer
 Container
 NinePatchRect
-HBoxContainer

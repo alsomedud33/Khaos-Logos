@@ -8,7 +8,9 @@
 [ext_resource type="Texture2D" uid="uid://dutmmk3yupiy1" path="res://textures/PBR_Textures/SheetMetal001/SheetMetal001_1K_Roughness.png" id="5_3tf71"]
 
 [resource]
-transparency = 4
+transparency = 2
+alpha_scissor_threshold = 0.3
+alpha_antialiasing_mode = 0
 vertex_color_use_as_albedo = true
 albedo_texture = ExtResource("1_1sohv")
 albedo_texture_msdf = true

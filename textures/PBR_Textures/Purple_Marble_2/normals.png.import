@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://des7clpnkobi1"
-path="res://.godot/imported/albedo.png-57226f9f547dadc219ae18d3e67d7d44.ctex"
+uid="uid://baafvj4l0wda7"
+path="res://.godot/imported/normals.png-981ed092b166394ff94fdd2151f2625d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/PBR_Textures/Purple_Marble 2/albedo.png"
-dest_files=["res://.godot/imported/albedo.png-57226f9f547dadc219ae18d3e67d7d44.ctex"]
+source_file="res://textures/PBR_Textures/Purple_Marble_2/normals.png"
+dest_files=["res://.godot/imported/normals.png-981ed092b166394ff94fdd2151f2625d.ctex"]
 
 [params]
 
