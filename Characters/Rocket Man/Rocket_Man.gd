@@ -57,10 +57,16 @@ var max_body_sway = velocity.length()
 #
 var can_crouch = true
 var can_rel_crouch = true
-
+var crouch_jump_counter =0
 #Ammo Variables
 @export var max_ammo:int = 0
 @export var current_ammo:int = 0
+var current_weapon = 1
+#
+var deltaTime : float = 0.0
+const STEPSIZE : float = 1        # default: 1.8
+var oldy : float = 0.0
+@onready var collider : CollisionShape3D = $CollisionShape3D2
 
 func set_scrn_txt(text):
 	scrn_txt.text = ""
@@ -100,13 +106,9 @@ enum {
 
 var state = GROUND
 var old_state = GROUND
-
 func change_state(new_state):
 	old_state = state
 	state = new_state
-	
-
-var crouch_jump_counter =0
 
 func _process(delta):
 	%"Weapons Cam".global_transform = $Pivot/Camera3D.global_transform
@@ -144,7 +146,6 @@ func _process(delta):
 		%mv_SHOOT.visible = true
 	else:
 		%mv_SHOOT.visible = false
-
 
 func _physics_process(delta):
 	deltaTime = delta
@@ -184,25 +185,22 @@ func _physics_process(delta):
 		elif is_on_floor() == true:
 			change_state(CROUCH)
 			Crouching(delta)
-	if Input.is_action_pressed("shoot_1") and %Rocket_Cooldown.is_stopped() and current_ammo > 0:
-		current_ammo -= 1
-		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-		#velocity += transform.basis.z * jump_impulse
-		%Rocket_Cooldown.start(cooldown)
-		anim.play("Shoot_Rocket")
-		var rocket_instance = rocket.instantiate()
-		if raycast.is_colliding():
-#			var explosion_instance = explosion.instantiate()
-#			explosion_instance.y_explode_ratio = 1
-#			get_tree().current_scene.add_child(explosion_instance)
-#			explosion_instance.global_transform.origin = raycast.get_collision_point()
-			rocket_instance.look_at_from_position(%Rocket_Spawn.global_transform.origin,raycast.get_collision_point(), Vector3.UP)
-			#rocket_instance.destination = raycast.get_collision_point()
-		else:
-			rocket_instance.global_transform.origin = %Rocket_Spawn.global_transform.origin
-			rocket_instance.rotation_degrees = Vector3(-$Pivot.rotation_degrees.x+1, self.rotation_degrees.y+182,0)
-		get_tree().current_scene.call_deferred("add_child",rocket_instance)
-		#move_and_slide()
+	if Input.is_action_pressed("shoot_1") and %Rocket_Cooldown.is_stopped() and %WepSwap_Cooldown.is_stopped() and  current_ammo > 0:
+		match current_weapon:
+			1:
+				current_ammo -= 1
+				Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+				%Rocket_Cooldown.start(cooldown)
+				anim.play("Shoot_Rocket")
+				var rocket_instance = rocket.instantiate()
+				if raycast.is_colliding():
+					rocket_instance.look_at_from_position(%Rocket_Spawn.global_transform.origin,raycast.get_collision_point(), Vector3.UP)
+				else:
+					rocket_instance.global_transform.origin = %Rocket_Spawn.global_transform.origin
+					rocket_instance.rotation_degrees = Vector3(-$Pivot.rotation_degrees.x+1, self.rotation_degrees.y+182,0)
+				get_tree().current_scene.call_deferred("add_child",rocket_instance)
+			2:
+				pass
 	if Input.is_action_pressed("ui_cancel"):
 		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	match state:
@@ -309,7 +307,7 @@ func _physics_process(delta):
 		FROZEN:
 			self.velocity *= 0
 
-
+#Weapon Functions
 func Ammunition():
 	%Current_Ammo.text = str(current_ammo)
 	%Total_Ammo.text = str(max_ammo)
@@ -321,7 +319,29 @@ func Ammunition():
 			current_ammo = max_ammo
 	if state == AIR or state == CROUCH_AIR:
 		current_ammo = clampi(current_ammo,0, current_ammo)
-	
+
+
+func weapon_switch():
+		if Input.is_action_just_pressed("wep_slot_1") and current_weapon != 1:
+			%WepSwap_Cooldown.start()
+			%Rocket_Cooldown.stop()
+			current_weapon = 1
+#			anim.play("Change_Primary")
+#			animtree_change("parameters/Attack_Anim/current",0)
+
+		elif Input.is_action_just_pressed("wep_slot_2") and current_weapon != 2:
+			%WepSwap_Cooldown.start()
+			%Rocket_Cooldown.stop()
+			current_weapon = 2
+#			anim.play("Change_Secondary")
+#			animtree_change("parameters/Attack_Anim/current",0)
+
+		elif Input.is_action_just_pressed("wep_slot_3") and current_weapon != 3:
+			%WepSwap_Cooldown.start()
+			%Rocket_Cooldown.stop()
+			current_weapon = 3
+#			anim.play("Change_Melee")
+#			animtree_change("parameters/Attack_Anim/current",1)
 
 #Crouching Functions
 func Normal():
@@ -363,64 +383,6 @@ func reset_jump_impulse():
 	print("finsihed tween")
 	jump_impulse = 7
 
-
-var deltaTime : float = 0.0
-const STEPSIZE : float = 3         # default: 1.8
-@onready var collider : CollisionShape3D = $CollisionShape3D2
-func step_move(original_pos : Vector3, vel : Vector3):
-	var dest  : Vector3
-	var down  : Vector3
-	var up    : Vector3
-	var trace : Trace
-	
-	trace = Trace.new()
-	
-	# Get destination position that is one step-size above the intended move
-	dest = original_pos
-	dest[0] += vel[0] * deltaTime
-	dest[1] += STEPSIZE
-	dest[2] += vel[2] * deltaTime
-	
-	# 1st Trace: check for collisions one stepsize above the original position
-	up = original_pos + Vector3.UP * STEPSIZE
-	trace.standard(original_pos, up, collider.shape, self)
-	
-	dest[1] = trace.endpos[1]
-	
-	# 2nd Trace: Check for collisions one stepsize above the original position
-	# and along the intended destination
-	trace.standard(trace.endpos, dest, collider.shape, self)
-	
-	# 3rd Trace: Check for collisions below the stepsize until 
-	# level with original position
-	down = Vector3(trace.endpos[0], original_pos[1], trace.endpos[2])
-	trace.standard(trace.endpos, down, collider.shape, self)
-	
-	# Move to trace collision position if step is higher than original position 
-	# and not steep 
-	if trace.endpos[1] > original_pos[1] and trace.normal[1] >= 0.7: 
-		var tween1 = get_tree().create_tween()
-		tween1.parallel().tween_property(self,"global_position",trace.endpos,.1)
-		tween1.play()
-		#trace.endpos
-		#velocity = velocity.slide(trace.normal)
-		return true
-	
-	return false
-
-
-var oldy : float = 0.0
-func smooth_step_up():
-	var current = self.global_transform.origin[1]
-	if current - oldy > 0:
-		oldy += deltaTime * 15.0
-		if oldy > current:
-			oldy = current
-		if current - oldy > 1.2:
-			oldy = current - 1.2
-		transform.origin[1] += oldy - current
-	else:
-		oldy = current
 
 #Movement Functions
 # This is where we calculate the speed to add to current velocity
@@ -485,7 +447,8 @@ func move_ground(input_velocity: Vector3, delta: float)-> void:
 	var collision = move_and_collide(ccd_step*.1 * deltaTime)
 	if collision:
 		var normal = collision.get_normal()
-		if normal[1] < 0.7:
+		print(normal)
+		if normal[1] < 0.1:
 			var stepped = step_move(global_transform.origin, nextVelocity.normalized()*60)
 			if !stepped and nextVelocity.dot(normal) < 0:
 				nextVelocity = nextVelocity.slide(normal)
@@ -512,3 +475,56 @@ func move_air(input_velocity: Vector3, delta: float)-> void:
 		velocity = nextVelocity#move_and_slide_with_snap(nextVelocity, snap, Vector3.UP,true)
 		floor_max_angle = slow_air_angle
 		move_and_slide()
+
+func step_move(original_pos : Vector3, vel : Vector3):
+	var dest  : Vector3
+	var down  : Vector3
+	var up    : Vector3
+	var trace : Trace
+	
+	trace = Trace.new()
+	
+	# Get destination position that is one step-size above the intended move
+	dest = original_pos
+	dest[0] += vel[0] * deltaTime
+	dest[1] += STEPSIZE
+	dest[2] += vel[2] * deltaTime
+	
+	# 1st Trace: check for collisions one stepsize above the original position
+	up = original_pos + Vector3.UP * STEPSIZE
+	trace.standard(original_pos, up, collider.shape, self)
+	
+	dest[1] = trace.endpos[1]
+	
+	# 2nd Trace: Check for collisions one stepsize above the original position
+	# and along the intended destination
+	trace.standard(trace.endpos, dest, collider.shape, self)
+	
+	# 3rd Trace: Check for collisions below the stepsize until 
+	# level with original position
+	down = Vector3(trace.endpos[0], original_pos[1], trace.endpos[2])
+	trace.standard(trace.endpos, down, collider.shape, self)
+	
+	# Move to trace collision position if step is higher than original position 
+	# and not steep 
+	if trace.endpos[1] > original_pos[1] and trace.normal[1] >= 0.7: 
+		var tween1 = get_tree().create_tween()
+		tween1.parallel().tween_property(self,"global_position",trace.endpos,.1)
+		tween1.play()
+		#trace.endpos
+		#velocity = velocity.slide(trace.normal)
+		return true
+	
+	return false
+
+func smooth_step_up():
+	var current = self.global_transform.origin[1]
+	if current - oldy > 0:
+		oldy += deltaTime * 15.0
+		if oldy > current:
+			oldy = current
+		if current - oldy > 1.2:
+			oldy = current - 1.2
+		transform.origin[1] += oldy - current
+	else:
+		oldy = current

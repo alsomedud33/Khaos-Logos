@@ -29,17 +29,4 @@ res://Maps/Kingdom 2/Kingdom 2.tscn
 res://Maps/Kingdom 1/Kingdom 1.tscn
 res://Stage Assets/Hammer/Hammer.tscn
 res://Characters/Rocket Man/Rocket_Man.tscn
-res://Objects/Medal/medal.tscn
-res://Maps/Chameno Woods/chameno_woods.tscn
-res://Maps/Level 1/level 1.tscn
-res://Maps/Test Stage/Test Stage.tscn
-res://Objects/Projectile/Rocket.tscn
-res://Objects/Capsules/Rocket_Capsule.tscn
-res://Characters/Rocket Man/Rocket_Man.gd
-res://trace.gd
-res://Maps/Level 1B/Level1B.tscn
-res://Maps/Level 1B/Level1B.gd
-res://Maps/Kingdom 1/Change_Scene.gd
-res://Autoloads/Globals.gd
-res://addons/qodot/game_definitions/trenchbroom/brush_tags/trigger_tag.tres
-res://addons/qodot/game_definitions/trenchbroom/face_tags/skip_tag.tres
+res://Maps/Map/Intro.tscn

@@ -459,6 +459,12 @@ unique_name_in_owner = true
 process_callback = 0
 one_shot = true
 
+[node name="WepSwap_Cooldown" type="Timer" parent="."]
+unique_name_in_owner = true
+process_callback = 0
+wait_time = 0.625
+one_shot = true
+
 [node name="WeaponsCam" type="CanvasLayer" parent="."]
 
 [node name="SubViewportContainer" type="SubViewportContainer" parent="WeaponsCam"]

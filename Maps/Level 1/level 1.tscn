@@ -22,24 +22,24 @@
 [ext_resource type="Script" path="res://Maps/Level 1/Rocket Jump Area.gd" id="17_vd6b2"]
 [ext_resource type="Script" path="res://Maps/Kingdom 1/Change_Scene.gd" id="20_bkqhn"]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3frrg"]
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_r43sr"]
 load_path = "res://.godot/imported/environment.png-7793b6d0e75f18feb66b8036152ce28a.s3tc.ctex"
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rhk8g"]
 sky_top_color = Color(0, 0, 0, 1)
 sky_horizon_color = Color(0, 0, 0, 1)
-sky_cover = SubResource("CompressedTexture2D_3frrg")
+sky_cover = SubResource("CompressedTexture2D_r43sr")
 ground_bottom_color = Color(0.078125, 0.0078125, 0.15625, 1)
 ground_horizon_color = Color(0.0703125, 0.0195313, 0.132813, 1)
 ground_curve = 0.20393
 sun_angle_max = 0.0
 
-[sub_resource type="Sky" id="Sky_ejqq5"]
+[sub_resource type="Sky" id="Sky_cwtxm"]
 sky_material = SubResource("ProceduralSkyMaterial_rhk8g")
 
 [sub_resource type="Environment" id="Environment_asyv6"]
 background_mode = 2
-sky = SubResource("Sky_ejqq5")
+sky = SubResource("Sky_cwtxm")
 ambient_light_color = Color(0.046875, 0.0507813, 0.140625, 1)
 ambient_light_sky_contribution = 0.0
 glow_enabled = true
