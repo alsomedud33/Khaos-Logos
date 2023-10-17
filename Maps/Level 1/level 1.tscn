@@ -1142,6 +1142,7 @@ shape = SubResource("ConvexPolygonShape3D_6e3hh")
 
 [node name="entity_1_trigger" type="Area3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 4.875, 74)
+collision_mask = 2
 script = ExtResource("12_hdwjf")
 properties = {
 "bhop": 0,
@@ -1389,6 +1390,7 @@ shape = SubResource("ConvexPolygonShape3D_jhw1k")
 
 [node name="entity_5_trigger" type="Area3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.25, 2.875, 33.25)
+collision_mask = 2
 script = ExtResource("12_hdwjf")
 properties = {
 "bhop": 0,
@@ -1764,6 +1766,7 @@ shape = SubResource("ConvexPolygonShape3D_ikqbx")
 
 [node name="entity_14_trigger" type="Area3D" parent="QodotMap"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 38, 113)
+collision_mask = 2
 script = ExtResource("12_hdwjf")
 properties = {
 "bhop": 0,

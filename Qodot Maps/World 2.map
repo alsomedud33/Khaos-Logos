@@ -1906,7 +1906,7 @@
 }
 // entity 1
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "target" "spawn_01"
 "mask" "2"
 // brush 0
@@ -1934,7 +1934,7 @@
 }
 // entity 4
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "bhop1"
 // brush 0
@@ -2461,7 +2461,7 @@
 }
 // entity 5
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "bhop2"
 // brush 0
@@ -2518,7 +2518,7 @@
 }
 // entity 12
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "target" "room 2"
 "mask" "2"
 // brush 0
@@ -2540,7 +2540,7 @@
 }
 // entity 14
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "fall1"
 // brush 0
@@ -2555,7 +2555,7 @@
 }
 // entity 15
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "fall1"
 // brush 0
@@ -2570,7 +2570,7 @@
 }
 // entity 16
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "bhop2"
 // brush 0
@@ -2585,7 +2585,7 @@
 }
 // entity 17
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "fall1"
 // brush 0
@@ -2600,7 +2600,7 @@
 }
 // entity 18
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "spawndoor"
 // brush 0
@@ -2615,7 +2615,7 @@
 }
 // entity 19
 {
-"classname" "mover"
+"classname" "func_mover"
 "translation" "0 -15 0"
 "speed" ".5"
 "targetname" "spawndoor"
@@ -2631,7 +2631,7 @@
 }
 // entity 20
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "target" "01"
 "bhop" "1"
 "mask" "2"
@@ -2647,7 +2647,7 @@
 }
 // entity 21
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "target" "01"
 "bhop" "1"
 "mask" "2"
@@ -2663,7 +2663,7 @@
 }
 // entity 22
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "target" "01"
 "bhop" "1"
 "mask" "2"
@@ -2679,7 +2679,7 @@
 }
 // entity 23
 {
-"classname" "illusionary"
+"classname" "func_illusionary"
 // brush 0
 {
 ( -771.4285714285714 -355 -352.2142857142852 ) ( -771.4285714285714 -353.97321428571433 -352.2142857142852 ) ( -771.4285714285714 -355 -351.18749999999955 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color -52.17395 74.782715 0 0.12321429 0.12321429
@@ -2692,7 +2692,7 @@
 }
 // entity 24
 {
-"classname" "illusionary"
+"classname" "func_illusionary"
 // brush 0
 {
 ( -770 -577.75 -64.12500000000104 ) ( -770 -576.734375 -64.12500000000104 ) ( -770 -577.75 -63.10937500000097 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color -59.487305 7.1795044 0 0.121875 0.121875
@@ -2705,7 +2705,7 @@
 }
 // entity 25
 {
-"classname" "illusionary"
+"classname" "func_illusionary"
 // brush 0
 {
 ( -684.3893805309734 -560.9469026548674 -708.0353982300885 ) ( -684.3893805309734 -559.9424778761063 -708.0353982300885 ) ( -684.3893805309734 -560.9469026548674 -707.0309734513274 ) PBR_Textures/MetalWalkway010/MetalWalkway010_1K_Color -12.701904 25.697754 0 0.12053097 0.12053097
@@ -3126,7 +3126,7 @@
 }
 // entity 27
 {
-"classname" "button"
+"classname" "func_button"
 "axis" "0 0 -1"
 "depth" ".5"
 "target" "door1"
@@ -3161,7 +3161,7 @@
 }
 // entity 29
 {
-"classname" "mover"
+"classname" "func_mover"
 "translation" "0 -15 0"
 "targetname" "door1"
 "_tb_layer" "1"
@@ -3603,7 +3603,7 @@
 }
 // entity 35
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "bhop" "1"
 "mask" "2"
 "target" "03"
@@ -3636,7 +3636,7 @@
 }
 // entity 37
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "02"
 "bhop" "1"
@@ -3764,7 +3764,7 @@
 }
 // entity 41
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "03"
 "_tb_layer" "2"
@@ -3796,7 +3796,7 @@
 }
 // entity 43
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "02"
 "_tb_layer" "2"
@@ -3845,7 +3845,7 @@
 }
 // entity 48
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "surf01"
 "_tb_layer" "2"
@@ -4501,7 +4501,7 @@
 }
 // entity 54
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "surf01"
 "_tb_layer" "3"
@@ -4547,7 +4547,7 @@
 }
 // entity 58
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "surf02"
 "_tb_layer" "3"
@@ -4563,7 +4563,7 @@
 }
 // entity 59
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "surf02"
 "_tb_layer" "3"
@@ -4579,7 +4579,7 @@
 }
 // entity 60
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "bhop" "1"
 "mask" "2"
 "target" "surf02"
@@ -4596,7 +4596,7 @@
 }
 // entity 61
 {
-"classname" "trigger"
+"classname" "func_trigger"
 "mask" "2"
 "target" "surf02"
 "slide" "1"

@@ -1,0 +1,160 @@
+// Game: Khaos Logos
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/PBR_Textures;textures/PBR_Textures/Brown_Spiral_Mosaic;textures/PBR_Textures/Facade_019B;textures/PBR_Textures/GlazedTerracotta;textures/PBR_Textures/MetalWalkway010;textures/PBR_Textures/Metal_Plate_006;textures/PBR_Textures/Purple_Marble;textures/PBR_Textures/Purple_Marble_2;textures/PBR_Textures/Rock_035;textures/PBR_Textures/Rust_Panel;textures/PBR_Textures/SheetMetal001;textures/PBR_Textures/SheetMetal003;textures/PBR_Textures/Tree_bark;textures/PBR_Textures/Window;textures/PBR_Textures/Wood067;textures/PBR_Textures/Wood071;textures/PBR_Textures/WoodFloor020;textures/PBR_Textures/WoodSiding007;textures/PBR_Textures/bricks-mortar-ue;textures/Prototype_Textures;textures/Prototype_Textures/PNG/Red"
+// brush 0
+{
+( 0 -64 -16 ) ( 0 -63 -16 ) ( 0 -64 -15 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( -64 0 -16 ) ( -64 0 -15 ) ( -63 0 -16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( -64 -64 -16 ) ( -63 -64 -16 ) ( -64 -63 -16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( 64 64 16 ) ( 64 65 16 ) ( 65 64 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( 64 128 16 ) ( 65 128 16 ) ( 64 128 17 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( 128 64 16 ) ( 128 64 17 ) ( 128 65 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+}
+// brush 1
+{
+( -128 -64 16 ) ( -128 -63 16 ) ( -128 -64 17 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( -192 0 16 ) ( -192 0 17 ) ( -191 0 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( -192 -64 16 ) ( -191 -64 16 ) ( -192 -63 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( -64 64 48 ) ( -64 65 48 ) ( -63 64 48 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( -64 128 48 ) ( -63 128 48 ) ( -64 128 49 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( 0 64 48 ) ( 0 64 49 ) ( 0 65 48 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+}
+// brush 2
+{
+( 32 -192 16 ) ( 32 -191 16 ) ( 32 -192 17 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.03 0.03
+( -32 -32 16 ) ( -32 -32 17 ) ( -31 -32 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.03 0.03
+( -32 -192 16 ) ( -31 -192 16 ) ( -32 -191 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.03 0.03
+( 96 -64 48 ) ( 96 -63 48 ) ( 97 -64 48 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.03 0.03
+( 96 0 48 ) ( 97 0 48 ) ( 96 0 49 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.03 0.03
+( 64 -64 48 ) ( 64 -64 49 ) ( 64 -63 48 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.03 0.03
+}
+// brush 3
+{
+( 64 -192 16 ) ( 64 -191 16 ) ( 64 -192 17 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.06 0.06
+( 0 -64 16 ) ( 0 -64 17 ) ( 1 -64 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.06 0.06
+( 0 -192 16 ) ( 1 -192 16 ) ( 0 -191 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.06 0.06
+( 128 -64 48 ) ( 128 -63 48 ) ( 129 -64 48 ) Prototype_Textures/PNG/Red/texture_13 -80 0 0 0.06 0.06
+( 128 0 48 ) ( 129 0 48 ) ( 128 0 49 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.06 0.06
+( 128 -64 48 ) ( 128 -64 49 ) ( 128 -63 48 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.06 0.06
+}
+// brush 4
+{
+( 128 -192 16 ) ( 128 -191 16 ) ( 128 -192 17 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( 128 -128 16 ) ( 128 -128 17 ) ( 129 -128 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( 128 -192 16 ) ( 129 -192 16 ) ( 128 -191 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( 256 -64 48 ) ( 256 -63 48 ) ( 257 -64 48 ) Prototype_Textures/PNG/Red/texture_13 -64 0 0 0.12 0.12
+( 256 0 48 ) ( 257 0 48 ) ( 256 0 49 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+( 256 -64 48 ) ( 256 -64 49 ) ( 256 -63 48 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.12 0.12
+}
+// brush 5
+{
+( 256 -192 16 ) ( 256 -191 16 ) ( 256 -192 17 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.24 0.24
+( 256 -256 16 ) ( 256 -256 17 ) ( 257 -256 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.24 0.24
+( 256 -192 16 ) ( 257 -192 16 ) ( 256 -191 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.24 0.24
+( 384 -64 48 ) ( 384 -63 48 ) ( 385 -64 48 ) Prototype_Textures/PNG/Red/texture_13 -64 0 0 0.24 0.24
+( 384 0 48 ) ( 385 0 48 ) ( 384 0 49 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.24 0.24
+( 512 -64 48 ) ( 512 -64 49 ) ( 512 -63 48 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.24 0.24
+}
+// brush 6
+{
+( 16 -192 16 ) ( 16 -191 16 ) ( 16 -192 17 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.015 0.015
+( -64 -16 16 ) ( -64 -16 17 ) ( -63 -16 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.015 0.015
+( -64 -192 16 ) ( -63 -192 16 ) ( -64 -191 16 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.015 0.015
+( 64 -64 48 ) ( 64 -63 48 ) ( 65 -64 48 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.015 0.015
+( 64 0 48 ) ( 65 0 48 ) ( 64 0 49 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.015 0.015
+( 32 -64 48 ) ( 32 -64 49 ) ( 32 -63 48 ) Prototype_Textures/PNG/Red/texture_13 0 0 0 0.015 0.015
+}
+// brush 7
+{
+( 64 0 -16 ) ( 64 1 -16 ) ( 64 0 -15 ) Prototype_Textures/PNG/Red/texture_13 895.99976 490.6666 0 0.06 0.06
+( 0 128 -16 ) ( 0 128 -15 ) ( 1 128 -16 ) Prototype_Textures/PNG/Red/texture_13 0 490.6666 0 0.06 0.06
+( 0 0 -16 ) ( 1 0 -16 ) ( 0 1 -16 ) Prototype_Textures/PNG/Red/texture_13 0 -895.99976 0 0.06 0.06
+( 128 128 32 ) ( 128 129 32 ) ( 129 128 32 ) Prototype_Textures/PNG/Red/texture_13 -80 -895.99976 0 0.06 0.06
+( 128 160 16 ) ( 129 160 16 ) ( 128 160 17 ) Prototype_Textures/PNG/Red/texture_13 0 490.6666 0 0.06 0.06
+( 128 128 16 ) ( 128 128 17 ) ( 128 129 16 ) Prototype_Textures/PNG/Red/texture_13 895.99976 490.6666 0 0.06 0.06
+}
+// brush 8
+{
+( 64 32 16 ) ( 64 33 16 ) ( 64 32 17 ) Prototype_Textures/PNG/Red/texture_13 362.6665 1023.99994 0 0.06 0.06
+( 0 160 16 ) ( 0 160 17 ) ( 1 160 16 ) Prototype_Textures/PNG/Red/texture_13 0 1023.99994 0 0.06 0.06
+( 0 32 16 ) ( 1 32 16 ) ( 0 33 16 ) Prototype_Textures/PNG/Red/texture_13 0 -362.6665 0 0.06 0.06
+( 128 160 64 ) ( 128 161 64 ) ( 129 160 64 ) Prototype_Textures/PNG/Red/texture_13 -80 -362.6665 0 0.06 0.06
+( 128 192 48 ) ( 129 192 48 ) ( 128 192 49 ) Prototype_Textures/PNG/Red/texture_13 0 1023.99994 0 0.06 0.06
+( 128 160 48 ) ( 128 160 49 ) ( 128 161 48 ) Prototype_Textures/PNG/Red/texture_13 362.6665 1023.99994 0 0.06 0.06
+}
+// brush 9
+{
+( 64 64 48 ) ( 64 65 48 ) ( 64 64 49 ) Prototype_Textures/PNG/Red/texture_13 -170.66675 533.33325 0 0.06 0.06
+( 0 192 48 ) ( 0 192 49 ) ( 1 192 48 ) Prototype_Textures/PNG/Red/texture_13 0 533.33325 0 0.06 0.06
+( 0 64 48 ) ( 1 64 48 ) ( 0 65 48 ) Prototype_Textures/PNG/Red/texture_13 0 170.66675 0 0.06 0.06
+( 128 192 96 ) ( 128 193 96 ) ( 129 192 96 ) Prototype_Textures/PNG/Red/texture_13 -80 170.66675 0 0.06 0.06
+( 128 224 80 ) ( 129 224 80 ) ( 128 224 81 ) Prototype_Textures/PNG/Red/texture_13 0 533.33325 0 0.06 0.06
+( 128 192 80 ) ( 128 192 81 ) ( 128 193 80 ) Prototype_Textures/PNG/Red/texture_13 -170.66675 533.33325 0 0.06 0.06
+}
+// brush 10
+{
+( 64 96 80 ) ( 64 97 80 ) ( 64 96 81 ) Prototype_Textures/PNG/Red/texture_13 -704 42.666626 0 0.06 0.06
+( 0 224 80 ) ( 0 224 81 ) ( 1 224 80 ) Prototype_Textures/PNG/Red/texture_13 0 42.666626 0 0.06 0.06
+( 0 96 80 ) ( 1 96 80 ) ( 0 97 80 ) Prototype_Textures/PNG/Red/texture_13 0 704 0 0.06 0.06
+( 128 224 128 ) ( 128 225 128 ) ( 129 224 128 ) Prototype_Textures/PNG/Red/texture_13 -80 704 0 0.06 0.06
+( 128 256 112 ) ( 129 256 112 ) ( 128 256 113 ) Prototype_Textures/PNG/Red/texture_13 0 42.666626 0 0.06 0.06
+( 128 224 112 ) ( 128 224 113 ) ( 128 225 112 ) Prototype_Textures/PNG/Red/texture_13 -704 42.666626 0 0.06 0.06
+}
+// brush 11
+{
+( 64 128 112 ) ( 64 129 112 ) ( 64 128 113 ) Prototype_Textures/PNG/Red/texture_13 -213.3335 576 0 0.06 0.06
+( 0 256 112 ) ( 0 256 113 ) ( 1 256 112 ) Prototype_Textures/PNG/Red/texture_13 0 576 0 0.06 0.06
+( 0 128 112 ) ( 1 128 112 ) ( 0 129 112 ) Prototype_Textures/PNG/Red/texture_13 0 213.3335 0 0.06 0.06
+( 128 256 160 ) ( 128 257 160 ) ( 129 256 160 ) Prototype_Textures/PNG/Red/texture_13 -80 213.3335 0 0.06 0.06
+( 128 288 144 ) ( 129 288 144 ) ( 128 288 145 ) Prototype_Textures/PNG/Red/texture_13 0 576 0 0.06 0.06
+( 128 256 144 ) ( 128 256 145 ) ( 128 257 144 ) Prototype_Textures/PNG/Red/texture_13 -213.3335 576 0 0.06 0.06
+}
+// brush 12
+{
+( 64 160 144 ) ( 64 161 144 ) ( 64 160 145 ) Prototype_Textures/PNG/Red/texture_13 -746.667 85.33325 0 0.06 0.06
+( 0 288 144 ) ( 0 288 145 ) ( 1 288 144 ) Prototype_Textures/PNG/Red/texture_13 0 85.33325 0 0.06 0.06
+( 0 160 144 ) ( 1 160 144 ) ( 0 161 144 ) Prototype_Textures/PNG/Red/texture_13 0 746.667 0 0.06 0.06
+( 128 288 192 ) ( 128 289 192 ) ( 129 288 192 ) Prototype_Textures/PNG/Red/texture_13 -80 746.667 0 0.06 0.06
+( 128 320 176 ) ( 129 320 176 ) ( 128 320 177 ) Prototype_Textures/PNG/Red/texture_13 0 85.33325 0 0.06 0.06
+( 128 288 176 ) ( 128 288 177 ) ( 128 289 176 ) Prototype_Textures/PNG/Red/texture_13 -746.667 85.33325 0 0.06 0.06
+}
+// brush 13
+{
+( 64 192 176 ) ( 64 193 176 ) ( 64 192 177 ) Prototype_Textures/PNG/Red/texture_13 -256 618.66675 0 0.06 0.06
+( 0 320 176 ) ( 0 320 177 ) ( 1 320 176 ) Prototype_Textures/PNG/Red/texture_13 0 618.66675 0 0.06 0.06
+( 0 192 176 ) ( 1 192 176 ) ( 0 193 176 ) Prototype_Textures/PNG/Red/texture_13 0 256 0 0.06 0.06
+( 128 320 224 ) ( 128 321 224 ) ( 129 320 224 ) Prototype_Textures/PNG/Red/texture_13 -80 256 0 0.06 0.06
+( 128 352 208 ) ( 129 352 208 ) ( 128 352 209 ) Prototype_Textures/PNG/Red/texture_13 0 618.66675 0 0.06 0.06
+( 128 320 208 ) ( 128 320 209 ) ( 128 321 208 ) Prototype_Textures/PNG/Red/texture_13 -256 618.66675 0 0.06 0.06
+}
+// brush 14
+{
+( 64 224 176 ) ( 64 225 176 ) ( 64 224 177 ) Prototype_Textures/PNG/Red/texture_13 -789.3335 618.66675 0 0.06 0.06
+( 0 352 176 ) ( 0 352 177 ) ( 1 352 176 ) Prototype_Textures/PNG/Red/texture_13 0 618.66675 0 0.06 0.06
+( 0 224 176 ) ( 1 224 176 ) ( 0 225 176 ) Prototype_Textures/PNG/Red/texture_13 0 789.3335 0 0.06 0.06
+( 128 352 224 ) ( 128 353 224 ) ( 129 352 224 ) Prototype_Textures/PNG/Red/texture_13 -80 789.3335 0 0.06 0.06
+( 128 416 208 ) ( 129 416 208 ) ( 128 416 209 ) Prototype_Textures/PNG/Red/texture_13 0 618.66675 0 0.06 0.06
+( 128 352 208 ) ( 128 352 209 ) ( 128 353 208 ) Prototype_Textures/PNG/Red/texture_13 -789.3335 618.66675 0 0.06 0.06
+}
+// brush 15
+{
+( -64 416 176 ) ( -64 417 176 ) ( -64 416 177 ) Prototype_Textures/PNG/Red/texture_13 -72.25781 -256 0 0.062 0.062
+( -64 448 176 ) ( -64 448 177 ) ( -63 448 176 ) Prototype_Textures/PNG/Red/texture_13 0 -256 0 0.062 0.062
+( -64 416 128 ) ( -63 416 128 ) ( -64 417 128 ) Prototype_Textures/PNG/Red/texture_13 0 72.25781 0 0.062 0.062
+( 64 544 224 ) ( 64 545 224 ) ( 65 544 224 ) Prototype_Textures/PNG/Red/texture_13 0 72.25781 0 0.062 0.062
+( 64 576 208 ) ( 65 576 208 ) ( 64 576 209 ) Prototype_Textures/PNG/Red/texture_13 0 -256 0 0.062 0.062
+( 64 544 208 ) ( 64 544 209 ) ( 64 545 208 ) Prototype_Textures/PNG/Red/texture_13 -72.25781 -256 0 0.062 0.062
+}
+// brush 16
+{
+( -64 224 176 ) ( -64 225 176 ) ( -64 224 177 ) Prototype_Textures/PNG/Red/texture_13 -789.3335 618.66675 0 0.06 0.06
+( -64 352 176 ) ( -64 352 177 ) ( -63 352 176 ) Prototype_Textures/PNG/Red/texture_13 -981.3334 618.66675 0 0.06 0.06
+( -64 224 176 ) ( -63 224 176 ) ( -64 225 176 ) Prototype_Textures/PNG/Red/texture_13 -981.3334 789.3335 0 0.06 0.06
+( 64 352 224 ) ( 64 353 224 ) ( 65 352 224 ) Prototype_Textures/PNG/Red/texture_13 -37.333252 789.3335 0 0.06 0.06
+( 64 416 208 ) ( 65 416 208 ) ( 64 416 209 ) Prototype_Textures/PNG/Red/texture_13 -981.3334 618.66675 0 0.06 0.06
+( 0 224 176 ) ( 0 224 177 ) ( 0 225 176 ) Prototype_Textures/PNG/Red/texture_13 -789.3335 618.66675 0 0.06 0.06
+}
+}

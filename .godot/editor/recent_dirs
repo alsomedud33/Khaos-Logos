@@ -1,3 +1,7 @@
+res://textures
+res://addons/qodot/textures
+G:/TrenchBroom/games/Khaos Logos
+G:/Godot 4.0 Stuff/Khaos Logos
 G:/Godot 4.0 Stuff/Khaos Logos/Qodot Maps/Proper
 res://Maps/Map
 G:/Godot 4.0 Stuff/Khaos Logos/Qodot Maps
@@ -16,7 +20,3 @@ G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/1-interactivity/4-adv
 G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/1-interactivity/3-basic-signal-wiring
 G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/2-miscallaneous/0-trenchbroom-group-hierarchy
 G:/Godot 4.0 Stuff/Khaos Logos/addons/qodot/example_scenes/2-miscallaneous/1-runtime-map-building
-res://Qodot Resources/Medal
-res://Maps/Test Stage
-res://Maps/Level 1
-G:/TrenchBroom/games/Khaos Logos

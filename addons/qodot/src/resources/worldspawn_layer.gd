@@ -10,3 +10,4 @@ extends Resource
 
 func _init():
 	resource_name = "Worldspawn Layer"
+

@@ -94,6 +94,7 @@ shoot_2={
 3d_physics/layer_1="Environment"
 3d_physics/layer_2="Player"
 3d_physics/layer_4="No_Hit"
+3d_physics/layer_5="Rocket"
 3d_physics/layer_6="Enemy"
 
 [rendering]

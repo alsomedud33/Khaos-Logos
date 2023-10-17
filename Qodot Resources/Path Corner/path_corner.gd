@@ -58,4 +58,3 @@ func demangler(properties:Dictionary,mangle_type:int = 0) -> Vector3:
 			mangle = Vector3(-mangle.x, mangle.y + 180.0, -mangle.z);
 		return mangle;
 	return Vector3(0.0, 180.0, 0.0);
-

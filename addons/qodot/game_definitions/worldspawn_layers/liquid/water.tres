@@ -7,7 +7,7 @@
 resource_name = "Water Layer"
 script = ExtResource("1")
 name = "water"
-texture = "layers/water"
+texture = "textures/layers/water"
 node_class = "Area"
 build_visuals = true
 collision_shape_type = 1

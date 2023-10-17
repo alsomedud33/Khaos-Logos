@@ -1,6 +1,8 @@
+@tool
 extends Area3D
 
 signal trigger()
+signal pressed()
 
 @export var properties: Dictionary :
 	get:
@@ -60,3 +62,4 @@ func handle_body_entered(body: Node):
 			emit_signal("trigger",body)
 	else:
 		emit_signal("trigger",body)
+		emit_signal("pressed")

@@ -7,7 +7,7 @@
 resource_name = "Lava Layer"
 script = ExtResource("1")
 name = "lava"
-texture = "layers/lava"
+texture = "textures/layers/lava"
 node_class = "Area"
 build_visuals = true
 collision_shape_type = 0

@@ -14,7 +14,7 @@ collision_shape_type = 1
 scripting = "----------------------------------------------------------------"
 script_class = ExtResource("2_dc0ma")
 class_options = "----------------------------------------------------------------"
-classname = "trigger"
+classname = "func_trigger"
 description = "Trigger Volume"
 qodot_internal = false
 base_classes = Array[Resource]([])
@@ -22,6 +22,7 @@ class_properties = {
 "bhop": 0,
 "layer": 1,
 "mask": 1,
+"message": "",
 "slide": 0
 }
 class_property_descriptions = {}
