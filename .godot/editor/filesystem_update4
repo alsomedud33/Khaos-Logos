@@ -1,4 +1,4 @@
-res://Maps/Map/Intro.tscn
+res://Titlescreen/TitleScreen.tscn
 res://Objects/Projectile/Explosion_Hitbox.tres
 res://addons/qodot/game_definitions/fgd/point_classes/signal_point_class.tres
 res://addons/qodot/game_definitions/fgd/point_classes/receiver_point_class.tres
@@ -21,21 +21,14 @@ res://textures/PBR_Textures/Wood071/Wood071_1K_Color.tres
 res://textures/PBR_Textures/Orange_Tile.tres
 res://textures/PBR_Textures/Wood067/Wood067_1K_Color.tres
 res://Stage Assets/Sign/Sign.tres
+res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.tres
 res://addons/qodot/game_definitions/trenchbroom/qodot_trenchbroom_config_file.tres
 res://Ps1 Test.tres
 res://Shader/Ps1 Filter.gdshader
-res://addons/qodot/game_definitions/trenchbroom/brush_tags/trigger_tag.tres
-res://addons/qodot/game_definitions/trenchbroom/face_tags/skip_tag.tres
-res://addons/qodot/game_definitions/trenchbroom/qodot_trenchbroom_config_folder.tres
-res://Titlescreen/TitleScreen.tscn
 res://Maps/Kingdom 2/Kingdom 2.tscn
 res://Maps/Kingdom 1/Kingdom 1.tscn
 res://Characters/Rocket Man/Rocket_Man.tscn
 res://Maps/Level 1/level 1.tscn
-res://Qodot Resources/Path Corner/path_corner.gd
-res://Autoloads/GameManager.gd
+res://Maps/Map/Intro.tscn
 res://addons/qodot/example_scenes/1-interactivity/2-worldspawn-layers/2-worldspawn-layers.tscn
-res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.tres
-res://addons/qodot/game_definitions/worldspawn_layers/liquid/lava.gd
-res://addons/qodot/game_definitions/worldspawn_layers/liquid/slime.gd
-res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd
+res://addons/qodot/game_definitions/fgd/point_classes/light.gd

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="QodotFGDBaseClass" load_steps=4 format=3 uid="uid://0jgbcf0mqycq"]
+
+[ext_resource type="Resource" uid="uid://bkjclv4c4clqu" path="res://tb/fgd/base/appearance_base.tres" id="1_gg637"]
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_base_class.gd" id="1_pa45u"]
+[ext_resource type="Resource" uid="uid://dvpc4ntj41p76" path="res://tb/fgd/base/target_base.tres" id="2_2wcmb"]
+
+[resource]
+script = ExtResource("1_pa45u")
+classname = "Sound"
+description = ""
+qodot_internal = false
+base_classes = Array[Resource]([ExtResource("1_gg637"), ExtResource("2_2wcmb")])
+class_properties = {
+"sound": "",
+"volume": 1.0
+}
+class_property_descriptions = {
+"sound": "File path to sound file, relative to sounds folder.",
+"volume": "Linear volume. Converted to DB on map build."
+}
+meta_properties = {
+"color": Color(0.8, 0.8, 0.8, 1),
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_class = ""
+transient_node = false

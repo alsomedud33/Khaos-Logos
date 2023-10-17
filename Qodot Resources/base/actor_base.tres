@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="QodotFGDBaseClass" load_steps=5 format=3 uid="uid://dsrfptrpmef6g"]
+
+[ext_resource type="Resource" uid="uid://ctia4oo4hch2" path="res://tb/fgd/base/angle_base.tres" id="1_bet5e"]
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_base_class.gd" id="1_gurms"]
+[ext_resource type="Resource" uid="uid://bkjclv4c4clqu" path="res://tb/fgd/base/appearance_base.tres" id="2_184sd"]
+[ext_resource type="Resource" uid="uid://dvpc4ntj41p76" path="res://tb/fgd/base/target_base.tres" id="3_dh6ug"]
+
+[resource]
+script = ExtResource("1_gurms")
+classname = "Actor"
+description = ""
+qodot_internal = false
+base_classes = Array[Resource]([ExtResource("1_bet5e"), ExtResource("2_184sd"), ExtResource("3_dh6ug")])
+class_properties = {}
+class_property_descriptions = {}
+meta_properties = {
+"color": Color(0.8, 0, 0, 1),
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_class = ""
+transient_node = false

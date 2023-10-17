@@ -16,7 +16,7 @@ func update_properties():
 		light_node = SpotLight3D.new()
 	
 		var yaw = properties['mangle'].x
-		var pitch = properties['mangle'].y
+		var pitch = properties['mangle'].y +180
 		light_node.rotate(Vector3.UP, deg_to_rad(180 + yaw))
 		light_node.rotate(light_node.transform.basis.x, deg_to_rad(180 + pitch))
 	

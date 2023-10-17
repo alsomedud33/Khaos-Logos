@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="QodotFGDBaseClass" load_steps=5 format=3 uid="uid://bt88cbfjxwud0"]
+
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_base_class.gd" id="1_0vn3t"]
+[ext_resource type="Resource" uid="uid://bkjclv4c4clqu" path="res://tb/fgd/base/appearance_base.tres" id="1_fx7o2"]
+[ext_resource type="Resource" uid="uid://dvpc4ntj41p76" path="res://tb/fgd/base/target_base.tres" id="2_levpl"]
+[ext_resource type="Resource" uid="uid://k4ugshc8aghq" path="res://tb/fgd/base/shadow_base.tres" id="3_y0b45"]
+
+[resource]
+script = ExtResource("1_0vn3t")
+classname = "Func"
+description = ""
+qodot_internal = false
+base_classes = Array[Resource]([ExtResource("1_fx7o2"), ExtResource("2_levpl"), ExtResource("3_y0b45")])
+class_properties = {
+"_phong": 0,
+"_phong_angle": 0.0
+}
+class_property_descriptions = {
+"_phong": "Smooth mesh output.",
+"_phong_angle": "Mesh output smoothing angle."
+}
+meta_properties = {
+"color": Color(0.8, 0.8, 0.8, 1),
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_class = ""
+transient_node = false

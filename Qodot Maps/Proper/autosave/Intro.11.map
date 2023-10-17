@@ -394,7 +394,7 @@
 // entity 12
 {
 "classname" "Path_corner"
-"origin" "224 352 104"
+"origin" "224 352 120"
 "path_name" "Square_Rotation"
 "delay" "1"
 "path_index" "1"
@@ -402,7 +402,7 @@
 // entity 13
 {
 "classname" "Path_corner"
-"origin" "224 416 104"
+"origin" "224 416 120"
 "path_name" "Square_Rotation"
 "delay" "1"
 "path_index" "4"
@@ -410,7 +410,7 @@
 // entity 14
 {
 "classname" "Path_corner"
-"origin" "288 416 104"
+"origin" "288 416 120"
 "path_name" "Square_Rotation"
 "delay" "1"
 "mangle" "0 0 0"
@@ -419,7 +419,7 @@
 // entity 15
 {
 "classname" "Path_corner"
-"origin" "288 352 104"
+"origin" "288 352 120"
 "path_name" "Square_Rotation"
 "delay" "1"
 "path_index" "2"
@@ -535,18 +535,4 @@
 ( 144 576 144 ) ( 144 576 145 ) ( 143 576 144 ) PBR_Textures/Rust_Panel/rust-panel-albedo 0 0 0 0.0625 0.0625
 ( 192 512 128 ) ( 192 512 129 ) ( 192 513 128 ) PBR_Textures/Rust_Panel/rust-panel-albedo 0 0 0 0.0625 0.0625
 }
-}
-// entity 22
-{
-"classname" "light"
-"origin" "-40 488 280"
-"mangle" "0 270 0"
-"angle" "60"
-"wait" "1"
-"delay" "3"
-}
-// entity 23
-{
-"classname" "Medal"
-"origin" "104 616 168"
 }
